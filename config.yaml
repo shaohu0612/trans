@@ -5,247 +5,383 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_-🇺🇸US_184, server: sg4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Relay_ | 3.15Mb, server: sg.stablize.top, port: 443, type: trojan, password: a3740de6-74fc-4ab6-bc85-92d19402257c, sni: sg.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇸🇬SG-🇺🇸US_1507, server: sg4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_492 | 8.62Mb, server: rn.blowm1k.club, port: 14978, type: trojan, password: f5mpynwukL, sni: rn.blowm1k.club, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_1863, server: jp2.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Relay_-🇸🇬SG_226 |17.91Mb, server: sg4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇦🇺AU-🇦🇺AU_347, server: hk6.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: hk6.af49c4e4c2ef.sanfen001.pics}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_611, server: hk1.b.bd6b6c503c93.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: hk1.b.bd6b6c503c93.sanfen001.pics}, udp: true}
+  - {name: Relay_ | 1.65Mb, server: sg4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: Relay_-🇸🇬SG_152 |17.91Mb, server: sg4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1850, server: jp2.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Pool_🇸🇬SG_405 |43.54Mb, server: 8.218.188.108, port: 57282, type: ssr, cipher: dummy, password: !<str> 92388323, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Pool_🇭🇰HK_367 |42.73Mb, server: 47.243.196.220, port: 53110, type: ssr, cipher: dummy, password: !<str> 23423, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Pool_🇸🇬SG_307 |110.00Mb, server: 8.218.250.230, port: 52929, type: ssr, cipher: dummy, password: 23434rt4, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Pool_🇸🇬SG_410 |42.53Mb, server: 8.218.31.88, port: 58456, type: ssr, cipher: dummy, password: 23423t55t, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Pool_🇭🇰HK_370 |46.10Mb, server: 8.210.193.64, port: 54145, type: ssr, cipher: dummy, password: 345454t5t, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Pool_🇸🇬SG_402 |44.21Mb, server: 8.218.237.40, port: 51908, type: ssr, cipher: dummy, password: 34545r4r, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Pool_🇸🇬SG_416 |42.52Mb, server: 8.218.31.88, port: 47483, type: ssr, cipher: dummy, password: 234546345t5, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: "| 4.01Mb", server: 167.88.63.123, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Relay_ | 2.17Mb, server: teamdf.76898102.xyz, port: 2052, type: vmess, uuid: 5f9c7bda-33f9-3dd0-bcf5-aca324418e31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /miao, ws-headers: {Host: teamdf.76898102.xyz}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_605, server: hk1.b.bd6b6c503c93.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: hk1.b.bd6b6c503c93.sanfen001.pics}, udp: true}
-  - {name: Pool_🇸🇬SG_398 |43.69Mb, server: 8.218.235.20, port: 45210, type: ssr, cipher: dummy, password: 373484t5, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Pool_🇸🇬SG_404 |45.39Mb, server: 8.218.237.40, port: 53174, type: ssr, cipher: dummy, password: 34534t5, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Pool_🇸🇬SG_306 |97.00Mb, server: 8.218.250.230, port: 55323, type: ssr, cipher: dummy, password: 34534fe4, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_486 |35.76Mb, server: hgsj1.tiktok20000228.top, port: 24103, type: vmess, uuid: f38d3ce3-ed0b-4487-dd1e-1eea48758f96, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Pool_🇸🇬SG_409 |45.87Mb, server: 8.218.184.41, port: 55007, type: ssr, cipher: dummy, password: !<str> 923883, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Relay_-🇺🇸US_184, server: sg4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: Relay_🇸🇬SG-🇺🇸US_1486, server: sg4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Relay_🏁ZZ-🇺🇸US_257 | 3.30Mb, server: baxamdyfa.76898102.xyz, port: 2052, type: vmess, uuid: 5f9c7bda-33f9-3dd0-bcf5-aca324418e31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /bxzmiao, ws-headers: {Host: baxamdyfa.76898102.xyz}, udp: true}
-  - {name: Pool_🇭🇰HK_371 |45.05Mb, server: 8.210.193.64, port: 50358, type: ssr, cipher: dummy, password: 234345g5g, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Relay_🏁ZZ-🇺🇸US_2149, server: jpadwinfs.114514782.xyz, port: 2052, type: vmess, uuid: 5f9c7bda-33f9-3dd0-bcf5-aca324418e31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jwafgfdt, ws-headers: {Host: jpadwinfs.114514782.xyz}, udp: true}
-  - {name: Pool_🇸🇬SG_399 |42.49Mb, server: 8.218.236.164, port: 56044, type: ssr, cipher: dummy, password: 456t5y5y, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1982, server: hk10.microsoftjs.top, port: 443, type: trojan, password: 52ac1bbf-43cb-4cf1-8ea9-96ac068a043a, sni: hk10.microsoftjs.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇸🇬SG_226 |17.91Mb, server: sg4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇯🇵JP_353 | 7.89Mb, server: 139.226.166.156, port: 28132, type: trojan, password: CLyFZC, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1984, server: hk7.microsoftjs.top, port: 443, type: trojan, password: 52ac1bbf-43cb-4cf1-8ea9-96ac068a043a, sni: hk7.microsoftjs.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇸🇬SG_78 |48.91Mb, server: sg4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇯🇵JP_396 |46.71Mb, server: 139.226.166.156, port: 28101, type: trojan, password: CLyFZC, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_350 |38.36Mb, server: v02.gutingting.com, port: 30006, type: trojan, password: 6bf7f1db-9dcf-45a0-a262-0a3f85bdcb93, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇯🇵JP_385 | 8.62Mb, server: 183.213.200.204, port: 28101, type: trojan, password: CLyFZC, skip-cert-verify: true, udp: true}
+  - {name: CN_1019, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Pool_ |14.92Mb, server: 23.247.137.71, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: df1fab2.dl.nintendo.net:16569}, udp: true}
-  - {name: Pool_🇸🇬SG_403 |40.36Mb, server: 8.218.241.212, port: 50528, type: ssr, cipher: dummy, password: 89383u4, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Pool_🇭🇰HK_369 |46.78Mb, server: 47.242.64.255, port: 51074, type: ssr, cipher: dummy, password: !<str> 34556345, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Pool_🇳🇱NL_823, server: 85.208.108.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Pool_🇭🇰HK_363 |41.65Mb, server: 47.242.207.156, port: 47936, type: ssr, cipher: dummy, password: !<str> 723723823, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: "_[原生][商宽]VNPT", server: cf.noaries.de, port: 8080, type: vmess, uuid: 01d07cdf-aa5e-4889-8cbd-bd2b88179a85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: vn.cloudflare.quest}, udp: true}
-  - {name: Pool_🇸🇬SG_397 |42.46Mb, server: 8.218.235.20, port: 48966, type: ssr, cipher: dummy, password: !<str> 83848345, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Pool_🇸🇬SG_413 |43.09Mb, server: 8.218.172.125, port: 53743, type: ssr, cipher: dummy, password: !<str> 92883454, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Relay_🇭🇰HK-🇭🇰HK_437 |20.80Mb, server: hk7.microsoftjs.top, port: 443, type: trojan, password: c826d41a-d05e-4dd5-8509-ff03185a8920, sni: hk7.microsoftjs.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇹🇼TW-🇹🇼TW_513, server: tw2.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_332 |14.65Mb, server: v02.gutingting.com, port: 30007, type: vmess, uuid: 6bf7f1db-9dcf-45a0-a262-0a3f85bdcb93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aceamedv, ws-headers: {Host: v02.gutingting.com}, udp: true}
+  - {name: Relay_🇨🇳CN-🇯🇵JP_352 |14.37Mb, server: 183.213.200.204, port: 28132, type: trojan, password: CLyFZC, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇯🇵JP_379 |40.73Mb, server: v02.gutingting.com, port: 30055, type: trojan, password: 279def8b-2dde-4723-b08c-3c4526f6c09f, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_486 |35.76Mb, server: hgsj1.tiktok20000228.top, port: 24103, type: vmess, uuid: f38d3ce3-ed0b-4487-dd1e-1eea48758f96, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇹🇼TW-🇹🇼TW_514 | 6.69Mb, server: tw2.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Relay_ | 4.27Mb, server: ora.blowm1k.club, port: 28199, type: trojan, password: KpdSpmQB3i, sni: ora.blowm1k.club, skip-cert-verify: true, udp: true}
+  - {name: CN_09, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇹🇼TW-🇹🇼TW_1498, server: tw2.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_391 |21.27Mb, server: v02.gutingting.com, port: 30059, type: trojan, password: 279def8b-2dde-4723-b08c-3c4526f6c09f, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇸🇬SG_152 |17.91Mb 2, server: sg4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇸🇬SG-🇺🇸US_1507, server: sg4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_361 |32.08Mb, server: v02.gutingting.com, port: 20223, type: trojan, password: ac300033-70bf-47bd-83d2-6bc4282f4e43, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇦🇺AU_991, server: 330hk02.ljydw.top, port: 443, type: trojan, password: b85493c4-bf4b-420a-be1e-c33079c6f437, sni: 330hk02.ljydw.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇮🇳IN_333 |26.01Mb, server: v02.gutingting.com, port: 30028, type: vmess, uuid: 6bf7f1db-9dcf-45a0-a262-0a3f85bdcb93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aceamedv, ws-headers: {Host: v02.gutingting.com}, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_349 |52.97Mb, server: v02.gutingting.com, port: 30049, type: trojan, password: 6bf7f1db-9dcf-45a0-a262-0a3f85bdcb93, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
+  - {name: _992, server: 316sg02.ljydw.top, port: 52223, type: trojan, password: b85493c4-bf4b-420a-be1e-c33079c6f437, sni: 316sg02.ljydw.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇯🇵JP_378 |35.33Mb, server: v02.gutingting.com, port: 30055, type: trojan, password: ac300033-70bf-47bd-83d2-6bc4282f4e43, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |14.94Mb, server: hgsj1.tiktok20000228.top, port: 24103, type: vmess, uuid: f38d3ce3-ed0b-4487-dd1e-1eea48758f96, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_358 |40.94Mb, server: v02.gutingting.com, port: 20223, type: trojan, password: 279def8b-2dde-4723-b08c-3c4526f6c09f, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_353 |24.86Mb, server: v02.gutingting.com, port: 30038, type: trojan, password: 6bf7f1db-9dcf-45a0-a262-0a3f85bdcb93, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
   - {name: Relay_-🇺🇸US_156 |25.36Mb, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: us2.sanfencdn.net}, udp: true}
-  - {name: Pool_🇸🇬SG_415 |44.41Mb, server: 8.218.172.125, port: 47923, type: ssr, cipher: dummy, password: !<str> 348438345, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Pool_🇭🇰HK_368 |44.18Mb, server: 47.243.23.61, port: 49478, type: ssr, cipher: dummy, password: !<str> 23478237, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Pool_🇭🇰HK_365 |41.65Mb, server: 47.242.64.255, port: 52017, type: ssr, cipher: dummy, password: !<str> 34523444, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Pool_🇭🇰HK_366 |46.55Mb, server: 47.243.196.220, port: 52738, type: ssr, cipher: dummy, password: !<str> 8236723, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】8, server: 162.159.255.205, port: 80, type: vmess, uuid: 52466dc2-3550-4310-910c-74b7bf8a020e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us-1.acyun.eu.org}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_964, server: hgsj1.tiktok20000228.top, port: 24103, type: vmess, uuid: f38d3ce3-ed0b-4487-dd1e-1eea48758f96, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_376 |38.53Mb, server: v02.gutingting.com, port: 30017, type: trojan, password: cce68a2b-baea-4047-ace4-59eefbda407d, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_351 |40.84Mb, server: v02.gutingting.com, port: 30006, type: trojan, password: cce68a2b-baea-4047-ace4-59eefbda407d, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
   - {name: Relay_🇺🇸US-🇺🇸US_487 |10.55Mb, server: aws.blowm1k.club, port: 25303, type: trojan, password: iyhaPKBykP, sni: aws.blowm1k.club, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |29.85Mb, server: 162.159.255.200, port: 80, type: vmess, uuid: 52466dc2-3550-4310-910c-74b7bf8a020e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us-1.acyun.eu.org}, udp: true}
-  - {name: _306, server: 170.187.134.190, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_388 |42.34Mb, server: v02.gutingting.com, port: 30052, type: trojan, password: cce68a2b-baea-4047-ace4-59eefbda407d, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
+  - {name: NL_121, server: 172.99.188.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_345 |32.25Mb, server: v02.gutingting.com, port: 30049, type: trojan, password: cce68a2b-baea-4047-ace4-59eefbda407d, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: 192.74.232.247, port: 51802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Pool_🇸🇬SG_316, server: 8.218.241.212, port: 56077, type: ssr, cipher: dummy, password: 823773rr, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _US_美国 2, server: 142.4.118.249, port: 57402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国, server: 47.104.237.32, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Pool_🇸🇬SG_403 |40.36Mb, server: 8.218.241.212, port: 50528, type: ssr, cipher: dummy, password: 89383u4, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_275 | 9.55Mb, server: gddx.fosi.hk, port: 20134, type: ss, cipher: chacha20-ietf-poly1305, password: 5ab93115-c29b-4286-a25e-42623ded5e72, udp: true}
+  - {name: _US_美国->🇳🇱_NL_荷兰, server: 156.225.67.146, port: 51948, type: vmess, uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Pool_🇸🇬SG_414 |42.55Mb, server: 8.218.236.164, port: 50935, type: ssr, cipher: dummy, password: 3452345r4, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Pool_🇳🇱NL_842, server: 85.208.108.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Pool_🇯🇵JP_796, server: 85.208.108.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Pool_🇳🇱NL_836, server: 85.208.108.60, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_888, server: 167.88.61.213, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Pool_🇳🇱NL_840, server: 85.208.108.60, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Pool_🇳🇱NL_839, server: 85.208.108.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: IN_51, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
-  - {name: Pool_🇳🇱NL_838, server: 85.208.108.60, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Pool_🇸🇬SG_306 |97.00Mb, server: 8.218.250.230, port: 55323, type: ssr, cipher: dummy, password: 34534fe4, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇭🇰HK_369 |46.78Mb, server: 47.242.64.255, port: 51074, type: ssr, cipher: dummy, password: !<str> 34556345, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_405 |43.54Mb, server: 8.218.188.108, port: 57282, type: ssr, cipher: dummy, password: !<str> 92388323, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇭🇰HK_366 |46.55Mb, server: 47.243.196.220, port: 52738, type: ssr, cipher: dummy, password: !<str> 8236723, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_415 |44.41Mb, server: 8.218.172.125, port: 47923, type: ssr, cipher: dummy, password: !<str> 348438345, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_413 |43.09Mb, server: 8.218.172.125, port: 53743, type: ssr, cipher: dummy, password: !<str> 92883454, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_307 |110.00Mb, server: 8.218.250.230, port: 52929, type: ssr, cipher: dummy, password: 23434rt4, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_ |43.00Mb, server: 8.218.236.164, port: 56044, type: ssr, cipher: dummy, password: 456t5y5y, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_404 |45.39Mb, server: 8.218.237.40, port: 53174, type: ssr, cipher: dummy, password: 34534t5, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇭🇰HK_267, server: 47.242.207.156, port: 49898, type: ssr, cipher: dummy, password: !<str> 983483883, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_409 |45.87Mb, server: 8.218.184.41, port: 55007, type: ssr, cipher: dummy, password: !<str> 923883, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: IN_56, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
+  - {name: Pool_🇸🇬SG_397 |42.46Mb, server: 8.218.235.20, port: 48966, type: ssr, cipher: dummy, password: !<str> 83848345, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_324, server: 8.218.236.32, port: 50448, type: ssr, cipher: dummy, password: 45634t5t5, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_311, server: 8.218.184.41, port: 57334, type: ssr, cipher: dummy, password: !<str> 983477344, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Relay_🇨🇳CN-🇬🇧GB_375 | 8.57Mb, server: v02.gutingting.com, port: 20227, type: trojan, password: 6bf7f1db-9dcf-45a0-a262-0a3f85bdcb93, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_334 |19.06Mb, server: v02.gutingting.com, port: 30000, type: vmess, uuid: ac300033-70bf-47bd-83d2-6bc4282f4e43, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aceamedv, ws-headers: {Host: v02.gutingting.com}, udp: true}
+  - {name: Pool_🇭🇰HK_261, server: 47.243.23.61, port: 53607, type: ssr, cipher: dummy, password: !<str> 8347545, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_410 |42.53Mb, server: 8.218.31.88, port: 58456, type: ssr, cipher: dummy, password: 23423t55t, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇭🇰HK_368 |44.18Mb, server: 47.243.23.61, port: 49478, type: ssr, cipher: dummy, password: !<str> 23478237, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇭🇰HK_363 |41.65Mb, server: 47.242.207.156, port: 47936, type: ssr, cipher: dummy, password: !<str> 723723823, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: CN_07, server: hk80.8b750e3e20aa.sanfen001.pics, port: 80, type: vmess, uuid: f74ae6eb-b5fd-4453-8a34-8e15918679a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/, ws-headers: {Host: hk80.8b750e3e20aa.sanfen001.pics}, udp: true}
+  - {name: Relay_-🇨🇦CA_985, server: 0309tw.ljydw.top, port: 443, type: trojan, password: b85493c4-bf4b-420a-be1e-c33079c6f437, sni: 0309tw.ljydw.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇬🇧GB_324 |10.48Mb, server: v02.gutingting.com, port: 30025, type: vmess, uuid: 6bf7f1db-9dcf-45a0-a262-0a3f85bdcb93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aceamedv, ws-headers: {Host: v02.gutingting.com}, udp: true}
+  - {name: Relay_-🇨🇦CA_988, server: 805tw.ljydw.top, port: 443, type: trojan, password: b85493c4-bf4b-420a-be1e-c33079c6f437, sni: 805tw.ljydw.top, skip-cert-verify: true, udp: true}
+  - {name: Pool_🇭🇰HK_365 |41.65Mb, server: 47.242.64.255, port: 52017, type: ssr, cipher: dummy, password: !<str> 34523444, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_487 |45.00Mb, server: 8.218.236.32, port: 52082, type: ssr, cipher: dummy, password: 34534543r, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_402 |44.21Mb, server: 8.218.237.40, port: 51908, type: ssr, cipher: dummy, password: 34545r4r, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇭🇰HK_367 |42.73Mb, server: 47.243.196.220, port: 53110, type: ssr, cipher: dummy, password: !<str> 23423, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇭🇰HK_370 |46.10Mb, server: 8.210.193.64, port: 54145, type: ssr, cipher: dummy, password: 345454t5t, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_416 |42.52Mb, server: 8.218.31.88, port: 47483, type: ssr, cipher: dummy, password: 234546345t5, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Relay_🇭🇰HK-🇭🇰HK_436 |20.68Mb, server: hk9.microsoftjs.top, port: 443, type: trojan, password: c826d41a-d05e-4dd5-8509-ff03185a8920, sni: hk9.microsoftjs.top, skip-cert-verify: true, udp: true}
+  - {name: Pool_🇭🇰HK_371 |45.05Mb, server: 8.210.193.64, port: 50358, type: ssr, cipher: dummy, password: 234345g5g, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_319, server: 8.218.188.108, port: 49831, type: ssr, cipher: dummy, password: !<str> 823733, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Relay_-🇺🇸US_984, server: 316us.ljydw.top, port: 38181, type: trojan, password: b85493c4-bf4b-420a-be1e-c33079c6f437, sni: 316us.ljydw.top, skip-cert-verify: true, udp: true}
+  - {name: Pool_🇭🇰HK_258, server: 103.39.79.4, port: 48151, type: ssr, cipher: dummy, password: !<str> 23235326634, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Relay_🇨🇳CN-🇻🇳VN_343 | 7.98Mb, server: v02.gutingting.com, port: 30051, type: trojan, password: 6bf7f1db-9dcf-45a0-a262-0a3f85bdcb93, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
+  - {name: Pool_🇸🇬SG_470 |45.00Mb, server: 8.218.235.20, port: 45210, type: ssr, cipher: dummy, password: 373484t5, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_-🇺🇸US_184
-      - Relay_ | 3.15Mb
-      - Relay_🇸🇬SG-🇺🇸US_1507
-      - Relay_🇺🇸US-🇺🇸US_492 | 8.62Mb
-      - Relay_🇺🇸US-🇯🇵JP_1863
-      - Relay_-🇸🇬SG_226 |17.91Mb
-      - Relay_🇦🇺AU-🇦🇺AU_347
+      - Relay_🇺🇸US-🇺🇸US_611
+      - Relay_ | 1.65Mb
       - Relay_-🇸🇬SG_152 |17.91Mb
-      - Relay_🇺🇸US-🇺🇸US_1850
-      - Pool_🇸🇬SG_405 |43.54Mb
-      - Pool_🇭🇰HK_367 |42.73Mb
-      - Pool_🇸🇬SG_307 |110.00Mb
-      - Pool_🇸🇬SG_410 |42.53Mb
-      - Pool_🇭🇰HK_370 |46.10Mb
-      - Pool_🇸🇬SG_402 |44.21Mb
-      - Pool_🇸🇬SG_416 |42.52Mb
-      - "| 4.01Mb"
-      - Relay_ | 2.17Mb
-      - Relay_🇺🇸US-🇺🇸US_605
-      - Pool_🇸🇬SG_398 |43.69Mb
-      - Pool_🇸🇬SG_404 |45.39Mb
-      - Pool_🇸🇬SG_306 |97.00Mb
-      - Relay_🇺🇸US-🇺🇸US_486 |35.76Mb
-      - Pool_🇸🇬SG_409 |45.87Mb
+      - Relay_-🇺🇸US_184
       - Relay_🇸🇬SG-🇺🇸US_1486
-      - Relay_🏁ZZ-🇺🇸US_257 | 3.30Mb
-      - Pool_🇭🇰HK_371 |45.05Mb
-      - Relay_🏁ZZ-🇺🇸US_2149
-      - Pool_🇸🇬SG_399 |42.49Mb
+      - Relay_🇺🇸US-🇺🇸US_1982
+      - Relay_-🇸🇬SG_226 |17.91Mb
+      - Relay_🇨🇳CN-🇯🇵JP_353 | 7.89Mb
+      - Relay_🇺🇸US-🇺🇸US_1984
+      - Relay_-🇸🇬SG_78 |48.91Mb
+      - Relay_🇨🇳CN-🇯🇵JP_396 |46.71Mb
+      - Relay_🇨🇳CN-🇭🇰HK_350 |38.36Mb
+      - Relay_🇨🇳CN-🇯🇵JP_385 | 8.62Mb
+      - CN_1019
       - Pool_ |14.92Mb
-      - Pool_🇸🇬SG_403 |40.36Mb
-      - Pool_🇭🇰HK_369 |46.78Mb
-      - Pool_🇳🇱NL_823
-      - Pool_🇭🇰HK_363 |41.65Mb
-      - _[原生][商宽]VNPT
-      - Pool_🇸🇬SG_397 |42.46Mb
-      - Pool_🇸🇬SG_413 |43.09Mb
+      - Relay_🇭🇰HK-🇭🇰HK_437 |20.80Mb
+      - Relay_🇹🇼TW-🇹🇼TW_513
+      - Relay_🇨🇳CN-🇭🇰HK_332 |14.65Mb
+      - Relay_🇨🇳CN-🇯🇵JP_352 |14.37Mb
+      - Relay_🇨🇳CN-🇯🇵JP_379 |40.73Mb
+      - Relay_🇺🇸US-🇺🇸US_486 |35.76Mb
+      - Relay_🇹🇼TW-🇹🇼TW_514 | 6.69Mb
+      - Relay_ | 4.27Mb
+      - CN_09
+      - Relay_🇹🇼TW-🇹🇼TW_1498
+      - Relay_🇨🇳CN-🇺🇸US_391 |21.27Mb
+      - Relay_-🇸🇬SG_152 |17.91Mb 2
+      - Relay_🇸🇬SG-🇺🇸US_1507
+      - Relay_🇨🇳CN-🇸🇬SG_361 |32.08Mb
+      - Relay_-🇦🇺AU_991
+      - Relay_🇨🇳CN-🇮🇳IN_333 |26.01Mb
+      - Relay_🇨🇳CN-🇸🇬SG_349 |52.97Mb
+      - _992
+      - Relay_🇨🇳CN-🇯🇵JP_378 |35.33Mb
+      - Relay_ |14.94Mb
+      - Relay_🇨🇳CN-🇸🇬SG_358 |40.94Mb
+      - Relay_🇨🇳CN-🇭🇰HK_353 |24.86Mb
       - Relay_-🇺🇸US_156 |25.36Mb
-      - Pool_🇸🇬SG_415 |44.41Mb
-      - Pool_🇭🇰HK_368 |44.18Mb
-      - Pool_🇭🇰HK_365 |41.65Mb
-      - Pool_🇭🇰HK_366 |46.55Mb
-      - 美国【付费推荐：https://tt.vg/vip】8
-      - Relay_🇺🇸US-🇺🇸US_964
+      - Relay_🇨🇳CN-🇭🇰HK_376 |38.53Mb
+      - Relay_🇨🇳CN-🇭🇰HK_351 |40.84Mb
       - Relay_🇺🇸US-🇺🇸US_487 |10.55Mb
-      - Relay_ |29.85Mb
-      - _306
+      - Relay_🇨🇳CN-🇸🇬SG_388 |42.34Mb
+      - NL_121
+      - Relay_🇨🇳CN-🇸🇬SG_345 |32.25Mb
+      - _US_美国
+      - Pool_🇸🇬SG_316
+      - _US_美国 2
+      - _CN_中国
+      - Pool_🇸🇬SG_403 |40.36Mb
+      - Relay_🇨🇳CN-🇺🇸US_275 | 9.55Mb
+      - _US_美国->🇳🇱_NL_荷兰
       - Pool_🇸🇬SG_414 |42.55Mb
-      - Pool_🇳🇱NL_842
-      - Pool_🇯🇵JP_796
-      - Pool_🇳🇱NL_836
-      - US_888
-      - Pool_🇳🇱NL_840
-      - Pool_🇳🇱NL_839
-      - IN_51
-      - Pool_🇳🇱NL_838
+      - Pool_🇸🇬SG_306 |97.00Mb
+      - Pool_🇭🇰HK_369 |46.78Mb
+      - Pool_🇸🇬SG_405 |43.54Mb
+      - Pool_🇭🇰HK_366 |46.55Mb
+      - Pool_🇸🇬SG_415 |44.41Mb
+      - Pool_🇸🇬SG_413 |43.09Mb
+      - Pool_🇸🇬SG_307 |110.00Mb
+      - Pool_ |43.00Mb
+      - Pool_🇸🇬SG_404 |45.39Mb
+      - Pool_🇭🇰HK_267
+      - Pool_🇸🇬SG_409 |45.87Mb
+      - IN_56
+      - Pool_🇸🇬SG_397 |42.46Mb
+      - Pool_🇸🇬SG_324
+      - Pool_🇸🇬SG_311
+      - Relay_🇨🇳CN-🇬🇧GB_375 | 8.57Mb
+      - Relay_🇨🇳CN-🇺🇸US_334 |19.06Mb
+      - Pool_🇭🇰HK_261
+      - Pool_🇸🇬SG_410 |42.53Mb
+      - Pool_🇭🇰HK_368 |44.18Mb
+      - Pool_🇭🇰HK_363 |41.65Mb
+      - CN_07
+      - Relay_-🇨🇦CA_985
+      - Relay_🇨🇳CN-🇬🇧GB_324 |10.48Mb
+      - Relay_-🇨🇦CA_988
+      - Pool_🇭🇰HK_365 |41.65Mb
+      - Pool_🇸🇬SG_487 |45.00Mb
+      - Pool_🇸🇬SG_402 |44.21Mb
+      - Pool_🇭🇰HK_367 |42.73Mb
+      - Pool_🇭🇰HK_370 |46.10Mb
+      - Pool_🇸🇬SG_416 |42.52Mb
+      - Relay_🇭🇰HK-🇭🇰HK_436 |20.68Mb
+      - Pool_🇭🇰HK_371 |45.05Mb
+      - Pool_🇸🇬SG_319
+      - Relay_-🇺🇸US_984
+      - Pool_🇭🇰HK_258
+      - Relay_🇨🇳CN-🇻🇳VN_343 | 7.98Mb
+      - Pool_🇸🇬SG_470 |45.00Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_-🇺🇸US_184
-      - Relay_ | 3.15Mb
-      - Relay_🇸🇬SG-🇺🇸US_1507
-      - Relay_🇺🇸US-🇺🇸US_492 | 8.62Mb
-      - Relay_🇺🇸US-🇯🇵JP_1863
-      - Relay_-🇸🇬SG_226 |17.91Mb
-      - Relay_🇦🇺AU-🇦🇺AU_347
+      - Relay_🇺🇸US-🇺🇸US_611
+      - Relay_ | 1.65Mb
       - Relay_-🇸🇬SG_152 |17.91Mb
-      - Relay_🇺🇸US-🇺🇸US_1850
-      - Pool_🇸🇬SG_405 |43.54Mb
-      - Pool_🇭🇰HK_367 |42.73Mb
-      - Pool_🇸🇬SG_307 |110.00Mb
-      - Pool_🇸🇬SG_410 |42.53Mb
-      - Pool_🇭🇰HK_370 |46.10Mb
-      - Pool_🇸🇬SG_402 |44.21Mb
-      - Pool_🇸🇬SG_416 |42.52Mb
-      - "| 4.01Mb"
-      - Relay_ | 2.17Mb
-      - Relay_🇺🇸US-🇺🇸US_605
-      - Pool_🇸🇬SG_398 |43.69Mb
-      - Pool_🇸🇬SG_404 |45.39Mb
-      - Pool_🇸🇬SG_306 |97.00Mb
-      - Relay_🇺🇸US-🇺🇸US_486 |35.76Mb
-      - Pool_🇸🇬SG_409 |45.87Mb
+      - Relay_-🇺🇸US_184
       - Relay_🇸🇬SG-🇺🇸US_1486
-      - Relay_🏁ZZ-🇺🇸US_257 | 3.30Mb
-      - Pool_🇭🇰HK_371 |45.05Mb
-      - Relay_🏁ZZ-🇺🇸US_2149
-      - Pool_🇸🇬SG_399 |42.49Mb
+      - Relay_🇺🇸US-🇺🇸US_1982
+      - Relay_-🇸🇬SG_226 |17.91Mb
+      - Relay_🇨🇳CN-🇯🇵JP_353 | 7.89Mb
+      - Relay_🇺🇸US-🇺🇸US_1984
+      - Relay_-🇸🇬SG_78 |48.91Mb
+      - Relay_🇨🇳CN-🇯🇵JP_396 |46.71Mb
+      - Relay_🇨🇳CN-🇭🇰HK_350 |38.36Mb
+      - Relay_🇨🇳CN-🇯🇵JP_385 | 8.62Mb
+      - CN_1019
       - Pool_ |14.92Mb
-      - Pool_🇸🇬SG_403 |40.36Mb
-      - Pool_🇭🇰HK_369 |46.78Mb
-      - Pool_🇳🇱NL_823
-      - Pool_🇭🇰HK_363 |41.65Mb
-      - _[原生][商宽]VNPT
-      - Pool_🇸🇬SG_397 |42.46Mb
-      - Pool_🇸🇬SG_413 |43.09Mb
+      - Relay_🇭🇰HK-🇭🇰HK_437 |20.80Mb
+      - Relay_🇹🇼TW-🇹🇼TW_513
+      - Relay_🇨🇳CN-🇭🇰HK_332 |14.65Mb
+      - Relay_🇨🇳CN-🇯🇵JP_352 |14.37Mb
+      - Relay_🇨🇳CN-🇯🇵JP_379 |40.73Mb
+      - Relay_🇺🇸US-🇺🇸US_486 |35.76Mb
+      - Relay_🇹🇼TW-🇹🇼TW_514 | 6.69Mb
+      - Relay_ | 4.27Mb
+      - CN_09
+      - Relay_🇹🇼TW-🇹🇼TW_1498
+      - Relay_🇨🇳CN-🇺🇸US_391 |21.27Mb
+      - Relay_-🇸🇬SG_152 |17.91Mb 2
+      - Relay_🇸🇬SG-🇺🇸US_1507
+      - Relay_🇨🇳CN-🇸🇬SG_361 |32.08Mb
+      - Relay_-🇦🇺AU_991
+      - Relay_🇨🇳CN-🇮🇳IN_333 |26.01Mb
+      - Relay_🇨🇳CN-🇸🇬SG_349 |52.97Mb
+      - _992
+      - Relay_🇨🇳CN-🇯🇵JP_378 |35.33Mb
+      - Relay_ |14.94Mb
+      - Relay_🇨🇳CN-🇸🇬SG_358 |40.94Mb
+      - Relay_🇨🇳CN-🇭🇰HK_353 |24.86Mb
       - Relay_-🇺🇸US_156 |25.36Mb
-      - Pool_🇸🇬SG_415 |44.41Mb
-      - Pool_🇭🇰HK_368 |44.18Mb
-      - Pool_🇭🇰HK_365 |41.65Mb
-      - Pool_🇭🇰HK_366 |46.55Mb
-      - 美国【付费推荐：https://tt.vg/vip】8
-      - Relay_🇺🇸US-🇺🇸US_964
+      - Relay_🇨🇳CN-🇭🇰HK_376 |38.53Mb
+      - Relay_🇨🇳CN-🇭🇰HK_351 |40.84Mb
       - Relay_🇺🇸US-🇺🇸US_487 |10.55Mb
-      - Relay_ |29.85Mb
-      - _306
+      - Relay_🇨🇳CN-🇸🇬SG_388 |42.34Mb
+      - NL_121
+      - Relay_🇨🇳CN-🇸🇬SG_345 |32.25Mb
+      - _US_美国
+      - Pool_🇸🇬SG_316
+      - _US_美国 2
+      - _CN_中国
+      - Pool_🇸🇬SG_403 |40.36Mb
+      - Relay_🇨🇳CN-🇺🇸US_275 | 9.55Mb
+      - _US_美国->🇳🇱_NL_荷兰
       - Pool_🇸🇬SG_414 |42.55Mb
-      - Pool_🇳🇱NL_842
-      - Pool_🇯🇵JP_796
-      - Pool_🇳🇱NL_836
-      - US_888
-      - Pool_🇳🇱NL_840
-      - Pool_🇳🇱NL_839
-      - IN_51
-      - Pool_🇳🇱NL_838
+      - Pool_🇸🇬SG_306 |97.00Mb
+      - Pool_🇭🇰HK_369 |46.78Mb
+      - Pool_🇸🇬SG_405 |43.54Mb
+      - Pool_🇭🇰HK_366 |46.55Mb
+      - Pool_🇸🇬SG_415 |44.41Mb
+      - Pool_🇸🇬SG_413 |43.09Mb
+      - Pool_🇸🇬SG_307 |110.00Mb
+      - Pool_ |43.00Mb
+      - Pool_🇸🇬SG_404 |45.39Mb
+      - Pool_🇭🇰HK_267
+      - Pool_🇸🇬SG_409 |45.87Mb
+      - IN_56
+      - Pool_🇸🇬SG_397 |42.46Mb
+      - Pool_🇸🇬SG_324
+      - Pool_🇸🇬SG_311
+      - Relay_🇨🇳CN-🇬🇧GB_375 | 8.57Mb
+      - Relay_🇨🇳CN-🇺🇸US_334 |19.06Mb
+      - Pool_🇭🇰HK_261
+      - Pool_🇸🇬SG_410 |42.53Mb
+      - Pool_🇭🇰HK_368 |44.18Mb
+      - Pool_🇭🇰HK_363 |41.65Mb
+      - CN_07
+      - Relay_-🇨🇦CA_985
+      - Relay_🇨🇳CN-🇬🇧GB_324 |10.48Mb
+      - Relay_-🇨🇦CA_988
+      - Pool_🇭🇰HK_365 |41.65Mb
+      - Pool_🇸🇬SG_487 |45.00Mb
+      - Pool_🇸🇬SG_402 |44.21Mb
+      - Pool_🇭🇰HK_367 |42.73Mb
+      - Pool_🇭🇰HK_370 |46.10Mb
+      - Pool_🇸🇬SG_416 |42.52Mb
+      - Relay_🇭🇰HK-🇭🇰HK_436 |20.68Mb
+      - Pool_🇭🇰HK_371 |45.05Mb
+      - Pool_🇸🇬SG_319
+      - Relay_-🇺🇸US_984
+      - Pool_🇭🇰HK_258
+      - Relay_🇨🇳CN-🇻🇳VN_343 | 7.98Mb
+      - Pool_🇸🇬SG_470 |45.00Mb
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_-🇺🇸US_184
-      - Relay_ | 3.15Mb
-      - Relay_🇸🇬SG-🇺🇸US_1507
-      - Relay_🇺🇸US-🇺🇸US_492 | 8.62Mb
-      - Relay_🇺🇸US-🇯🇵JP_1863
-      - Relay_-🇸🇬SG_226 |17.91Mb
-      - Relay_🇦🇺AU-🇦🇺AU_347
+      - Relay_🇺🇸US-🇺🇸US_611
+      - Relay_ | 1.65Mb
       - Relay_-🇸🇬SG_152 |17.91Mb
-      - Relay_🇺🇸US-🇺🇸US_1850
-      - Pool_🇸🇬SG_405 |43.54Mb
-      - Pool_🇭🇰HK_367 |42.73Mb
-      - Pool_🇸🇬SG_307 |110.00Mb
-      - Pool_🇸🇬SG_410 |42.53Mb
-      - Pool_🇭🇰HK_370 |46.10Mb
-      - Pool_🇸🇬SG_402 |44.21Mb
-      - Pool_🇸🇬SG_416 |42.52Mb
-      - "| 4.01Mb"
-      - Relay_ | 2.17Mb
-      - Relay_🇺🇸US-🇺🇸US_605
-      - Pool_🇸🇬SG_398 |43.69Mb
-      - Pool_🇸🇬SG_404 |45.39Mb
-      - Pool_🇸🇬SG_306 |97.00Mb
-      - Relay_🇺🇸US-🇺🇸US_486 |35.76Mb
-      - Pool_🇸🇬SG_409 |45.87Mb
+      - Relay_-🇺🇸US_184
       - Relay_🇸🇬SG-🇺🇸US_1486
-      - Relay_🏁ZZ-🇺🇸US_257 | 3.30Mb
-      - Pool_🇭🇰HK_371 |45.05Mb
-      - Relay_🏁ZZ-🇺🇸US_2149
-      - Pool_🇸🇬SG_399 |42.49Mb
+      - Relay_🇺🇸US-🇺🇸US_1982
+      - Relay_-🇸🇬SG_226 |17.91Mb
+      - Relay_🇨🇳CN-🇯🇵JP_353 | 7.89Mb
+      - Relay_🇺🇸US-🇺🇸US_1984
+      - Relay_-🇸🇬SG_78 |48.91Mb
+      - Relay_🇨🇳CN-🇯🇵JP_396 |46.71Mb
+      - Relay_🇨🇳CN-🇭🇰HK_350 |38.36Mb
+      - Relay_🇨🇳CN-🇯🇵JP_385 | 8.62Mb
+      - CN_1019
       - Pool_ |14.92Mb
-      - Pool_🇸🇬SG_403 |40.36Mb
-      - Pool_🇭🇰HK_369 |46.78Mb
-      - Pool_🇳🇱NL_823
-      - Pool_🇭🇰HK_363 |41.65Mb
-      - _[原生][商宽]VNPT
-      - Pool_🇸🇬SG_397 |42.46Mb
-      - Pool_🇸🇬SG_413 |43.09Mb
+      - Relay_🇭🇰HK-🇭🇰HK_437 |20.80Mb
+      - Relay_🇹🇼TW-🇹🇼TW_513
+      - Relay_🇨🇳CN-🇭🇰HK_332 |14.65Mb
+      - Relay_🇨🇳CN-🇯🇵JP_352 |14.37Mb
+      - Relay_🇨🇳CN-🇯🇵JP_379 |40.73Mb
+      - Relay_🇺🇸US-🇺🇸US_486 |35.76Mb
+      - Relay_🇹🇼TW-🇹🇼TW_514 | 6.69Mb
+      - Relay_ | 4.27Mb
+      - CN_09
+      - Relay_🇹🇼TW-🇹🇼TW_1498
+      - Relay_🇨🇳CN-🇺🇸US_391 |21.27Mb
+      - Relay_-🇸🇬SG_152 |17.91Mb 2
+      - Relay_🇸🇬SG-🇺🇸US_1507
+      - Relay_🇨🇳CN-🇸🇬SG_361 |32.08Mb
+      - Relay_-🇦🇺AU_991
+      - Relay_🇨🇳CN-🇮🇳IN_333 |26.01Mb
+      - Relay_🇨🇳CN-🇸🇬SG_349 |52.97Mb
+      - _992
+      - Relay_🇨🇳CN-🇯🇵JP_378 |35.33Mb
+      - Relay_ |14.94Mb
+      - Relay_🇨🇳CN-🇸🇬SG_358 |40.94Mb
+      - Relay_🇨🇳CN-🇭🇰HK_353 |24.86Mb
       - Relay_-🇺🇸US_156 |25.36Mb
-      - Pool_🇸🇬SG_415 |44.41Mb
-      - Pool_🇭🇰HK_368 |44.18Mb
-      - Pool_🇭🇰HK_365 |41.65Mb
-      - Pool_🇭🇰HK_366 |46.55Mb
-      - 美国【付费推荐：https://tt.vg/vip】8
-      - Relay_🇺🇸US-🇺🇸US_964
+      - Relay_🇨🇳CN-🇭🇰HK_376 |38.53Mb
+      - Relay_🇨🇳CN-🇭🇰HK_351 |40.84Mb
       - Relay_🇺🇸US-🇺🇸US_487 |10.55Mb
-      - Relay_ |29.85Mb
-      - _306
+      - Relay_🇨🇳CN-🇸🇬SG_388 |42.34Mb
+      - NL_121
+      - Relay_🇨🇳CN-🇸🇬SG_345 |32.25Mb
+      - _US_美国
+      - Pool_🇸🇬SG_316
+      - _US_美国 2
+      - _CN_中国
+      - Pool_🇸🇬SG_403 |40.36Mb
+      - Relay_🇨🇳CN-🇺🇸US_275 | 9.55Mb
+      - _US_美国->🇳🇱_NL_荷兰
       - Pool_🇸🇬SG_414 |42.55Mb
-      - Pool_🇳🇱NL_842
-      - Pool_🇯🇵JP_796
-      - Pool_🇳🇱NL_836
-      - US_888
-      - Pool_🇳🇱NL_840
-      - Pool_🇳🇱NL_839
-      - IN_51
-      - Pool_🇳🇱NL_838
+      - Pool_🇸🇬SG_306 |97.00Mb
+      - Pool_🇭🇰HK_369 |46.78Mb
+      - Pool_🇸🇬SG_405 |43.54Mb
+      - Pool_🇭🇰HK_366 |46.55Mb
+      - Pool_🇸🇬SG_415 |44.41Mb
+      - Pool_🇸🇬SG_413 |43.09Mb
+      - Pool_🇸🇬SG_307 |110.00Mb
+      - Pool_ |43.00Mb
+      - Pool_🇸🇬SG_404 |45.39Mb
+      - Pool_🇭🇰HK_267
+      - Pool_🇸🇬SG_409 |45.87Mb
+      - IN_56
+      - Pool_🇸🇬SG_397 |42.46Mb
+      - Pool_🇸🇬SG_324
+      - Pool_🇸🇬SG_311
+      - Relay_🇨🇳CN-🇬🇧GB_375 | 8.57Mb
+      - Relay_🇨🇳CN-🇺🇸US_334 |19.06Mb
+      - Pool_🇭🇰HK_261
+      - Pool_🇸🇬SG_410 |42.53Mb
+      - Pool_🇭🇰HK_368 |44.18Mb
+      - Pool_🇭🇰HK_363 |41.65Mb
+      - CN_07
+      - Relay_-🇨🇦CA_985
+      - Relay_🇨🇳CN-🇬🇧GB_324 |10.48Mb
+      - Relay_-🇨🇦CA_988
+      - Pool_🇭🇰HK_365 |41.65Mb
+      - Pool_🇸🇬SG_487 |45.00Mb
+      - Pool_🇸🇬SG_402 |44.21Mb
+      - Pool_🇭🇰HK_367 |42.73Mb
+      - Pool_🇭🇰HK_370 |46.10Mb
+      - Pool_🇸🇬SG_416 |42.52Mb
+      - Relay_🇭🇰HK-🇭🇰HK_436 |20.68Mb
+      - Pool_🇭🇰HK_371 |45.05Mb
+      - Pool_🇸🇬SG_319
+      - Relay_-🇺🇸US_984
+      - Pool_🇭🇰HK_258
+      - Relay_🇨🇳CN-🇻🇳VN_343 | 7.98Mb
+      - Pool_🇸🇬SG_470 |45.00Mb
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -264,62 +400,96 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_-🇺🇸US_184
-      - Relay_ | 3.15Mb
-      - Relay_🇸🇬SG-🇺🇸US_1507
-      - Relay_🇺🇸US-🇺🇸US_492 | 8.62Mb
-      - Relay_🇺🇸US-🇯🇵JP_1863
-      - Relay_-🇸🇬SG_226 |17.91Mb
-      - Relay_🇦🇺AU-🇦🇺AU_347
+      - Relay_🇺🇸US-🇺🇸US_611
+      - Relay_ | 1.65Mb
       - Relay_-🇸🇬SG_152 |17.91Mb
-      - Relay_🇺🇸US-🇺🇸US_1850
-      - Pool_🇸🇬SG_405 |43.54Mb
-      - Pool_🇭🇰HK_367 |42.73Mb
-      - Pool_🇸🇬SG_307 |110.00Mb
-      - Pool_🇸🇬SG_410 |42.53Mb
-      - Pool_🇭🇰HK_370 |46.10Mb
-      - Pool_🇸🇬SG_402 |44.21Mb
-      - Pool_🇸🇬SG_416 |42.52Mb
-      - "| 4.01Mb"
-      - Relay_ | 2.17Mb
-      - Relay_🇺🇸US-🇺🇸US_605
-      - Pool_🇸🇬SG_398 |43.69Mb
-      - Pool_🇸🇬SG_404 |45.39Mb
-      - Pool_🇸🇬SG_306 |97.00Mb
-      - Relay_🇺🇸US-🇺🇸US_486 |35.76Mb
-      - Pool_🇸🇬SG_409 |45.87Mb
+      - Relay_-🇺🇸US_184
       - Relay_🇸🇬SG-🇺🇸US_1486
-      - Relay_🏁ZZ-🇺🇸US_257 | 3.30Mb
-      - Pool_🇭🇰HK_371 |45.05Mb
-      - Relay_🏁ZZ-🇺🇸US_2149
-      - Pool_🇸🇬SG_399 |42.49Mb
+      - Relay_🇺🇸US-🇺🇸US_1982
+      - Relay_-🇸🇬SG_226 |17.91Mb
+      - Relay_🇨🇳CN-🇯🇵JP_353 | 7.89Mb
+      - Relay_🇺🇸US-🇺🇸US_1984
+      - Relay_-🇸🇬SG_78 |48.91Mb
+      - Relay_🇨🇳CN-🇯🇵JP_396 |46.71Mb
+      - Relay_🇨🇳CN-🇭🇰HK_350 |38.36Mb
+      - Relay_🇨🇳CN-🇯🇵JP_385 | 8.62Mb
+      - CN_1019
       - Pool_ |14.92Mb
-      - Pool_🇸🇬SG_403 |40.36Mb
-      - Pool_🇭🇰HK_369 |46.78Mb
-      - Pool_🇳🇱NL_823
-      - Pool_🇭🇰HK_363 |41.65Mb
-      - _[原生][商宽]VNPT
-      - Pool_🇸🇬SG_397 |42.46Mb
-      - Pool_🇸🇬SG_413 |43.09Mb
+      - Relay_🇭🇰HK-🇭🇰HK_437 |20.80Mb
+      - Relay_🇹🇼TW-🇹🇼TW_513
+      - Relay_🇨🇳CN-🇭🇰HK_332 |14.65Mb
+      - Relay_🇨🇳CN-🇯🇵JP_352 |14.37Mb
+      - Relay_🇨🇳CN-🇯🇵JP_379 |40.73Mb
+      - Relay_🇺🇸US-🇺🇸US_486 |35.76Mb
+      - Relay_🇹🇼TW-🇹🇼TW_514 | 6.69Mb
+      - Relay_ | 4.27Mb
+      - CN_09
+      - Relay_🇹🇼TW-🇹🇼TW_1498
+      - Relay_🇨🇳CN-🇺🇸US_391 |21.27Mb
+      - Relay_-🇸🇬SG_152 |17.91Mb 2
+      - Relay_🇸🇬SG-🇺🇸US_1507
+      - Relay_🇨🇳CN-🇸🇬SG_361 |32.08Mb
+      - Relay_-🇦🇺AU_991
+      - Relay_🇨🇳CN-🇮🇳IN_333 |26.01Mb
+      - Relay_🇨🇳CN-🇸🇬SG_349 |52.97Mb
+      - _992
+      - Relay_🇨🇳CN-🇯🇵JP_378 |35.33Mb
+      - Relay_ |14.94Mb
+      - Relay_🇨🇳CN-🇸🇬SG_358 |40.94Mb
+      - Relay_🇨🇳CN-🇭🇰HK_353 |24.86Mb
       - Relay_-🇺🇸US_156 |25.36Mb
-      - Pool_🇸🇬SG_415 |44.41Mb
-      - Pool_🇭🇰HK_368 |44.18Mb
-      - Pool_🇭🇰HK_365 |41.65Mb
-      - Pool_🇭🇰HK_366 |46.55Mb
-      - 美国【付费推荐：https://tt.vg/vip】8
-      - Relay_🇺🇸US-🇺🇸US_964
+      - Relay_🇨🇳CN-🇭🇰HK_376 |38.53Mb
+      - Relay_🇨🇳CN-🇭🇰HK_351 |40.84Mb
       - Relay_🇺🇸US-🇺🇸US_487 |10.55Mb
-      - Relay_ |29.85Mb
-      - _306
+      - Relay_🇨🇳CN-🇸🇬SG_388 |42.34Mb
+      - NL_121
+      - Relay_🇨🇳CN-🇸🇬SG_345 |32.25Mb
+      - _US_美国
+      - Pool_🇸🇬SG_316
+      - _US_美国 2
+      - _CN_中国
+      - Pool_🇸🇬SG_403 |40.36Mb
+      - Relay_🇨🇳CN-🇺🇸US_275 | 9.55Mb
+      - _US_美国->🇳🇱_NL_荷兰
       - Pool_🇸🇬SG_414 |42.55Mb
-      - Pool_🇳🇱NL_842
-      - Pool_🇯🇵JP_796
-      - Pool_🇳🇱NL_836
-      - US_888
-      - Pool_🇳🇱NL_840
-      - Pool_🇳🇱NL_839
-      - IN_51
-      - Pool_🇳🇱NL_838
+      - Pool_🇸🇬SG_306 |97.00Mb
+      - Pool_🇭🇰HK_369 |46.78Mb
+      - Pool_🇸🇬SG_405 |43.54Mb
+      - Pool_🇭🇰HK_366 |46.55Mb
+      - Pool_🇸🇬SG_415 |44.41Mb
+      - Pool_🇸🇬SG_413 |43.09Mb
+      - Pool_🇸🇬SG_307 |110.00Mb
+      - Pool_ |43.00Mb
+      - Pool_🇸🇬SG_404 |45.39Mb
+      - Pool_🇭🇰HK_267
+      - Pool_🇸🇬SG_409 |45.87Mb
+      - IN_56
+      - Pool_🇸🇬SG_397 |42.46Mb
+      - Pool_🇸🇬SG_324
+      - Pool_🇸🇬SG_311
+      - Relay_🇨🇳CN-🇬🇧GB_375 | 8.57Mb
+      - Relay_🇨🇳CN-🇺🇸US_334 |19.06Mb
+      - Pool_🇭🇰HK_261
+      - Pool_🇸🇬SG_410 |42.53Mb
+      - Pool_🇭🇰HK_368 |44.18Mb
+      - Pool_🇭🇰HK_363 |41.65Mb
+      - CN_07
+      - Relay_-🇨🇦CA_985
+      - Relay_🇨🇳CN-🇬🇧GB_324 |10.48Mb
+      - Relay_-🇨🇦CA_988
+      - Pool_🇭🇰HK_365 |41.65Mb
+      - Pool_🇸🇬SG_487 |45.00Mb
+      - Pool_🇸🇬SG_402 |44.21Mb
+      - Pool_🇭🇰HK_367 |42.73Mb
+      - Pool_🇭🇰HK_370 |46.10Mb
+      - Pool_🇸🇬SG_416 |42.52Mb
+      - Relay_🇭🇰HK-🇭🇰HK_436 |20.68Mb
+      - Pool_🇭🇰HK_371 |45.05Mb
+      - Pool_🇸🇬SG_319
+      - Relay_-🇺🇸US_984
+      - Pool_🇭🇰HK_258
+      - Relay_🇨🇳CN-🇻🇳VN_343 | 7.98Mb
+      - Pool_🇸🇬SG_470 |45.00Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -330,185 +500,287 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_-🇺🇸US_184
-      - Relay_ | 3.15Mb
-      - Relay_🇸🇬SG-🇺🇸US_1507
-      - Relay_🇺🇸US-🇺🇸US_492 | 8.62Mb
-      - Relay_🇺🇸US-🇯🇵JP_1863
-      - Relay_-🇸🇬SG_226 |17.91Mb
-      - Relay_🇦🇺AU-🇦🇺AU_347
+      - Relay_🇺🇸US-🇺🇸US_611
+      - Relay_ | 1.65Mb
       - Relay_-🇸🇬SG_152 |17.91Mb
-      - Relay_🇺🇸US-🇺🇸US_1850
-      - Pool_🇸🇬SG_405 |43.54Mb
-      - Pool_🇭🇰HK_367 |42.73Mb
-      - Pool_🇸🇬SG_307 |110.00Mb
-      - Pool_🇸🇬SG_410 |42.53Mb
-      - Pool_🇭🇰HK_370 |46.10Mb
-      - Pool_🇸🇬SG_402 |44.21Mb
-      - Pool_🇸🇬SG_416 |42.52Mb
-      - "| 4.01Mb"
-      - Relay_ | 2.17Mb
-      - Relay_🇺🇸US-🇺🇸US_605
-      - Pool_🇸🇬SG_398 |43.69Mb
-      - Pool_🇸🇬SG_404 |45.39Mb
-      - Pool_🇸🇬SG_306 |97.00Mb
-      - Relay_🇺🇸US-🇺🇸US_486 |35.76Mb
-      - Pool_🇸🇬SG_409 |45.87Mb
+      - Relay_-🇺🇸US_184
       - Relay_🇸🇬SG-🇺🇸US_1486
-      - Relay_🏁ZZ-🇺🇸US_257 | 3.30Mb
-      - Pool_🇭🇰HK_371 |45.05Mb
-      - Relay_🏁ZZ-🇺🇸US_2149
-      - Pool_🇸🇬SG_399 |42.49Mb
+      - Relay_🇺🇸US-🇺🇸US_1982
+      - Relay_-🇸🇬SG_226 |17.91Mb
+      - Relay_🇨🇳CN-🇯🇵JP_353 | 7.89Mb
+      - Relay_🇺🇸US-🇺🇸US_1984
+      - Relay_-🇸🇬SG_78 |48.91Mb
+      - Relay_🇨🇳CN-🇯🇵JP_396 |46.71Mb
+      - Relay_🇨🇳CN-🇭🇰HK_350 |38.36Mb
+      - Relay_🇨🇳CN-🇯🇵JP_385 | 8.62Mb
+      - CN_1019
       - Pool_ |14.92Mb
-      - Pool_🇸🇬SG_403 |40.36Mb
-      - Pool_🇭🇰HK_369 |46.78Mb
-      - Pool_🇳🇱NL_823
-      - Pool_🇭🇰HK_363 |41.65Mb
-      - _[原生][商宽]VNPT
-      - Pool_🇸🇬SG_397 |42.46Mb
-      - Pool_🇸🇬SG_413 |43.09Mb
+      - Relay_🇭🇰HK-🇭🇰HK_437 |20.80Mb
+      - Relay_🇹🇼TW-🇹🇼TW_513
+      - Relay_🇨🇳CN-🇭🇰HK_332 |14.65Mb
+      - Relay_🇨🇳CN-🇯🇵JP_352 |14.37Mb
+      - Relay_🇨🇳CN-🇯🇵JP_379 |40.73Mb
+      - Relay_🇺🇸US-🇺🇸US_486 |35.76Mb
+      - Relay_🇹🇼TW-🇹🇼TW_514 | 6.69Mb
+      - Relay_ | 4.27Mb
+      - CN_09
+      - Relay_🇹🇼TW-🇹🇼TW_1498
+      - Relay_🇨🇳CN-🇺🇸US_391 |21.27Mb
+      - Relay_-🇸🇬SG_152 |17.91Mb 2
+      - Relay_🇸🇬SG-🇺🇸US_1507
+      - Relay_🇨🇳CN-🇸🇬SG_361 |32.08Mb
+      - Relay_-🇦🇺AU_991
+      - Relay_🇨🇳CN-🇮🇳IN_333 |26.01Mb
+      - Relay_🇨🇳CN-🇸🇬SG_349 |52.97Mb
+      - _992
+      - Relay_🇨🇳CN-🇯🇵JP_378 |35.33Mb
+      - Relay_ |14.94Mb
+      - Relay_🇨🇳CN-🇸🇬SG_358 |40.94Mb
+      - Relay_🇨🇳CN-🇭🇰HK_353 |24.86Mb
       - Relay_-🇺🇸US_156 |25.36Mb
-      - Pool_🇸🇬SG_415 |44.41Mb
-      - Pool_🇭🇰HK_368 |44.18Mb
-      - Pool_🇭🇰HK_365 |41.65Mb
-      - Pool_🇭🇰HK_366 |46.55Mb
-      - 美国【付费推荐：https://tt.vg/vip】8
-      - Relay_🇺🇸US-🇺🇸US_964
+      - Relay_🇨🇳CN-🇭🇰HK_376 |38.53Mb
+      - Relay_🇨🇳CN-🇭🇰HK_351 |40.84Mb
       - Relay_🇺🇸US-🇺🇸US_487 |10.55Mb
-      - Relay_ |29.85Mb
-      - _306
+      - Relay_🇨🇳CN-🇸🇬SG_388 |42.34Mb
+      - NL_121
+      - Relay_🇨🇳CN-🇸🇬SG_345 |32.25Mb
+      - _US_美国
+      - Pool_🇸🇬SG_316
+      - _US_美国 2
+      - _CN_中国
+      - Pool_🇸🇬SG_403 |40.36Mb
+      - Relay_🇨🇳CN-🇺🇸US_275 | 9.55Mb
+      - _US_美国->🇳🇱_NL_荷兰
       - Pool_🇸🇬SG_414 |42.55Mb
-      - Pool_🇳🇱NL_842
-      - Pool_🇯🇵JP_796
-      - Pool_🇳🇱NL_836
-      - US_888
-      - Pool_🇳🇱NL_840
-      - Pool_🇳🇱NL_839
-      - IN_51
-      - Pool_🇳🇱NL_838
+      - Pool_🇸🇬SG_306 |97.00Mb
+      - Pool_🇭🇰HK_369 |46.78Mb
+      - Pool_🇸🇬SG_405 |43.54Mb
+      - Pool_🇭🇰HK_366 |46.55Mb
+      - Pool_🇸🇬SG_415 |44.41Mb
+      - Pool_🇸🇬SG_413 |43.09Mb
+      - Pool_🇸🇬SG_307 |110.00Mb
+      - Pool_ |43.00Mb
+      - Pool_🇸🇬SG_404 |45.39Mb
+      - Pool_🇭🇰HK_267
+      - Pool_🇸🇬SG_409 |45.87Mb
+      - IN_56
+      - Pool_🇸🇬SG_397 |42.46Mb
+      - Pool_🇸🇬SG_324
+      - Pool_🇸🇬SG_311
+      - Relay_🇨🇳CN-🇬🇧GB_375 | 8.57Mb
+      - Relay_🇨🇳CN-🇺🇸US_334 |19.06Mb
+      - Pool_🇭🇰HK_261
+      - Pool_🇸🇬SG_410 |42.53Mb
+      - Pool_🇭🇰HK_368 |44.18Mb
+      - Pool_🇭🇰HK_363 |41.65Mb
+      - CN_07
+      - Relay_-🇨🇦CA_985
+      - Relay_🇨🇳CN-🇬🇧GB_324 |10.48Mb
+      - Relay_-🇨🇦CA_988
+      - Pool_🇭🇰HK_365 |41.65Mb
+      - Pool_🇸🇬SG_487 |45.00Mb
+      - Pool_🇸🇬SG_402 |44.21Mb
+      - Pool_🇭🇰HK_367 |42.73Mb
+      - Pool_🇭🇰HK_370 |46.10Mb
+      - Pool_🇸🇬SG_416 |42.52Mb
+      - Relay_🇭🇰HK-🇭🇰HK_436 |20.68Mb
+      - Pool_🇭🇰HK_371 |45.05Mb
+      - Pool_🇸🇬SG_319
+      - Relay_-🇺🇸US_984
+      - Pool_🇭🇰HK_258
+      - Relay_🇨🇳CN-🇻🇳VN_343 | 7.98Mb
+      - Pool_🇸🇬SG_470 |45.00Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_-🇺🇸US_184
-      - Relay_ | 3.15Mb
-      - Relay_🇸🇬SG-🇺🇸US_1507
-      - Relay_🇺🇸US-🇺🇸US_492 | 8.62Mb
-      - Relay_🇺🇸US-🇯🇵JP_1863
-      - Relay_-🇸🇬SG_226 |17.91Mb
-      - Relay_🇦🇺AU-🇦🇺AU_347
+      - Relay_🇺🇸US-🇺🇸US_611
+      - Relay_ | 1.65Mb
       - Relay_-🇸🇬SG_152 |17.91Mb
-      - Relay_🇺🇸US-🇺🇸US_1850
-      - Pool_🇸🇬SG_405 |43.54Mb
-      - Pool_🇭🇰HK_367 |42.73Mb
-      - Pool_🇸🇬SG_307 |110.00Mb
-      - Pool_🇸🇬SG_410 |42.53Mb
-      - Pool_🇭🇰HK_370 |46.10Mb
-      - Pool_🇸🇬SG_402 |44.21Mb
-      - Pool_🇸🇬SG_416 |42.52Mb
-      - "| 4.01Mb"
-      - Relay_ | 2.17Mb
-      - Relay_🇺🇸US-🇺🇸US_605
-      - Pool_🇸🇬SG_398 |43.69Mb
-      - Pool_🇸🇬SG_404 |45.39Mb
-      - Pool_🇸🇬SG_306 |97.00Mb
-      - Relay_🇺🇸US-🇺🇸US_486 |35.76Mb
-      - Pool_🇸🇬SG_409 |45.87Mb
+      - Relay_-🇺🇸US_184
       - Relay_🇸🇬SG-🇺🇸US_1486
-      - Relay_🏁ZZ-🇺🇸US_257 | 3.30Mb
-      - Pool_🇭🇰HK_371 |45.05Mb
-      - Relay_🏁ZZ-🇺🇸US_2149
-      - Pool_🇸🇬SG_399 |42.49Mb
+      - Relay_🇺🇸US-🇺🇸US_1982
+      - Relay_-🇸🇬SG_226 |17.91Mb
+      - Relay_🇨🇳CN-🇯🇵JP_353 | 7.89Mb
+      - Relay_🇺🇸US-🇺🇸US_1984
+      - Relay_-🇸🇬SG_78 |48.91Mb
+      - Relay_🇨🇳CN-🇯🇵JP_396 |46.71Mb
+      - Relay_🇨🇳CN-🇭🇰HK_350 |38.36Mb
+      - Relay_🇨🇳CN-🇯🇵JP_385 | 8.62Mb
+      - CN_1019
       - Pool_ |14.92Mb
-      - Pool_🇸🇬SG_403 |40.36Mb
-      - Pool_🇭🇰HK_369 |46.78Mb
-      - Pool_🇳🇱NL_823
-      - Pool_🇭🇰HK_363 |41.65Mb
-      - _[原生][商宽]VNPT
-      - Pool_🇸🇬SG_397 |42.46Mb
-      - Pool_🇸🇬SG_413 |43.09Mb
+      - Relay_🇭🇰HK-🇭🇰HK_437 |20.80Mb
+      - Relay_🇹🇼TW-🇹🇼TW_513
+      - Relay_🇨🇳CN-🇭🇰HK_332 |14.65Mb
+      - Relay_🇨🇳CN-🇯🇵JP_352 |14.37Mb
+      - Relay_🇨🇳CN-🇯🇵JP_379 |40.73Mb
+      - Relay_🇺🇸US-🇺🇸US_486 |35.76Mb
+      - Relay_🇹🇼TW-🇹🇼TW_514 | 6.69Mb
+      - Relay_ | 4.27Mb
+      - CN_09
+      - Relay_🇹🇼TW-🇹🇼TW_1498
+      - Relay_🇨🇳CN-🇺🇸US_391 |21.27Mb
+      - Relay_-🇸🇬SG_152 |17.91Mb 2
+      - Relay_🇸🇬SG-🇺🇸US_1507
+      - Relay_🇨🇳CN-🇸🇬SG_361 |32.08Mb
+      - Relay_-🇦🇺AU_991
+      - Relay_🇨🇳CN-🇮🇳IN_333 |26.01Mb
+      - Relay_🇨🇳CN-🇸🇬SG_349 |52.97Mb
+      - _992
+      - Relay_🇨🇳CN-🇯🇵JP_378 |35.33Mb
+      - Relay_ |14.94Mb
+      - Relay_🇨🇳CN-🇸🇬SG_358 |40.94Mb
+      - Relay_🇨🇳CN-🇭🇰HK_353 |24.86Mb
       - Relay_-🇺🇸US_156 |25.36Mb
-      - Pool_🇸🇬SG_415 |44.41Mb
-      - Pool_🇭🇰HK_368 |44.18Mb
-      - Pool_🇭🇰HK_365 |41.65Mb
-      - Pool_🇭🇰HK_366 |46.55Mb
-      - 美国【付费推荐：https://tt.vg/vip】8
-      - Relay_🇺🇸US-🇺🇸US_964
+      - Relay_🇨🇳CN-🇭🇰HK_376 |38.53Mb
+      - Relay_🇨🇳CN-🇭🇰HK_351 |40.84Mb
       - Relay_🇺🇸US-🇺🇸US_487 |10.55Mb
-      - Relay_ |29.85Mb
-      - _306
+      - Relay_🇨🇳CN-🇸🇬SG_388 |42.34Mb
+      - NL_121
+      - Relay_🇨🇳CN-🇸🇬SG_345 |32.25Mb
+      - _US_美国
+      - Pool_🇸🇬SG_316
+      - _US_美国 2
+      - _CN_中国
+      - Pool_🇸🇬SG_403 |40.36Mb
+      - Relay_🇨🇳CN-🇺🇸US_275 | 9.55Mb
+      - _US_美国->🇳🇱_NL_荷兰
       - Pool_🇸🇬SG_414 |42.55Mb
-      - Pool_🇳🇱NL_842
-      - Pool_🇯🇵JP_796
-      - Pool_🇳🇱NL_836
-      - US_888
-      - Pool_🇳🇱NL_840
-      - Pool_🇳🇱NL_839
-      - IN_51
-      - Pool_🇳🇱NL_838
+      - Pool_🇸🇬SG_306 |97.00Mb
+      - Pool_🇭🇰HK_369 |46.78Mb
+      - Pool_🇸🇬SG_405 |43.54Mb
+      - Pool_🇭🇰HK_366 |46.55Mb
+      - Pool_🇸🇬SG_415 |44.41Mb
+      - Pool_🇸🇬SG_413 |43.09Mb
+      - Pool_🇸🇬SG_307 |110.00Mb
+      - Pool_ |43.00Mb
+      - Pool_🇸🇬SG_404 |45.39Mb
+      - Pool_🇭🇰HK_267
+      - Pool_🇸🇬SG_409 |45.87Mb
+      - IN_56
+      - Pool_🇸🇬SG_397 |42.46Mb
+      - Pool_🇸🇬SG_324
+      - Pool_🇸🇬SG_311
+      - Relay_🇨🇳CN-🇬🇧GB_375 | 8.57Mb
+      - Relay_🇨🇳CN-🇺🇸US_334 |19.06Mb
+      - Pool_🇭🇰HK_261
+      - Pool_🇸🇬SG_410 |42.53Mb
+      - Pool_🇭🇰HK_368 |44.18Mb
+      - Pool_🇭🇰HK_363 |41.65Mb
+      - CN_07
+      - Relay_-🇨🇦CA_985
+      - Relay_🇨🇳CN-🇬🇧GB_324 |10.48Mb
+      - Relay_-🇨🇦CA_988
+      - Pool_🇭🇰HK_365 |41.65Mb
+      - Pool_🇸🇬SG_487 |45.00Mb
+      - Pool_🇸🇬SG_402 |44.21Mb
+      - Pool_🇭🇰HK_367 |42.73Mb
+      - Pool_🇭🇰HK_370 |46.10Mb
+      - Pool_🇸🇬SG_416 |42.52Mb
+      - Relay_🇭🇰HK-🇭🇰HK_436 |20.68Mb
+      - Pool_🇭🇰HK_371 |45.05Mb
+      - Pool_🇸🇬SG_319
+      - Relay_-🇺🇸US_984
+      - Pool_🇭🇰HK_258
+      - Relay_🇨🇳CN-🇻🇳VN_343 | 7.98Mb
+      - Pool_🇸🇬SG_470 |45.00Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_-🇺🇸US_184
-      - Relay_ | 3.15Mb
-      - Relay_🇸🇬SG-🇺🇸US_1507
-      - Relay_🇺🇸US-🇺🇸US_492 | 8.62Mb
-      - Relay_🇺🇸US-🇯🇵JP_1863
-      - Relay_-🇸🇬SG_226 |17.91Mb
-      - Relay_🇦🇺AU-🇦🇺AU_347
+      - Relay_🇺🇸US-🇺🇸US_611
+      - Relay_ | 1.65Mb
       - Relay_-🇸🇬SG_152 |17.91Mb
-      - Relay_🇺🇸US-🇺🇸US_1850
-      - Pool_🇸🇬SG_405 |43.54Mb
-      - Pool_🇭🇰HK_367 |42.73Mb
-      - Pool_🇸🇬SG_307 |110.00Mb
-      - Pool_🇸🇬SG_410 |42.53Mb
-      - Pool_🇭🇰HK_370 |46.10Mb
-      - Pool_🇸🇬SG_402 |44.21Mb
-      - Pool_🇸🇬SG_416 |42.52Mb
-      - "| 4.01Mb"
-      - Relay_ | 2.17Mb
-      - Relay_🇺🇸US-🇺🇸US_605
-      - Pool_🇸🇬SG_398 |43.69Mb
-      - Pool_🇸🇬SG_404 |45.39Mb
-      - Pool_🇸🇬SG_306 |97.00Mb
-      - Relay_🇺🇸US-🇺🇸US_486 |35.76Mb
-      - Pool_🇸🇬SG_409 |45.87Mb
+      - Relay_-🇺🇸US_184
       - Relay_🇸🇬SG-🇺🇸US_1486
-      - Relay_🏁ZZ-🇺🇸US_257 | 3.30Mb
-      - Pool_🇭🇰HK_371 |45.05Mb
-      - Relay_🏁ZZ-🇺🇸US_2149
-      - Pool_🇸🇬SG_399 |42.49Mb
+      - Relay_🇺🇸US-🇺🇸US_1982
+      - Relay_-🇸🇬SG_226 |17.91Mb
+      - Relay_🇨🇳CN-🇯🇵JP_353 | 7.89Mb
+      - Relay_🇺🇸US-🇺🇸US_1984
+      - Relay_-🇸🇬SG_78 |48.91Mb
+      - Relay_🇨🇳CN-🇯🇵JP_396 |46.71Mb
+      - Relay_🇨🇳CN-🇭🇰HK_350 |38.36Mb
+      - Relay_🇨🇳CN-🇯🇵JP_385 | 8.62Mb
+      - CN_1019
       - Pool_ |14.92Mb
-      - Pool_🇸🇬SG_403 |40.36Mb
-      - Pool_🇭🇰HK_369 |46.78Mb
-      - Pool_🇳🇱NL_823
-      - Pool_🇭🇰HK_363 |41.65Mb
-      - _[原生][商宽]VNPT
-      - Pool_🇸🇬SG_397 |42.46Mb
-      - Pool_🇸🇬SG_413 |43.09Mb
+      - Relay_🇭🇰HK-🇭🇰HK_437 |20.80Mb
+      - Relay_🇹🇼TW-🇹🇼TW_513
+      - Relay_🇨🇳CN-🇭🇰HK_332 |14.65Mb
+      - Relay_🇨🇳CN-🇯🇵JP_352 |14.37Mb
+      - Relay_🇨🇳CN-🇯🇵JP_379 |40.73Mb
+      - Relay_🇺🇸US-🇺🇸US_486 |35.76Mb
+      - Relay_🇹🇼TW-🇹🇼TW_514 | 6.69Mb
+      - Relay_ | 4.27Mb
+      - CN_09
+      - Relay_🇹🇼TW-🇹🇼TW_1498
+      - Relay_🇨🇳CN-🇺🇸US_391 |21.27Mb
+      - Relay_-🇸🇬SG_152 |17.91Mb 2
+      - Relay_🇸🇬SG-🇺🇸US_1507
+      - Relay_🇨🇳CN-🇸🇬SG_361 |32.08Mb
+      - Relay_-🇦🇺AU_991
+      - Relay_🇨🇳CN-🇮🇳IN_333 |26.01Mb
+      - Relay_🇨🇳CN-🇸🇬SG_349 |52.97Mb
+      - _992
+      - Relay_🇨🇳CN-🇯🇵JP_378 |35.33Mb
+      - Relay_ |14.94Mb
+      - Relay_🇨🇳CN-🇸🇬SG_358 |40.94Mb
+      - Relay_🇨🇳CN-🇭🇰HK_353 |24.86Mb
       - Relay_-🇺🇸US_156 |25.36Mb
-      - Pool_🇸🇬SG_415 |44.41Mb
-      - Pool_🇭🇰HK_368 |44.18Mb
-      - Pool_🇭🇰HK_365 |41.65Mb
-      - Pool_🇭🇰HK_366 |46.55Mb
-      - 美国【付费推荐：https://tt.vg/vip】8
-      - Relay_🇺🇸US-🇺🇸US_964
+      - Relay_🇨🇳CN-🇭🇰HK_376 |38.53Mb
+      - Relay_🇨🇳CN-🇭🇰HK_351 |40.84Mb
       - Relay_🇺🇸US-🇺🇸US_487 |10.55Mb
-      - Relay_ |29.85Mb
-      - _306
+      - Relay_🇨🇳CN-🇸🇬SG_388 |42.34Mb
+      - NL_121
+      - Relay_🇨🇳CN-🇸🇬SG_345 |32.25Mb
+      - _US_美国
+      - Pool_🇸🇬SG_316
+      - _US_美国 2
+      - _CN_中国
+      - Pool_🇸🇬SG_403 |40.36Mb
+      - Relay_🇨🇳CN-🇺🇸US_275 | 9.55Mb
+      - _US_美国->🇳🇱_NL_荷兰
       - Pool_🇸🇬SG_414 |42.55Mb
-      - Pool_🇳🇱NL_842
-      - Pool_🇯🇵JP_796
-      - Pool_🇳🇱NL_836
-      - US_888
-      - Pool_🇳🇱NL_840
-      - Pool_🇳🇱NL_839
-      - IN_51
-      - Pool_🇳🇱NL_838
+      - Pool_🇸🇬SG_306 |97.00Mb
+      - Pool_🇭🇰HK_369 |46.78Mb
+      - Pool_🇸🇬SG_405 |43.54Mb
+      - Pool_🇭🇰HK_366 |46.55Mb
+      - Pool_🇸🇬SG_415 |44.41Mb
+      - Pool_🇸🇬SG_413 |43.09Mb
+      - Pool_🇸🇬SG_307 |110.00Mb
+      - Pool_ |43.00Mb
+      - Pool_🇸🇬SG_404 |45.39Mb
+      - Pool_🇭🇰HK_267
+      - Pool_🇸🇬SG_409 |45.87Mb
+      - IN_56
+      - Pool_🇸🇬SG_397 |42.46Mb
+      - Pool_🇸🇬SG_324
+      - Pool_🇸🇬SG_311
+      - Relay_🇨🇳CN-🇬🇧GB_375 | 8.57Mb
+      - Relay_🇨🇳CN-🇺🇸US_334 |19.06Mb
+      - Pool_🇭🇰HK_261
+      - Pool_🇸🇬SG_410 |42.53Mb
+      - Pool_🇭🇰HK_368 |44.18Mb
+      - Pool_🇭🇰HK_363 |41.65Mb
+      - CN_07
+      - Relay_-🇨🇦CA_985
+      - Relay_🇨🇳CN-🇬🇧GB_324 |10.48Mb
+      - Relay_-🇨🇦CA_988
+      - Pool_🇭🇰HK_365 |41.65Mb
+      - Pool_🇸🇬SG_487 |45.00Mb
+      - Pool_🇸🇬SG_402 |44.21Mb
+      - Pool_🇭🇰HK_367 |42.73Mb
+      - Pool_🇭🇰HK_370 |46.10Mb
+      - Pool_🇸🇬SG_416 |42.52Mb
+      - Relay_🇭🇰HK-🇭🇰HK_436 |20.68Mb
+      - Pool_🇭🇰HK_371 |45.05Mb
+      - Pool_🇸🇬SG_319
+      - Relay_-🇺🇸US_984
+      - Pool_🇭🇰HK_258
+      - Relay_🇨🇳CN-🇻🇳VN_343 | 7.98Mb
+      - Pool_🇸🇬SG_470 |45.00Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -524,62 +796,96 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_-🇺🇸US_184
-      - Relay_ | 3.15Mb
-      - Relay_🇸🇬SG-🇺🇸US_1507
-      - Relay_🇺🇸US-🇺🇸US_492 | 8.62Mb
-      - Relay_🇺🇸US-🇯🇵JP_1863
-      - Relay_-🇸🇬SG_226 |17.91Mb
-      - Relay_🇦🇺AU-🇦🇺AU_347
+      - Relay_🇺🇸US-🇺🇸US_611
+      - Relay_ | 1.65Mb
       - Relay_-🇸🇬SG_152 |17.91Mb
-      - Relay_🇺🇸US-🇺🇸US_1850
-      - Pool_🇸🇬SG_405 |43.54Mb
-      - Pool_🇭🇰HK_367 |42.73Mb
-      - Pool_🇸🇬SG_307 |110.00Mb
-      - Pool_🇸🇬SG_410 |42.53Mb
-      - Pool_🇭🇰HK_370 |46.10Mb
-      - Pool_🇸🇬SG_402 |44.21Mb
-      - Pool_🇸🇬SG_416 |42.52Mb
-      - "| 4.01Mb"
-      - Relay_ | 2.17Mb
-      - Relay_🇺🇸US-🇺🇸US_605
-      - Pool_🇸🇬SG_398 |43.69Mb
-      - Pool_🇸🇬SG_404 |45.39Mb
-      - Pool_🇸🇬SG_306 |97.00Mb
-      - Relay_🇺🇸US-🇺🇸US_486 |35.76Mb
-      - Pool_🇸🇬SG_409 |45.87Mb
+      - Relay_-🇺🇸US_184
       - Relay_🇸🇬SG-🇺🇸US_1486
-      - Relay_🏁ZZ-🇺🇸US_257 | 3.30Mb
-      - Pool_🇭🇰HK_371 |45.05Mb
-      - Relay_🏁ZZ-🇺🇸US_2149
-      - Pool_🇸🇬SG_399 |42.49Mb
+      - Relay_🇺🇸US-🇺🇸US_1982
+      - Relay_-🇸🇬SG_226 |17.91Mb
+      - Relay_🇨🇳CN-🇯🇵JP_353 | 7.89Mb
+      - Relay_🇺🇸US-🇺🇸US_1984
+      - Relay_-🇸🇬SG_78 |48.91Mb
+      - Relay_🇨🇳CN-🇯🇵JP_396 |46.71Mb
+      - Relay_🇨🇳CN-🇭🇰HK_350 |38.36Mb
+      - Relay_🇨🇳CN-🇯🇵JP_385 | 8.62Mb
+      - CN_1019
       - Pool_ |14.92Mb
-      - Pool_🇸🇬SG_403 |40.36Mb
-      - Pool_🇭🇰HK_369 |46.78Mb
-      - Pool_🇳🇱NL_823
-      - Pool_🇭🇰HK_363 |41.65Mb
-      - _[原生][商宽]VNPT
-      - Pool_🇸🇬SG_397 |42.46Mb
-      - Pool_🇸🇬SG_413 |43.09Mb
+      - Relay_🇭🇰HK-🇭🇰HK_437 |20.80Mb
+      - Relay_🇹🇼TW-🇹🇼TW_513
+      - Relay_🇨🇳CN-🇭🇰HK_332 |14.65Mb
+      - Relay_🇨🇳CN-🇯🇵JP_352 |14.37Mb
+      - Relay_🇨🇳CN-🇯🇵JP_379 |40.73Mb
+      - Relay_🇺🇸US-🇺🇸US_486 |35.76Mb
+      - Relay_🇹🇼TW-🇹🇼TW_514 | 6.69Mb
+      - Relay_ | 4.27Mb
+      - CN_09
+      - Relay_🇹🇼TW-🇹🇼TW_1498
+      - Relay_🇨🇳CN-🇺🇸US_391 |21.27Mb
+      - Relay_-🇸🇬SG_152 |17.91Mb 2
+      - Relay_🇸🇬SG-🇺🇸US_1507
+      - Relay_🇨🇳CN-🇸🇬SG_361 |32.08Mb
+      - Relay_-🇦🇺AU_991
+      - Relay_🇨🇳CN-🇮🇳IN_333 |26.01Mb
+      - Relay_🇨🇳CN-🇸🇬SG_349 |52.97Mb
+      - _992
+      - Relay_🇨🇳CN-🇯🇵JP_378 |35.33Mb
+      - Relay_ |14.94Mb
+      - Relay_🇨🇳CN-🇸🇬SG_358 |40.94Mb
+      - Relay_🇨🇳CN-🇭🇰HK_353 |24.86Mb
       - Relay_-🇺🇸US_156 |25.36Mb
-      - Pool_🇸🇬SG_415 |44.41Mb
-      - Pool_🇭🇰HK_368 |44.18Mb
-      - Pool_🇭🇰HK_365 |41.65Mb
-      - Pool_🇭🇰HK_366 |46.55Mb
-      - 美国【付费推荐：https://tt.vg/vip】8
-      - Relay_🇺🇸US-🇺🇸US_964
+      - Relay_🇨🇳CN-🇭🇰HK_376 |38.53Mb
+      - Relay_🇨🇳CN-🇭🇰HK_351 |40.84Mb
       - Relay_🇺🇸US-🇺🇸US_487 |10.55Mb
-      - Relay_ |29.85Mb
-      - _306
+      - Relay_🇨🇳CN-🇸🇬SG_388 |42.34Mb
+      - NL_121
+      - Relay_🇨🇳CN-🇸🇬SG_345 |32.25Mb
+      - _US_美国
+      - Pool_🇸🇬SG_316
+      - _US_美国 2
+      - _CN_中国
+      - Pool_🇸🇬SG_403 |40.36Mb
+      - Relay_🇨🇳CN-🇺🇸US_275 | 9.55Mb
+      - _US_美国->🇳🇱_NL_荷兰
       - Pool_🇸🇬SG_414 |42.55Mb
-      - Pool_🇳🇱NL_842
-      - Pool_🇯🇵JP_796
-      - Pool_🇳🇱NL_836
-      - US_888
-      - Pool_🇳🇱NL_840
-      - Pool_🇳🇱NL_839
-      - IN_51
-      - Pool_🇳🇱NL_838
+      - Pool_🇸🇬SG_306 |97.00Mb
+      - Pool_🇭🇰HK_369 |46.78Mb
+      - Pool_🇸🇬SG_405 |43.54Mb
+      - Pool_🇭🇰HK_366 |46.55Mb
+      - Pool_🇸🇬SG_415 |44.41Mb
+      - Pool_🇸🇬SG_413 |43.09Mb
+      - Pool_🇸🇬SG_307 |110.00Mb
+      - Pool_ |43.00Mb
+      - Pool_🇸🇬SG_404 |45.39Mb
+      - Pool_🇭🇰HK_267
+      - Pool_🇸🇬SG_409 |45.87Mb
+      - IN_56
+      - Pool_🇸🇬SG_397 |42.46Mb
+      - Pool_🇸🇬SG_324
+      - Pool_🇸🇬SG_311
+      - Relay_🇨🇳CN-🇬🇧GB_375 | 8.57Mb
+      - Relay_🇨🇳CN-🇺🇸US_334 |19.06Mb
+      - Pool_🇭🇰HK_261
+      - Pool_🇸🇬SG_410 |42.53Mb
+      - Pool_🇭🇰HK_368 |44.18Mb
+      - Pool_🇭🇰HK_363 |41.65Mb
+      - CN_07
+      - Relay_-🇨🇦CA_985
+      - Relay_🇨🇳CN-🇬🇧GB_324 |10.48Mb
+      - Relay_-🇨🇦CA_988
+      - Pool_🇭🇰HK_365 |41.65Mb
+      - Pool_🇸🇬SG_487 |45.00Mb
+      - Pool_🇸🇬SG_402 |44.21Mb
+      - Pool_🇭🇰HK_367 |42.73Mb
+      - Pool_🇭🇰HK_370 |46.10Mb
+      - Pool_🇸🇬SG_416 |42.52Mb
+      - Relay_🇭🇰HK-🇭🇰HK_436 |20.68Mb
+      - Pool_🇭🇰HK_371 |45.05Mb
+      - Pool_🇸🇬SG_319
+      - Relay_-🇺🇸US_984
+      - Pool_🇭🇰HK_258
+      - Relay_🇨🇳CN-🇻🇳VN_343 | 7.98Mb
+      - Pool_🇸🇬SG_470 |45.00Mb
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

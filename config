@@ -5,66 +5,23 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国02, server: piniaus01.abbblog.xyz, port: 37917, type: ss, cipher: aes-128-gcm, password: 07a53fc2-3ca3-4d56-b872-0cebca5d7a87, udp: true}
-  - {name: 香港07, server: edge-mars.themars.top, port: 50014, type: ss, cipher: chacha20-ietf-poly1305, password: b63ab848-16e9-426b-a59f-51967804e6ee, udp: true}
-  - {name: 台湾03「ChatGPT」, server: cybree.0109480.xyz, port: 44444, type: vmess, uuid: bcb6ffbe-214d-32d0-8669-ded08037c8fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: cybree.0109480.xyz}, udp: true}
-  - {name: 新加坡02, server: piniasg01.abbblog.xyz, port: 37907, type: ss, cipher: aes-128-gcm, password: e1391926-7121-4fc7-ac83-ec4a920f7171, udp: true}
-  - {name: 台湾02, server: piniatw01.abbblog.xyz, port: 37922, type: ss, cipher: aes-128-gcm, password: 4fba4fe9-cf4f-4adb-9115-212b6a4aa7ad, udp: true}
-  - {name: 美国03, server: piniaus01.abbblog.xyz, port: 37918, type: ss, cipher: aes-128-gcm, password: 07a53fc2-3ca3-4d56-b872-0cebca5d7a87, udp: true}
   - {name: "_[PF][数据网络]Scaleway-圣卢西亚Digicel", server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: nls.cloudflare.quest}, udp: true}
-  - {name: 日本01 2, server: piniajp01.abbblog.xyz, port: 37911, type: ss, cipher: aes-128-gcm, password: 359fe37c-e419-4f1c-8feb-441220024097, udp: true}
   - {name: _Scaleway, server: cf.noaries.de, port: 8080, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: nls.cloudflare.quest}, udp: true}
   - {name: "_[无审计]BuyVM", server: cf.noaries.de, port: 8080, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: buyvm.cloudflare.quest}, udp: true}
   - {name: "_[PF][家宽]OVH-韩国LG U+", server: cf.noaries.de, port: 2086, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: ovh.cloudflare.quest}, udp: true}
-  - {name: 香港03, server: piniahk01.abbblog.xyz, port: 37903, type: ss, cipher: aes-128-gcm, password: bf5677b2-00ca-4077-95ac-13c05e493aa4, udp: true}
   - {name: "_[月抛]AWS", server: cf.noaries.de, port: 8080, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: awsjpec2.cloudflare.quest}, udp: true}
-  - {name: 台湾01, server: piniatw01.abbblog.xyz, port: 37921, type: ss, cipher: aes-128-gcm, password: 4fba4fe9-cf4f-4adb-9115-212b6a4aa7ad, udp: true}
-  - {name: Relay_-🇹🇼TW_178, server: 139.226.112.205, port: 63088, type: vmess, uuid: c796ecaf-e6ca-3eba-96d3-21df44550cbc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: tw-load-balancer.myn1des.com}, udp: true}
-  - {name: "[1x]•🇸🇬狮城03", server: sgxd3.naichald.xyz, port: 443, type: vmess, uuid: b5ee2aa5-0764-46b9-b278-fd3f2d1b4df0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: 美国04, server: edge-earth.themars.top, port: 50005, type: ss, cipher: chacha20-ietf-poly1305, password: b63ab848-16e9-426b-a59f-51967804e6ee, udp: true}
-  - {name: 日本03 2, server: edge-earth.themars.top, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: b63ab848-16e9-426b-a59f-51967804e6ee, udp: true}
-  - {name: _118, server: 43.201.148.126, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: Pool_🇭🇰HK_445, server: 47.242.64.255, port: 52017, type: ssr, cipher: dummy, password: !<str> 34523444, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: "[1x]•🇸🇬狮城08", server: cm3.naichald.xyz, port: 34478, type: ss, cipher: chacha20-ietf-poly1305, password: b5ee2aa5-0764-46b9-b278-fd3f2d1b4df0, udp: true}
   - {name: "_[低配]Hostmaze", server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: ro.cloudflare.quest}, udp: true}
   - {name: -美国-cf-lt.sharecentre.online, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp2.scproxy.top}, udp: true}
-  - {name: 新加坡03 2, server: edge-earth.themars.top, port: 50003, type: ss, cipher: chacha20-ietf-poly1305, password: b63ab848-16e9-426b-a59f-51967804e6ee, udp: true}
-  - {name: "[1x]•🇸🇬狮城09", server: cm2.naichald.xyz, port: 34478, type: ss, cipher: chacha20-ietf-poly1305, password: b5ee2aa5-0764-46b9-b278-fd3f2d1b4df0, udp: true}
-  - {name: Pool_🇭🇰HK_458, server: 47.243.196.220, port: 53110, type: ssr, cipher: dummy, password: !<str> 23423, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Relay_-🇹🇼TW_209, server: 223.166.157.46, port: 63088, type: vmess, uuid: c796ecaf-e6ca-3eba-96d3-21df44550cbc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: tw-load-balancer.myn1des.com}, udp: true}
-  - {name: "[1x]•🇸🇬狮城11", server: 129.150.56.193, port: 443, type: vmess, uuid: b5ee2aa5-0764-46b9-b278-fd3f2d1b4df0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: Relay_-🇨🇳CN_111, server: dajbxus.naikonode.top, port: 15106, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: Vm0weE1HRnRWa2hWV0doV1ltdHdUMVV3WkZOVU1WcDBUVmM1V0Zac2JETlhhMk0xVm14S2MyTkliRmhoTW1neldXdGFZV014VG5KaVJsWlhWakpvTWxkV1pEUlRNbEpJVld0V1dHSkdjRTlaVjNoaFlqRmtWMXBJY0d4U01EVlpWVEowYzFadFNsWlhiRkpYWWtaS1JGUnJXbXRXTVd0NllVWlNhVlpzY0ZoV1JscFhVMmM, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_758, server: hk.untilmu.com, port: 443, type: vmess, uuid: 01445009-f81e-4d87-90be-0fd23de2ef91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /azhk, ws-headers: {Host: hk.untilmu.com}, udp: true}
-  - {name: "[1x]•🇯🇵日本03", server: 141.147.167.154, port: 443, type: vmess, uuid: b5ee2aa5-0764-46b9-b278-fd3f2d1b4df0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: tms.dingtalk.com}, udp: true}
   - {name: "_[WARP]Scaleway", server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: fr.cloudflare.quest}, udp: true}
   - {name: 新加坡03, server: piniasg01.abbblog.xyz, port: 37908, type: ss, cipher: aes-128-gcm, password: e1391926-7121-4fc7-ac83-ec4a920f7171, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_1034, server: 116.192.171.97, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, skip-cert-verify: true, udp: true}
-  - {name: _109 |12.86Mb, server: 103.16.214.60, port: 80, type: vmess, uuid: a740cddf-bda7-4b58-8eda-35bece740b6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /anti13.zingfast.vn, ws-headers: {Host: 103.16.214.60}, udp: true}
-  - {name: 台湾04, server: piniatw01.abbblog.xyz, port: 37924, type: ss, cipher: aes-128-gcm, password: 4fba4fe9-cf4f-4adb-9115-212b6a4aa7ad, udp: true}
-  - {name: Pool_🇸🇬SG_540, server: 8.218.235.20, port: 48966, type: ssr, cipher: dummy, password: !<str> 83848345, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Relay_-🇭🇰HK_228, server: gg.xn--gmqa02ag57d.com, port: 20279, type: trojan, password: 7f9a382b-273e-3908-9316-ae898d7d265d, sni: gg.xn--gmqa02ag57d.com, skip-cert-verify: true, udp: true}
   - {name: "_[WARP]Scaleway 2", server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: scw-nl.cloudflare.quest}, udp: true}
-  - {name: Relay_🇦🇺AU-🇦🇺AU_338, server: hk6.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: hk6.af49c4e4c2ef.sanfen001.pics}, udp: true}
-  - {name: Pool_🇸🇬SG_533, server: 8.218.188.108, port: 57282, type: ssr, cipher: dummy, password: !<str> 92388323, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: "[1x]•🇸🇬狮城05", server: sgxd5.naichald.xyz, port: 443, type: vmess, uuid: b5ee2aa5-0764-46b9-b278-fd3f2d1b4df0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: Relay_-🇩🇪DE_197, server: 59.36.139.14, port: 63092, type: vmess, uuid: c796ecaf-e6ca-3eba-96d3-21df44550cbc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: de01-cdn.airport-v2.com}, udp: true}
-  - {name: Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb, server: hinet.mjt001.com, port: 443, type: trojan, password: 74400921-f59f-4009-b52a-c2789b49fab6, sni: hinet.mjt001.com, skip-cert-verify: true, udp: true}
-  - {name: 美国01 3, server: piniaus01.abbblog.xyz, port: 37916, type: ss, cipher: aes-128-gcm, password: 359fe37c-e419-4f1c-8feb-441220024097, udp: true}
-  - {name: Relay_-🇺🇸US_137, server: api.qiscus.com, port: 443, type: vmess, uuid: bf144b2d-1a18-45b4-9372-64dd3e9682df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: sg2-mlb.v2rayserv.com}, udp: true}
-  - {name: Relay_-🇭🇰HK_223, server: gg.xn--gmqa02ag57d.com, port: 28678, type: trojan, password: 7f9a382b-273e-3908-9316-ae898d7d265d, sni: gg.xn--gmqa02ag57d.com, skip-cert-verify: true, udp: true}
   - {name: 日本03, server: piniajp01.abbblog.xyz, port: 37913, type: ss, cipher: aes-128-gcm, password: 9948b78a-5376-4d5a-9746-a4a82ce2b1ed, udp: true}
-  - {name: "[1x]•🇯🇵日本01", server: 155.248.160.145, port: 443, type: vmess, uuid: b5ee2aa5-0764-46b9-b278-fd3f2d1b4df0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: JP_474, server: 54.238.226.17, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 新加坡01 2, server: piniasg01.abbblog.xyz, port: 37906, type: ss, cipher: aes-128-gcm, password: 359fe37c-e419-4f1c-8feb-441220024097, udp: true}
-  - {name: Relay_-🇺🇸US_976, server: usajs.stablize.top, port: 443, type: trojan, password: 62326316-9ec6-43af-a210-b755e3e9623f, sni: usajs.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: Relay_-🇰🇷KR_220, server: kr-s-3.fuckjdieng.uk, port: 50328, type: trojan, password: 3195b7ff-6535-4ead-aaf0-428982a39b92, sni: kr-s-3.fuckjdieng.uk, skip-cert-verify: true, udp: true}
-  - {name: SG_639, server: 13.212.139.93, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "TW🇸🇬_[PF][家宽]OVH-台灣凱擘大寬頻KBRO", server: cf.noaries.de, port: 2082, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: ovh.cloudflare.quest}, udp: true}
-  - {name: Pool_🇭🇰HK_446, server: 47.242.64.255, port: 51074, type: ssr, cipher: dummy, password: !<str> 34556345, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 日本02, server: piniajp01.abbblog.xyz, port: 37912, type: ss, cipher: aes-128-gcm, password: 9948b78a-5376-4d5a-9746-a4a82ce2b1ed, udp: true}
   - {name: "_[PF][家宽]OVH_日本SONY", server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: ovh.cloudflare.quest}, udp: true}
   - {name: "_[PF][家宽]OVH-泰国AIS", server: cf.noaries.de, port: 8080, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: ovh.cloudflare.quest}, udp: true}
-  - {name: 香港02, server: piniahk01.abbblog.xyz, port: 37902, type: ss, cipher: aes-128-gcm, password: bf5677b2-00ca-4077-95ac-13c05e493aa4, udp: true}
   - {name: 美国01 2, server: piniaus01.abbblog.xyz, port: 37916, type: ss, cipher: aes-128-gcm, password: 07a53fc2-3ca3-4d56-b872-0cebca5d7a87, udp: true}
   - {name: "[1x]•🇸🇬狮城04", server: sgxd4.naichald.xyz, port: 443, type: vmess, uuid: b5ee2aa5-0764-46b9-b278-fd3f2d1b4df0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: tms.dingtalk.com}, udp: true}
   - {name: Relay_🇹🇼TW-🇹🇼TW_1515, server: tw2.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
@@ -72,9 +29,7 @@ proxies:
   - {name: 美国04「ChatGPT」, server: piniaus01.abbblog.xyz, port: 37919, type: ss, cipher: aes-128-gcm, password: 6765e9c1-e6b9-4cb9-ad76-33a5619b9f43, udp: true}
   - {name: SG_637, server: 18.141.230.221, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: US_695, server: 35.89.133.187, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 美国03「ChatGPT」, server: piniaus01.abbblog.xyz, port: 37918, type: ss, cipher: aes-128-gcm, password: 6765e9c1-e6b9-4cb9-ad76-33a5619b9f43, udp: true}
   - {name: Relay_🇨🇳CN-🇺🇸US_457, server: hbcu.lele233.top, port: 44390, type: vmess, uuid: 7fbcb881-1665-433f-9645-a77d5c55166e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hbcu.lele233.top}, udp: true}
-  - {name: _238, server: gg.xn--gmqa02ag57d.com, port: 56783, type: trojan, password: 7f9a382b-273e-3908-9316-ae898d7d265d, sni: gg.xn--gmqa02ag57d.com, skip-cert-verify: true, udp: true}
   - {name: "[1x]•🇭🇰香港03", server: cm3.naichald.xyz, port: 38878, type: ss, cipher: chacha20-ietf-poly1305, password: b5ee2aa5-0764-46b9-b278-fd3f2d1b4df0, udp: true}
   - {name: 香港01, server: piniahk01.abbblog.xyz, port: 37901, type: ss, cipher: aes-128-gcm, password: bf5677b2-00ca-4077-95ac-13c05e493aa4, udp: true}
   - {name: 美国【付费推荐：https://tt.vg/vip】20, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv3.sharecentrepro.org}, udp: true}
@@ -83,75 +38,44 @@ proxies:
   - {name: _01, server: 104.243.30.252, port: 246, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
   - {name: Relay_🇨🇳CN-🇩🇪DE_276, server: hbcu.lele233.top, port: 16157, type: ss, cipher: aes-256-gcm, password: 7fbcb881-1665-433f-9645-a77d5c55166e, udp: true}
   - {name: 香港01 2, server: piniahk01.abbblog.xyz, port: 37901, type: ss, cipher: aes-128-gcm, password: 359fe37c-e419-4f1c-8feb-441220024097, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_433, server: gzdx.jcnode.top, port: 43000, type: vmess, uuid: e6ae48b2-9677-426c-9579-cabfe29ff6e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fly, ws-headers: {Host: gzdx.jcnode.top}, udp: true}
   - {name: Relay_🇨🇳CN-🇸🇬SG_491, server: gzyd.jcnode.top, port: 43002, type: trojan, password: 94f8e633-a750-492e-a801-b7df92271534, sni: gzyd.jcnode.top, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳CN-🇫🇷FR_267, server: gzyd.jcnode.top, port: 40003, type: ss, cipher: aes-256-gcm, password: 94f8e633-a750-492e-a801-b7df92271534, udp: true}
   - {name: Relay_🇨🇳CN-🇸🇬SG_477, server: gzyd.jcnode.top, port: 23003, type: trojan, password: 7fbcb881-1665-433f-9645-a77d5c55166e, sni: gzyd.jcnode.top, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_307, server: gzyd.jcnode.top, port: 25001, type: ss, cipher: aes-256-gcm, password: 58d8aab4-6a2c-4b1c-98d1-66af67586d19, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_503, server: gzyd.jcnode.top, port: 43002, type: trojan, password: e6ae48b2-9677-426c-9579-cabfe29ff6e0, sni: gzyd.jcnode.top, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳CN-🇸🇬SG_497, server: gzdx.jcnode.top, port: 43002, type: trojan, password: 94f8e633-a750-492e-a801-b7df92271534, sni: gzdx.jcnode.top, skip-cert-verify: true, udp: true}
   - {name: 「SCP」US-DP3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp3.scproxy.top}, udp: true}
   - {name: Relay_🇨🇳CN-🇯🇵JP_279, server: gzdx.jcnode.top, port: 41000, type: ss, cipher: aes-256-gcm, password: 94f8e633-a750-492e-a801-b7df92271534, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_287, server: gzdx.jcnode.top, port: 41000, type: ss, cipher: aes-256-gcm, password: e6ae48b2-9677-426c-9579-cabfe29ff6e0, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_453, server: gzyd.jcnode.top, port: 43000, type: vmess, uuid: e6ae48b2-9677-426c-9579-cabfe29ff6e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fly, ws-headers: {Host: gzyd.jcnode.top}, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_327, server: gzdx.jcnode.top, port: 42001, type: ss, cipher: aes-256-gcm, password: 94f8e633-a750-492e-a801-b7df92271534, udp: true}
-  - {name: Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb, server: ru.mjt001.com, port: 443, type: trojan, password: 5a035db3-34ea-48ca-9aa2-72c8229e1532, sni: ru.mjt001.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_-🇭🇰HK_237, server: gg.xn--gmqa02ag57d.com, port: 22741, type: trojan, password: 7f9a382b-273e-3908-9316-ae898d7d265d, sni: gg.xn--gmqa02ag57d.com, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳CN-🇭🇰HK_321, server: gzyd.jcnode.top, port: 40002, type: ss, cipher: aes-256-gcm, password: 94f8e633-a750-492e-a801-b7df92271534, udp: true}
   - {name: "[1x]•🇸🇬狮城02", server: sgxd2.naichald.xyz, port: 443, type: vmess, uuid: b5ee2aa5-0764-46b9-b278-fd3f2d1b4df0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_463, server: gzdx.jcnode.top, port: 23000, type: vmess, uuid: 7fbcb881-1665-433f-9645-a77d5c55166e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gzdx.jcnode.top}, udp: true}
   - {name: US_679, server: 167.88.62.24, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Relay_🇨🇳CN-🇫🇷FR_301, server: gzyd.jcnode.top, port: 40003, type: ss, cipher: aes-256-gcm, password: e6ae48b2-9677-426c-9579-cabfe29ff6e0, udp: true}
   - {name: Relay_🇨🇳CN-🇯🇵JP_305, server: gzyd.jcnode.top, port: 21003, type: ss, cipher: aes-256-gcm, password: 7fbcb881-1665-433f-9645-a77d5c55166e, udp: true}
   - {name: NL_616, server: 51.15.0.113, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: Relay_🇺🇸US-🇺🇸US_791, server: rn.blowm1k.club, port: 14978, type: trojan, password: f5mpynwukL, sni: rn.blowm1k.club, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳CN-🇫🇷FR_320, server: gzdx.jcnode.top, port: 40003, type: ss, cipher: aes-256-gcm, password: 94f8e633-a750-492e-a801-b7df92271534, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_334, server: gzdx.jcnode.top, port: 21003, type: ss, cipher: aes-256-gcm, password: 7fbcb881-1665-433f-9645-a77d5c55166e, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_282, server: gzdx.jcnode.top, port: 49000, type: ss, cipher: aes-256-gcm, password: e6ae48b2-9677-426c-9579-cabfe29ff6e0, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_436, server: gzdx.jcnode.top, port: 43000, type: vmess, uuid: 94f8e633-a750-492e-a801-b7df92271534, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fly, ws-headers: {Host: gzdx.jcnode.top}, udp: true}
-  - {name: Relay_🇨🇳CN-🇦🇺AU_283, server: gzdx.jcnode.top, port: 49001, type: ss, cipher: aes-256-gcm, password: e6ae48b2-9677-426c-9579-cabfe29ff6e0, udp: true}
   - {name: US_607, server: 167.88.62.24, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: "[1x]•🇭🇰香港02", server: cm2.naichald.xyz, port: 38878, type: ss, cipher: chacha20-ietf-poly1305, password: b5ee2aa5-0764-46b9-b278-fd3f2d1b4df0, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_284, server: gzdx.jcnode.top, port: 25001, type: ss, cipher: aes-256-gcm, password: 58d8aab4-6a2c-4b1c-98d1-66af67586d19, udp: true}
-  - {name: Relay_🇨🇳CN-🇫🇷FR_310, server: gzdx.jcnode.top, port: 40003, type: ss, cipher: aes-256-gcm, password: e6ae48b2-9677-426c-9579-cabfe29ff6e0, udp: true}
-  - {name: Relay_-🇺🇸US_326, server: sgp-2.fuckjdieng.uk, port: 50162, type: trojan, password: 99993945-3df7-4a80-91dc-e3fbff84c39b, sni: sgp-2.fuckjdieng.uk, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_319, server: gzdx.jcnode.top, port: 49000, type: ss, cipher: aes-256-gcm, password: 94f8e633-a750-492e-a801-b7df92271534, udp: true}
   - {name: _Scaleway 2, server: cf.noaries.de, port: 8080, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: ft.cloudflare.quest}, udp: true}
   - {name: Relay_🇨🇳CN-🇺🇸US_278, server: gzdx.jcnode.top, port: 25001, type: ss, cipher: aes-256-gcm, password: 7fbcb881-1665-433f-9645-a77d5c55166e, udp: true}
   - {name: Pool_🇭🇰HK_442, server: 8.210.193.64, port: 54145, type: ssr, cipher: dummy, password: 345454t5t, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Relay_-🇸🇬SG_207, server: gg.xn--gmqa02ag57d.com, port: 17806, type: trojan, password: 7f9a382b-273e-3908-9316-ae898d7d265d, sni: gg.xn--gmqa02ag57d.com, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳CN-🇹🇼TW_313, server: gzdx01.jcnode.top, port: 42001, type: ss, cipher: aes-256-gcm, password: 94f8e633-a750-492e-a801-b7df92271534, udp: true}
   - {name: Pool_🇭🇰HK_157, server: 8.210.193.64, port: 50358, type: ssr, cipher: dummy, password: 234345g5g, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: Pool_🇸🇬SG_214, server: 8.218.235.20, port: 45210, type: ssr, cipher: dummy, password: 373484t5, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_266, server: hbcu.lele233.top, port: 16157, type: ss, cipher: aes-256-gcm, password: 58d8aab4-6a2c-4b1c-98d1-66af67586d19, udp: true}
   - {name: Pool_🇸🇬SG_536, server: 8.218.237.40, port: 51908, type: ssr, cipher: dummy, password: 34545r4r, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: Pool_🇭🇰HK_159, server: 47.242.207.156, port: 49898, type: ssr, cipher: dummy, password: !<str> 983483883, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: Pool_🇭🇰HK_160, server: 47.242.207.156, port: 47936, type: ssr, cipher: dummy, password: !<str> 723723823, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: Pool_🇸🇬SG_532, server: 8.218.250.230, port: 52929, type: ssr, cipher: dummy, password: 23434rt4, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: Pool_🇸🇬SG_527, server: 8.218.31.88, port: 47483, type: ssr, cipher: dummy, password: 234546345t5, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_306, server: gzyd.jcnode.top, port: 21003, type: ss, cipher: aes-256-gcm, password: 58d8aab4-6a2c-4b1c-98d1-66af67586d19, udp: true}
   - {name: Pool_🇸🇬SG_218, server: 8.218.184.41, port: 57334, type: ssr, cipher: dummy, password: !<str> 983477344, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: Pool_🇸🇬SG_410 |42.53Mb, server: 8.218.31.88, port: 58456, type: ssr, cipher: dummy, password: 23423t55t, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 日本01, server: piniajp01.abbblog.xyz, port: 37911, type: ss, cipher: aes-128-gcm, password: 9948b78a-5376-4d5a-9746-a4a82ce2b1ed, udp: true}
-  - {name: Relay_-🇯🇵JP_247, server: gg.xn--gmqa02ag57d.com, port: 20076, type: trojan, password: 7f9a382b-273e-3908-9316-ae898d7d265d, sni: gg.xn--gmqa02ag57d.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇸🇬SG-🇺🇸US_1110, server: sgp-2.fuckjdieng.uk, port: 50132, type: trojan, password: 14dfcbc3-fb69-43f4-a1a1-d06124eb3d03, sni: sgp-2.fuckjdieng.uk, skip-cert-verify: true, udp: true}
   - {name: "[1x]•🇸🇬狮城01", server: sgxd.naichald.xyz, port: 443, type: vmess, uuid: b5ee2aa5-0764-46b9-b278-fd3f2d1b4df0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: tms.dingtalk.com}, udp: true}
   - {name: Pool_🇸🇬SG_546, server: 8.218.184.41, port: 55007, type: ssr, cipher: dummy, password: !<str> 923883, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: US_619, server: 167.88.62.24, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: Relay_🇨🇳CN-🇦🇺AU_290, server: gzdx01.jcnode.top, port: 49001, type: ss, cipher: aes-256-gcm, password: e6ae48b2-9677-426c-9579-cabfe29ff6e0, udp: true}
   - {name: Relay_🇨🇳CN-🇺🇸US_237, server: gddx.fosi.hk, port: 20134, type: ss, cipher: chacha20-ietf-poly1305, password: 5ab93115-c29b-4286-a25e-42623ded5e72, udp: true}
-  - {name: Relay_-🇸🇬SG_235, server: gg.xn--gmqa02ag57d.com, port: 25238, type: trojan, password: 7f9a382b-273e-3908-9316-ae898d7d265d, sni: gg.xn--gmqa02ag57d.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_-🇸🇬SG_244, server: gg.xn--gmqa02ag57d.com, port: 11215, type: trojan, password: 7f9a382b-273e-3908-9316-ae898d7d265d, sni: gg.xn--gmqa02ag57d.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_317, server: gzyd.jcnode.top, port: 40002, type: ss, cipher: aes-256-gcm, password: e6ae48b2-9677-426c-9579-cabfe29ff6e0, udp: true}
   - {name: 「SCP」US-BuyVM4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv3.sharecentrepro.org}, udp: true}
   - {name: Relay_🇨🇳CN-🇸🇬SG_469, server: gzyd.jcnode.top, port: 23002, type: vmess, uuid: 7fbcb881-1665-433f-9645-a77d5c55166e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gzyd.jcnode.top}, udp: true}
   - {name: Relay_🇨🇳CN-🇭🇰HK_512, server: gxct.lele233.top, port: 24389, type: trojan, password: 7fbcb881-1665-433f-9645-a77d5c55166e, sni: gxct.lele233.top, skip-cert-verify: true, udp: true}
   - {name: 「SCP」US-DP2-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp2.scproxy.top}, udp: true}
-  - {name: Relay_🇨🇳CN-🇦🇺AU_326, server: gzdx01.jcnode.top, port: 49001, type: ss, cipher: aes-256-gcm, password: 94f8e633-a750-492e-a801-b7df92271534, udp: true}
-  - {name: _105 |28.12Mb, server: 103.29.2.102, port: 80, type: vmess, uuid: a740cddf-bda7-4b58-8eda-35bece740b6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /anti13.zingfast.vn, ws-headers: {Host: 103.29.2.102}, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_434, server: hbcu.lele233.top, port: 44390, type: vmess, uuid: 58d8aab4-6a2c-4b1c-98d1-66af67586d19, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hbcu.lele233.top}, udp: true}
   - {name: Relay_🇨🇳CN-🇩🇪DE_329, server: gzyd.jcnode.top, port: 27000, type: ss, cipher: aes-256-gcm, password: 7fbcb881-1665-433f-9645-a77d5c55166e, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_478, server: gzdx.jcnode.top, port: 43002, type: trojan, password: e6ae48b2-9677-426c-9579-cabfe29ff6e0, sni: gzdx.jcnode.top, skip-cert-verify: true, udp: true}
   - {name: Pool_🇸🇬SG_525, server: 8.218.250.230, port: 55323, type: ssr, cipher: dummy, password: 34534fe4, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: US_671, server: 167.88.62.24, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Pool_🇸🇬SG_534, server: 8.218.172.125, port: 53743, type: ssr, cipher: dummy, password: !<str> 92883454, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
@@ -162,10 +86,6 @@ proxies:
   - {name: Pool_🇭🇰HK_444, server: 47.243.196.220, port: 52738, type: ssr, cipher: dummy, password: !<str> 8236723, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 「SCP」CA-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca.ilovescp.com}, udp: true}
   - {name: Relay_🇨🇳CN-🇺🇸US_509, server: gzdx.jcnode.top, port: 48000, type: trojan, password: 94f8e633-a750-492e-a801-b7df92271534, sni: gzdx.jcnode.top, skip-cert-verify: true, udp: true}
-  - {name: _112 |27.34Mb, server: 103.190.107.162, port: 80, type: vmess, uuid: a740cddf-bda7-4b58-8eda-35bece740b6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /anti13.zingfast.vn, ws-headers: {Host: 103.190.107.162}, udp: true}
-  - {name: Pool__31, server: 23.247.137.71, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: df1fab2.dl.nintendo.net:16569}, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_492, server: gzdx.jcnode.top, port: 48000, type: trojan, password: e6ae48b2-9677-426c-9579-cabfe29ff6e0, sni: gzdx.jcnode.top, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_315, server: gzdx.jcnode.top, port: 21003, type: ss, cipher: aes-256-gcm, password: 58d8aab4-6a2c-4b1c-98d1-66af67586d19, udp: true}
   - {name: _73, server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: Relay_🇨🇳CN-🇺🇸US_450, server: gzyd.jcnode.top, port: 28001, type: vmess, uuid: 7fbcb881-1665-433f-9645-a77d5c55166e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gzyd.jcnode.top}, udp: true}
   - {name: Relay_🇺🇸US-🇺🇸US_866, server: ora.blowm1k.club, port: 28199, type: trojan, password: KpdSpmQB3i, sni: ora.blowm1k.club, skip-cert-verify: true, udp: true}
@@ -175,9 +95,7 @@ proxies:
   - {name: Relay_🇨🇳CN-🇹🇼TW_352, server: 4e36nodev1.jcdn1.kiki789.com, port: 23033, type: vmess, uuid: 07da79a2-75ff-349c-8ded-0af6a9735ab0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /87751ff2-222a-477b-8bec-60a13527f24c.live238.m3u8, ws-headers: {Host: 4e36nodev1.jcdn1.kiki789.com}, udp: true}
   - {name: US_680, server: 167.88.62.24, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: Pool_🇭🇰HK_439, server: 47.243.23.61, port: 49478, type: ssr, cipher: dummy, password: !<str> 23478237, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Relay_-🇫🇷FR_185, server: amongusx.pomo-choose.xyz, port: 7, type: vmess, uuid: 0a336f4b-b324-4435-911b-f43aec4196b8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: amongusx.pomo-choose.xyz}, udp: true}
   - {name: Relay_🇨🇳CN-🇺🇸US_449, server: gzyd.jcnode.top, port: 28000, type: vmess, uuid: 7fbcb881-1665-433f-9645-a77d5c55166e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gzyd.jcnode.top}, udp: true}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_302, server: gzyd.jcnode.top, port: 27000, type: ss, cipher: aes-256-gcm, password: 58d8aab4-6a2c-4b1c-98d1-66af67586d19, udp: true}
   - {name: Relay_🇨🇳CN-🇷🇺RU_268, server: cn1.applebench.tech, port: 19198, type: ss, cipher: chacha20-ietf-poly1305, password: 7335c755-8c4c-4e85-821c-589d3d6e20b8, udp: true}
   - {name: 「SCP」SG-CF1-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: sg1.sharecentrepro.com}, udp: true}
   - {name: Relay_🇺🇸US-🇺🇸US_733, server: aws.blowm1k.club, port: 25303, type: trojan, password: iyhaPKBykP, sni: aws.blowm1k.club, skip-cert-verify: true, udp: true}
@@ -191,87 +109,78 @@ proxies:
   - {name: Pool_🇸🇬SG_547, server: 8.218.236.164, port: 56044, type: ssr, cipher: dummy, password: 456t5y5y, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: _32, server: 190.120.231.45, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 美国【付费推荐：https://tt.vg/vip】41, server: 192.203.230.65, port: 443, type: vmess, uuid: e784464d-7dd8-48ea-b65c-20a68793a5a6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /kbjc/jp1, ws-headers: {Host: jp1.hnokkdf.top}, udp: true}
-  - {name: Relay_-🇸🇬SG_159, server: gzyd.jcnode.top, port: 23002, type: vmess, uuid: 58d8aab4-6a2c-4b1c-98d1-66af67586d19, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gzyd.jcnode.top}, udp: true}
   - {name: _72, server: 190.103.176.29, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: Relay_🇨🇳CN-🇭🇰HK_394, server: oss-cn-shanghai.westdatacloud.xyz, port: 20048, type: trojan, password: 1bee3bed-6ddb-11ed-bbdc-f23c935380ee, sni: oss-cn-shanghai.westdatacloud.xyz, skip-cert-verify: true, udp: true}
   - {name: Pool_🇭🇰HK_441, server: 47.243.23.61, port: 53607, type: ssr, cipher: dummy, password: !<str> 8347545, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Relay_🇮🇩ID-🇮🇩ID_1200, server: id.ftvpn.xyz, port: 80, type: vmess, uuid: 49cfb56e-ae2b-478d-a4ee-cddb92213dc2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: id.ftvpn.xyz}, udp: true}
   - {name: _30, server: 130.0.234.1, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: Pool_🇸🇬SG_543, server: 8.218.236.164, port: 50935, type: ssr, cipher: dummy, password: 3452345r4, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: Pool_🇸🇬SG_201, server: 8.218.241.212, port: 56077, type: ssr, cipher: dummy, password: 823773rr, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: Relay_🇨🇳CN-🇺🇸US_424, server: gzdx.jcnode.top, port: 28000, type: vmess, uuid: 7fbcb881-1665-433f-9645-a77d5c55166e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gzdx.jcnode.top}, udp: true}
-  - {name: Relay_-🇭🇰HK_172, server: 120.232.179.161, port: 63078, type: vmess, uuid: c796ecaf-e6ca-3eba-96d3-21df44550cbc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
   - {name: US_681, server: 167.88.62.24, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: "_[原生]pilw", server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: ee.cloudflare.quest}, udp: true}
   - {name: Pool_🇸🇬SG_210, server: 8.218.237.40, port: 53174, type: ssr, cipher: dummy, password: 34534t5, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: Pool_🇭🇰HK_452, server: 103.39.79.4, port: 48151, type: ssr, cipher: dummy, password: !<str> 23235326634, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Relay_-🇹🇼TW_218, server: gg.xn--gmqa02ag57d.com, port: 17629, type: trojan, password: 7f9a382b-273e-3908-9316-ae898d7d265d, sni: gg.xn--gmqa02ag57d.com, skip-cert-verify: true, udp: true}
+  - {name: 美国02, server: piniaus01.abbblog.xyz, port: 37917, type: ss, cipher: aes-128-gcm, password: 07a53fc2-3ca3-4d56-b872-0cebca5d7a87, udp: true}
+  - {name: 台湾03「ChatGPT」, server: cybree.0109480.xyz, port: 44444, type: vmess, uuid: bcb6ffbe-214d-32d0-8669-ded08037c8fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: cybree.0109480.xyz}, udp: true}
+  - {name: 新加坡02, server: piniasg01.abbblog.xyz, port: 37907, type: ss, cipher: aes-128-gcm, password: e1391926-7121-4fc7-ac83-ec4a920f7171, udp: true}
+  - {name: 台湾02, server: piniatw01.abbblog.xyz, port: 37922, type: ss, cipher: aes-128-gcm, password: 4fba4fe9-cf4f-4adb-9115-212b6a4aa7ad, udp: true}
+  - {name: 美国03, server: piniaus01.abbblog.xyz, port: 37918, type: ss, cipher: aes-128-gcm, password: 07a53fc2-3ca3-4d56-b872-0cebca5d7a87, udp: true}
+  - {name: 日本01 2, server: piniajp01.abbblog.xyz, port: 37911, type: ss, cipher: aes-128-gcm, password: 359fe37c-e419-4f1c-8feb-441220024097, udp: true}
+  - {name: 香港03, server: piniahk01.abbblog.xyz, port: 37903, type: ss, cipher: aes-128-gcm, password: bf5677b2-00ca-4077-95ac-13c05e493aa4, udp: true}
+  - {name: Relay_-🇹🇼TW_178, server: 139.226.112.205, port: 63088, type: vmess, uuid: c796ecaf-e6ca-3eba-96d3-21df44550cbc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: tw-load-balancer.myn1des.com}, udp: true}
+  - {name: "[1x]•🇸🇬狮城03", server: sgxd3.naichald.xyz, port: 443, type: vmess, uuid: b5ee2aa5-0764-46b9-b278-fd3f2d1b4df0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: 日本03 2, server: edge-earth.themars.top, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: b63ab848-16e9-426b-a59f-51967804e6ee, udp: true}
+  - {name: _118, server: 43.201.148.126, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: Pool_🇭🇰HK_445, server: 47.242.64.255, port: 52017, type: ssr, cipher: dummy, password: !<str> 34523444, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "[1x]•🇸🇬狮城08", server: cm3.naichald.xyz, port: 34478, type: ss, cipher: chacha20-ietf-poly1305, password: b5ee2aa5-0764-46b9-b278-fd3f2d1b4df0, udp: true}
+  - {name: 新加坡03 2, server: edge-earth.themars.top, port: 50003, type: ss, cipher: chacha20-ietf-poly1305, password: b63ab848-16e9-426b-a59f-51967804e6ee, udp: true}
+  - {name: "[1x]•🇸🇬狮城09", server: cm2.naichald.xyz, port: 34478, type: ss, cipher: chacha20-ietf-poly1305, password: b5ee2aa5-0764-46b9-b278-fd3f2d1b4df0, udp: true}
+  - {name: Pool_🇭🇰HK_458, server: 47.243.196.220, port: 53110, type: ssr, cipher: dummy, password: !<str> 23423, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Relay_-🇹🇼TW_209, server: 223.166.157.46, port: 63088, type: vmess, uuid: c796ecaf-e6ca-3eba-96d3-21df44550cbc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: tw-load-balancer.myn1des.com}, udp: true}
+  - {name: "[1x]•🇸🇬狮城11", server: 129.150.56.193, port: 443, type: vmess, uuid: b5ee2aa5-0764-46b9-b278-fd3f2d1b4df0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: Relay_-🇨🇳CN_111, server: dajbxus.naikonode.top, port: 15106, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: Vm0weE1HRnRWa2hWV0doV1ltdHdUMVV3WkZOVU1WcDBUVmM1V0Zac2JETlhhMk0xVm14S2MyTkliRmhoTW1neldXdGFZV014VG5KaVJsWlhWakpvTWxkV1pEUlRNbEpJVld0V1dHSkdjRTlaVjNoaFlqRmtWMXBJY0d4U01EVlpWVEowYzFadFNsWlhiRkpYWWtaS1JGUnJXbXRXTVd0NllVWlNhVlpzY0ZoV1JscFhVMmM, udp: true}
+  - {name: "[1x]•🇯🇵日本03", server: 141.147.167.154, port: 443, type: vmess, uuid: b5ee2aa5-0764-46b9-b278-fd3f2d1b4df0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_1034, server: 116.192.171.97, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, skip-cert-verify: true, udp: true}
+  - {name: 台湾04, server: piniatw01.abbblog.xyz, port: 37924, type: ss, cipher: aes-128-gcm, password: 4fba4fe9-cf4f-4adb-9115-212b6a4aa7ad, udp: true}
+  - {name: Pool_🇸🇬SG_540, server: 8.218.235.20, port: 48966, type: ssr, cipher: dummy, password: !<str> 83848345, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Relay_🇦🇺AU-🇦🇺AU_338, server: hk6.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: hk6.af49c4e4c2ef.sanfen001.pics}, udp: true}
+  - {name: Pool_🇸🇬SG_533, server: 8.218.188.108, port: 57282, type: ssr, cipher: dummy, password: !<str> 92388323, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb, server: hinet.mjt001.com, port: 443, type: trojan, password: 74400921-f59f-4009-b52a-c2789b49fab6, sni: hinet.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: 美国01 3, server: piniaus01.abbblog.xyz, port: 37916, type: ss, cipher: aes-128-gcm, password: 359fe37c-e419-4f1c-8feb-441220024097, udp: true}
+  - {name: Relay_-🇺🇸US_137, server: api.qiscus.com, port: 443, type: vmess, uuid: bf144b2d-1a18-45b4-9372-64dd3e9682df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: sg2-mlb.v2rayserv.com}, udp: true}
+  - {name: "[1x]•🇯🇵日本01", server: 155.248.160.145, port: 443, type: vmess, uuid: b5ee2aa5-0764-46b9-b278-fd3f2d1b4df0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: JP_474, server: 54.238.226.17, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: Relay_-🇺🇸US_976, server: usajs.stablize.top, port: 443, type: trojan, password: 62326316-9ec6-43af-a210-b755e3e9623f, sni: usajs.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: Pool_🇭🇰HK_446, server: 47.242.64.255, port: 51074, type: ssr, cipher: dummy, password: !<str> 34556345, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Relay_🇹🇼TW-🇹🇼TW_1515 2, server: tw2.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 美国03「ChatGPT」, server: piniaus01.abbblog.xyz, port: 37918, type: ss, cipher: aes-128-gcm, password: 6765e9c1-e6b9-4cb9-ad76-33a5619b9f43, udp: true}
+  - {name: 美国05 2, server: us1.0109480.xyz, port: 32401, type: vmess, uuid: bcb6ffbe-214d-32d0-8669-ded08037c8fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb, server: ru.mjt001.com, port: 443, type: trojan, password: 5a035db3-34ea-48ca-9aa2-72c8229e1532, sni: ru.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: 美国01, server: shcn2.bjyxrwlkj.com, port: 20008, type: vmess, uuid: 7de8b578-fb38-38a8-b28b-88e22a48194f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /us-1, ws-headers: {Host: api.teborder.com}, udp: true}
+  - {name: 台湾03, server: edge-earth.themars.top, port: 50008, type: ss, cipher: chacha20-ietf-poly1305, password: b63ab848-16e9-426b-a59f-51967804e6ee, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国02
-      - 香港07
-      - 台湾03「ChatGPT」
-      - 新加坡02
-      - 台湾02
-      - 美国03
       - _[PF][数据网络]Scaleway-圣卢西亚Digicel
-      - 日本01 2
       - _Scaleway
       - _[无审计]BuyVM
       - _[PF][家宽]OVH-韩国LG U+
-      - 香港03
       - _[月抛]AWS
-      - 台湾01
-      - Relay_-🇹🇼TW_178
-      - "[1x]•🇸🇬狮城03"
-      - 美国04
-      - 日本03 2
-      - _118
-      - Pool_🇭🇰HK_445
-      - "[1x]•🇸🇬狮城08"
       - _[低配]Hostmaze
       - -美国-cf-lt.sharecentre.online
-      - 新加坡03 2
-      - "[1x]•🇸🇬狮城09"
-      - Pool_🇭🇰HK_458
-      - Relay_-🇹🇼TW_209
-      - "[1x]•🇸🇬狮城11"
-      - Relay_-🇨🇳CN_111
-      - Relay_🇺🇸US-🇺🇸US_758
-      - "[1x]•🇯🇵日本03"
       - _[WARP]Scaleway
       - 新加坡03
-      - Relay_🇨🇳CN-🇹🇼TW_1034
-      - _109 |12.86Mb
-      - 台湾04
-      - Pool_🇸🇬SG_540
-      - Relay_-🇭🇰HK_228
       - _[WARP]Scaleway 2
-      - Relay_🇦🇺AU-🇦🇺AU_338
-      - Pool_🇸🇬SG_533
       - "[1x]•🇸🇬狮城05"
-      - Relay_-🇩🇪DE_197
-      - Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb
-      - 美国01 3
-      - Relay_-🇺🇸US_137
-      - Relay_-🇭🇰HK_223
       - 日本03
-      - "[1x]•🇯🇵日本01"
-      - JP_474
       - 新加坡01 2
-      - Relay_-🇺🇸US_976
-      - Relay_-🇰🇷KR_220
-      - SG_639
       - TW🇸🇬_[PF][家宽]OVH-台灣凱擘大寬頻KBRO
-      - Pool_🇭🇰HK_446
       - 日本02
       - _[PF][家宽]OVH_日本SONY
       - _[PF][家宽]OVH-泰国AIS
-      - 香港02
       - 美国01 2
       - "[1x]•🇸🇬狮城04"
       - Relay_🇹🇼TW-🇹🇼TW_1515
@@ -279,9 +188,7 @@ proxy-groups:
       - 美国04「ChatGPT」
       - SG_637
       - US_695
-      - 美国03「ChatGPT」
       - Relay_🇨🇳CN-🇺🇸US_457
-      - _238
       - "[1x]•🇭🇰香港03"
       - 香港01
       - 美国【付费推荐：https://tt.vg/vip】20
@@ -290,75 +197,44 @@ proxy-groups:
       - _01
       - Relay_🇨🇳CN-🇩🇪DE_276
       - 香港01 2
-      - Relay_🇨🇳CN-🇸🇬SG_433
       - Relay_🇨🇳CN-🇸🇬SG_491
       - Relay_🇨🇳CN-🇫🇷FR_267
       - Relay_🇨🇳CN-🇸🇬SG_477
-      - Relay_🇨🇳CN-🇺🇸US_307
-      - Relay_🇨🇳CN-🇸🇬SG_503
       - Relay_🇨🇳CN-🇸🇬SG_497
       - 「SCP」US-DP3-HTTP
       - Relay_🇨🇳CN-🇯🇵JP_279
-      - Relay_🇨🇳CN-🇯🇵JP_287
-      - Relay_🇨🇳CN-🇸🇬SG_453
-      - Relay_🇨🇳CN-🇹🇼TW_327
-      - Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb
-      - Relay_-🇭🇰HK_237
       - Relay_🇨🇳CN-🇭🇰HK_321
       - "[1x]•🇸🇬狮城02"
-      - Relay_🇨🇳CN-🇸🇬SG_463
       - US_679
-      - Relay_🇨🇳CN-🇫🇷FR_301
       - Relay_🇨🇳CN-🇯🇵JP_305
       - NL_616
       - Relay_🇺🇸US-🇺🇸US_791
       - Relay_🇨🇳CN-🇫🇷FR_320
-      - Relay_🇨🇳CN-🇯🇵JP_334
-      - Relay_🇨🇳CN-🇺🇸US_282
-      - Relay_🇨🇳CN-🇸🇬SG_436
-      - Relay_🇨🇳CN-🇦🇺AU_283
       - US_607
       - "[1x]•🇭🇰香港02"
-      - Relay_🇨🇳CN-🇺🇸US_284
-      - Relay_🇨🇳CN-🇫🇷FR_310
-      - Relay_-🇺🇸US_326
-      - Relay_🇨🇳CN-🇺🇸US_319
       - _Scaleway 2
       - Relay_🇨🇳CN-🇺🇸US_278
       - Pool_🇭🇰HK_442
-      - Relay_-🇸🇬SG_207
       - Relay_🇨🇳CN-🇹🇼TW_313
       - Pool_🇭🇰HK_157
       - Pool_🇸🇬SG_214
-      - Relay_🇨🇳CN-🇩🇪DE_266
       - Pool_🇸🇬SG_536
       - Pool_🇭🇰HK_159
       - Pool_🇭🇰HK_160
       - Pool_🇸🇬SG_532
       - Pool_🇸🇬SG_527
-      - Relay_🇨🇳CN-🇯🇵JP_306
       - Pool_🇸🇬SG_218
       - Pool_🇸🇬SG_410 |42.53Mb
       - 日本01
-      - Relay_-🇯🇵JP_247
-      - Relay_🇸🇬SG-🇺🇸US_1110
       - "[1x]•🇸🇬狮城01"
       - Pool_🇸🇬SG_546
       - US_619
-      - Relay_🇨🇳CN-🇦🇺AU_290
       - Relay_🇨🇳CN-🇺🇸US_237
-      - Relay_-🇸🇬SG_235
-      - Relay_-🇸🇬SG_244
-      - Relay_🇨🇳CN-🇭🇰HK_317
       - 「SCP」US-BuyVM4-HTTP
       - Relay_🇨🇳CN-🇸🇬SG_469
       - Relay_🇨🇳CN-🇭🇰HK_512
       - 「SCP」US-DP2-HTTP
-      - Relay_🇨🇳CN-🇦🇺AU_326
-      - _105 |28.12Mb
-      - Relay_🇨🇳CN-🇺🇸US_434
       - Relay_🇨🇳CN-🇩🇪DE_329
-      - Relay_🇨🇳CN-🇸🇬SG_478
       - Pool_🇸🇬SG_525
       - US_671
       - Pool_🇸🇬SG_534
@@ -369,10 +245,6 @@ proxy-groups:
       - Pool_🇭🇰HK_444
       - 「SCP」CA-CF-HTTP
       - Relay_🇨🇳CN-🇺🇸US_509
-      - _112 |27.34Mb
-      - Pool__31
-      - Relay_🇨🇳CN-🇺🇸US_492
-      - Relay_🇨🇳CN-🇯🇵JP_315
       - _73
       - Relay_🇨🇳CN-🇺🇸US_450
       - Relay_🇺🇸US-🇺🇸US_866
@@ -382,9 +254,7 @@ proxy-groups:
       - Relay_🇨🇳CN-🇹🇼TW_352
       - US_680
       - Pool_🇭🇰HK_439
-      - Relay_-🇫🇷FR_185
       - Relay_🇨🇳CN-🇺🇸US_449
-      - Relay_🇨🇳CN-🇩🇪DE_302
       - Relay_🇨🇳CN-🇷🇺RU_268
       - 「SCP」SG-CF1-HTTP
       - Relay_🇺🇸US-🇺🇸US_733
@@ -398,86 +268,77 @@ proxy-groups:
       - Pool_🇸🇬SG_547
       - _32
       - 美国【付费推荐：https://tt.vg/vip】41
-      - Relay_-🇸🇬SG_159
       - _72
       - Relay_🇨🇳CN-🇭🇰HK_394
       - Pool_🇭🇰HK_441
-      - Relay_🇮🇩ID-🇮🇩ID_1200
       - _30
       - Pool_🇸🇬SG_543
       - Pool_🇸🇬SG_201
       - Relay_🇨🇳CN-🇺🇸US_424
-      - Relay_-🇭🇰HK_172
       - US_681
       - _[原生]pilw
       - Pool_🇸🇬SG_210
       - Pool_🇭🇰HK_452
-      - Relay_-🇹🇼TW_218
+      - 美国02
+      - 台湾03「ChatGPT」
+      - 新加坡02
+      - 台湾02
+      - 美国03
+      - 日本01 2
+      - 香港03
+      - Relay_-🇹🇼TW_178
+      - "[1x]•🇸🇬狮城03"
+      - 日本03 2
+      - _118
+      - Pool_🇭🇰HK_445
+      - "[1x]•🇸🇬狮城08"
+      - 新加坡03 2
+      - "[1x]•🇸🇬狮城09"
+      - Pool_🇭🇰HK_458
+      - Relay_-🇹🇼TW_209
+      - "[1x]•🇸🇬狮城11"
+      - Relay_-🇨🇳CN_111
+      - "[1x]•🇯🇵日本03"
+      - Relay_🇨🇳CN-🇹🇼TW_1034
+      - 台湾04
+      - Pool_🇸🇬SG_540
+      - Relay_🇦🇺AU-🇦🇺AU_338
+      - Pool_🇸🇬SG_533
+      - Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb
+      - 美国01 3
+      - Relay_-🇺🇸US_137
+      - "[1x]•🇯🇵日本01"
+      - JP_474
+      - Relay_-🇺🇸US_976
+      - Pool_🇭🇰HK_446
+      - Relay_🇹🇼TW-🇹🇼TW_1515 2
+      - 美国03「ChatGPT」
+      - 美国05 2
+      - Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb
+      - 美国01
+      - 台湾03
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国02
-      - 香港07
-      - 台湾03「ChatGPT」
-      - 新加坡02
-      - 台湾02
-      - 美国03
       - _[PF][数据网络]Scaleway-圣卢西亚Digicel
-      - 日本01 2
       - _Scaleway
       - _[无审计]BuyVM
       - _[PF][家宽]OVH-韩国LG U+
-      - 香港03
       - _[月抛]AWS
-      - 台湾01
-      - Relay_-🇹🇼TW_178
-      - "[1x]•🇸🇬狮城03"
-      - 美国04
-      - 日本03 2
-      - _118
-      - Pool_🇭🇰HK_445
-      - "[1x]•🇸🇬狮城08"
       - _[低配]Hostmaze
       - -美国-cf-lt.sharecentre.online
-      - 新加坡03 2
-      - "[1x]•🇸🇬狮城09"
-      - Pool_🇭🇰HK_458
-      - Relay_-🇹🇼TW_209
-      - "[1x]•🇸🇬狮城11"
-      - Relay_-🇨🇳CN_111
-      - Relay_🇺🇸US-🇺🇸US_758
-      - "[1x]•🇯🇵日本03"
       - _[WARP]Scaleway
       - 新加坡03
-      - Relay_🇨🇳CN-🇹🇼TW_1034
-      - _109 |12.86Mb
-      - 台湾04
-      - Pool_🇸🇬SG_540
-      - Relay_-🇭🇰HK_228
       - _[WARP]Scaleway 2
-      - Relay_🇦🇺AU-🇦🇺AU_338
-      - Pool_🇸🇬SG_533
       - "[1x]•🇸🇬狮城05"
-      - Relay_-🇩🇪DE_197
-      - Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb
-      - 美国01 3
-      - Relay_-🇺🇸US_137
-      - Relay_-🇭🇰HK_223
       - 日本03
-      - "[1x]•🇯🇵日本01"
-      - JP_474
       - 新加坡01 2
-      - Relay_-🇺🇸US_976
-      - Relay_-🇰🇷KR_220
-      - SG_639
       - TW🇸🇬_[PF][家宽]OVH-台灣凱擘大寬頻KBRO
-      - Pool_🇭🇰HK_446
       - 日本02
       - _[PF][家宽]OVH_日本SONY
       - _[PF][家宽]OVH-泰国AIS
-      - 香港02
       - 美国01 2
       - "[1x]•🇸🇬狮城04"
       - Relay_🇹🇼TW-🇹🇼TW_1515
@@ -485,9 +346,7 @@ proxy-groups:
       - 美国04「ChatGPT」
       - SG_637
       - US_695
-      - 美国03「ChatGPT」
       - Relay_🇨🇳CN-🇺🇸US_457
-      - _238
       - "[1x]•🇭🇰香港03"
       - 香港01
       - 美国【付费推荐：https://tt.vg/vip】20
@@ -496,75 +355,44 @@ proxy-groups:
       - _01
       - Relay_🇨🇳CN-🇩🇪DE_276
       - 香港01 2
-      - Relay_🇨🇳CN-🇸🇬SG_433
       - Relay_🇨🇳CN-🇸🇬SG_491
       - Relay_🇨🇳CN-🇫🇷FR_267
       - Relay_🇨🇳CN-🇸🇬SG_477
-      - Relay_🇨🇳CN-🇺🇸US_307
-      - Relay_🇨🇳CN-🇸🇬SG_503
       - Relay_🇨🇳CN-🇸🇬SG_497
       - 「SCP」US-DP3-HTTP
       - Relay_🇨🇳CN-🇯🇵JP_279
-      - Relay_🇨🇳CN-🇯🇵JP_287
-      - Relay_🇨🇳CN-🇸🇬SG_453
-      - Relay_🇨🇳CN-🇹🇼TW_327
-      - Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb
-      - Relay_-🇭🇰HK_237
       - Relay_🇨🇳CN-🇭🇰HK_321
       - "[1x]•🇸🇬狮城02"
-      - Relay_🇨🇳CN-🇸🇬SG_463
       - US_679
-      - Relay_🇨🇳CN-🇫🇷FR_301
       - Relay_🇨🇳CN-🇯🇵JP_305
       - NL_616
       - Relay_🇺🇸US-🇺🇸US_791
       - Relay_🇨🇳CN-🇫🇷FR_320
-      - Relay_🇨🇳CN-🇯🇵JP_334
-      - Relay_🇨🇳CN-🇺🇸US_282
-      - Relay_🇨🇳CN-🇸🇬SG_436
-      - Relay_🇨🇳CN-🇦🇺AU_283
       - US_607
       - "[1x]•🇭🇰香港02"
-      - Relay_🇨🇳CN-🇺🇸US_284
-      - Relay_🇨🇳CN-🇫🇷FR_310
-      - Relay_-🇺🇸US_326
-      - Relay_🇨🇳CN-🇺🇸US_319
       - _Scaleway 2
       - Relay_🇨🇳CN-🇺🇸US_278
       - Pool_🇭🇰HK_442
-      - Relay_-🇸🇬SG_207
       - Relay_🇨🇳CN-🇹🇼TW_313
       - Pool_🇭🇰HK_157
       - Pool_🇸🇬SG_214
-      - Relay_🇨🇳CN-🇩🇪DE_266
       - Pool_🇸🇬SG_536
       - Pool_🇭🇰HK_159
       - Pool_🇭🇰HK_160
       - Pool_🇸🇬SG_532
       - Pool_🇸🇬SG_527
-      - Relay_🇨🇳CN-🇯🇵JP_306
       - Pool_🇸🇬SG_218
       - Pool_🇸🇬SG_410 |42.53Mb
       - 日本01
-      - Relay_-🇯🇵JP_247
-      - Relay_🇸🇬SG-🇺🇸US_1110
       - "[1x]•🇸🇬狮城01"
       - Pool_🇸🇬SG_546
       - US_619
-      - Relay_🇨🇳CN-🇦🇺AU_290
       - Relay_🇨🇳CN-🇺🇸US_237
-      - Relay_-🇸🇬SG_235
-      - Relay_-🇸🇬SG_244
-      - Relay_🇨🇳CN-🇭🇰HK_317
       - 「SCP」US-BuyVM4-HTTP
       - Relay_🇨🇳CN-🇸🇬SG_469
       - Relay_🇨🇳CN-🇭🇰HK_512
       - 「SCP」US-DP2-HTTP
-      - Relay_🇨🇳CN-🇦🇺AU_326
-      - _105 |28.12Mb
-      - Relay_🇨🇳CN-🇺🇸US_434
       - Relay_🇨🇳CN-🇩🇪DE_329
-      - Relay_🇨🇳CN-🇸🇬SG_478
       - Pool_🇸🇬SG_525
       - US_671
       - Pool_🇸🇬SG_534
@@ -575,10 +403,6 @@ proxy-groups:
       - Pool_🇭🇰HK_444
       - 「SCP」CA-CF-HTTP
       - Relay_🇨🇳CN-🇺🇸US_509
-      - _112 |27.34Mb
-      - Pool__31
-      - Relay_🇨🇳CN-🇺🇸US_492
-      - Relay_🇨🇳CN-🇯🇵JP_315
       - _73
       - Relay_🇨🇳CN-🇺🇸US_450
       - Relay_🇺🇸US-🇺🇸US_866
@@ -588,9 +412,7 @@ proxy-groups:
       - Relay_🇨🇳CN-🇹🇼TW_352
       - US_680
       - Pool_🇭🇰HK_439
-      - Relay_-🇫🇷FR_185
       - Relay_🇨🇳CN-🇺🇸US_449
-      - Relay_🇨🇳CN-🇩🇪DE_302
       - Relay_🇨🇳CN-🇷🇺RU_268
       - 「SCP」SG-CF1-HTTP
       - Relay_🇺🇸US-🇺🇸US_733
@@ -604,87 +426,78 @@ proxy-groups:
       - Pool_🇸🇬SG_547
       - _32
       - 美国【付费推荐：https://tt.vg/vip】41
-      - Relay_-🇸🇬SG_159
       - _72
       - Relay_🇨🇳CN-🇭🇰HK_394
       - Pool_🇭🇰HK_441
-      - Relay_🇮🇩ID-🇮🇩ID_1200
       - _30
       - Pool_🇸🇬SG_543
       - Pool_🇸🇬SG_201
       - Relay_🇨🇳CN-🇺🇸US_424
-      - Relay_-🇭🇰HK_172
       - US_681
       - _[原生]pilw
       - Pool_🇸🇬SG_210
       - Pool_🇭🇰HK_452
-      - Relay_-🇹🇼TW_218
+      - 美国02
+      - 台湾03「ChatGPT」
+      - 新加坡02
+      - 台湾02
+      - 美国03
+      - 日本01 2
+      - 香港03
+      - Relay_-🇹🇼TW_178
+      - "[1x]•🇸🇬狮城03"
+      - 日本03 2
+      - _118
+      - Pool_🇭🇰HK_445
+      - "[1x]•🇸🇬狮城08"
+      - 新加坡03 2
+      - "[1x]•🇸🇬狮城09"
+      - Pool_🇭🇰HK_458
+      - Relay_-🇹🇼TW_209
+      - "[1x]•🇸🇬狮城11"
+      - Relay_-🇨🇳CN_111
+      - "[1x]•🇯🇵日本03"
+      - Relay_🇨🇳CN-🇹🇼TW_1034
+      - 台湾04
+      - Pool_🇸🇬SG_540
+      - Relay_🇦🇺AU-🇦🇺AU_338
+      - Pool_🇸🇬SG_533
+      - Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb
+      - 美国01 3
+      - Relay_-🇺🇸US_137
+      - "[1x]•🇯🇵日本01"
+      - JP_474
+      - Relay_-🇺🇸US_976
+      - Pool_🇭🇰HK_446
+      - Relay_🇹🇼TW-🇹🇼TW_1515 2
+      - 美国03「ChatGPT」
+      - 美国05 2
+      - Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb
+      - 美国01
+      - 台湾03
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国02
-      - 香港07
-      - 台湾03「ChatGPT」
-      - 新加坡02
-      - 台湾02
-      - 美国03
       - _[PF][数据网络]Scaleway-圣卢西亚Digicel
-      - 日本01 2
       - _Scaleway
       - _[无审计]BuyVM
       - _[PF][家宽]OVH-韩国LG U+
-      - 香港03
       - _[月抛]AWS
-      - 台湾01
-      - Relay_-🇹🇼TW_178
-      - "[1x]•🇸🇬狮城03"
-      - 美国04
-      - 日本03 2
-      - _118
-      - Pool_🇭🇰HK_445
-      - "[1x]•🇸🇬狮城08"
       - _[低配]Hostmaze
       - -美国-cf-lt.sharecentre.online
-      - 新加坡03 2
-      - "[1x]•🇸🇬狮城09"
-      - Pool_🇭🇰HK_458
-      - Relay_-🇹🇼TW_209
-      - "[1x]•🇸🇬狮城11"
-      - Relay_-🇨🇳CN_111
-      - Relay_🇺🇸US-🇺🇸US_758
-      - "[1x]•🇯🇵日本03"
       - _[WARP]Scaleway
       - 新加坡03
-      - Relay_🇨🇳CN-🇹🇼TW_1034
-      - _109 |12.86Mb
-      - 台湾04
-      - Pool_🇸🇬SG_540
-      - Relay_-🇭🇰HK_228
       - _[WARP]Scaleway 2
-      - Relay_🇦🇺AU-🇦🇺AU_338
-      - Pool_🇸🇬SG_533
       - "[1x]•🇸🇬狮城05"
-      - Relay_-🇩🇪DE_197
-      - Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb
-      - 美国01 3
-      - Relay_-🇺🇸US_137
-      - Relay_-🇭🇰HK_223
       - 日本03
-      - "[1x]•🇯🇵日本01"
-      - JP_474
       - 新加坡01 2
-      - Relay_-🇺🇸US_976
-      - Relay_-🇰🇷KR_220
-      - SG_639
       - TW🇸🇬_[PF][家宽]OVH-台灣凱擘大寬頻KBRO
-      - Pool_🇭🇰HK_446
       - 日本02
       - _[PF][家宽]OVH_日本SONY
       - _[PF][家宽]OVH-泰国AIS
-      - 香港02
       - 美国01 2
       - "[1x]•🇸🇬狮城04"
       - Relay_🇹🇼TW-🇹🇼TW_1515
@@ -692,9 +505,7 @@ proxy-groups:
       - 美国04「ChatGPT」
       - SG_637
       - US_695
-      - 美国03「ChatGPT」
       - Relay_🇨🇳CN-🇺🇸US_457
-      - _238
       - "[1x]•🇭🇰香港03"
       - 香港01
       - 美国【付费推荐：https://tt.vg/vip】20
@@ -703,75 +514,44 @@ proxy-groups:
       - _01
       - Relay_🇨🇳CN-🇩🇪DE_276
       - 香港01 2
-      - Relay_🇨🇳CN-🇸🇬SG_433
       - Relay_🇨🇳CN-🇸🇬SG_491
       - Relay_🇨🇳CN-🇫🇷FR_267
       - Relay_🇨🇳CN-🇸🇬SG_477
-      - Relay_🇨🇳CN-🇺🇸US_307
-      - Relay_🇨🇳CN-🇸🇬SG_503
       - Relay_🇨🇳CN-🇸🇬SG_497
       - 「SCP」US-DP3-HTTP
       - Relay_🇨🇳CN-🇯🇵JP_279
-      - Relay_🇨🇳CN-🇯🇵JP_287
-      - Relay_🇨🇳CN-🇸🇬SG_453
-      - Relay_🇨🇳CN-🇹🇼TW_327
-      - Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb
-      - Relay_-🇭🇰HK_237
       - Relay_🇨🇳CN-🇭🇰HK_321
       - "[1x]•🇸🇬狮城02"
-      - Relay_🇨🇳CN-🇸🇬SG_463
       - US_679
-      - Relay_🇨🇳CN-🇫🇷FR_301
       - Relay_🇨🇳CN-🇯🇵JP_305
       - NL_616
       - Relay_🇺🇸US-🇺🇸US_791
       - Relay_🇨🇳CN-🇫🇷FR_320
-      - Relay_🇨🇳CN-🇯🇵JP_334
-      - Relay_🇨🇳CN-🇺🇸US_282
-      - Relay_🇨🇳CN-🇸🇬SG_436
-      - Relay_🇨🇳CN-🇦🇺AU_283
       - US_607
       - "[1x]•🇭🇰香港02"
-      - Relay_🇨🇳CN-🇺🇸US_284
-      - Relay_🇨🇳CN-🇫🇷FR_310
-      - Relay_-🇺🇸US_326
-      - Relay_🇨🇳CN-🇺🇸US_319
       - _Scaleway 2
       - Relay_🇨🇳CN-🇺🇸US_278
       - Pool_🇭🇰HK_442
-      - Relay_-🇸🇬SG_207
       - Relay_🇨🇳CN-🇹🇼TW_313
       - Pool_🇭🇰HK_157
       - Pool_🇸🇬SG_214
-      - Relay_🇨🇳CN-🇩🇪DE_266
       - Pool_🇸🇬SG_536
       - Pool_🇭🇰HK_159
       - Pool_🇭🇰HK_160
       - Pool_🇸🇬SG_532
       - Pool_🇸🇬SG_527
-      - Relay_🇨🇳CN-🇯🇵JP_306
       - Pool_🇸🇬SG_218
       - Pool_🇸🇬SG_410 |42.53Mb
       - 日本01
-      - Relay_-🇯🇵JP_247
-      - Relay_🇸🇬SG-🇺🇸US_1110
       - "[1x]•🇸🇬狮城01"
       - Pool_🇸🇬SG_546
       - US_619
-      - Relay_🇨🇳CN-🇦🇺AU_290
       - Relay_🇨🇳CN-🇺🇸US_237
-      - Relay_-🇸🇬SG_235
-      - Relay_-🇸🇬SG_244
-      - Relay_🇨🇳CN-🇭🇰HK_317
       - 「SCP」US-BuyVM4-HTTP
       - Relay_🇨🇳CN-🇸🇬SG_469
       - Relay_🇨🇳CN-🇭🇰HK_512
       - 「SCP」US-DP2-HTTP
-      - Relay_🇨🇳CN-🇦🇺AU_326
-      - _105 |28.12Mb
-      - Relay_🇨🇳CN-🇺🇸US_434
       - Relay_🇨🇳CN-🇩🇪DE_329
-      - Relay_🇨🇳CN-🇸🇬SG_478
       - Pool_🇸🇬SG_525
       - US_671
       - Pool_🇸🇬SG_534
@@ -782,10 +562,6 @@ proxy-groups:
       - Pool_🇭🇰HK_444
       - 「SCP」CA-CF-HTTP
       - Relay_🇨🇳CN-🇺🇸US_509
-      - _112 |27.34Mb
-      - Pool__31
-      - Relay_🇨🇳CN-🇺🇸US_492
-      - Relay_🇨🇳CN-🇯🇵JP_315
       - _73
       - Relay_🇨🇳CN-🇺🇸US_450
       - Relay_🇺🇸US-🇺🇸US_866
@@ -795,9 +571,7 @@ proxy-groups:
       - Relay_🇨🇳CN-🇹🇼TW_352
       - US_680
       - Pool_🇭🇰HK_439
-      - Relay_-🇫🇷FR_185
       - Relay_🇨🇳CN-🇺🇸US_449
-      - Relay_🇨🇳CN-🇩🇪DE_302
       - Relay_🇨🇳CN-🇷🇺RU_268
       - 「SCP」SG-CF1-HTTP
       - Relay_🇺🇸US-🇺🇸US_733
@@ -811,21 +585,55 @@ proxy-groups:
       - Pool_🇸🇬SG_547
       - _32
       - 美国【付费推荐：https://tt.vg/vip】41
-      - Relay_-🇸🇬SG_159
       - _72
       - Relay_🇨🇳CN-🇭🇰HK_394
       - Pool_🇭🇰HK_441
-      - Relay_🇮🇩ID-🇮🇩ID_1200
       - _30
       - Pool_🇸🇬SG_543
       - Pool_🇸🇬SG_201
       - Relay_🇨🇳CN-🇺🇸US_424
-      - Relay_-🇭🇰HK_172
       - US_681
       - _[原生]pilw
       - Pool_🇸🇬SG_210
       - Pool_🇭🇰HK_452
-      - Relay_-🇹🇼TW_218
+      - 美国02
+      - 台湾03「ChatGPT」
+      - 新加坡02
+      - 台湾02
+      - 美国03
+      - 日本01 2
+      - 香港03
+      - Relay_-🇹🇼TW_178
+      - "[1x]•🇸🇬狮城03"
+      - 日本03 2
+      - _118
+      - Pool_🇭🇰HK_445
+      - "[1x]•🇸🇬狮城08"
+      - 新加坡03 2
+      - "[1x]•🇸🇬狮城09"
+      - Pool_🇭🇰HK_458
+      - Relay_-🇹🇼TW_209
+      - "[1x]•🇸🇬狮城11"
+      - Relay_-🇨🇳CN_111
+      - "[1x]•🇯🇵日本03"
+      - Relay_🇨🇳CN-🇹🇼TW_1034
+      - 台湾04
+      - Pool_🇸🇬SG_540
+      - Relay_🇦🇺AU-🇦🇺AU_338
+      - Pool_🇸🇬SG_533
+      - Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb
+      - 美国01 3
+      - Relay_-🇺🇸US_137
+      - "[1x]•🇯🇵日本01"
+      - JP_474
+      - Relay_-🇺🇸US_976
+      - Pool_🇭🇰HK_446
+      - Relay_🇹🇼TW-🇹🇼TW_1515 2
+      - 美国03「ChatGPT」
+      - 美国05 2
+      - Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb
+      - 美国01
+      - 台湾03
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -844,66 +652,23 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国02
-      - 香港07
-      - 台湾03「ChatGPT」
-      - 新加坡02
-      - 台湾02
-      - 美国03
       - _[PF][数据网络]Scaleway-圣卢西亚Digicel
-      - 日本01 2
       - _Scaleway
       - _[无审计]BuyVM
       - _[PF][家宽]OVH-韩国LG U+
-      - 香港03
       - _[月抛]AWS
-      - 台湾01
-      - Relay_-🇹🇼TW_178
-      - "[1x]•🇸🇬狮城03"
-      - 美国04
-      - 日本03 2
-      - _118
-      - Pool_🇭🇰HK_445
-      - "[1x]•🇸🇬狮城08"
       - _[低配]Hostmaze
       - -美国-cf-lt.sharecentre.online
-      - 新加坡03 2
-      - "[1x]•🇸🇬狮城09"
-      - Pool_🇭🇰HK_458
-      - Relay_-🇹🇼TW_209
-      - "[1x]•🇸🇬狮城11"
-      - Relay_-🇨🇳CN_111
-      - Relay_🇺🇸US-🇺🇸US_758
-      - "[1x]•🇯🇵日本03"
       - _[WARP]Scaleway
       - 新加坡03
-      - Relay_🇨🇳CN-🇹🇼TW_1034
-      - _109 |12.86Mb
-      - 台湾04
-      - Pool_🇸🇬SG_540
-      - Relay_-🇭🇰HK_228
       - _[WARP]Scaleway 2
-      - Relay_🇦🇺AU-🇦🇺AU_338
-      - Pool_🇸🇬SG_533
       - "[1x]•🇸🇬狮城05"
-      - Relay_-🇩🇪DE_197
-      - Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb
-      - 美国01 3
-      - Relay_-🇺🇸US_137
-      - Relay_-🇭🇰HK_223
       - 日本03
-      - "[1x]•🇯🇵日本01"
-      - JP_474
       - 新加坡01 2
-      - Relay_-🇺🇸US_976
-      - Relay_-🇰🇷KR_220
-      - SG_639
       - TW🇸🇬_[PF][家宽]OVH-台灣凱擘大寬頻KBRO
-      - Pool_🇭🇰HK_446
       - 日本02
       - _[PF][家宽]OVH_日本SONY
       - _[PF][家宽]OVH-泰国AIS
-      - 香港02
       - 美国01 2
       - "[1x]•🇸🇬狮城04"
       - Relay_🇹🇼TW-🇹🇼TW_1515
@@ -911,9 +676,7 @@ proxy-groups:
       - 美国04「ChatGPT」
       - SG_637
       - US_695
-      - 美国03「ChatGPT」
       - Relay_🇨🇳CN-🇺🇸US_457
-      - _238
       - "[1x]•🇭🇰香港03"
       - 香港01
       - 美国【付费推荐：https://tt.vg/vip】20
@@ -922,75 +685,44 @@ proxy-groups:
       - _01
       - Relay_🇨🇳CN-🇩🇪DE_276
       - 香港01 2
-      - Relay_🇨🇳CN-🇸🇬SG_433
       - Relay_🇨🇳CN-🇸🇬SG_491
       - Relay_🇨🇳CN-🇫🇷FR_267
       - Relay_🇨🇳CN-🇸🇬SG_477
-      - Relay_🇨🇳CN-🇺🇸US_307
-      - Relay_🇨🇳CN-🇸🇬SG_503
       - Relay_🇨🇳CN-🇸🇬SG_497
       - 「SCP」US-DP3-HTTP
       - Relay_🇨🇳CN-🇯🇵JP_279
-      - Relay_🇨🇳CN-🇯🇵JP_287
-      - Relay_🇨🇳CN-🇸🇬SG_453
-      - Relay_🇨🇳CN-🇹🇼TW_327
-      - Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb
-      - Relay_-🇭🇰HK_237
       - Relay_🇨🇳CN-🇭🇰HK_321
       - "[1x]•🇸🇬狮城02"
-      - Relay_🇨🇳CN-🇸🇬SG_463
       - US_679
-      - Relay_🇨🇳CN-🇫🇷FR_301
       - Relay_🇨🇳CN-🇯🇵JP_305
       - NL_616
       - Relay_🇺🇸US-🇺🇸US_791
       - Relay_🇨🇳CN-🇫🇷FR_320
-      - Relay_🇨🇳CN-🇯🇵JP_334
-      - Relay_🇨🇳CN-🇺🇸US_282
-      - Relay_🇨🇳CN-🇸🇬SG_436
-      - Relay_🇨🇳CN-🇦🇺AU_283
       - US_607
       - "[1x]•🇭🇰香港02"
-      - Relay_🇨🇳CN-🇺🇸US_284
-      - Relay_🇨🇳CN-🇫🇷FR_310
-      - Relay_-🇺🇸US_326
-      - Relay_🇨🇳CN-🇺🇸US_319
       - _Scaleway 2
       - Relay_🇨🇳CN-🇺🇸US_278
       - Pool_🇭🇰HK_442
-      - Relay_-🇸🇬SG_207
       - Relay_🇨🇳CN-🇹🇼TW_313
       - Pool_🇭🇰HK_157
       - Pool_🇸🇬SG_214
-      - Relay_🇨🇳CN-🇩🇪DE_266
       - Pool_🇸🇬SG_536
       - Pool_🇭🇰HK_159
       - Pool_🇭🇰HK_160
       - Pool_🇸🇬SG_532
       - Pool_🇸🇬SG_527
-      - Relay_🇨🇳CN-🇯🇵JP_306
       - Pool_🇸🇬SG_218
       - Pool_🇸🇬SG_410 |42.53Mb
       - 日本01
-      - Relay_-🇯🇵JP_247
-      - Relay_🇸🇬SG-🇺🇸US_1110
       - "[1x]•🇸🇬狮城01"
       - Pool_🇸🇬SG_546
       - US_619
-      - Relay_🇨🇳CN-🇦🇺AU_290
       - Relay_🇨🇳CN-🇺🇸US_237
-      - Relay_-🇸🇬SG_235
-      - Relay_-🇸🇬SG_244
-      - Relay_🇨🇳CN-🇭🇰HK_317
       - 「SCP」US-BuyVM4-HTTP
       - Relay_🇨🇳CN-🇸🇬SG_469
       - Relay_🇨🇳CN-🇭🇰HK_512
       - 「SCP」US-DP2-HTTP
-      - Relay_🇨🇳CN-🇦🇺AU_326
-      - _105 |28.12Mb
-      - Relay_🇨🇳CN-🇺🇸US_434
       - Relay_🇨🇳CN-🇩🇪DE_329
-      - Relay_🇨🇳CN-🇸🇬SG_478
       - Pool_🇸🇬SG_525
       - US_671
       - Pool_🇸🇬SG_534
@@ -1001,10 +733,6 @@ proxy-groups:
       - Pool_🇭🇰HK_444
       - 「SCP」CA-CF-HTTP
       - Relay_🇨🇳CN-🇺🇸US_509
-      - _112 |27.34Mb
-      - Pool__31
-      - Relay_🇨🇳CN-🇺🇸US_492
-      - Relay_🇨🇳CN-🇯🇵JP_315
       - _73
       - Relay_🇨🇳CN-🇺🇸US_450
       - Relay_🇺🇸US-🇺🇸US_866
@@ -1014,9 +742,7 @@ proxy-groups:
       - Relay_🇨🇳CN-🇹🇼TW_352
       - US_680
       - Pool_🇭🇰HK_439
-      - Relay_-🇫🇷FR_185
       - Relay_🇨🇳CN-🇺🇸US_449
-      - Relay_🇨🇳CN-🇩🇪DE_302
       - Relay_🇨🇳CN-🇷🇺RU_268
       - 「SCP」SG-CF1-HTTP
       - Relay_🇺🇸US-🇺🇸US_733
@@ -1030,104 +756,93 @@ proxy-groups:
       - Pool_🇸🇬SG_547
       - _32
       - 美国【付费推荐：https://tt.vg/vip】41
-      - Relay_-🇸🇬SG_159
       - _72
       - Relay_🇨🇳CN-🇭🇰HK_394
       - Pool_🇭🇰HK_441
-      - Relay_🇮🇩ID-🇮🇩ID_1200
       - _30
       - Pool_🇸🇬SG_543
       - Pool_🇸🇬SG_201
       - Relay_🇨🇳CN-🇺🇸US_424
-      - Relay_-🇭🇰HK_172
       - US_681
       - _[原生]pilw
       - Pool_🇸🇬SG_210
       - Pool_🇭🇰HK_452
-      - Relay_-🇹🇼TW_218
+      - 美国02
+      - 台湾03「ChatGPT」
+      - 新加坡02
+      - 台湾02
+      - 美国03
+      - 日本01 2
+      - 香港03
+      - Relay_-🇹🇼TW_178
+      - "[1x]•🇸🇬狮城03"
+      - 日本03 2
+      - _118
+      - Pool_🇭🇰HK_445
+      - "[1x]•🇸🇬狮城08"
+      - 新加坡03 2
+      - "[1x]•🇸🇬狮城09"
+      - Pool_🇭🇰HK_458
+      - Relay_-🇹🇼TW_209
+      - "[1x]•🇸🇬狮城11"
+      - Relay_-🇨🇳CN_111
+      - "[1x]•🇯🇵日本03"
+      - Relay_🇨🇳CN-🇹🇼TW_1034
+      - 台湾04
+      - Pool_🇸🇬SG_540
+      - Relay_🇦🇺AU-🇦🇺AU_338
+      - Pool_🇸🇬SG_533
+      - Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb
+      - 美国01 3
+      - Relay_-🇺🇸US_137
+      - "[1x]•🇯🇵日本01"
+      - JP_474
+      - Relay_-🇺🇸US_976
+      - Pool_🇭🇰HK_446
+      - Relay_🇹🇼TW-🇹🇼TW_1515 2
+      - 美国03「ChatGPT」
+      - 美国05 2
+      - Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb
+      - 美国01
+      - 台湾03
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港07
-      - 台湾03「ChatGPT」
-      - 台湾02
-      - 香港03
-      - 台湾01
-      - 台湾04
       - TW🇸🇬_[PF][家宽]OVH-台灣凱擘大寬頻KBRO
-      - 香港02
       - "[1x]•🇭🇰香港03"
       - 香港01
       - 香港01 2
       - "[1x]•🇭🇰香港02"
       - "[1x]•🇭🇰香港01"
+      - 台湾03「ChatGPT」
+      - 台湾02
+      - 香港03
+      - 台湾04
+      - 台湾03
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国02
-      - 香港07
-      - 台湾03「ChatGPT」
-      - 新加坡02
-      - 台湾02
-      - 美国03
       - _[PF][数据网络]Scaleway-圣卢西亚Digicel
-      - 日本01 2
       - _Scaleway
       - _[无审计]BuyVM
       - _[PF][家宽]OVH-韩国LG U+
-      - 香港03
       - _[月抛]AWS
-      - 台湾01
-      - Relay_-🇹🇼TW_178
-      - "[1x]•🇸🇬狮城03"
-      - 美国04
-      - 日本03 2
-      - _118
-      - Pool_🇭🇰HK_445
-      - "[1x]•🇸🇬狮城08"
       - _[低配]Hostmaze
       - -美国-cf-lt.sharecentre.online
-      - 新加坡03 2
-      - "[1x]•🇸🇬狮城09"
-      - Pool_🇭🇰HK_458
-      - Relay_-🇹🇼TW_209
-      - "[1x]•🇸🇬狮城11"
-      - Relay_-🇨🇳CN_111
-      - Relay_🇺🇸US-🇺🇸US_758
-      - "[1x]•🇯🇵日本03"
       - _[WARP]Scaleway
       - 新加坡03
-      - Relay_🇨🇳CN-🇹🇼TW_1034
-      - _109 |12.86Mb
-      - 台湾04
-      - Pool_🇸🇬SG_540
-      - Relay_-🇭🇰HK_228
       - _[WARP]Scaleway 2
-      - Relay_🇦🇺AU-🇦🇺AU_338
-      - Pool_🇸🇬SG_533
       - "[1x]•🇸🇬狮城05"
-      - Relay_-🇩🇪DE_197
-      - Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb
-      - 美国01 3
-      - Relay_-🇺🇸US_137
-      - Relay_-🇭🇰HK_223
       - 日本03
-      - "[1x]•🇯🇵日本01"
-      - JP_474
       - 新加坡01 2
-      - Relay_-🇺🇸US_976
-      - Relay_-🇰🇷KR_220
-      - SG_639
       - TW🇸🇬_[PF][家宽]OVH-台灣凱擘大寬頻KBRO
-      - Pool_🇭🇰HK_446
       - 日本02
       - _[PF][家宽]OVH_日本SONY
       - _[PF][家宽]OVH-泰国AIS
-      - 香港02
       - 美国01 2
       - "[1x]•🇸🇬狮城04"
       - Relay_🇹🇼TW-🇹🇼TW_1515
@@ -1135,9 +850,7 @@ proxy-groups:
       - 美国04「ChatGPT」
       - SG_637
       - US_695
-      - 美国03「ChatGPT」
       - Relay_🇨🇳CN-🇺🇸US_457
-      - _238
       - "[1x]•🇭🇰香港03"
       - 香港01
       - 美国【付费推荐：https://tt.vg/vip】20
@@ -1146,75 +859,44 @@ proxy-groups:
       - _01
       - Relay_🇨🇳CN-🇩🇪DE_276
       - 香港01 2
-      - Relay_🇨🇳CN-🇸🇬SG_433
       - Relay_🇨🇳CN-🇸🇬SG_491
       - Relay_🇨🇳CN-🇫🇷FR_267
       - Relay_🇨🇳CN-🇸🇬SG_477
-      - Relay_🇨🇳CN-🇺🇸US_307
-      - Relay_🇨🇳CN-🇸🇬SG_503
       - Relay_🇨🇳CN-🇸🇬SG_497
       - 「SCP」US-DP3-HTTP
       - Relay_🇨🇳CN-🇯🇵JP_279
-      - Relay_🇨🇳CN-🇯🇵JP_287
-      - Relay_🇨🇳CN-🇸🇬SG_453
-      - Relay_🇨🇳CN-🇹🇼TW_327
-      - Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb
-      - Relay_-🇭🇰HK_237
       - Relay_🇨🇳CN-🇭🇰HK_321
       - "[1x]•🇸🇬狮城02"
-      - Relay_🇨🇳CN-🇸🇬SG_463
       - US_679
-      - Relay_🇨🇳CN-🇫🇷FR_301
       - Relay_🇨🇳CN-🇯🇵JP_305
       - NL_616
       - Relay_🇺🇸US-🇺🇸US_791
       - Relay_🇨🇳CN-🇫🇷FR_320
-      - Relay_🇨🇳CN-🇯🇵JP_334
-      - Relay_🇨🇳CN-🇺🇸US_282
-      - Relay_🇨🇳CN-🇸🇬SG_436
-      - Relay_🇨🇳CN-🇦🇺AU_283
       - US_607
       - "[1x]•🇭🇰香港02"
-      - Relay_🇨🇳CN-🇺🇸US_284
-      - Relay_🇨🇳CN-🇫🇷FR_310
-      - Relay_-🇺🇸US_326
-      - Relay_🇨🇳CN-🇺🇸US_319
       - _Scaleway 2
       - Relay_🇨🇳CN-🇺🇸US_278
       - Pool_🇭🇰HK_442
-      - Relay_-🇸🇬SG_207
       - Relay_🇨🇳CN-🇹🇼TW_313
       - Pool_🇭🇰HK_157
       - Pool_🇸🇬SG_214
-      - Relay_🇨🇳CN-🇩🇪DE_266
       - Pool_🇸🇬SG_536
       - Pool_🇭🇰HK_159
       - Pool_🇭🇰HK_160
       - Pool_🇸🇬SG_532
       - Pool_🇸🇬SG_527
-      - Relay_🇨🇳CN-🇯🇵JP_306
       - Pool_🇸🇬SG_218
       - Pool_🇸🇬SG_410 |42.53Mb
       - 日本01
-      - Relay_-🇯🇵JP_247
-      - Relay_🇸🇬SG-🇺🇸US_1110
       - "[1x]•🇸🇬狮城01"
       - Pool_🇸🇬SG_546
       - US_619
-      - Relay_🇨🇳CN-🇦🇺AU_290
       - Relay_🇨🇳CN-🇺🇸US_237
-      - Relay_-🇸🇬SG_235
-      - Relay_-🇸🇬SG_244
-      - Relay_🇨🇳CN-🇭🇰HK_317
       - 「SCP」US-BuyVM4-HTTP
       - Relay_🇨🇳CN-🇸🇬SG_469
       - Relay_🇨🇳CN-🇭🇰HK_512
       - 「SCP」US-DP2-HTTP
-      - Relay_🇨🇳CN-🇦🇺AU_326
-      - _105 |28.12Mb
-      - Relay_🇨🇳CN-🇺🇸US_434
       - Relay_🇨🇳CN-🇩🇪DE_329
-      - Relay_🇨🇳CN-🇸🇬SG_478
       - Pool_🇸🇬SG_525
       - US_671
       - Pool_🇸🇬SG_534
@@ -1225,10 +907,6 @@ proxy-groups:
       - Pool_🇭🇰HK_444
       - 「SCP」CA-CF-HTTP
       - Relay_🇨🇳CN-🇺🇸US_509
-      - _112 |27.34Mb
-      - Pool__31
-      - Relay_🇨🇳CN-🇺🇸US_492
-      - Relay_🇨🇳CN-🇯🇵JP_315
       - _73
       - Relay_🇨🇳CN-🇺🇸US_450
       - Relay_🇺🇸US-🇺🇸US_866
@@ -1238,9 +916,7 @@ proxy-groups:
       - Relay_🇨🇳CN-🇹🇼TW_352
       - US_680
       - Pool_🇭🇰HK_439
-      - Relay_-🇫🇷FR_185
       - Relay_🇨🇳CN-🇺🇸US_449
-      - Relay_🇨🇳CN-🇩🇪DE_302
       - Relay_🇨🇳CN-🇷🇺RU_268
       - 「SCP」SG-CF1-HTTP
       - Relay_🇺🇸US-🇺🇸US_733
@@ -1254,86 +930,77 @@ proxy-groups:
       - Pool_🇸🇬SG_547
       - _32
       - 美国【付费推荐：https://tt.vg/vip】41
-      - Relay_-🇸🇬SG_159
       - _72
       - Relay_🇨🇳CN-🇭🇰HK_394
       - Pool_🇭🇰HK_441
-      - Relay_🇮🇩ID-🇮🇩ID_1200
       - _30
       - Pool_🇸🇬SG_543
       - Pool_🇸🇬SG_201
       - Relay_🇨🇳CN-🇺🇸US_424
-      - Relay_-🇭🇰HK_172
       - US_681
       - _[原生]pilw
       - Pool_🇸🇬SG_210
       - Pool_🇭🇰HK_452
-      - Relay_-🇹🇼TW_218
+      - 美国02
+      - 台湾03「ChatGPT」
+      - 新加坡02
+      - 台湾02
+      - 美国03
+      - 日本01 2
+      - 香港03
+      - Relay_-🇹🇼TW_178
+      - "[1x]•🇸🇬狮城03"
+      - 日本03 2
+      - _118
+      - Pool_🇭🇰HK_445
+      - "[1x]•🇸🇬狮城08"
+      - 新加坡03 2
+      - "[1x]•🇸🇬狮城09"
+      - Pool_🇭🇰HK_458
+      - Relay_-🇹🇼TW_209
+      - "[1x]•🇸🇬狮城11"
+      - Relay_-🇨🇳CN_111
+      - "[1x]•🇯🇵日本03"
+      - Relay_🇨🇳CN-🇹🇼TW_1034
+      - 台湾04
+      - Pool_🇸🇬SG_540
+      - Relay_🇦🇺AU-🇦🇺AU_338
+      - Pool_🇸🇬SG_533
+      - Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb
+      - 美国01 3
+      - Relay_-🇺🇸US_137
+      - "[1x]•🇯🇵日本01"
+      - JP_474
+      - Relay_-🇺🇸US_976
+      - Pool_🇭🇰HK_446
+      - Relay_🇹🇼TW-🇹🇼TW_1515 2
+      - 美国03「ChatGPT」
+      - 美国05 2
+      - Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb
+      - 美国01
+      - 台湾03
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 美国02
-      - 香港07
-      - 台湾03「ChatGPT」
-      - 新加坡02
-      - 台湾02
-      - 美国03
       - _[PF][数据网络]Scaleway-圣卢西亚Digicel
-      - 日本01 2
       - _Scaleway
       - _[无审计]BuyVM
       - _[PF][家宽]OVH-韩国LG U+
-      - 香港03
       - _[月抛]AWS
-      - 台湾01
-      - Relay_-🇹🇼TW_178
-      - "[1x]•🇸🇬狮城03"
-      - 美国04
-      - 日本03 2
-      - _118
-      - Pool_🇭🇰HK_445
-      - "[1x]•🇸🇬狮城08"
       - _[低配]Hostmaze
       - -美国-cf-lt.sharecentre.online
-      - 新加坡03 2
-      - "[1x]•🇸🇬狮城09"
-      - Pool_🇭🇰HK_458
-      - Relay_-🇹🇼TW_209
-      - "[1x]•🇸🇬狮城11"
-      - Relay_-🇨🇳CN_111
-      - Relay_🇺🇸US-🇺🇸US_758
-      - "[1x]•🇯🇵日本03"
       - _[WARP]Scaleway
       - 新加坡03
-      - Relay_🇨🇳CN-🇹🇼TW_1034
-      - _109 |12.86Mb
-      - 台湾04
-      - Pool_🇸🇬SG_540
-      - Relay_-🇭🇰HK_228
       - _[WARP]Scaleway 2
-      - Relay_🇦🇺AU-🇦🇺AU_338
-      - Pool_🇸🇬SG_533
       - "[1x]•🇸🇬狮城05"
-      - Relay_-🇩🇪DE_197
-      - Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb
-      - 美国01 3
-      - Relay_-🇺🇸US_137
-      - Relay_-🇭🇰HK_223
       - 日本03
-      - "[1x]•🇯🇵日本01"
-      - JP_474
       - 新加坡01 2
-      - Relay_-🇺🇸US_976
-      - Relay_-🇰🇷KR_220
-      - SG_639
       - TW🇸🇬_[PF][家宽]OVH-台灣凱擘大寬頻KBRO
-      - Pool_🇭🇰HK_446
       - 日本02
       - _[PF][家宽]OVH_日本SONY
       - _[PF][家宽]OVH-泰国AIS
-      - 香港02
       - 美国01 2
       - "[1x]•🇸🇬狮城04"
       - Relay_🇹🇼TW-🇹🇼TW_1515
@@ -1341,9 +1008,7 @@ proxy-groups:
       - 美国04「ChatGPT」
       - SG_637
       - US_695
-      - 美国03「ChatGPT」
       - Relay_🇨🇳CN-🇺🇸US_457
-      - _238
       - "[1x]•🇭🇰香港03"
       - 香港01
       - 美国【付费推荐：https://tt.vg/vip】20
@@ -1352,75 +1017,44 @@ proxy-groups:
       - _01
       - Relay_🇨🇳CN-🇩🇪DE_276
       - 香港01 2
-      - Relay_🇨🇳CN-🇸🇬SG_433
       - Relay_🇨🇳CN-🇸🇬SG_491
       - Relay_🇨🇳CN-🇫🇷FR_267
       - Relay_🇨🇳CN-🇸🇬SG_477
-      - Relay_🇨🇳CN-🇺🇸US_307
-      - Relay_🇨🇳CN-🇸🇬SG_503
       - Relay_🇨🇳CN-🇸🇬SG_497
       - 「SCP」US-DP3-HTTP
       - Relay_🇨🇳CN-🇯🇵JP_279
-      - Relay_🇨🇳CN-🇯🇵JP_287
-      - Relay_🇨🇳CN-🇸🇬SG_453
-      - Relay_🇨🇳CN-🇹🇼TW_327
-      - Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb
-      - Relay_-🇭🇰HK_237
       - Relay_🇨🇳CN-🇭🇰HK_321
       - "[1x]•🇸🇬狮城02"
-      - Relay_🇨🇳CN-🇸🇬SG_463
       - US_679
-      - Relay_🇨🇳CN-🇫🇷FR_301
       - Relay_🇨🇳CN-🇯🇵JP_305
       - NL_616
       - Relay_🇺🇸US-🇺🇸US_791
       - Relay_🇨🇳CN-🇫🇷FR_320
-      - Relay_🇨🇳CN-🇯🇵JP_334
-      - Relay_🇨🇳CN-🇺🇸US_282
-      - Relay_🇨🇳CN-🇸🇬SG_436
-      - Relay_🇨🇳CN-🇦🇺AU_283
       - US_607
       - "[1x]•🇭🇰香港02"
-      - Relay_🇨🇳CN-🇺🇸US_284
-      - Relay_🇨🇳CN-🇫🇷FR_310
-      - Relay_-🇺🇸US_326
-      - Relay_🇨🇳CN-🇺🇸US_319
       - _Scaleway 2
       - Relay_🇨🇳CN-🇺🇸US_278
       - Pool_🇭🇰HK_442
-      - Relay_-🇸🇬SG_207
       - Relay_🇨🇳CN-🇹🇼TW_313
       - Pool_🇭🇰HK_157
       - Pool_🇸🇬SG_214
-      - Relay_🇨🇳CN-🇩🇪DE_266
       - Pool_🇸🇬SG_536
       - Pool_🇭🇰HK_159
       - Pool_🇭🇰HK_160
       - Pool_🇸🇬SG_532
       - Pool_🇸🇬SG_527
-      - Relay_🇨🇳CN-🇯🇵JP_306
       - Pool_🇸🇬SG_218
       - Pool_🇸🇬SG_410 |42.53Mb
       - 日本01
-      - Relay_-🇯🇵JP_247
-      - Relay_🇸🇬SG-🇺🇸US_1110
       - "[1x]•🇸🇬狮城01"
       - Pool_🇸🇬SG_546
       - US_619
-      - Relay_🇨🇳CN-🇦🇺AU_290
       - Relay_🇨🇳CN-🇺🇸US_237
-      - Relay_-🇸🇬SG_235
-      - Relay_-🇸🇬SG_244
-      - Relay_🇨🇳CN-🇭🇰HK_317
       - 「SCP」US-BuyVM4-HTTP
       - Relay_🇨🇳CN-🇸🇬SG_469
       - Relay_🇨🇳CN-🇭🇰HK_512
       - 「SCP」US-DP2-HTTP
-      - Relay_🇨🇳CN-🇦🇺AU_326
-      - _105 |28.12Mb
-      - Relay_🇨🇳CN-🇺🇸US_434
       - Relay_🇨🇳CN-🇩🇪DE_329
-      - Relay_🇨🇳CN-🇸🇬SG_478
       - Pool_🇸🇬SG_525
       - US_671
       - Pool_🇸🇬SG_534
@@ -1431,10 +1065,6 @@ proxy-groups:
       - Pool_🇭🇰HK_444
       - 「SCP」CA-CF-HTTP
       - Relay_🇨🇳CN-🇺🇸US_509
-      - _112 |27.34Mb
-      - Pool__31
-      - Relay_🇨🇳CN-🇺🇸US_492
-      - Relay_🇨🇳CN-🇯🇵JP_315
       - _73
       - Relay_🇨🇳CN-🇺🇸US_450
       - Relay_🇺🇸US-🇺🇸US_866
@@ -1444,9 +1074,7 @@ proxy-groups:
       - Relay_🇨🇳CN-🇹🇼TW_352
       - US_680
       - Pool_🇭🇰HK_439
-      - Relay_-🇫🇷FR_185
       - Relay_🇨🇳CN-🇺🇸US_449
-      - Relay_🇨🇳CN-🇩🇪DE_302
       - Relay_🇨🇳CN-🇷🇺RU_268
       - 「SCP」SG-CF1-HTTP
       - Relay_🇺🇸US-🇺🇸US_733
@@ -1460,87 +1088,78 @@ proxy-groups:
       - Pool_🇸🇬SG_547
       - _32
       - 美国【付费推荐：https://tt.vg/vip】41
-      - Relay_-🇸🇬SG_159
       - _72
       - Relay_🇨🇳CN-🇭🇰HK_394
       - Pool_🇭🇰HK_441
-      - Relay_🇮🇩ID-🇮🇩ID_1200
       - _30
       - Pool_🇸🇬SG_543
       - Pool_🇸🇬SG_201
       - Relay_🇨🇳CN-🇺🇸US_424
-      - Relay_-🇭🇰HK_172
       - US_681
       - _[原生]pilw
       - Pool_🇸🇬SG_210
       - Pool_🇭🇰HK_452
-      - Relay_-🇹🇼TW_218
+      - 美国02
+      - 台湾03「ChatGPT」
+      - 新加坡02
+      - 台湾02
+      - 美国03
+      - 日本01 2
+      - 香港03
+      - Relay_-🇹🇼TW_178
+      - "[1x]•🇸🇬狮城03"
+      - 日本03 2
+      - _118
+      - Pool_🇭🇰HK_445
+      - "[1x]•🇸🇬狮城08"
+      - 新加坡03 2
+      - "[1x]•🇸🇬狮城09"
+      - Pool_🇭🇰HK_458
+      - Relay_-🇹🇼TW_209
+      - "[1x]•🇸🇬狮城11"
+      - Relay_-🇨🇳CN_111
+      - "[1x]•🇯🇵日本03"
+      - Relay_🇨🇳CN-🇹🇼TW_1034
+      - 台湾04
+      - Pool_🇸🇬SG_540
+      - Relay_🇦🇺AU-🇦🇺AU_338
+      - Pool_🇸🇬SG_533
+      - Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb
+      - 美国01 3
+      - Relay_-🇺🇸US_137
+      - "[1x]•🇯🇵日本01"
+      - JP_474
+      - Relay_-🇺🇸US_976
+      - Pool_🇭🇰HK_446
+      - Relay_🇹🇼TW-🇹🇼TW_1515 2
+      - 美国03「ChatGPT」
+      - 美国05 2
+      - Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb
+      - 美国01
+      - 台湾03
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国02
-      - 香港07
-      - 台湾03「ChatGPT」
-      - 新加坡02
-      - 台湾02
-      - 美国03
       - _[PF][数据网络]Scaleway-圣卢西亚Digicel
-      - 日本01 2
       - _Scaleway
       - _[无审计]BuyVM
       - _[PF][家宽]OVH-韩国LG U+
-      - 香港03
       - _[月抛]AWS
-      - 台湾01
-      - Relay_-🇹🇼TW_178
-      - "[1x]•🇸🇬狮城03"
-      - 美国04
-      - 日本03 2
-      - _118
-      - Pool_🇭🇰HK_445
-      - "[1x]•🇸🇬狮城08"
       - _[低配]Hostmaze
       - -美国-cf-lt.sharecentre.online
-      - 新加坡03 2
-      - "[1x]•🇸🇬狮城09"
-      - Pool_🇭🇰HK_458
-      - Relay_-🇹🇼TW_209
-      - "[1x]•🇸🇬狮城11"
-      - Relay_-🇨🇳CN_111
-      - Relay_🇺🇸US-🇺🇸US_758
-      - "[1x]•🇯🇵日本03"
       - _[WARP]Scaleway
       - 新加坡03
-      - Relay_🇨🇳CN-🇹🇼TW_1034
-      - _109 |12.86Mb
-      - 台湾04
-      - Pool_🇸🇬SG_540
-      - Relay_-🇭🇰HK_228
       - _[WARP]Scaleway 2
-      - Relay_🇦🇺AU-🇦🇺AU_338
-      - Pool_🇸🇬SG_533
       - "[1x]•🇸🇬狮城05"
-      - Relay_-🇩🇪DE_197
-      - Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb
-      - 美国01 3
-      - Relay_-🇺🇸US_137
-      - Relay_-🇭🇰HK_223
       - 日本03
-      - "[1x]•🇯🇵日本01"
-      - JP_474
       - 新加坡01 2
-      - Relay_-🇺🇸US_976
-      - Relay_-🇰🇷KR_220
-      - SG_639
       - TW🇸🇬_[PF][家宽]OVH-台灣凱擘大寬頻KBRO
-      - Pool_🇭🇰HK_446
       - 日本02
       - _[PF][家宽]OVH_日本SONY
       - _[PF][家宽]OVH-泰国AIS
-      - 香港02
       - 美国01 2
       - "[1x]•🇸🇬狮城04"
       - Relay_🇹🇼TW-🇹🇼TW_1515
@@ -1548,9 +1167,7 @@ proxy-groups:
       - 美国04「ChatGPT」
       - SG_637
       - US_695
-      - 美国03「ChatGPT」
       - Relay_🇨🇳CN-🇺🇸US_457
-      - _238
       - "[1x]•🇭🇰香港03"
       - 香港01
       - 美国【付费推荐：https://tt.vg/vip】20
@@ -1559,75 +1176,44 @@ proxy-groups:
       - _01
       - Relay_🇨🇳CN-🇩🇪DE_276
       - 香港01 2
-      - Relay_🇨🇳CN-🇸🇬SG_433
       - Relay_🇨🇳CN-🇸🇬SG_491
       - Relay_🇨🇳CN-🇫🇷FR_267
       - Relay_🇨🇳CN-🇸🇬SG_477
-      - Relay_🇨🇳CN-🇺🇸US_307
-      - Relay_🇨🇳CN-🇸🇬SG_503
       - Relay_🇨🇳CN-🇸🇬SG_497
       - 「SCP」US-DP3-HTTP
       - Relay_🇨🇳CN-🇯🇵JP_279
-      - Relay_🇨🇳CN-🇯🇵JP_287
-      - Relay_🇨🇳CN-🇸🇬SG_453
-      - Relay_🇨🇳CN-🇹🇼TW_327
-      - Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb
-      - Relay_-🇭🇰HK_237
       - Relay_🇨🇳CN-🇭🇰HK_321
       - "[1x]•🇸🇬狮城02"
-      - Relay_🇨🇳CN-🇸🇬SG_463
       - US_679
-      - Relay_🇨🇳CN-🇫🇷FR_301
       - Relay_🇨🇳CN-🇯🇵JP_305
       - NL_616
       - Relay_🇺🇸US-🇺🇸US_791
       - Relay_🇨🇳CN-🇫🇷FR_320
-      - Relay_🇨🇳CN-🇯🇵JP_334
-      - Relay_🇨🇳CN-🇺🇸US_282
-      - Relay_🇨🇳CN-🇸🇬SG_436
-      - Relay_🇨🇳CN-🇦🇺AU_283
       - US_607
       - "[1x]•🇭🇰香港02"
-      - Relay_🇨🇳CN-🇺🇸US_284
-      - Relay_🇨🇳CN-🇫🇷FR_310
-      - Relay_-🇺🇸US_326
-      - Relay_🇨🇳CN-🇺🇸US_319
       - _Scaleway 2
       - Relay_🇨🇳CN-🇺🇸US_278
       - Pool_🇭🇰HK_442
-      - Relay_-🇸🇬SG_207
       - Relay_🇨🇳CN-🇹🇼TW_313
       - Pool_🇭🇰HK_157
       - Pool_🇸🇬SG_214
-      - Relay_🇨🇳CN-🇩🇪DE_266
       - Pool_🇸🇬SG_536
       - Pool_🇭🇰HK_159
       - Pool_🇭🇰HK_160
       - Pool_🇸🇬SG_532
       - Pool_🇸🇬SG_527
-      - Relay_🇨🇳CN-🇯🇵JP_306
       - Pool_🇸🇬SG_218
       - Pool_🇸🇬SG_410 |42.53Mb
       - 日本01
-      - Relay_-🇯🇵JP_247
-      - Relay_🇸🇬SG-🇺🇸US_1110
       - "[1x]•🇸🇬狮城01"
       - Pool_🇸🇬SG_546
       - US_619
-      - Relay_🇨🇳CN-🇦🇺AU_290
       - Relay_🇨🇳CN-🇺🇸US_237
-      - Relay_-🇸🇬SG_235
-      - Relay_-🇸🇬SG_244
-      - Relay_🇨🇳CN-🇭🇰HK_317
       - 「SCP」US-BuyVM4-HTTP
       - Relay_🇨🇳CN-🇸🇬SG_469
       - Relay_🇨🇳CN-🇭🇰HK_512
       - 「SCP」US-DP2-HTTP
-      - Relay_🇨🇳CN-🇦🇺AU_326
-      - _105 |28.12Mb
-      - Relay_🇨🇳CN-🇺🇸US_434
       - Relay_🇨🇳CN-🇩🇪DE_329
-      - Relay_🇨🇳CN-🇸🇬SG_478
       - Pool_🇸🇬SG_525
       - US_671
       - Pool_🇸🇬SG_534
@@ -1638,10 +1224,6 @@ proxy-groups:
       - Pool_🇭🇰HK_444
       - 「SCP」CA-CF-HTTP
       - Relay_🇨🇳CN-🇺🇸US_509
-      - _112 |27.34Mb
-      - Pool__31
-      - Relay_🇨🇳CN-🇺🇸US_492
-      - Relay_🇨🇳CN-🇯🇵JP_315
       - _73
       - Relay_🇨🇳CN-🇺🇸US_450
       - Relay_🇺🇸US-🇺🇸US_866
@@ -1651,9 +1233,7 @@ proxy-groups:
       - Relay_🇨🇳CN-🇹🇼TW_352
       - US_680
       - Pool_🇭🇰HK_439
-      - Relay_-🇫🇷FR_185
       - Relay_🇨🇳CN-🇺🇸US_449
-      - Relay_🇨🇳CN-🇩🇪DE_302
       - Relay_🇨🇳CN-🇷🇺RU_268
       - 「SCP」SG-CF1-HTTP
       - Relay_🇺🇸US-🇺🇸US_733
@@ -1667,21 +1247,55 @@ proxy-groups:
       - Pool_🇸🇬SG_547
       - _32
       - 美国【付费推荐：https://tt.vg/vip】41
-      - Relay_-🇸🇬SG_159
       - _72
       - Relay_🇨🇳CN-🇭🇰HK_394
       - Pool_🇭🇰HK_441
-      - Relay_🇮🇩ID-🇮🇩ID_1200
       - _30
       - Pool_🇸🇬SG_543
       - Pool_🇸🇬SG_201
       - Relay_🇨🇳CN-🇺🇸US_424
-      - Relay_-🇭🇰HK_172
       - US_681
       - _[原生]pilw
       - Pool_🇸🇬SG_210
       - Pool_🇭🇰HK_452
-      - Relay_-🇹🇼TW_218
+      - 美国02
+      - 台湾03「ChatGPT」
+      - 新加坡02
+      - 台湾02
+      - 美国03
+      - 日本01 2
+      - 香港03
+      - Relay_-🇹🇼TW_178
+      - "[1x]•🇸🇬狮城03"
+      - 日本03 2
+      - _118
+      - Pool_🇭🇰HK_445
+      - "[1x]•🇸🇬狮城08"
+      - 新加坡03 2
+      - "[1x]•🇸🇬狮城09"
+      - Pool_🇭🇰HK_458
+      - Relay_-🇹🇼TW_209
+      - "[1x]•🇸🇬狮城11"
+      - Relay_-🇨🇳CN_111
+      - "[1x]•🇯🇵日本03"
+      - Relay_🇨🇳CN-🇹🇼TW_1034
+      - 台湾04
+      - Pool_🇸🇬SG_540
+      - Relay_🇦🇺AU-🇦🇺AU_338
+      - Pool_🇸🇬SG_533
+      - Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb
+      - 美国01 3
+      - Relay_-🇺🇸US_137
+      - "[1x]•🇯🇵日本01"
+      - JP_474
+      - Relay_-🇺🇸US_976
+      - Pool_🇭🇰HK_446
+      - Relay_🇹🇼TW-🇹🇼TW_1515 2
+      - 美国03「ChatGPT」
+      - 美国05 2
+      - Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb
+      - 美国01
+      - 台湾03
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1697,66 +1311,23 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国02
-      - 香港07
-      - 台湾03「ChatGPT」
-      - 新加坡02
-      - 台湾02
-      - 美国03
       - _[PF][数据网络]Scaleway-圣卢西亚Digicel
-      - 日本01 2
       - _Scaleway
       - _[无审计]BuyVM
       - _[PF][家宽]OVH-韩国LG U+
-      - 香港03
       - _[月抛]AWS
-      - 台湾01
-      - Relay_-🇹🇼TW_178
-      - "[1x]•🇸🇬狮城03"
-      - 美国04
-      - 日本03 2
-      - _118
-      - Pool_🇭🇰HK_445
-      - "[1x]•🇸🇬狮城08"
       - _[低配]Hostmaze
       - -美国-cf-lt.sharecentre.online
-      - 新加坡03 2
-      - "[1x]•🇸🇬狮城09"
-      - Pool_🇭🇰HK_458
-      - Relay_-🇹🇼TW_209
-      - "[1x]•🇸🇬狮城11"
-      - Relay_-🇨🇳CN_111
-      - Relay_🇺🇸US-🇺🇸US_758
-      - "[1x]•🇯🇵日本03"
       - _[WARP]Scaleway
       - 新加坡03
-      - Relay_🇨🇳CN-🇹🇼TW_1034
-      - _109 |12.86Mb
-      - 台湾04
-      - Pool_🇸🇬SG_540
-      - Relay_-🇭🇰HK_228
       - _[WARP]Scaleway 2
-      - Relay_🇦🇺AU-🇦🇺AU_338
-      - Pool_🇸🇬SG_533
       - "[1x]•🇸🇬狮城05"
-      - Relay_-🇩🇪DE_197
-      - Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb
-      - 美国01 3
-      - Relay_-🇺🇸US_137
-      - Relay_-🇭🇰HK_223
       - 日本03
-      - "[1x]•🇯🇵日本01"
-      - JP_474
       - 新加坡01 2
-      - Relay_-🇺🇸US_976
-      - Relay_-🇰🇷KR_220
-      - SG_639
       - TW🇸🇬_[PF][家宽]OVH-台灣凱擘大寬頻KBRO
-      - Pool_🇭🇰HK_446
       - 日本02
       - _[PF][家宽]OVH_日本SONY
       - _[PF][家宽]OVH-泰国AIS
-      - 香港02
       - 美国01 2
       - "[1x]•🇸🇬狮城04"
       - Relay_🇹🇼TW-🇹🇼TW_1515
@@ -1764,9 +1335,7 @@ proxy-groups:
       - 美国04「ChatGPT」
       - SG_637
       - US_695
-      - 美国03「ChatGPT」
       - Relay_🇨🇳CN-🇺🇸US_457
-      - _238
       - "[1x]•🇭🇰香港03"
       - 香港01
       - 美国【付费推荐：https://tt.vg/vip】20
@@ -1775,75 +1344,44 @@ proxy-groups:
       - _01
       - Relay_🇨🇳CN-🇩🇪DE_276
       - 香港01 2
-      - Relay_🇨🇳CN-🇸🇬SG_433
       - Relay_🇨🇳CN-🇸🇬SG_491
       - Relay_🇨🇳CN-🇫🇷FR_267
       - Relay_🇨🇳CN-🇸🇬SG_477
-      - Relay_🇨🇳CN-🇺🇸US_307
-      - Relay_🇨🇳CN-🇸🇬SG_503
       - Relay_🇨🇳CN-🇸🇬SG_497
       - 「SCP」US-DP3-HTTP
       - Relay_🇨🇳CN-🇯🇵JP_279
-      - Relay_🇨🇳CN-🇯🇵JP_287
-      - Relay_🇨🇳CN-🇸🇬SG_453
-      - Relay_🇨🇳CN-🇹🇼TW_327
-      - Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb
-      - Relay_-🇭🇰HK_237
       - Relay_🇨🇳CN-🇭🇰HK_321
       - "[1x]•🇸🇬狮城02"
-      - Relay_🇨🇳CN-🇸🇬SG_463
       - US_679
-      - Relay_🇨🇳CN-🇫🇷FR_301
       - Relay_🇨🇳CN-🇯🇵JP_305
       - NL_616
       - Relay_🇺🇸US-🇺🇸US_791
       - Relay_🇨🇳CN-🇫🇷FR_320
-      - Relay_🇨🇳CN-🇯🇵JP_334
-      - Relay_🇨🇳CN-🇺🇸US_282
-      - Relay_🇨🇳CN-🇸🇬SG_436
-      - Relay_🇨🇳CN-🇦🇺AU_283
       - US_607
       - "[1x]•🇭🇰香港02"
-      - Relay_🇨🇳CN-🇺🇸US_284
-      - Relay_🇨🇳CN-🇫🇷FR_310
-      - Relay_-🇺🇸US_326
-      - Relay_🇨🇳CN-🇺🇸US_319
       - _Scaleway 2
       - Relay_🇨🇳CN-🇺🇸US_278
       - Pool_🇭🇰HK_442
-      - Relay_-🇸🇬SG_207
       - Relay_🇨🇳CN-🇹🇼TW_313
       - Pool_🇭🇰HK_157
       - Pool_🇸🇬SG_214
-      - Relay_🇨🇳CN-🇩🇪DE_266
       - Pool_🇸🇬SG_536
       - Pool_🇭🇰HK_159
       - Pool_🇭🇰HK_160
       - Pool_🇸🇬SG_532
       - Pool_🇸🇬SG_527
-      - Relay_🇨🇳CN-🇯🇵JP_306
       - Pool_🇸🇬SG_218
       - Pool_🇸🇬SG_410 |42.53Mb
       - 日本01
-      - Relay_-🇯🇵JP_247
-      - Relay_🇸🇬SG-🇺🇸US_1110
       - "[1x]•🇸🇬狮城01"
       - Pool_🇸🇬SG_546
       - US_619
-      - Relay_🇨🇳CN-🇦🇺AU_290
       - Relay_🇨🇳CN-🇺🇸US_237
-      - Relay_-🇸🇬SG_235
-      - Relay_-🇸🇬SG_244
-      - Relay_🇨🇳CN-🇭🇰HK_317
       - 「SCP」US-BuyVM4-HTTP
       - Relay_🇨🇳CN-🇸🇬SG_469
       - Relay_🇨🇳CN-🇭🇰HK_512
       - 「SCP」US-DP2-HTTP
-      - Relay_🇨🇳CN-🇦🇺AU_326
-      - _105 |28.12Mb
-      - Relay_🇨🇳CN-🇺🇸US_434
       - Relay_🇨🇳CN-🇩🇪DE_329
-      - Relay_🇨🇳CN-🇸🇬SG_478
       - Pool_🇸🇬SG_525
       - US_671
       - Pool_🇸🇬SG_534
@@ -1854,10 +1392,6 @@ proxy-groups:
       - Pool_🇭🇰HK_444
       - 「SCP」CA-CF-HTTP
       - Relay_🇨🇳CN-🇺🇸US_509
-      - _112 |27.34Mb
-      - Pool__31
-      - Relay_🇨🇳CN-🇺🇸US_492
-      - Relay_🇨🇳CN-🇯🇵JP_315
       - _73
       - Relay_🇨🇳CN-🇺🇸US_450
       - Relay_🇺🇸US-🇺🇸US_866
@@ -1867,9 +1401,7 @@ proxy-groups:
       - Relay_🇨🇳CN-🇹🇼TW_352
       - US_680
       - Pool_🇭🇰HK_439
-      - Relay_-🇫🇷FR_185
       - Relay_🇨🇳CN-🇺🇸US_449
-      - Relay_🇨🇳CN-🇩🇪DE_302
       - Relay_🇨🇳CN-🇷🇺RU_268
       - 「SCP」SG-CF1-HTTP
       - Relay_🇺🇸US-🇺🇸US_733
@@ -1883,21 +1415,55 @@ proxy-groups:
       - Pool_🇸🇬SG_547
       - _32
       - 美国【付费推荐：https://tt.vg/vip】41
-      - Relay_-🇸🇬SG_159
       - _72
       - Relay_🇨🇳CN-🇭🇰HK_394
       - Pool_🇭🇰HK_441
-      - Relay_🇮🇩ID-🇮🇩ID_1200
       - _30
       - Pool_🇸🇬SG_543
       - Pool_🇸🇬SG_201
       - Relay_🇨🇳CN-🇺🇸US_424
-      - Relay_-🇭🇰HK_172
       - US_681
       - _[原生]pilw
       - Pool_🇸🇬SG_210
       - Pool_🇭🇰HK_452
-      - Relay_-🇹🇼TW_218
+      - 美国02
+      - 台湾03「ChatGPT」
+      - 新加坡02
+      - 台湾02
+      - 美国03
+      - 日本01 2
+      - 香港03
+      - Relay_-🇹🇼TW_178
+      - "[1x]•🇸🇬狮城03"
+      - 日本03 2
+      - _118
+      - Pool_🇭🇰HK_445
+      - "[1x]•🇸🇬狮城08"
+      - 新加坡03 2
+      - "[1x]•🇸🇬狮城09"
+      - Pool_🇭🇰HK_458
+      - Relay_-🇹🇼TW_209
+      - "[1x]•🇸🇬狮城11"
+      - Relay_-🇨🇳CN_111
+      - "[1x]•🇯🇵日本03"
+      - Relay_🇨🇳CN-🇹🇼TW_1034
+      - 台湾04
+      - Pool_🇸🇬SG_540
+      - Relay_🇦🇺AU-🇦🇺AU_338
+      - Pool_🇸🇬SG_533
+      - Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb
+      - 美国01 3
+      - Relay_-🇺🇸US_137
+      - "[1x]•🇯🇵日本01"
+      - JP_474
+      - Relay_-🇺🇸US_976
+      - Pool_🇭🇰HK_446
+      - Relay_🇹🇼TW-🇹🇼TW_1515 2
+      - 美国03「ChatGPT」
+      - 美国05 2
+      - Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb
+      - 美国01
+      - 台湾03
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

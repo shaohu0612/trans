@@ -5,6 +5,51 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: _112 |27.34Mb, server: 103.190.107.162, port: 80, type: vmess, uuid: a740cddf-bda7-4b58-8eda-35bece740b6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /anti13.zingfast.vn, ws-headers: {Host: 103.190.107.162}, udp: true}
+  - {name: Relay_🇨🇳CN-🇯🇵JP_395, server: sa.steamdownload.top, port: 36632, type: trojan, password: ae064bf6-66fe-4902-abf7-e1b7157e1f30, sni: sa.steamdownload.top, skip-cert-verify: true, udp: true}
+  - {name: Pool_🇺🇸US_229 |15.76Mb, server: 142.4.121.248, port: 45129, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[1x]•🇭🇰香港01", server: hkxd.naichald.xyz, port: 443, type: vmess, uuid: b5ee2aa5-0764-46b9-b278-fd3f2d1b4df0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: 美国【付费推荐：https://tt.vg/vip】41, server: 192.203.230.65, port: 443, type: vmess, uuid: e784464d-7dd8-48ea-b65c-20a68793a5a6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /kbjc/jp1, ws-headers: {Host: jp1.hnokkdf.top}, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_266, server: as.unlimitedtraffic.top, port: 25815, type: ss, cipher: chacha20-ietf-poly1305, password: a3aed593-3415-4672-997d-15798bb301f1, udp: true}
+  - {name: Relay_🇳🇱NL-🇺🇸US_149 |28.82Mb, server: 45.86.11.177, port: 59102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇹🇼TW_178, server: 139.226.112.205, port: 63088, type: vmess, uuid: c796ecaf-e6ca-3eba-96d3-21df44550cbc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: tw-load-balancer.myn1des.com}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_251 |17.01Mb, server: 142.4.126.72, port: 31002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇭🇰HK_235, server: dx.plggogo.xyz, port: 31615, type: trojan, password: 3837e04c-708f-3281-a286-1ab0432cd678, sni: dx.plggogo.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_352, server: 4e36nodev1.jcdn1.kiki789.com, port: 23033, type: vmess, uuid: 07da79a2-75ff-349c-8ded-0af6a9735ab0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /87751ff2-222a-477b-8bec-60a13527f24c.live238.m3u8, ws-headers: {Host: 4e36nodev1.jcdn1.kiki789.com}, udp: true}
+  - {name: Pool_🇺🇸US_242 |34.71Mb, server: 142.4.110.115, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_257 |18.86Mb, server: 140.99.94.61, port: 48399, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[1x]•🇸🇬狮城11", server: 129.150.56.193, port: 443, type: vmess, uuid: b5ee2aa5-0764-46b9-b278-fd3f2d1b4df0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: Relay_-🇺🇸US_251, server: jp1.cnamazon.sbs, port: 443, type: trojan, password: df963f78-f041-4301-b8cb-19ce5fdffa60, sni: jp1.cnamazon.sbs, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_277 |32.80Mb, server: 140.99.94.43, port: 44108, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_253 |17.32Mb, server: 142.0.139.55, port: 57072, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _109 |12.86Mb, server: 103.16.214.60, port: 80, type: vmess, uuid: a740cddf-bda7-4b58-8eda-35bece740b6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /anti13.zingfast.vn, ws-headers: {Host: 103.16.214.60}, udp: true}
+  - {name: _77 |13.64Mb, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇹🇼TW_209, server: 223.166.157.46, port: 63088, type: vmess, uuid: c796ecaf-e6ca-3eba-96d3-21df44550cbc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: tw-load-balancer.myn1des.com}, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_394, server: oss-cn-shanghai.westdatacloud.xyz, port: 20048, type: trojan, password: 1bee3bed-6ddb-11ed-bbdc-f23c935380ee, sni: oss-cn-shanghai.westdatacloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇺🇸US_241, server: dx.plggogo.xyz, port: 31613, type: trojan, password: 3837e04c-708f-3281-a286-1ab0432cd678, sni: dx.plggogo.xyz, skip-cert-verify: true, udp: true}
+  - {name: "[1x]•🇸🇬狮城09", server: cm2.naichald.xyz, port: 34478, type: ss, cipher: chacha20-ietf-poly1305, password: b5ee2aa5-0764-46b9-b278-fd3f2d1b4df0, udp: true}
+  - {name: "[1x]•🇸🇬狮城08", server: cm3.naichald.xyz, port: 34478, type: ss, cipher: chacha20-ietf-poly1305, password: b5ee2aa5-0764-46b9-b278-fd3f2d1b4df0, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_791, server: rn.blowm1k.club, port: 14978, type: trojan, password: f5mpynwukL, sni: rn.blowm1k.club, skip-cert-verify: true, udp: true}
+  - {name: _118, server: 43.201.148.126, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: Relay_-🇺🇸US_240, server: dx.plggogo.xyz, port: 31617, type: trojan, password: 3837e04c-708f-3281-a286-1ab0432cd678, sni: dx.plggogo.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_619, server: 167.88.62.24, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _105 |28.12Mb, server: 103.29.2.102, port: 80, type: vmess, uuid: a740cddf-bda7-4b58-8eda-35bece740b6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /anti13.zingfast.vn, ws-headers: {Host: 103.29.2.102}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_758, server: hk.untilmu.com, port: 443, type: vmess, uuid: 01445009-f81e-4d87-90be-0fd23de2ef91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /azhk, ws-headers: {Host: hk.untilmu.com}, udp: true}
+  - {name: US_607, server: 167.88.62.24, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Pool__74 |16.93Mb, server: 198.2.208.180, port: 35402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇦🇺AU-🇦🇺AU_338, server: hk6.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: hk6.af49c4e4c2ef.sanfen001.pics}, udp: true}
+  - {name: Relay_🇨🇳CN-🇷🇺RU_268, server: cn1.applebench.tech, port: 19198, type: ss, cipher: chacha20-ietf-poly1305, password: 7335c755-8c4c-4e85-821c-589d3d6e20b8, udp: true}
+  - {name: "[1x]•🇭🇰香港02", server: cm2.naichald.xyz, port: 38878, type: ss, cipher: chacha20-ietf-poly1305, password: b5ee2aa5-0764-46b9-b278-fd3f2d1b4df0, udp: true}
+  - {name: Relay_-🇺🇸US_976, server: usajs.stablize.top, port: 443, type: trojan, password: 62326316-9ec6-43af-a210-b755e3e9623f, sni: usajs.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: Pool__73 |35.76Mb, server: 198.2.208.82, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _68 |13.82Mb, server: 47.104.237.32, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇮🇩ID-🇮🇩ID_1200, server: id.ftvpn.xyz, port: 80, type: vmess, uuid: 49cfb56e-ae2b-478d-a4ee-cddb92213dc2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: id.ftvpn.xyz}, udp: true}
+  - {name: Relay_-🇩🇪DE_197, server: 59.36.139.14, port: 63092, type: vmess, uuid: c796ecaf-e6ca-3eba-96d3-21df44550cbc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: de01-cdn.airport-v2.com}, udp: true}
+  - {name: Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb, server: hinet.mjt001.com, port: 443, type: trojan, password: 74400921-f59f-4009-b52a-c2789b49fab6, sni: hinet.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: "[1x]•🇭🇰香港03", server: cm3.naichald.xyz, port: 38878, type: ss, cipher: chacha20-ietf-poly1305, password: b5ee2aa5-0764-46b9-b278-fd3f2d1b4df0, udp: true}
+  - {name: Relay_-🇭🇰HK_172, server: 120.232.179.161, port: 63078, type: vmess, uuid: c796ecaf-e6ca-3eba-96d3-21df44550cbc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb, server: ru.mjt001.com, port: 443, type: trojan, password: 5a035db3-34ea-48ca-9aa2-72c8229e1532, sni: ru.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇫🇷FR_185, server: amongusx.pomo-choose.xyz, port: 7, type: vmess, uuid: 0a336f4b-b324-4435-911b-f43aec4196b8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: amongusx.pomo-choose.xyz}, udp: true}
   - {name: Relay_-🇺🇸US_137, server: api.qiscus.com, port: 443, type: vmess, uuid: bf144b2d-1a18-45b4-9372-64dd3e9682df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: sg2-mlb.v2rayserv.com}, udp: true}
   - {name: Relay_🇨🇳CN-🇹🇼TW_1034, server: 116.192.171.97, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, skip-cert-verify: true, udp: true}
   - {name: "_[原生][商宽]VNPT", server: cf.noaries.de, port: 8080, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: vn.cloudflare.quest}, udp: true}
@@ -91,6 +136,51 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _112 |27.34Mb
+      - Relay_🇨🇳CN-🇯🇵JP_395
+      - Pool_🇺🇸US_229 |15.76Mb
+      - "[1x]•🇭🇰香港01"
+      - 美国【付费推荐：https://tt.vg/vip】41
+      - Relay_🇨🇳CN-🇺🇸US_266
+      - Relay_🇳🇱NL-🇺🇸US_149 |28.82Mb
+      - Relay_-🇹🇼TW_178
+      - Relay_🇺🇸US-🇺🇸US_251 |17.01Mb
+      - Relay_-🇭🇰HK_235
+      - Relay_🇨🇳CN-🇹🇼TW_352
+      - Pool_🇺🇸US_242 |34.71Mb
+      - Relay_🇺🇸US-🇺🇸US_257 |18.86Mb
+      - "[1x]•🇸🇬狮城11"
+      - Relay_-🇺🇸US_251
+      - Relay_🇺🇸US-🇺🇸US_277 |32.80Mb
+      - Relay_🇺🇸US-🇺🇸US_253 |17.32Mb
+      - _109 |12.86Mb
+      - _77 |13.64Mb
+      - Relay_-🇹🇼TW_209
+      - Relay_🇨🇳CN-🇭🇰HK_394
+      - Relay_-🇺🇸US_241
+      - "[1x]•🇸🇬狮城09"
+      - "[1x]•🇸🇬狮城08"
+      - Relay_🇺🇸US-🇺🇸US_791
+      - _118
+      - Relay_-🇺🇸US_240
+      - US_619
+      - _105 |28.12Mb
+      - Relay_🇺🇸US-🇺🇸US_758
+      - US_607
+      - Pool__74 |16.93Mb
+      - Relay_🇦🇺AU-🇦🇺AU_338
+      - Relay_🇨🇳CN-🇷🇺RU_268
+      - "[1x]•🇭🇰香港02"
+      - Relay_-🇺🇸US_976
+      - Pool__73 |35.76Mb
+      - _68 |13.82Mb
+      - Relay_🇮🇩ID-🇮🇩ID_1200
+      - Relay_-🇩🇪DE_197
+      - Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb
+      - "[1x]•🇭🇰香港03"
+      - Relay_-🇭🇰HK_172
+      - Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb
+      - Relay_-🇫🇷FR_185
       - Relay_-🇺🇸US_137
       - Relay_🇨🇳CN-🇹🇼TW_1034
       - _[原生][商宽]VNPT
@@ -176,6 +266,51 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - _112 |27.34Mb
+      - Relay_🇨🇳CN-🇯🇵JP_395
+      - Pool_🇺🇸US_229 |15.76Mb
+      - "[1x]•🇭🇰香港01"
+      - 美国【付费推荐：https://tt.vg/vip】41
+      - Relay_🇨🇳CN-🇺🇸US_266
+      - Relay_🇳🇱NL-🇺🇸US_149 |28.82Mb
+      - Relay_-🇹🇼TW_178
+      - Relay_🇺🇸US-🇺🇸US_251 |17.01Mb
+      - Relay_-🇭🇰HK_235
+      - Relay_🇨🇳CN-🇹🇼TW_352
+      - Pool_🇺🇸US_242 |34.71Mb
+      - Relay_🇺🇸US-🇺🇸US_257 |18.86Mb
+      - "[1x]•🇸🇬狮城11"
+      - Relay_-🇺🇸US_251
+      - Relay_🇺🇸US-🇺🇸US_277 |32.80Mb
+      - Relay_🇺🇸US-🇺🇸US_253 |17.32Mb
+      - _109 |12.86Mb
+      - _77 |13.64Mb
+      - Relay_-🇹🇼TW_209
+      - Relay_🇨🇳CN-🇭🇰HK_394
+      - Relay_-🇺🇸US_241
+      - "[1x]•🇸🇬狮城09"
+      - "[1x]•🇸🇬狮城08"
+      - Relay_🇺🇸US-🇺🇸US_791
+      - _118
+      - Relay_-🇺🇸US_240
+      - US_619
+      - _105 |28.12Mb
+      - Relay_🇺🇸US-🇺🇸US_758
+      - US_607
+      - Pool__74 |16.93Mb
+      - Relay_🇦🇺AU-🇦🇺AU_338
+      - Relay_🇨🇳CN-🇷🇺RU_268
+      - "[1x]•🇭🇰香港02"
+      - Relay_-🇺🇸US_976
+      - Pool__73 |35.76Mb
+      - _68 |13.82Mb
+      - Relay_🇮🇩ID-🇮🇩ID_1200
+      - Relay_-🇩🇪DE_197
+      - Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb
+      - "[1x]•🇭🇰香港03"
+      - Relay_-🇭🇰HK_172
+      - Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb
+      - Relay_-🇫🇷FR_185
       - Relay_-🇺🇸US_137
       - Relay_🇨🇳CN-🇹🇼TW_1034
       - _[原生][商宽]VNPT
@@ -262,6 +397,51 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _112 |27.34Mb
+      - Relay_🇨🇳CN-🇯🇵JP_395
+      - Pool_🇺🇸US_229 |15.76Mb
+      - "[1x]•🇭🇰香港01"
+      - 美国【付费推荐：https://tt.vg/vip】41
+      - Relay_🇨🇳CN-🇺🇸US_266
+      - Relay_🇳🇱NL-🇺🇸US_149 |28.82Mb
+      - Relay_-🇹🇼TW_178
+      - Relay_🇺🇸US-🇺🇸US_251 |17.01Mb
+      - Relay_-🇭🇰HK_235
+      - Relay_🇨🇳CN-🇹🇼TW_352
+      - Pool_🇺🇸US_242 |34.71Mb
+      - Relay_🇺🇸US-🇺🇸US_257 |18.86Mb
+      - "[1x]•🇸🇬狮城11"
+      - Relay_-🇺🇸US_251
+      - Relay_🇺🇸US-🇺🇸US_277 |32.80Mb
+      - Relay_🇺🇸US-🇺🇸US_253 |17.32Mb
+      - _109 |12.86Mb
+      - _77 |13.64Mb
+      - Relay_-🇹🇼TW_209
+      - Relay_🇨🇳CN-🇭🇰HK_394
+      - Relay_-🇺🇸US_241
+      - "[1x]•🇸🇬狮城09"
+      - "[1x]•🇸🇬狮城08"
+      - Relay_🇺🇸US-🇺🇸US_791
+      - _118
+      - Relay_-🇺🇸US_240
+      - US_619
+      - _105 |28.12Mb
+      - Relay_🇺🇸US-🇺🇸US_758
+      - US_607
+      - Pool__74 |16.93Mb
+      - Relay_🇦🇺AU-🇦🇺AU_338
+      - Relay_🇨🇳CN-🇷🇺RU_268
+      - "[1x]•🇭🇰香港02"
+      - Relay_-🇺🇸US_976
+      - Pool__73 |35.76Mb
+      - _68 |13.82Mb
+      - Relay_🇮🇩ID-🇮🇩ID_1200
+      - Relay_-🇩🇪DE_197
+      - Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb
+      - "[1x]•🇭🇰香港03"
+      - Relay_-🇭🇰HK_172
+      - Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb
+      - Relay_-🇫🇷FR_185
       - Relay_-🇺🇸US_137
       - Relay_🇨🇳CN-🇹🇼TW_1034
       - _[原生][商宽]VNPT
@@ -360,6 +540,51 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _112 |27.34Mb
+      - Relay_🇨🇳CN-🇯🇵JP_395
+      - Pool_🇺🇸US_229 |15.76Mb
+      - "[1x]•🇭🇰香港01"
+      - 美国【付费推荐：https://tt.vg/vip】41
+      - Relay_🇨🇳CN-🇺🇸US_266
+      - Relay_🇳🇱NL-🇺🇸US_149 |28.82Mb
+      - Relay_-🇹🇼TW_178
+      - Relay_🇺🇸US-🇺🇸US_251 |17.01Mb
+      - Relay_-🇭🇰HK_235
+      - Relay_🇨🇳CN-🇹🇼TW_352
+      - Pool_🇺🇸US_242 |34.71Mb
+      - Relay_🇺🇸US-🇺🇸US_257 |18.86Mb
+      - "[1x]•🇸🇬狮城11"
+      - Relay_-🇺🇸US_251
+      - Relay_🇺🇸US-🇺🇸US_277 |32.80Mb
+      - Relay_🇺🇸US-🇺🇸US_253 |17.32Mb
+      - _109 |12.86Mb
+      - _77 |13.64Mb
+      - Relay_-🇹🇼TW_209
+      - Relay_🇨🇳CN-🇭🇰HK_394
+      - Relay_-🇺🇸US_241
+      - "[1x]•🇸🇬狮城09"
+      - "[1x]•🇸🇬狮城08"
+      - Relay_🇺🇸US-🇺🇸US_791
+      - _118
+      - Relay_-🇺🇸US_240
+      - US_619
+      - _105 |28.12Mb
+      - Relay_🇺🇸US-🇺🇸US_758
+      - US_607
+      - Pool__74 |16.93Mb
+      - Relay_🇦🇺AU-🇦🇺AU_338
+      - Relay_🇨🇳CN-🇷🇺RU_268
+      - "[1x]•🇭🇰香港02"
+      - Relay_-🇺🇸US_976
+      - Pool__73 |35.76Mb
+      - _68 |13.82Mb
+      - Relay_🇮🇩ID-🇮🇩ID_1200
+      - Relay_-🇩🇪DE_197
+      - Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb
+      - "[1x]•🇭🇰香港03"
+      - Relay_-🇭🇰HK_172
+      - Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb
+      - Relay_-🇫🇷FR_185
       - Relay_-🇺🇸US_137
       - Relay_🇨🇳CN-🇹🇼TW_1034
       - _[原生][商宽]VNPT
@@ -444,6 +669,9 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - "[1x]•🇭🇰香港01"
+      - "[1x]•🇭🇰香港02"
+      - "[1x]•🇭🇰香港03"
       - 台湾03「ChatGPT」
       - 香港01
       - 香港02
@@ -458,6 +686,51 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - _112 |27.34Mb
+      - Relay_🇨🇳CN-🇯🇵JP_395
+      - Pool_🇺🇸US_229 |15.76Mb
+      - "[1x]•🇭🇰香港01"
+      - 美国【付费推荐：https://tt.vg/vip】41
+      - Relay_🇨🇳CN-🇺🇸US_266
+      - Relay_🇳🇱NL-🇺🇸US_149 |28.82Mb
+      - Relay_-🇹🇼TW_178
+      - Relay_🇺🇸US-🇺🇸US_251 |17.01Mb
+      - Relay_-🇭🇰HK_235
+      - Relay_🇨🇳CN-🇹🇼TW_352
+      - Pool_🇺🇸US_242 |34.71Mb
+      - Relay_🇺🇸US-🇺🇸US_257 |18.86Mb
+      - "[1x]•🇸🇬狮城11"
+      - Relay_-🇺🇸US_251
+      - Relay_🇺🇸US-🇺🇸US_277 |32.80Mb
+      - Relay_🇺🇸US-🇺🇸US_253 |17.32Mb
+      - _109 |12.86Mb
+      - _77 |13.64Mb
+      - Relay_-🇹🇼TW_209
+      - Relay_🇨🇳CN-🇭🇰HK_394
+      - Relay_-🇺🇸US_241
+      - "[1x]•🇸🇬狮城09"
+      - "[1x]•🇸🇬狮城08"
+      - Relay_🇺🇸US-🇺🇸US_791
+      - _118
+      - Relay_-🇺🇸US_240
+      - US_619
+      - _105 |28.12Mb
+      - Relay_🇺🇸US-🇺🇸US_758
+      - US_607
+      - Pool__74 |16.93Mb
+      - Relay_🇦🇺AU-🇦🇺AU_338
+      - Relay_🇨🇳CN-🇷🇺RU_268
+      - "[1x]•🇭🇰香港02"
+      - Relay_-🇺🇸US_976
+      - Pool__73 |35.76Mb
+      - _68 |13.82Mb
+      - Relay_🇮🇩ID-🇮🇩ID_1200
+      - Relay_-🇩🇪DE_197
+      - Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb
+      - "[1x]•🇭🇰香港03"
+      - Relay_-🇭🇰HK_172
+      - Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb
+      - Relay_-🇫🇷FR_185
       - Relay_-🇺🇸US_137
       - Relay_🇨🇳CN-🇹🇼TW_1034
       - _[原生][商宽]VNPT
@@ -543,6 +816,51 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - _112 |27.34Mb
+      - Relay_🇨🇳CN-🇯🇵JP_395
+      - Pool_🇺🇸US_229 |15.76Mb
+      - "[1x]•🇭🇰香港01"
+      - 美国【付费推荐：https://tt.vg/vip】41
+      - Relay_🇨🇳CN-🇺🇸US_266
+      - Relay_🇳🇱NL-🇺🇸US_149 |28.82Mb
+      - Relay_-🇹🇼TW_178
+      - Relay_🇺🇸US-🇺🇸US_251 |17.01Mb
+      - Relay_-🇭🇰HK_235
+      - Relay_🇨🇳CN-🇹🇼TW_352
+      - Pool_🇺🇸US_242 |34.71Mb
+      - Relay_🇺🇸US-🇺🇸US_257 |18.86Mb
+      - "[1x]•🇸🇬狮城11"
+      - Relay_-🇺🇸US_251
+      - Relay_🇺🇸US-🇺🇸US_277 |32.80Mb
+      - Relay_🇺🇸US-🇺🇸US_253 |17.32Mb
+      - _109 |12.86Mb
+      - _77 |13.64Mb
+      - Relay_-🇹🇼TW_209
+      - Relay_🇨🇳CN-🇭🇰HK_394
+      - Relay_-🇺🇸US_241
+      - "[1x]•🇸🇬狮城09"
+      - "[1x]•🇸🇬狮城08"
+      - Relay_🇺🇸US-🇺🇸US_791
+      - _118
+      - Relay_-🇺🇸US_240
+      - US_619
+      - _105 |28.12Mb
+      - Relay_🇺🇸US-🇺🇸US_758
+      - US_607
+      - Pool__74 |16.93Mb
+      - Relay_🇦🇺AU-🇦🇺AU_338
+      - Relay_🇨🇳CN-🇷🇺RU_268
+      - "[1x]•🇭🇰香港02"
+      - Relay_-🇺🇸US_976
+      - Pool__73 |35.76Mb
+      - _68 |13.82Mb
+      - Relay_🇮🇩ID-🇮🇩ID_1200
+      - Relay_-🇩🇪DE_197
+      - Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb
+      - "[1x]•🇭🇰香港03"
+      - Relay_-🇭🇰HK_172
+      - Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb
+      - Relay_-🇫🇷FR_185
       - Relay_-🇺🇸US_137
       - Relay_🇨🇳CN-🇹🇼TW_1034
       - _[原生][商宽]VNPT
@@ -629,6 +947,51 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - _112 |27.34Mb
+      - Relay_🇨🇳CN-🇯🇵JP_395
+      - Pool_🇺🇸US_229 |15.76Mb
+      - "[1x]•🇭🇰香港01"
+      - 美国【付费推荐：https://tt.vg/vip】41
+      - Relay_🇨🇳CN-🇺🇸US_266
+      - Relay_🇳🇱NL-🇺🇸US_149 |28.82Mb
+      - Relay_-🇹🇼TW_178
+      - Relay_🇺🇸US-🇺🇸US_251 |17.01Mb
+      - Relay_-🇭🇰HK_235
+      - Relay_🇨🇳CN-🇹🇼TW_352
+      - Pool_🇺🇸US_242 |34.71Mb
+      - Relay_🇺🇸US-🇺🇸US_257 |18.86Mb
+      - "[1x]•🇸🇬狮城11"
+      - Relay_-🇺🇸US_251
+      - Relay_🇺🇸US-🇺🇸US_277 |32.80Mb
+      - Relay_🇺🇸US-🇺🇸US_253 |17.32Mb
+      - _109 |12.86Mb
+      - _77 |13.64Mb
+      - Relay_-🇹🇼TW_209
+      - Relay_🇨🇳CN-🇭🇰HK_394
+      - Relay_-🇺🇸US_241
+      - "[1x]•🇸🇬狮城09"
+      - "[1x]•🇸🇬狮城08"
+      - Relay_🇺🇸US-🇺🇸US_791
+      - _118
+      - Relay_-🇺🇸US_240
+      - US_619
+      - _105 |28.12Mb
+      - Relay_🇺🇸US-🇺🇸US_758
+      - US_607
+      - Pool__74 |16.93Mb
+      - Relay_🇦🇺AU-🇦🇺AU_338
+      - Relay_🇨🇳CN-🇷🇺RU_268
+      - "[1x]•🇭🇰香港02"
+      - Relay_-🇺🇸US_976
+      - Pool__73 |35.76Mb
+      - _68 |13.82Mb
+      - Relay_🇮🇩ID-🇮🇩ID_1200
+      - Relay_-🇩🇪DE_197
+      - Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb
+      - "[1x]•🇭🇰香港03"
+      - Relay_-🇭🇰HK_172
+      - Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb
+      - Relay_-🇫🇷FR_185
       - Relay_-🇺🇸US_137
       - Relay_🇨🇳CN-🇹🇼TW_1034
       - _[原生][商宽]VNPT
@@ -724,6 +1087,51 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - _112 |27.34Mb
+      - Relay_🇨🇳CN-🇯🇵JP_395
+      - Pool_🇺🇸US_229 |15.76Mb
+      - "[1x]•🇭🇰香港01"
+      - 美国【付费推荐：https://tt.vg/vip】41
+      - Relay_🇨🇳CN-🇺🇸US_266
+      - Relay_🇳🇱NL-🇺🇸US_149 |28.82Mb
+      - Relay_-🇹🇼TW_178
+      - Relay_🇺🇸US-🇺🇸US_251 |17.01Mb
+      - Relay_-🇭🇰HK_235
+      - Relay_🇨🇳CN-🇹🇼TW_352
+      - Pool_🇺🇸US_242 |34.71Mb
+      - Relay_🇺🇸US-🇺🇸US_257 |18.86Mb
+      - "[1x]•🇸🇬狮城11"
+      - Relay_-🇺🇸US_251
+      - Relay_🇺🇸US-🇺🇸US_277 |32.80Mb
+      - Relay_🇺🇸US-🇺🇸US_253 |17.32Mb
+      - _109 |12.86Mb
+      - _77 |13.64Mb
+      - Relay_-🇹🇼TW_209
+      - Relay_🇨🇳CN-🇭🇰HK_394
+      - Relay_-🇺🇸US_241
+      - "[1x]•🇸🇬狮城09"
+      - "[1x]•🇸🇬狮城08"
+      - Relay_🇺🇸US-🇺🇸US_791
+      - _118
+      - Relay_-🇺🇸US_240
+      - US_619
+      - _105 |28.12Mb
+      - Relay_🇺🇸US-🇺🇸US_758
+      - US_607
+      - Pool__74 |16.93Mb
+      - Relay_🇦🇺AU-🇦🇺AU_338
+      - Relay_🇨🇳CN-🇷🇺RU_268
+      - "[1x]•🇭🇰香港02"
+      - Relay_-🇺🇸US_976
+      - Pool__73 |35.76Mb
+      - _68 |13.82Mb
+      - Relay_🇮🇩ID-🇮🇩ID_1200
+      - Relay_-🇩🇪DE_197
+      - Relay_🇺🇸US-🇹🇼TW_284 |28.63Mb
+      - "[1x]•🇭🇰香港03"
+      - Relay_-🇭🇰HK_172
+      - Relay_🇭🇰HK-🇷🇺RU_112 | 2.43Mb
+      - Relay_-🇫🇷FR_185
       - Relay_-🇺🇸US_137
       - Relay_🇨🇳CN-🇹🇼TW_1034
       - _[原生][商宽]VNPT

@@ -5,6 +5,11 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: Relay_-🇭🇰HK_97, server: piniahk01.abbblog.xyz, port: 37901, type: ss, cipher: aes-128-gcm, password: 359fe37c-e419-4f1c-8feb-441220024097, udp: true}
+  - {name: Relay_-🇹🇼TW_110, server: edge-earth.themars.top, port: 50008, type: ss, cipher: chacha20-ietf-poly1305, password: b63ab848-16e9-426b-a59f-51967804e6ee, udp: true}
+  - {name: Relay_🇨🇳CN-🇯🇵JP_515, server: 183.213.200.206, port: 28101, type: trojan, password: P2bgpq, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇧🇷BR_318, server: a.gfw.services, port: 51366, type: ss, cipher: chacha20-ietf-poly1305, password: cc17ebb6-bb46-49b9-b8cf-7a2beb352b6f, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_309, server: a.gfw.services, port: 29956, type: ss, cipher: chacha20-ietf-poly1305, password: cc17ebb6-bb46-49b9-b8cf-7a2beb352b6f, udp: true}
   - {name: JP_98, server: ru.mjt001.com, port: 443, type: trojan, password: 5a035db3-34ea-48ca-9aa2-72c8229e1532, sni: ru.mjt001.com, skip-cert-verify: true, udp: true}
   - {name: SG_565🇸🇬SG_563🇸🇬SG_504, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, sni: hk31.ssgnode.ga, skip-cert-verify: true, udp: true}
   - {name: Relay_Relay_🇨🇳CN-🇸🇬SG_645🇨🇳CN-🇸🇬SG_529, server: v02.gutingting.com, port: 30052, type: trojan, password: bd03b608-4032-4335-9804-f85e71ec590b, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}

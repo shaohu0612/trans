@@ -6,20 +6,57 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: Relay_🇨🇳CN-🇯🇵JP_53, server: 872f.interface.buzz, port: 31770, type: ss, cipher: aes-128-gcm, password: c7a1f42c-c79a-3c31-9544-89aff988379c, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_334, server: hk6.microsoft-orgwly.vip, port: 10126, type: trojan, password: a0401757-bc2e-4ad4-8486-ac9e37119623, sni: hk6.microsoft-orgwly.vip, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇸🇬SG_39 |25.96Mb, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: PT09PQ==, obfs-param: PT09PQ==, udp: true}
+  - {name: Relay_🇨🇳CN-🇨🇳CN_79, server: layercm05.initcloud.pro, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 48530:LLLiuiuiu787878, obfs-param: "", udp: true}
+  - {name: Relay_🇨🇳CN-🇷🇴RO_107, server: hndx.jcnode.top, port: 40004, type: trojan, password: c6ed83f0-5319-4982-92f5-513afe76f697, sni: hndx.jcnode.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇨🇦CA_149, server: gzdx.jcnode.top, port: 43000, type: trojan, password: c6ed83f0-5319-4982-92f5-513afe76f697, sni: gzdx.jcnode.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇸🇬SG-🇸🇬SG_35 |27.85Mb, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_108, server: gzdx.jcnode.top, port: 40001, type: trojan, password: c6ed83f0-5319-4982-92f5-513afe76f697, sni: gzdx.jcnode.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇺🇸US_12, server: cfyd.starsea.vip, port: 443, type: vmess, uuid: 3238151a-f634-4dcb-be84-7fc096e3674a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: dallas.starsea.vip}, udp: true}
+  - {name: 美国【付费推荐：tt.vg/vip】108, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 8abe9496-5e24-4e49-b566-dcf86116017d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /i99LgvSaslbsPLLQQ7j6Z, ws-headers: {Host: de5.irteh.fun}, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_137, server: gzyd02.jcnode.top, port: 42000, type: trojan, password: c6ed83f0-5319-4982-92f5-513afe76f697, sni: gzyd02.jcnode.top, skip-cert-verify: true, udp: true}
+  - {name: 美国01, server: shcn2.bjyxrwlkj.com, port: 20008, type: vmess, uuid: 7de8b578-fb38-38a8-b28b-88e22a48194f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /us-1, ws-headers: {Host: api.teborder.com}, udp: true}
+  - {name: 「SCP」US-DP3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp3.scproxy.top}, udp: true}
+  - {name: Relay_🇷🇺RU-🇷🇺RU_210, server: r.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 17422:TTp0SX, obfs-param: ab93117422.jd.hk, udp: true}
+  - {name: ZZ_405, server: 103.179.188.60, port: 41896, type: vmess, uuid: 8a4bb4f1-4ac7-4781-e117-5faa90f4a800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: 103.179.188.60}, udp: true}
+  - {name: Pool_🇸🇬SG_390, server: 8.217.90.73, port: 51752, type: ssr, cipher: dummy, password: 873475uy5, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_187, server: 8.218.0.115, port: 55967, type: ssr, cipher: dummy, password: 8234y344, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_231, server: 8.217.83.192, port: 49832, type: ssr, cipher: dummy, password: 872364t464, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇭🇰HK_290, server: 8.210.129.250, port: 54074, type: ssr, cipher: dummy, password: !<str> 34536745634, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: IE_171, server: 13.69.252.86, port: 6091, type: ss, cipher: chacha20-ietf-poly1305, password: 1uB3vmXVoz1hnB3wiZ83mD, udp: true}
+  - {name: 美国【付费推荐：tt.vg/vip】50, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: nl.sharecentrepro.com}, udp: true}
+  - {name: Pool_🇸🇬SG_233, server: 8.218.187.113, port: 56452, type: ssr, cipher: dummy, password: 283464t4, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「SCP」NL-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: nl.sharecentrepro.com}, udp: true}
+  - {name: Pool_🇸🇬SG_236, server: 8.218.187.113, port: 51444, type: ssr, cipher: dummy, password: 983456u5, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Relay_🇨🇳CN-🇨🇦CA_113, server: gzdx.jcnode.top, port: 49001, type: trojan, password: c6ed83f0-5319-4982-92f5-513afe76f697, sni: gzdx.jcnode.top, skip-cert-verify: true, udp: true}
+  - {name: Pool_🇸🇬SG_230, server: 8.217.99.62, port: 47807, type: ssr, cipher: dummy, password: 344fg4344, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 美国【付费推荐：tt.vg/vip】143, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: dp1.yxjnode.com}, udp: true}
+  - {name: Pool_🇸🇬SG_377, server: 8.217.99.62, port: 51785, type: ssr, cipher: dummy, password: 34543t4t4, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_220, server: 8.217.88.237, port: 49436, type: ssr, cipher: dummy, password: 23423r33, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: US_77 |21.80Mb, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
+  - {name: Pool_🇸🇬SG_383, server: 8.218.0.115, port: 50507, type: ssr, cipher: dummy, password: 789345734u5, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_201, server: 8.217.90.39, port: 48687, type: ssr, cipher: dummy, password: 8236u2378, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「SCP」HK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-hytron.ilovescp.com}, udp: true}
+  - {name: Relay_🇺🇸US-🇮🇳IN_272, server: z0114.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: ====, obfs-param: ====, udp: true}
+  - {name: Pool_ | 8.84Mb, server: 216.52.183.243, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: http, host: ""}, udp: true}
+  - {name: Relay_🇫🇷FR-🇺🇸US_24, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: RcfVcDzzB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_376, server: 8.218.201.175, port: 50081, type: ssr, cipher: dummy, password: 2354f4f, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "��,:��'#�#\"\"�'\x07#��{��{�\x0e{����\x03\x13\x13\x03\x13�\"�", obfs-param: "", udp: true}
+  - {name: Relay_🇨🇳CN-🇯🇵JP_116, server: gzdx.jcnode.top, port: 21001, type: trojan, password: 83d32def-43d2-4603-bc25-47fafce7d82d, sni: gzdx.jcnode.top, skip-cert-verify: true, udp: true}
+  - {name: Pool_🇸🇬SG_202, server: 8.217.90.39, port: 53640, type: ssr, cipher: dummy, password: 827374y74, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_221, server: 8.217.88.237, port: 48200, type: ssr, cipher: dummy, password: 87234y4, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Relay_🇨🇳CN-🇯🇵JP_53 2, server: 872f.interface.buzz, port: 31770, type: ss, cipher: aes-128-gcm, password: c7a1f42c-c79a-3c31-9544-89aff988379c, udp: true}
   - {name: Relay_🇺🇸US-🇯🇵JP_31 | 4.83Mb, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: None, obfs-param: "", udp: true}
   - {name: Relay_-🇯🇵JP_05 | 5.84Mb, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: PT09PQ======, obfs-param: PT09PQ======, udp: true}
   - {name: Relay_🇯🇵JP-🇯🇵JP_24 | 5.43Mb, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Pool_🇸🇬SG_377, server: 8.217.99.62, port: 51785, type: ssr, cipher: dummy, password: 34543t4t4, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_377 2, server: 8.217.99.62, port: 51785, type: ssr, cipher: dummy, password: 34543t4t4, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: Pool_🇸🇬SG_198, server: 8.217.46.174, port: 51352, type: ssr, cipher: dummy, password: 34534t545, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Pool_🇸🇬SG_383, server: 8.218.0.115, port: 50507, type: ssr, cipher: dummy, password: 789345734u5, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Pool_🇸🇬SG_201, server: 8.217.90.39, port: 48687, type: ssr, cipher: dummy, password: 8236u2378, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: DE_124, server: 5.75.204.219, port: 36792, type: vmess, uuid: bb94d1e3-d9e6-43ac-e0f7-569f9a5ea615, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: 5.75.204.219}, udp: true}
-  - {name: Pool_🇸🇬SG_187, server: 8.218.0.115, port: 55967, type: ssr, cipher: dummy, password: 8234y344, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Pool_ | 8.84Mb, server: 216.52.183.243, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: http, host: ""}, udp: true}
-  - {name: Pool_🇸🇬SG_202, server: 8.217.90.39, port: 53640, type: ssr, cipher: dummy, password: 827374y74, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_383 2, server: 8.218.0.115, port: 50507, type: ssr, cipher: dummy, password: 789345734u5, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_201 2, server: 8.217.90.39, port: 48687, type: ssr, cipher: dummy, password: 8236u2378, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_187 2, server: 8.218.0.115, port: 55967, type: ssr, cipher: dummy, password: 8234y344, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_ | 8.84Mb 2, server: 216.52.183.243, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: http, host: ""}, udp: true}
+  - {name: Pool_🇸🇬SG_202 2, server: 8.217.90.39, port: 53640, type: ssr, cipher: dummy, password: 827374y74, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: DE_120, server: 5.75.227.6, port: 58027, type: ss, cipher: chacha20-ietf-poly1305, password: ndBur991iJvYOyEaMJw5Hb, udp: true}
-  - {name: Pool_🇸🇬SG_376, server: 8.218.201.175, port: 50081, type: ssr, cipher: dummy, password: 2354f4f, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "��,:��'#�#\"\"�'\x07#��{��{�\x0e{����\x03\x13\x13\x03\x13�\"�", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_376 2, server: 8.218.201.175, port: 50081, type: ssr, cipher: dummy, password: 2354f4f, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "��,:��'#�#\"\"�'\x07#��{��{�\x0e{����\x03\x13\x13\x03\x13�\"�", obfs-param: "", udp: true}
   - {name: 「SCP」IN-DO-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: in.sharecentrepro.com}, udp: true}
   - {name: 「SCP」SG-DO-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: do.sharecentrepro.com}, udp: true}
   - {name: Relay_🇺🇸US-🇸🇬SG_578, server: sg.stablize.top, port: 443, type: trojan, password: 4935d10a-b305-4b3b-8bb0-f8f7feb3640d, sni: sg.stablize.top, skip-cert-verify: true, udp: true}
@@ -40,8 +77,7 @@ proxies:
   - {name: Relay_🇺🇸US-🇺🇸US_553, server: ap.stablize.top, port: 443, type: trojan, password: 6191d59d-021c-4af1-8197-85d52c564ac4, sni: ap.stablize.top, skip-cert-verify: true, udp: true}
   - {name: HK_66, server: ua.mjt001.com, port: 443, type: trojan, password: 9d3b1e0e-252a-4c67-9628-8b62e77197e7, sni: ua.mjt001.com, skip-cert-verify: true, udp: true}
   - {name: Relay_🇺🇸US-🇸🇬SG_567, server: sg.stablize.top, port: 443, type: trojan, password: 5c70405c-db4e-4e15-b510-95c8aa7e61d3, sni: sg.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: Pool_🇭🇰HK_290, server: 8.210.129.250, port: 54074, type: ssr, cipher: dummy, password: !<str> 34536745634, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Pool_🇸🇬SG_399, server: 8.217.92.57, port: 48899, type: ssr, cipher: dummy, password: 23434r4, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇭🇰HK_290 2, server: 8.210.129.250, port: 54074, type: ssr, cipher: dummy, password: !<str> 34536745634, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: Pool_🇸🇬SG_396, server: 8.217.89.239, port: 59120, type: ssr, cipher: dummy, password: 8734834u5, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: Pool_🇸🇬SG_409, server: 8.218.71.75, port: 50835, type: ssr, cipher: dummy, password: 3453453tr4, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: Pool_🇸🇬SG_404, server: 8.217.89.229, port: 53659, type: ssr, cipher: dummy, password: 345u3458, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
@@ -50,7 +86,6 @@ proxies:
   - {name: JP_95, server: ua.mjt001.com, port: 443, type: trojan, password: af4dc66a-ec88-4057-9e46-777b584577f7, sni: ua.mjt001.com, skip-cert-verify: true, udp: true}
   - {name: SG_139, server: sg.stablize.top, port: 443, type: trojan, password: 586bfdcb-4a88-48a1-8377-d7f8de4b8cf5, sni: sg.stablize.top, skip-cert-verify: true, udp: true}
   - {name: Pool_🇸🇬SG_393, server: 8.217.88.237, port: 48200, type: ssr, cipher: dummy, password: 87234y4, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Pool_🇸🇬SG_401, server: 8.217.92.57, port: 47323, type: ssr, cipher: dummy, password: 234r3434, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: Pool_🇸🇬SG_406, server: 8.218.187.113, port: 56452, type: ssr, cipher: dummy, password: 283464t4, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: Pool_🇸🇬SG_381, server: 8.218.187.113, port: 51444, type: ssr, cipher: dummy, password: 983456u5, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: JP_101, server: pt.mjt001.com, port: 443, type: trojan, password: af4dc66a-ec88-4057-9e46-777b584577f7, sni: pt.mjt001.com, skip-cert-verify: true, udp: true}
@@ -63,24 +98,13 @@ proxies:
   - {name: Pool_🇸🇬SG_392, server: 8.217.89.239, port: 57138, type: ssr, cipher: dummy, password: 223423r34, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: Pool_🇸🇬SG_400, server: 8.217.92.210, port: 60073, type: ssr, cipher: dummy, password: 23648234y4, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 「SCP」US-BuyVM3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv2.sharecentrepro.org}, udp: true}
-  - {name: Pool_🇸🇬SG_390, server: 8.217.90.73, port: 51752, type: ssr, cipher: dummy, password: 873475uy5, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Pool_🇸🇬SG_390 2, server: 8.217.90.73, port: 51752, type: ssr, cipher: dummy, password: 873475uy5, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: HK_62, server: pl.mjt001.com, port: 443, type: trojan, password: 9d3b1e0e-252a-4c67-9628-8b62e77197e7, sni: pl.mjt001.com, skip-cert-verify: true, udp: true}
   - {name: Pool_🇸🇬SG_388, server: 8.217.92.210, port: 53645, type: ssr, cipher: dummy, password: 62374y354, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: JP_98, server: kr.stablize.top, port: 443, type: trojan, password: 74ce4fc1-af95-4291-863e-8bec07ed1e77, sni: kr.stablize.top, skip-cert-verify: true, udp: true}
   - {name: US_263, server: ap.stablize.top, port: 443, type: trojan, password: 7561d9a0-af44-405d-81ae-f056fbc03675, sni: ap.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: Relay_🏁ZZ-🇺🇸US_607, server: us3.01dj.sbs, port: 443, type: vmess, uuid: 1d746ee5-ceb8-4960-88fb-d9efc4ea2328, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sometimesnaive, ws-headers: {Host: us3.01dj.sbs}, udp: true}
   - {name: 「SCP」US-DP1-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp1.scproxy.top}, udp: true}
-  - {name: 美国【付费推荐：https://v1.mk/vip】199, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: buyvm2.yxjnode.com}, udp: true}
-  - {name: TW_438, server: 165.154.227.191, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_50, server: stw7-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, sni: stw7-tg-data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
-  - {name: 「SCP」US-BuyVM1-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ny1.sharecentrepro.org}, udp: true}
-  - {name: HK_58, server: hinet.mjt001.com, port: 443, type: trojan, password: af4dc66a-ec88-4057-9e46-777b584577f7, sni: hinet.mjt001.com, skip-cert-verify: true, udp: true}
   - {name: JP_102, server: fscsg.fscloud123456789.com, port: 443, type: trojan, password: 514b8c92-12da-4219-b06c-56ecc67dfa23, sni: fscsg.fscloud123456789.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_525, server: us4.01dj.sbs, port: 443, type: vmess, uuid: 1d746ee5-ceb8-4960-88fb-d9efc4ea2328, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sometimesnaive, ws-headers: {Host: us4.01dj.sbs}, udp: true}
-  - {name: HK_69, server: hinet.mjt001.com, port: 443, type: trojan, password: 9d3b1e0e-252a-4c67-9628-8b62e77197e7, sni: hinet.mjt001.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇭🇰HK-🇭🇰HK_295, server: bgptw3.cnamazon.sbs, port: 443, type: trojan, password: 33114904-dfa7-4267-9996-2c5bb47b7b50, sni: bgptw3.cnamazon.sbs, skip-cert-verify: true, udp: true}
-  - {name: HK_317, server: 165.154.246.229, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
-  - {name: 台湾03「ChatGPT」, server: cybree.0109480.xyz, port: 44444, type: vmess, uuid: bcb6ffbe-214d-32d0-8669-ded08037c8fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: cybree.0109480.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -88,20 +112,57 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - Relay_🇨🇳CN-🇯🇵JP_53
-      - Relay_🇺🇸US-🇺🇸US_334
+      - Relay_🇺🇸US-🇸🇬SG_39 |25.96Mb
+      - Relay_🇨🇳CN-🇨🇳CN_79
+      - Relay_🇨🇳CN-🇷🇴RO_107
+      - Relay_🇨🇳CN-🇨🇦CA_149
+      - Relay_🇸🇬SG-🇸🇬SG_35 |27.85Mb
+      - Relay_🇨🇳CN-🇭🇰HK_108
+      - Relay_-🇺🇸US_12
+      - 美国【付费推荐：tt.vg/vip】108
+      - Relay_🇨🇳CN-🇹🇼TW_137
+      - 美国01
+      - 「SCP」US-DP3-HTTP
+      - Relay_🇷🇺RU-🇷🇺RU_210
+      - ZZ_405
+      - Pool_🇸🇬SG_390
+      - Pool_🇸🇬SG_187
+      - Pool_🇸🇬SG_231
+      - Pool_🇭🇰HK_290
+      - IE_171
+      - 美国【付费推荐：tt.vg/vip】50
+      - Pool_🇸🇬SG_233
+      - 「SCP」NL-CF-HTTP
+      - Pool_🇸🇬SG_236
+      - Relay_🇨🇳CN-🇨🇦CA_113
+      - Pool_🇸🇬SG_230
+      - 美国【付费推荐：tt.vg/vip】143
+      - Pool_🇸🇬SG_377
+      - Pool_🇸🇬SG_220
+      - US_77 |21.80Mb
+      - Pool_🇸🇬SG_383
+      - Pool_🇸🇬SG_201
+      - 「SCP」HK-CF-HTTP
+      - Relay_🇺🇸US-🇮🇳IN_272
+      - Pool_ | 8.84Mb
+      - Relay_🇫🇷FR-🇺🇸US_24
+      - Pool_🇸🇬SG_376
+      - Relay_🇨🇳CN-🇯🇵JP_116
+      - Pool_🇸🇬SG_202
+      - Pool_🇸🇬SG_221
+      - Relay_🇨🇳CN-🇯🇵JP_53 2
       - Relay_🇺🇸US-🇯🇵JP_31 | 4.83Mb
       - Relay_-🇯🇵JP_05 | 5.84Mb
       - Relay_🇯🇵JP-🇯🇵JP_24 | 5.43Mb
-      - Pool_🇸🇬SG_377
+      - Pool_🇸🇬SG_377 2
       - Pool_🇸🇬SG_198
-      - Pool_🇸🇬SG_383
-      - Pool_🇸🇬SG_201
-      - DE_124
-      - Pool_🇸🇬SG_187
-      - Pool_ | 8.84Mb
-      - Pool_🇸🇬SG_202
+      - Pool_🇸🇬SG_383 2
+      - Pool_🇸🇬SG_201 2
+      - Pool_🇸🇬SG_187 2
+      - Pool_ | 8.84Mb 2
+      - Pool_🇸🇬SG_202 2
       - DE_120
-      - Pool_🇸🇬SG_376
+      - Pool_🇸🇬SG_376 2
       - 「SCP」IN-DO-HTTP
       - 「SCP」SG-DO-HTTP
       - Relay_🇺🇸US-🇸🇬SG_578
@@ -122,8 +183,7 @@ proxy-groups:
       - Relay_🇺🇸US-🇺🇸US_553
       - HK_66
       - Relay_🇺🇸US-🇸🇬SG_567
-      - Pool_🇭🇰HK_290
-      - Pool_🇸🇬SG_399
+      - Pool_🇭🇰HK_290 2
       - Pool_🇸🇬SG_396
       - Pool_🇸🇬SG_409
       - Pool_🇸🇬SG_404
@@ -132,7 +192,6 @@ proxy-groups:
       - JP_95
       - SG_139
       - Pool_🇸🇬SG_393
-      - Pool_🇸🇬SG_401
       - Pool_🇸🇬SG_406
       - Pool_🇸🇬SG_381
       - JP_101
@@ -145,44 +204,70 @@ proxy-groups:
       - Pool_🇸🇬SG_392
       - Pool_🇸🇬SG_400
       - 「SCP」US-BuyVM3-HTTP
-      - Pool_🇸🇬SG_390
+      - Pool_🇸🇬SG_390 2
       - HK_62
       - Pool_🇸🇬SG_388
       - JP_98
       - US_263
-      - Relay_🏁ZZ-🇺🇸US_607
       - 「SCP」US-DP1-HTTP
-      - 美国【付费推荐：https://v1.mk/vip】199
-      - TW_438
-      - Relay_🇨🇦CA-🇨🇦CA_50
-      - 「SCP」US-BuyVM1-HTTP
-      - HK_58
       - JP_102
-      - Relay_🇺🇸US-🇺🇸US_525
-      - HK_69
-      - Relay_🇭🇰HK-🇭🇰HK_295
-      - HK_317
-      - 台湾03「ChatGPT」
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - Relay_🇨🇳CN-🇯🇵JP_53
-      - Relay_🇺🇸US-🇺🇸US_334
+      - Relay_🇺🇸US-🇸🇬SG_39 |25.96Mb
+      - Relay_🇨🇳CN-🇨🇳CN_79
+      - Relay_🇨🇳CN-🇷🇴RO_107
+      - Relay_🇨🇳CN-🇨🇦CA_149
+      - Relay_🇸🇬SG-🇸🇬SG_35 |27.85Mb
+      - Relay_🇨🇳CN-🇭🇰HK_108
+      - Relay_-🇺🇸US_12
+      - 美国【付费推荐：tt.vg/vip】108
+      - Relay_🇨🇳CN-🇹🇼TW_137
+      - 美国01
+      - 「SCP」US-DP3-HTTP
+      - Relay_🇷🇺RU-🇷🇺RU_210
+      - ZZ_405
+      - Pool_🇸🇬SG_390
+      - Pool_🇸🇬SG_187
+      - Pool_🇸🇬SG_231
+      - Pool_🇭🇰HK_290
+      - IE_171
+      - 美国【付费推荐：tt.vg/vip】50
+      - Pool_🇸🇬SG_233
+      - 「SCP」NL-CF-HTTP
+      - Pool_🇸🇬SG_236
+      - Relay_🇨🇳CN-🇨🇦CA_113
+      - Pool_🇸🇬SG_230
+      - 美国【付费推荐：tt.vg/vip】143
+      - Pool_🇸🇬SG_377
+      - Pool_🇸🇬SG_220
+      - US_77 |21.80Mb
+      - Pool_🇸🇬SG_383
+      - Pool_🇸🇬SG_201
+      - 「SCP」HK-CF-HTTP
+      - Relay_🇺🇸US-🇮🇳IN_272
+      - Pool_ | 8.84Mb
+      - Relay_🇫🇷FR-🇺🇸US_24
+      - Pool_🇸🇬SG_376
+      - Relay_🇨🇳CN-🇯🇵JP_116
+      - Pool_🇸🇬SG_202
+      - Pool_🇸🇬SG_221
+      - Relay_🇨🇳CN-🇯🇵JP_53 2
       - Relay_🇺🇸US-🇯🇵JP_31 | 4.83Mb
       - Relay_-🇯🇵JP_05 | 5.84Mb
       - Relay_🇯🇵JP-🇯🇵JP_24 | 5.43Mb
-      - Pool_🇸🇬SG_377
+      - Pool_🇸🇬SG_377 2
       - Pool_🇸🇬SG_198
-      - Pool_🇸🇬SG_383
-      - Pool_🇸🇬SG_201
-      - DE_124
-      - Pool_🇸🇬SG_187
-      - Pool_ | 8.84Mb
-      - Pool_🇸🇬SG_202
+      - Pool_🇸🇬SG_383 2
+      - Pool_🇸🇬SG_201 2
+      - Pool_🇸🇬SG_187 2
+      - Pool_ | 8.84Mb 2
+      - Pool_🇸🇬SG_202 2
       - DE_120
-      - Pool_🇸🇬SG_376
+      - Pool_🇸🇬SG_376 2
       - 「SCP」IN-DO-HTTP
       - 「SCP」SG-DO-HTTP
       - Relay_🇺🇸US-🇸🇬SG_578
@@ -203,8 +288,7 @@ proxy-groups:
       - Relay_🇺🇸US-🇺🇸US_553
       - HK_66
       - Relay_🇺🇸US-🇸🇬SG_567
-      - Pool_🇭🇰HK_290
-      - Pool_🇸🇬SG_399
+      - Pool_🇭🇰HK_290 2
       - Pool_🇸🇬SG_396
       - Pool_🇸🇬SG_409
       - Pool_🇸🇬SG_404
@@ -213,7 +297,6 @@ proxy-groups:
       - JP_95
       - SG_139
       - Pool_🇸🇬SG_393
-      - Pool_🇸🇬SG_401
       - Pool_🇸🇬SG_406
       - Pool_🇸🇬SG_381
       - JP_101
@@ -226,24 +309,13 @@ proxy-groups:
       - Pool_🇸🇬SG_392
       - Pool_🇸🇬SG_400
       - 「SCP」US-BuyVM3-HTTP
-      - Pool_🇸🇬SG_390
+      - Pool_🇸🇬SG_390 2
       - HK_62
       - Pool_🇸🇬SG_388
       - JP_98
       - US_263
-      - Relay_🏁ZZ-🇺🇸US_607
       - 「SCP」US-DP1-HTTP
-      - 美国【付费推荐：https://v1.mk/vip】199
-      - TW_438
-      - Relay_🇨🇦CA-🇨🇦CA_50
-      - 「SCP」US-BuyVM1-HTTP
-      - HK_58
       - JP_102
-      - Relay_🇺🇸US-🇺🇸US_525
-      - HK_69
-      - Relay_🇭🇰HK-🇭🇰HK_295
-      - HK_317
-      - 台湾03「ChatGPT」
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -251,20 +323,57 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - Relay_🇨🇳CN-🇯🇵JP_53
-      - Relay_🇺🇸US-🇺🇸US_334
+      - Relay_🇺🇸US-🇸🇬SG_39 |25.96Mb
+      - Relay_🇨🇳CN-🇨🇳CN_79
+      - Relay_🇨🇳CN-🇷🇴RO_107
+      - Relay_🇨🇳CN-🇨🇦CA_149
+      - Relay_🇸🇬SG-🇸🇬SG_35 |27.85Mb
+      - Relay_🇨🇳CN-🇭🇰HK_108
+      - Relay_-🇺🇸US_12
+      - 美国【付费推荐：tt.vg/vip】108
+      - Relay_🇨🇳CN-🇹🇼TW_137
+      - 美国01
+      - 「SCP」US-DP3-HTTP
+      - Relay_🇷🇺RU-🇷🇺RU_210
+      - ZZ_405
+      - Pool_🇸🇬SG_390
+      - Pool_🇸🇬SG_187
+      - Pool_🇸🇬SG_231
+      - Pool_🇭🇰HK_290
+      - IE_171
+      - 美国【付费推荐：tt.vg/vip】50
+      - Pool_🇸🇬SG_233
+      - 「SCP」NL-CF-HTTP
+      - Pool_🇸🇬SG_236
+      - Relay_🇨🇳CN-🇨🇦CA_113
+      - Pool_🇸🇬SG_230
+      - 美国【付费推荐：tt.vg/vip】143
+      - Pool_🇸🇬SG_377
+      - Pool_🇸🇬SG_220
+      - US_77 |21.80Mb
+      - Pool_🇸🇬SG_383
+      - Pool_🇸🇬SG_201
+      - 「SCP」HK-CF-HTTP
+      - Relay_🇺🇸US-🇮🇳IN_272
+      - Pool_ | 8.84Mb
+      - Relay_🇫🇷FR-🇺🇸US_24
+      - Pool_🇸🇬SG_376
+      - Relay_🇨🇳CN-🇯🇵JP_116
+      - Pool_🇸🇬SG_202
+      - Pool_🇸🇬SG_221
+      - Relay_🇨🇳CN-🇯🇵JP_53 2
       - Relay_🇺🇸US-🇯🇵JP_31 | 4.83Mb
       - Relay_-🇯🇵JP_05 | 5.84Mb
       - Relay_🇯🇵JP-🇯🇵JP_24 | 5.43Mb
-      - Pool_🇸🇬SG_377
+      - Pool_🇸🇬SG_377 2
       - Pool_🇸🇬SG_198
-      - Pool_🇸🇬SG_383
-      - Pool_🇸🇬SG_201
-      - DE_124
-      - Pool_🇸🇬SG_187
-      - Pool_ | 8.84Mb
-      - Pool_🇸🇬SG_202
+      - Pool_🇸🇬SG_383 2
+      - Pool_🇸🇬SG_201 2
+      - Pool_🇸🇬SG_187 2
+      - Pool_ | 8.84Mb 2
+      - Pool_🇸🇬SG_202 2
       - DE_120
-      - Pool_🇸🇬SG_376
+      - Pool_🇸🇬SG_376 2
       - 「SCP」IN-DO-HTTP
       - 「SCP」SG-DO-HTTP
       - Relay_🇺🇸US-🇸🇬SG_578
@@ -285,8 +394,7 @@ proxy-groups:
       - Relay_🇺🇸US-🇺🇸US_553
       - HK_66
       - Relay_🇺🇸US-🇸🇬SG_567
-      - Pool_🇭🇰HK_290
-      - Pool_🇸🇬SG_399
+      - Pool_🇭🇰HK_290 2
       - Pool_🇸🇬SG_396
       - Pool_🇸🇬SG_409
       - Pool_🇸🇬SG_404
@@ -295,7 +403,6 @@ proxy-groups:
       - JP_95
       - SG_139
       - Pool_🇸🇬SG_393
-      - Pool_🇸🇬SG_401
       - Pool_🇸🇬SG_406
       - Pool_🇸🇬SG_381
       - JP_101
@@ -308,24 +415,13 @@ proxy-groups:
       - Pool_🇸🇬SG_392
       - Pool_🇸🇬SG_400
       - 「SCP」US-BuyVM3-HTTP
-      - Pool_🇸🇬SG_390
+      - Pool_🇸🇬SG_390 2
       - HK_62
       - Pool_🇸🇬SG_388
       - JP_98
       - US_263
-      - Relay_🏁ZZ-🇺🇸US_607
       - 「SCP」US-DP1-HTTP
-      - 美国【付费推荐：https://v1.mk/vip】199
-      - TW_438
-      - Relay_🇨🇦CA-🇨🇦CA_50
-      - 「SCP」US-BuyVM1-HTTP
-      - HK_58
       - JP_102
-      - Relay_🇺🇸US-🇺🇸US_525
-      - HK_69
-      - Relay_🇭🇰HK-🇭🇰HK_295
-      - HK_317
-      - 台湾03「ChatGPT」
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -345,20 +441,57 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - Relay_🇨🇳CN-🇯🇵JP_53
-      - Relay_🇺🇸US-🇺🇸US_334
+      - Relay_🇺🇸US-🇸🇬SG_39 |25.96Mb
+      - Relay_🇨🇳CN-🇨🇳CN_79
+      - Relay_🇨🇳CN-🇷🇴RO_107
+      - Relay_🇨🇳CN-🇨🇦CA_149
+      - Relay_🇸🇬SG-🇸🇬SG_35 |27.85Mb
+      - Relay_🇨🇳CN-🇭🇰HK_108
+      - Relay_-🇺🇸US_12
+      - 美国【付费推荐：tt.vg/vip】108
+      - Relay_🇨🇳CN-🇹🇼TW_137
+      - 美国01
+      - 「SCP」US-DP3-HTTP
+      - Relay_🇷🇺RU-🇷🇺RU_210
+      - ZZ_405
+      - Pool_🇸🇬SG_390
+      - Pool_🇸🇬SG_187
+      - Pool_🇸🇬SG_231
+      - Pool_🇭🇰HK_290
+      - IE_171
+      - 美国【付费推荐：tt.vg/vip】50
+      - Pool_🇸🇬SG_233
+      - 「SCP」NL-CF-HTTP
+      - Pool_🇸🇬SG_236
+      - Relay_🇨🇳CN-🇨🇦CA_113
+      - Pool_🇸🇬SG_230
+      - 美国【付费推荐：tt.vg/vip】143
+      - Pool_🇸🇬SG_377
+      - Pool_🇸🇬SG_220
+      - US_77 |21.80Mb
+      - Pool_🇸🇬SG_383
+      - Pool_🇸🇬SG_201
+      - 「SCP」HK-CF-HTTP
+      - Relay_🇺🇸US-🇮🇳IN_272
+      - Pool_ | 8.84Mb
+      - Relay_🇫🇷FR-🇺🇸US_24
+      - Pool_🇸🇬SG_376
+      - Relay_🇨🇳CN-🇯🇵JP_116
+      - Pool_🇸🇬SG_202
+      - Pool_🇸🇬SG_221
+      - Relay_🇨🇳CN-🇯🇵JP_53 2
       - Relay_🇺🇸US-🇯🇵JP_31 | 4.83Mb
       - Relay_-🇯🇵JP_05 | 5.84Mb
       - Relay_🇯🇵JP-🇯🇵JP_24 | 5.43Mb
-      - Pool_🇸🇬SG_377
+      - Pool_🇸🇬SG_377 2
       - Pool_🇸🇬SG_198
-      - Pool_🇸🇬SG_383
-      - Pool_🇸🇬SG_201
-      - DE_124
-      - Pool_🇸🇬SG_187
-      - Pool_ | 8.84Mb
-      - Pool_🇸🇬SG_202
+      - Pool_🇸🇬SG_383 2
+      - Pool_🇸🇬SG_201 2
+      - Pool_🇸🇬SG_187 2
+      - Pool_ | 8.84Mb 2
+      - Pool_🇸🇬SG_202 2
       - DE_120
-      - Pool_🇸🇬SG_376
+      - Pool_🇸🇬SG_376 2
       - 「SCP」IN-DO-HTTP
       - 「SCP」SG-DO-HTTP
       - Relay_🇺🇸US-🇸🇬SG_578
@@ -379,8 +512,7 @@ proxy-groups:
       - Relay_🇺🇸US-🇺🇸US_553
       - HK_66
       - Relay_🇺🇸US-🇸🇬SG_567
-      - Pool_🇭🇰HK_290
-      - Pool_🇸🇬SG_399
+      - Pool_🇭🇰HK_290 2
       - Pool_🇸🇬SG_396
       - Pool_🇸🇬SG_409
       - Pool_🇸🇬SG_404
@@ -389,7 +521,6 @@ proxy-groups:
       - JP_95
       - SG_139
       - Pool_🇸🇬SG_393
-      - Pool_🇸🇬SG_401
       - Pool_🇸🇬SG_406
       - Pool_🇸🇬SG_381
       - JP_101
@@ -402,29 +533,17 @@ proxy-groups:
       - Pool_🇸🇬SG_392
       - Pool_🇸🇬SG_400
       - 「SCP」US-BuyVM3-HTTP
-      - Pool_🇸🇬SG_390
+      - Pool_🇸🇬SG_390 2
       - HK_62
       - Pool_🇸🇬SG_388
       - JP_98
       - US_263
-      - Relay_🏁ZZ-🇺🇸US_607
       - 「SCP」US-DP1-HTTP
-      - 美国【付费推荐：https://v1.mk/vip】199
-      - TW_438
-      - Relay_🇨🇦CA-🇨🇦CA_50
-      - 「SCP」US-BuyVM1-HTTP
-      - HK_58
       - JP_102
-      - Relay_🇺🇸US-🇺🇸US_525
-      - HK_69
-      - Relay_🇭🇰HK-🇭🇰HK_295
-      - HK_317
-      - 台湾03「ChatGPT」
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾03「ChatGPT」
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -432,20 +551,57 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - Relay_🇨🇳CN-🇯🇵JP_53
-      - Relay_🇺🇸US-🇺🇸US_334
+      - Relay_🇺🇸US-🇸🇬SG_39 |25.96Mb
+      - Relay_🇨🇳CN-🇨🇳CN_79
+      - Relay_🇨🇳CN-🇷🇴RO_107
+      - Relay_🇨🇳CN-🇨🇦CA_149
+      - Relay_🇸🇬SG-🇸🇬SG_35 |27.85Mb
+      - Relay_🇨🇳CN-🇭🇰HK_108
+      - Relay_-🇺🇸US_12
+      - 美国【付费推荐：tt.vg/vip】108
+      - Relay_🇨🇳CN-🇹🇼TW_137
+      - 美国01
+      - 「SCP」US-DP3-HTTP
+      - Relay_🇷🇺RU-🇷🇺RU_210
+      - ZZ_405
+      - Pool_🇸🇬SG_390
+      - Pool_🇸🇬SG_187
+      - Pool_🇸🇬SG_231
+      - Pool_🇭🇰HK_290
+      - IE_171
+      - 美国【付费推荐：tt.vg/vip】50
+      - Pool_🇸🇬SG_233
+      - 「SCP」NL-CF-HTTP
+      - Pool_🇸🇬SG_236
+      - Relay_🇨🇳CN-🇨🇦CA_113
+      - Pool_🇸🇬SG_230
+      - 美国【付费推荐：tt.vg/vip】143
+      - Pool_🇸🇬SG_377
+      - Pool_🇸🇬SG_220
+      - US_77 |21.80Mb
+      - Pool_🇸🇬SG_383
+      - Pool_🇸🇬SG_201
+      - 「SCP」HK-CF-HTTP
+      - Relay_🇺🇸US-🇮🇳IN_272
+      - Pool_ | 8.84Mb
+      - Relay_🇫🇷FR-🇺🇸US_24
+      - Pool_🇸🇬SG_376
+      - Relay_🇨🇳CN-🇯🇵JP_116
+      - Pool_🇸🇬SG_202
+      - Pool_🇸🇬SG_221
+      - Relay_🇨🇳CN-🇯🇵JP_53 2
       - Relay_🇺🇸US-🇯🇵JP_31 | 4.83Mb
       - Relay_-🇯🇵JP_05 | 5.84Mb
       - Relay_🇯🇵JP-🇯🇵JP_24 | 5.43Mb
-      - Pool_🇸🇬SG_377
+      - Pool_🇸🇬SG_377 2
       - Pool_🇸🇬SG_198
-      - Pool_🇸🇬SG_383
-      - Pool_🇸🇬SG_201
-      - DE_124
-      - Pool_🇸🇬SG_187
-      - Pool_ | 8.84Mb
-      - Pool_🇸🇬SG_202
+      - Pool_🇸🇬SG_383 2
+      - Pool_🇸🇬SG_201 2
+      - Pool_🇸🇬SG_187 2
+      - Pool_ | 8.84Mb 2
+      - Pool_🇸🇬SG_202 2
       - DE_120
-      - Pool_🇸🇬SG_376
+      - Pool_🇸🇬SG_376 2
       - 「SCP」IN-DO-HTTP
       - 「SCP」SG-DO-HTTP
       - Relay_🇺🇸US-🇸🇬SG_578
@@ -466,8 +622,7 @@ proxy-groups:
       - Relay_🇺🇸US-🇺🇸US_553
       - HK_66
       - Relay_🇺🇸US-🇸🇬SG_567
-      - Pool_🇭🇰HK_290
-      - Pool_🇸🇬SG_399
+      - Pool_🇭🇰HK_290 2
       - Pool_🇸🇬SG_396
       - Pool_🇸🇬SG_409
       - Pool_🇸🇬SG_404
@@ -476,7 +631,6 @@ proxy-groups:
       - JP_95
       - SG_139
       - Pool_🇸🇬SG_393
-      - Pool_🇸🇬SG_401
       - Pool_🇸🇬SG_406
       - Pool_🇸🇬SG_381
       - JP_101
@@ -489,44 +643,70 @@ proxy-groups:
       - Pool_🇸🇬SG_392
       - Pool_🇸🇬SG_400
       - 「SCP」US-BuyVM3-HTTP
-      - Pool_🇸🇬SG_390
+      - Pool_🇸🇬SG_390 2
       - HK_62
       - Pool_🇸🇬SG_388
       - JP_98
       - US_263
-      - Relay_🏁ZZ-🇺🇸US_607
       - 「SCP」US-DP1-HTTP
-      - 美国【付费推荐：https://v1.mk/vip】199
-      - TW_438
-      - Relay_🇨🇦CA-🇨🇦CA_50
-      - 「SCP」US-BuyVM1-HTTP
-      - HK_58
       - JP_102
-      - Relay_🇺🇸US-🇺🇸US_525
-      - HK_69
-      - Relay_🇭🇰HK-🇭🇰HK_295
-      - HK_317
-      - 台湾03「ChatGPT」
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - Relay_🇨🇳CN-🇯🇵JP_53
-      - Relay_🇺🇸US-🇺🇸US_334
+      - Relay_🇺🇸US-🇸🇬SG_39 |25.96Mb
+      - Relay_🇨🇳CN-🇨🇳CN_79
+      - Relay_🇨🇳CN-🇷🇴RO_107
+      - Relay_🇨🇳CN-🇨🇦CA_149
+      - Relay_🇸🇬SG-🇸🇬SG_35 |27.85Mb
+      - Relay_🇨🇳CN-🇭🇰HK_108
+      - Relay_-🇺🇸US_12
+      - 美国【付费推荐：tt.vg/vip】108
+      - Relay_🇨🇳CN-🇹🇼TW_137
+      - 美国01
+      - 「SCP」US-DP3-HTTP
+      - Relay_🇷🇺RU-🇷🇺RU_210
+      - ZZ_405
+      - Pool_🇸🇬SG_390
+      - Pool_🇸🇬SG_187
+      - Pool_🇸🇬SG_231
+      - Pool_🇭🇰HK_290
+      - IE_171
+      - 美国【付费推荐：tt.vg/vip】50
+      - Pool_🇸🇬SG_233
+      - 「SCP」NL-CF-HTTP
+      - Pool_🇸🇬SG_236
+      - Relay_🇨🇳CN-🇨🇦CA_113
+      - Pool_🇸🇬SG_230
+      - 美国【付费推荐：tt.vg/vip】143
+      - Pool_🇸🇬SG_377
+      - Pool_🇸🇬SG_220
+      - US_77 |21.80Mb
+      - Pool_🇸🇬SG_383
+      - Pool_🇸🇬SG_201
+      - 「SCP」HK-CF-HTTP
+      - Relay_🇺🇸US-🇮🇳IN_272
+      - Pool_ | 8.84Mb
+      - Relay_🇫🇷FR-🇺🇸US_24
+      - Pool_🇸🇬SG_376
+      - Relay_🇨🇳CN-🇯🇵JP_116
+      - Pool_🇸🇬SG_202
+      - Pool_🇸🇬SG_221
+      - Relay_🇨🇳CN-🇯🇵JP_53 2
       - Relay_🇺🇸US-🇯🇵JP_31 | 4.83Mb
       - Relay_-🇯🇵JP_05 | 5.84Mb
       - Relay_🇯🇵JP-🇯🇵JP_24 | 5.43Mb
-      - Pool_🇸🇬SG_377
+      - Pool_🇸🇬SG_377 2
       - Pool_🇸🇬SG_198
-      - Pool_🇸🇬SG_383
-      - Pool_🇸🇬SG_201
-      - DE_124
-      - Pool_🇸🇬SG_187
-      - Pool_ | 8.84Mb
-      - Pool_🇸🇬SG_202
+      - Pool_🇸🇬SG_383 2
+      - Pool_🇸🇬SG_201 2
+      - Pool_🇸🇬SG_187 2
+      - Pool_ | 8.84Mb 2
+      - Pool_🇸🇬SG_202 2
       - DE_120
-      - Pool_🇸🇬SG_376
+      - Pool_🇸🇬SG_376 2
       - 「SCP」IN-DO-HTTP
       - 「SCP」SG-DO-HTTP
       - Relay_🇺🇸US-🇸🇬SG_578
@@ -547,8 +727,7 @@ proxy-groups:
       - Relay_🇺🇸US-🇺🇸US_553
       - HK_66
       - Relay_🇺🇸US-🇸🇬SG_567
-      - Pool_🇭🇰HK_290
-      - Pool_🇸🇬SG_399
+      - Pool_🇭🇰HK_290 2
       - Pool_🇸🇬SG_396
       - Pool_🇸🇬SG_409
       - Pool_🇸🇬SG_404
@@ -557,7 +736,6 @@ proxy-groups:
       - JP_95
       - SG_139
       - Pool_🇸🇬SG_393
-      - Pool_🇸🇬SG_401
       - Pool_🇸🇬SG_406
       - Pool_🇸🇬SG_381
       - JP_101
@@ -570,24 +748,13 @@ proxy-groups:
       - Pool_🇸🇬SG_392
       - Pool_🇸🇬SG_400
       - 「SCP」US-BuyVM3-HTTP
-      - Pool_🇸🇬SG_390
+      - Pool_🇸🇬SG_390 2
       - HK_62
       - Pool_🇸🇬SG_388
       - JP_98
       - US_263
-      - Relay_🏁ZZ-🇺🇸US_607
       - 「SCP」US-DP1-HTTP
-      - 美国【付费推荐：https://v1.mk/vip】199
-      - TW_438
-      - Relay_🇨🇦CA-🇨🇦CA_50
-      - 「SCP」US-BuyVM1-HTTP
-      - HK_58
       - JP_102
-      - Relay_🇺🇸US-🇺🇸US_525
-      - HK_69
-      - Relay_🇭🇰HK-🇭🇰HK_295
-      - HK_317
-      - 台湾03「ChatGPT」
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -595,20 +762,57 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - Relay_🇨🇳CN-🇯🇵JP_53
-      - Relay_🇺🇸US-🇺🇸US_334
+      - Relay_🇺🇸US-🇸🇬SG_39 |25.96Mb
+      - Relay_🇨🇳CN-🇨🇳CN_79
+      - Relay_🇨🇳CN-🇷🇴RO_107
+      - Relay_🇨🇳CN-🇨🇦CA_149
+      - Relay_🇸🇬SG-🇸🇬SG_35 |27.85Mb
+      - Relay_🇨🇳CN-🇭🇰HK_108
+      - Relay_-🇺🇸US_12
+      - 美国【付费推荐：tt.vg/vip】108
+      - Relay_🇨🇳CN-🇹🇼TW_137
+      - 美国01
+      - 「SCP」US-DP3-HTTP
+      - Relay_🇷🇺RU-🇷🇺RU_210
+      - ZZ_405
+      - Pool_🇸🇬SG_390
+      - Pool_🇸🇬SG_187
+      - Pool_🇸🇬SG_231
+      - Pool_🇭🇰HK_290
+      - IE_171
+      - 美国【付费推荐：tt.vg/vip】50
+      - Pool_🇸🇬SG_233
+      - 「SCP」NL-CF-HTTP
+      - Pool_🇸🇬SG_236
+      - Relay_🇨🇳CN-🇨🇦CA_113
+      - Pool_🇸🇬SG_230
+      - 美国【付费推荐：tt.vg/vip】143
+      - Pool_🇸🇬SG_377
+      - Pool_🇸🇬SG_220
+      - US_77 |21.80Mb
+      - Pool_🇸🇬SG_383
+      - Pool_🇸🇬SG_201
+      - 「SCP」HK-CF-HTTP
+      - Relay_🇺🇸US-🇮🇳IN_272
+      - Pool_ | 8.84Mb
+      - Relay_🇫🇷FR-🇺🇸US_24
+      - Pool_🇸🇬SG_376
+      - Relay_🇨🇳CN-🇯🇵JP_116
+      - Pool_🇸🇬SG_202
+      - Pool_🇸🇬SG_221
+      - Relay_🇨🇳CN-🇯🇵JP_53 2
       - Relay_🇺🇸US-🇯🇵JP_31 | 4.83Mb
       - Relay_-🇯🇵JP_05 | 5.84Mb
       - Relay_🇯🇵JP-🇯🇵JP_24 | 5.43Mb
-      - Pool_🇸🇬SG_377
+      - Pool_🇸🇬SG_377 2
       - Pool_🇸🇬SG_198
-      - Pool_🇸🇬SG_383
-      - Pool_🇸🇬SG_201
-      - DE_124
-      - Pool_🇸🇬SG_187
-      - Pool_ | 8.84Mb
-      - Pool_🇸🇬SG_202
+      - Pool_🇸🇬SG_383 2
+      - Pool_🇸🇬SG_201 2
+      - Pool_🇸🇬SG_187 2
+      - Pool_ | 8.84Mb 2
+      - Pool_🇸🇬SG_202 2
       - DE_120
-      - Pool_🇸🇬SG_376
+      - Pool_🇸🇬SG_376 2
       - 「SCP」IN-DO-HTTP
       - 「SCP」SG-DO-HTTP
       - Relay_🇺🇸US-🇸🇬SG_578
@@ -629,8 +833,7 @@ proxy-groups:
       - Relay_🇺🇸US-🇺🇸US_553
       - HK_66
       - Relay_🇺🇸US-🇸🇬SG_567
-      - Pool_🇭🇰HK_290
-      - Pool_🇸🇬SG_399
+      - Pool_🇭🇰HK_290 2
       - Pool_🇸🇬SG_396
       - Pool_🇸🇬SG_409
       - Pool_🇸🇬SG_404
@@ -639,7 +842,6 @@ proxy-groups:
       - JP_95
       - SG_139
       - Pool_🇸🇬SG_393
-      - Pool_🇸🇬SG_401
       - Pool_🇸🇬SG_406
       - Pool_🇸🇬SG_381
       - JP_101
@@ -652,24 +854,13 @@ proxy-groups:
       - Pool_🇸🇬SG_392
       - Pool_🇸🇬SG_400
       - 「SCP」US-BuyVM3-HTTP
-      - Pool_🇸🇬SG_390
+      - Pool_🇸🇬SG_390 2
       - HK_62
       - Pool_🇸🇬SG_388
       - JP_98
       - US_263
-      - Relay_🏁ZZ-🇺🇸US_607
       - 「SCP」US-DP1-HTTP
-      - 美国【付费推荐：https://v1.mk/vip】199
-      - TW_438
-      - Relay_🇨🇦CA-🇨🇦CA_50
-      - 「SCP」US-BuyVM1-HTTP
-      - HK_58
       - JP_102
-      - Relay_🇺🇸US-🇺🇸US_525
-      - HK_69
-      - Relay_🇭🇰HK-🇭🇰HK_295
-      - HK_317
-      - 台湾03「ChatGPT」
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -686,20 +877,57 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - Relay_🇨🇳CN-🇯🇵JP_53
-      - Relay_🇺🇸US-🇺🇸US_334
+      - Relay_🇺🇸US-🇸🇬SG_39 |25.96Mb
+      - Relay_🇨🇳CN-🇨🇳CN_79
+      - Relay_🇨🇳CN-🇷🇴RO_107
+      - Relay_🇨🇳CN-🇨🇦CA_149
+      - Relay_🇸🇬SG-🇸🇬SG_35 |27.85Mb
+      - Relay_🇨🇳CN-🇭🇰HK_108
+      - Relay_-🇺🇸US_12
+      - 美国【付费推荐：tt.vg/vip】108
+      - Relay_🇨🇳CN-🇹🇼TW_137
+      - 美国01
+      - 「SCP」US-DP3-HTTP
+      - Relay_🇷🇺RU-🇷🇺RU_210
+      - ZZ_405
+      - Pool_🇸🇬SG_390
+      - Pool_🇸🇬SG_187
+      - Pool_🇸🇬SG_231
+      - Pool_🇭🇰HK_290
+      - IE_171
+      - 美国【付费推荐：tt.vg/vip】50
+      - Pool_🇸🇬SG_233
+      - 「SCP」NL-CF-HTTP
+      - Pool_🇸🇬SG_236
+      - Relay_🇨🇳CN-🇨🇦CA_113
+      - Pool_🇸🇬SG_230
+      - 美国【付费推荐：tt.vg/vip】143
+      - Pool_🇸🇬SG_377
+      - Pool_🇸🇬SG_220
+      - US_77 |21.80Mb
+      - Pool_🇸🇬SG_383
+      - Pool_🇸🇬SG_201
+      - 「SCP」HK-CF-HTTP
+      - Relay_🇺🇸US-🇮🇳IN_272
+      - Pool_ | 8.84Mb
+      - Relay_🇫🇷FR-🇺🇸US_24
+      - Pool_🇸🇬SG_376
+      - Relay_🇨🇳CN-🇯🇵JP_116
+      - Pool_🇸🇬SG_202
+      - Pool_🇸🇬SG_221
+      - Relay_🇨🇳CN-🇯🇵JP_53 2
       - Relay_🇺🇸US-🇯🇵JP_31 | 4.83Mb
       - Relay_-🇯🇵JP_05 | 5.84Mb
       - Relay_🇯🇵JP-🇯🇵JP_24 | 5.43Mb
-      - Pool_🇸🇬SG_377
+      - Pool_🇸🇬SG_377 2
       - Pool_🇸🇬SG_198
-      - Pool_🇸🇬SG_383
-      - Pool_🇸🇬SG_201
-      - DE_124
-      - Pool_🇸🇬SG_187
-      - Pool_ | 8.84Mb
-      - Pool_🇸🇬SG_202
+      - Pool_🇸🇬SG_383 2
+      - Pool_🇸🇬SG_201 2
+      - Pool_🇸🇬SG_187 2
+      - Pool_ | 8.84Mb 2
+      - Pool_🇸🇬SG_202 2
       - DE_120
-      - Pool_🇸🇬SG_376
+      - Pool_🇸🇬SG_376 2
       - 「SCP」IN-DO-HTTP
       - 「SCP」SG-DO-HTTP
       - Relay_🇺🇸US-🇸🇬SG_578
@@ -720,8 +948,7 @@ proxy-groups:
       - Relay_🇺🇸US-🇺🇸US_553
       - HK_66
       - Relay_🇺🇸US-🇸🇬SG_567
-      - Pool_🇭🇰HK_290
-      - Pool_🇸🇬SG_399
+      - Pool_🇭🇰HK_290 2
       - Pool_🇸🇬SG_396
       - Pool_🇸🇬SG_409
       - Pool_🇸🇬SG_404
@@ -730,7 +957,6 @@ proxy-groups:
       - JP_95
       - SG_139
       - Pool_🇸🇬SG_393
-      - Pool_🇸🇬SG_401
       - Pool_🇸🇬SG_406
       - Pool_🇸🇬SG_381
       - JP_101
@@ -743,24 +969,13 @@ proxy-groups:
       - Pool_🇸🇬SG_392
       - Pool_🇸🇬SG_400
       - 「SCP」US-BuyVM3-HTTP
-      - Pool_🇸🇬SG_390
+      - Pool_🇸🇬SG_390 2
       - HK_62
       - Pool_🇸🇬SG_388
       - JP_98
       - US_263
-      - Relay_🏁ZZ-🇺🇸US_607
       - 「SCP」US-DP1-HTTP
-      - 美国【付费推荐：https://v1.mk/vip】199
-      - TW_438
-      - Relay_🇨🇦CA-🇨🇦CA_50
-      - 「SCP」US-BuyVM1-HTTP
-      - HK_58
       - JP_102
-      - Relay_🇺🇸US-🇺🇸US_525
-      - HK_69
-      - Relay_🇭🇰HK-🇭🇰HK_295
-      - HK_317
-      - 台湾03「ChatGPT」
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

@@ -5,6 +5,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: _US_美国, server: 199.188.110.118, port: 52402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _FR_法国->🇬🇧_GB_英国, server: 51.195.35.151, port: 49982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇦🇺_AU_澳大利亚, server: 149.50.83.42, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
   - {name: Relay_-🇺🇸US_12, server: cfyd.starsea.vip, port: 443, type: vmess, uuid: 3238151a-f634-4dcb-be84-7fc096e3674a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: dallas.starsea.vip}, udp: true}
   - {name: Relay_🇨🇳CN-🇨🇦CA_248, server: gzyd.jcnode.top, port: 23005, type: trojan, password: 989ca888-25ad-4be6-b376-aff9b45a6ac1, sni: gzyd.jcnode.top, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳CN-🇫🇷FR_263, server: gzyd.jcnode.top, port: 20001, type: trojan, password: 3010a733-373d-4195-9201-f9e5f16444ca, sni: gzyd.jcnode.top, skip-cert-verify: true, udp: true}

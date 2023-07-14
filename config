@@ -5,571 +5,155 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 「SCP」US-DP4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp4.scproxy.top}, udp: true}
-  - {name: Relay_🏁ZZ-🏁ZZ_526, server: vn2.microsoft-orgwly.vip, port: 444, type: trojan, password: 96205d7f-0722-4ac8-85cd-cac4f374085f, sni: vn2.microsoft-orgwly.vip, skip-cert-verify: true, udp: true}
-  - {name: 17|🇺🇸_US_美国_分享师_176, server: 104.26.11.118, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer01, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】306, server: 104.25.228.25, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer00, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: Relay_🇯🇵JP-🇯🇵JP_231, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: riyadh 3, server: riya.tikfff.top, port: 45259, type: vmess, uuid: bb960e39-9f7a-4dee-f04e-75785e149eab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 哥斯达黎加【付费推荐：https://tt.vg/vip】334, server: 190.93.246.37, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer00, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】206, server: 104.24.16.29, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer00, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: 「节点冠名招商中」UK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: nl.sharecentrepro.com}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】180, server: 162.159.255.197, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer00, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: CN_151, server: us.nodegroups.ink, port: 33208, type: vmess, uuid: 6c37231a-ef44-339d-9dec-1a68518f2dee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】277, server: 103.21.244.172, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer00, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: Relay_🇯🇵JP-🇭🇰HK_26 |25.73Mb, server: ovohk.ovogreat.com, port: 443, type: trojan, password: 8876657a-6a91-4ee4-8539-cf52f5dfa6f5, sni: ovohk.ovogreat.com, skip-cert-verify: true, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】258, server: 103.21.244.236, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer00, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】300, server: 198.41.217.58, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer00, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】305, server: 198.41.208.37, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer00, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: 「SCP」US-DP1-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp1.scproxy.top}, udp: true}
-  - {name: 17|🇮🇳_IN_印度_09, server: in06.my1188.org, port: 63051, type: vmess, uuid: 275b3528-54b5-3620-ab13-a079c7677df9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: in01.mycdn888.xyz}, udp: true}
-  - {name: 17|🇳🇱_NL_荷兰_yui科技_185, server: 188.114.96.20, port: 2095, type: vmess, uuid: 49039962-1bcb-4a51-8138-0843aee1ea71, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer00, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: Relay_🇦🇺AU-🇯🇵JP_05 | 6.80Mb, server: fschk.fscloud123456789.com, port: 443, type: trojan, password: 3228a77c-c1c3-451f-9112-e6e766684558, sni: fschk.fscloud123456789.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇹🇼TW-🇸🇬SG_303, server: f1f3227.f3.glados-config.net, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /s/f1f3227.fm.apple.com:111548, ws-headers: {Host: f1f3227.f3.glados-config.net}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】48, server: 103.21.244.165, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer00, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: "15|github.com/freefq - 美国CloudFla... #2", server: 162.159.141.203, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer00, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: 「SCP」SG-DO-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: do.sharecentrepro.com}, udp: true}
-  - {name: Relay_🇩🇪DE-🇺🇸US_48 | 8.02Mb, server: tr.mellivmess.com, port: 32950, type: trojan, password: AJCBkjTy9v, sni: tr.mellivmess.com, skip-cert-verify: true, udp: true}
-  - {name: JP_221, server: 103.75.118.27, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】268, server: 104.16.250.250, port: 443, type: vmess, uuid: 65864938-ab50-4efa-bc6a-084f42a8de63, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /freedom, ws-headers: {Host: rochinet.fullaccesstointernet.cn.eu.org}, udp: true}
-  - {name: US_318, server: 43.202.64.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: CN_151 2, server: us.nodegroups.ink, port: 33208, type: vmess, uuid: 6c37231a-ef44-339d-9dec-1a68518f2dee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: IT_386, server: 5.188.226.187, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 25|🇺🇸_US_美国_由快嘴科技提供;kkzui.com6_25, server: 104.16.103.107, port: 2095, type: vmess, uuid: 49039962-1bcb-4a51-8138-0843aee1ea71, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer00, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】284, server: 172.67.56.76, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer00, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: Relay_-🇯🇵JP_40, server: gd-cm.32jr.com, port: 51766, type: trojan, password: 7b451425-93d7-39a2-977f-b07e540562af, sni: gd-cm.32jr.com, skip-cert-verify: true, udp: true}
-  - {name: 17|🇨🇷_CR_哥斯达黎加_yui科技_313, server: 190.93.244.132, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer0, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: AU_41 | 3.03Mb, server: 43.207.83.147, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 18|🇺🇸 美国 23, server: cf.515188.xyz, port: 80, type: vmess, uuid: a5756853-4a80-468a-af62-10565918f58f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: ssrsub.v01.ssrsub.com}, udp: true}
-  - {name: DK_155, server: 192.36.27.116, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】204, server: 198.41.205.114, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer00, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】134, server: 104.21.0.128, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer00, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: Relay_🇨🇳CN-🇦🇺AU_134, server: 2d1t5w03.mcfront.xyz, port: 31311, type: trojan, password: 147a9715-7c37-4333-a872-ba6f60ea6e81, sni: 2d1t5w03.mcfront.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】237, server: 104.18.1.110, port: 443, type: vmess, uuid: 1d8488a7-c784-4e66-ae92-1b22da9c9e68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/c3lZ7dp02p?ed=2048", ws-headers: {Host: d2.pgypgykmoljklj.xyz}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】275, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 8abe9496-5e24-4e49-b566-dcf86116017d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /i99LgvSaslbsPLLQQ7j6Z, ws-headers: {Host: de5.irteh.fun}, udp: true}
-  - {name: CN_151 3, server: us.nodegroups.ink, port: 33208, type: vmess, uuid: 6c37231a-ef44-339d-9dec-1a68518f2dee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: riyadh 3 2, server: riya.tikfff.top, port: 45259, type: vmess, uuid: bb960e39-9f7a-4dee-f04e-75785e149eab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 恒展---菲律宾视频 3, server: aey.tpoc.top, port: 10977, type: vmess, uuid: 95da6086-fa54-4053-d6ea-39aec40d6523, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_143, server: 29.kccic2pa.xyz, port: 50029, type: vmess, uuid: a0a18e87-d650-4dc6-ad13-20377aa06165, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】182, server: 104.18.168.73, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer00, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】296, server: 198.41.214.210, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer00, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】313, server: 104.21.39.17, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer00, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_66, server: 14.29.124.168, port: 24000, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _36, server: 123.249.101.15, port: 19709, type: vmess, uuid: 2f278a45-940a-46c1-c886-77f3b2d33987, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 123.249.101.15}, udp: true}
-  - {name: 「SCP」US-BuyVM4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv3.sharecentrepro.org}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】312, server: 104.19.247.122, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer00, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_67, server: gzct.v-too.cloud, port: 41286, type: ss, cipher: chacha20-ietf-poly1305, password: 797a90c1-67e5-468a-a9ca-0c1850d4742f, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_449, server: frjs.stablize.top, port: 443, type: trojan, password: 4565bf4a-951a-4981-9b60-4b1a496c9cbc, sni: frjs.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: Relay_-🇺🇸US_34, server: cloudflare.piaole.me, port: 443, type: vmess, uuid: e71fef74-5caa-4447-9fc0-27184bd926c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /huawei, ws-headers: {Host: cloudflare.piaole.me}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_63, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: RcfVcDzzB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: None, obfs-param: "", udp: true}
-  - {name: Pool_🇫🇷FR_163, server: 94.23.116.190, port: 443, type: ssr, cipher: aes-256-ctr, password: HowdyBypasser2022, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: None, obfs-param: None, udp: true}
-  - {name: 「SCP」US-DP3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp3.scproxy.top}, udp: true}
-  - {name: SG_274, server: 18.139.108.187, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: US_58 | 2.44Mb, server: 54.190.212.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29, server: cn-guangzhou.applebench.tech, port: 18353, type: vmess, uuid: 08cc54d6-7283-4f27-872c-d9d5e221dd40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_74, server: 29.kccic2pa.xyz, port: 50029, type: vmess, uuid: a0a18e87-d650-4dc6-ad13-20377aa06165, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 17|🇳🇱_NL_荷兰_由零開始_08, server: 188.114.96.125, port: 2095, type: vmess, uuid: 49039962-1bcb-4a51-8138-0843aee1ea71, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer00, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: Relay_🇨🇦CA-🇺🇸US_53, server: 163.123.192.60, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, skip-cert-verify: true, udp: true}
-  - {name: US_125 |25.30Mb, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇫🇷FR-🇫🇷FR_114, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: RcfVcDzzB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: Non%%, obfs-param: "", udp: true}
-  - {name: "10,17|🇺🇸_US_美国 #8", server: 104.24.201.130, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer0, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: "18,25|🇺🇸 美国 22", server: cf3.992688.xyz, port: 8080, type: vmess, uuid: b0b12ae2-346c-488b-8d1e-9f3afb8fead5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hax.992688.xyz}, udp: true}
-  - {name: US_358, server: 34.235.146.214, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true, udp: true}
-  - {name: CN_82, server: 47.93.231.218, port: 53022, type: vmess, uuid: 95fd7642-2160-4528-e909-3d526b533013, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 47.93.231.218}, udp: true}
-  - {name: SG_206, server: 54.251.168.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: JP_160, server: 54.168.131.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "13,15|美国CloudFlare节点 5", server: 198.41.212.130, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer01, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: SG_269, server: 13.215.252.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: Relay_🇸🇬SG-🇸🇬SG_231, server: sg4.f163ab0f2c75.sanfen004.me, port: 443, type: vmess, uuid: da48c616-75b5-4b15-aa8c-62fb3001e352, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 17|🇺🇸_US_美国_yui科技_324, server: 104.25.13.163, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer01, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: "17|🇳🇱_NL_荷兰_由零開始_08 #2", server: 188.114.96.74, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer0, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: Relay_🇯🇵JP-🇺🇸US_235, server: spus.1234567890spcloud.com, port: 443, type: trojan, password: 2340ce25-8e01-4194-a761-f30e2bdc5c0b, sni: spus.1234567890spcloud.com, skip-cert-verify: true, udp: true}
-  - {name: "10|🇺🇸_US_美国 #9", server: 172.67.185.118, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer0, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: KR_179, server: 3.35.230.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: RU_258, server: 45.89.52.66, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: Relay_🇫🇷FR-🇫🇷FR_113, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: RcfVcDzzB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: US_308, server: 34.221.232.27, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "10,17|🇺🇸_US_美国 #7", server: 104.20.218.44, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer01, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: 「SCP」US-BuyVM3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv2.sharecentrepro.org}, udp: true}
-  - {name: Relay_🇨🇳CN-🇷🇺RU_122, server: 8r5u01.abzoones.xyz, port: 36851, type: trojan, password: 17279926-cb6d-4195-a7c0-75d4d80f8f5e, sni: 8r5u01.abzoones.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇦CA-🇺🇸US_50, server: 163.123.192.57, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, skip-cert-verify: true, udp: true}
-  - {name: "10|🇺🇸_US_美国 #4", server: 172.67.16.230, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer0, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: IM_153, server: 192.71.211.161, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: Relay_🇺🇸US-🇮🇪IE_441, server: esjs.stablize.top, port: 443, type: trojan, password: 4565bf4a-951a-4981-9b60-4b1a496c9cbc, sni: esjs.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: "17|🇺🇸_US_美国_09 #2", server: 162.159.18.254, port: 80, type: vmess, uuid: 10fe4d4d-a97b-416d-a71b-36c772a6729f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: bl.wang66.homes}, udp: true}
-  - {name: 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2, server: cn-guangzhou.applebench.tech, port: 18353, type: vmess, uuid: 08cc54d6-7283-4f27-872c-d9d5e221dd40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: KR_244, server: 3.36.103.134, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: Relay_🇨🇳CN-🇨🇳CN_61, server: sg1.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16952:9bik8I, obfs-param: "", udp: true}
-  - {name: IE_151, server: 54.195.23.208, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇭🇰HK-🇺🇸US_205, server: sajs.stablize.top, port: 443, type: trojan, password: 4565bf4a-951a-4981-9b60-4b1a496c9cbc, sni: sajs.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: US_239, server: 93.179.112.70, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr06, udp: true}
-  - {name: Relay_🇺🇸US-🇹🇼TW_351, server: rochinet.fullaccesstointernet.cn.eu.org, port: 443, type: vmess, uuid: 65864938-ab50-4efa-bc6a-084f42a8de63, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /freedom, ws-headers: {Host: rochinet.fullaccesstointernet.cn.eu.org}, udp: true}
-  - {name: EE_156, server: 45.129.96.62, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: dafHo6GF3d67mOdji, udp: true}
-  - {name: KR_246, server: 221.150.109.69, port: 2003, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: NO_406, server: 185.90.61.153, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: "10,17|🇺🇸_US_美国 #2", server: 162.159.39.71, port: 2095, type: vmess, uuid: 49039962-1bcb-4a51-8138-0843aee1ea71, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer00, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: KE_239, server: 62.12.116.66, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: Pool_🇫🇷FR_164, server: 94.23.116.190, port: 443, type: ssr, cipher: aes-256-ctr, password: HowdyBypasser2022, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: US_98, server: fscus.fscloud123456789.com, port: 443, type: trojan, password: 2e31a75e-ce52-4d2c-95e1-41c8acdbc80c, sni: fscus.fscloud123456789.com, skip-cert-verify: true, udp: true}
-  - {name: AF_20, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv1.sharecentrepro.org}, udp: true}
-  - {name: Relay_🇯🇵JP-🇯🇵JP_227, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: Non%%�, obfs-param: "", udp: true}
-  - {name: Relay_🇺🇸US-🇩🇪DE_302, server: fra1.looooooongnet.lol, port: 443, type: vmess, uuid: 78f98c9e-cd35-4395-ace9-3045ff3d3423, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fra1.looooooongnet.lol}, udp: true}
-  - {name: 美国01, server: shcn2.bjyxrwlkj.com, port: 20008, type: vmess, uuid: 7de8b578-fb38-38a8-b28b-88e22a48194f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /us-1, ws-headers: {Host: api.teborder.com}, udp: true}
-  - {name: "10|🇺🇸_US_美国 #10", server: 108.162.198.251, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer0, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: 17|🇺🇸_US_美国_yui科技_280, server: 141.101.113.250, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer0, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: "0,10|🇺🇸 _US_美国 #3", server: 162.159.141.110, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer00, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: Relay_🇸🇬SG-🇸🇬SG_222, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: NL_248, server: 40.113.100.128, port: 34403, type: ss, cipher: chacha20-ietf-poly1305, password: VmKxENhgbXfH467wTRWxOX, udp: true}
-  - {name: Pool_🇫🇷FR_161, server: 94.23.116.190, port: 443, type: ssr, cipher: aes-256-ctr, password: HowdyBypasser2022, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: Non%%�, obfs-param: Non%%�, udp: true}
-  - {name: JP_161, server: 3.112.29.230, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: SG_275, server: 3.1.203.193, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 25|🇺🇸_US_美国_23_35, server: 104.25.131.170, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer01, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: "0,10,17|🇺🇸 _US_美国 #15", server: 104.17.62.243, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer0, ws-headers: {Host: txx.vtcss.top}, udp: true}
+  - {name: SG_215, server: 18.136.196.12, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: SG_222, server: 0kxedm1x8q8lksmj19.xingbayun.buzz, port: 443, type: vmess, uuid: 1320997d-6838-4da9-8faf-bd10cec68fb6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: 0kxedm1x8q8lksmj19.xingbayun.buzz}, udp: true}
   - {name: 18|🇹🇼 台湾独家|@ripaojiedian, server: 103.177.33.180, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline004.chilines.club, path: /isaifqaagpi, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】320, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/pq/usfh2?ed=2048", ws-headers: {Host: usfh2.pqjc.buzz}, udp: true}
-  - {name: _04, server: 3.39.238.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: SG_268, server: 54.255.237.136, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io, udp: true}
-  - {name: Relay_🇯🇵JP-🇯🇵JP_167, server: hk5.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16952:9bik8I, obfs-param: "", udp: true}
-  - {name: 恒展---菲律宾视频 3 2, server: aey.tpoc.top, port: 10977, type: vmess, uuid: 95da6086-fa54-4053-d6ea-39aec40d6523, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: SG_199, server: 18.139.163.228, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: KR_243, server: 3.38.104.242, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: US_311, server: 74.121.191.98, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: US_244, server: 43.201.19.172, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 16|🇨🇳 台湾_0714016, server: twpaopao4.dskjahf.xyz, port: 228, type: vmess, uuid: eb885fb1-1dbf-3447-81d8-f9992cd58817, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇹🇼TW |36.13Mb, server: twpaopao3.dskjahf.xyz, port: 230, type: vmess, uuid: eb885fb1-1dbf-3447-81d8-f9992cd58817, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_238, server: 43.202.58.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: Relay_🇨🇦CA-🇺🇸US_50, server: 163.123.192.57, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇦CA-🇺🇸US_53, server: 163.123.192.60, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, skip-cert-verify: true, udp: true}
+  - {name: 下单地址：254254.xyz, server: 163.123.192.60, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, skip-cert-verify: true, udp: true}
+  - {name: "16|美国|TG@kxswa #2", server: 0kxedm1x8q8lksmj15.xingbayun.buzz, port: 443, type: vmess, uuid: 1320997d-6838-4da9-8faf-bd10cec68fb6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: www.microsoft.com}, udp: true}
+  - {name: Relay_🇹🇼TW |34.07Mb, server: twpaopao4.dskjahf.xyz, port: 228, type: vmess, uuid: eb885fb1-1dbf-3447-81d8-f9992cd58817, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "1,1,2,2,3,3,4,4|_CN_中国->🇱🇺_LU_卢森堡", server: cn-guangzhou.applebench.tech, port: 18353, type: vmess, uuid: 08cc54d6-7283-4f27-872c-d9d5e221dd40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 16|🇨🇳 台湾_0714018, server: sneed-a.v2ok.cc, port: 23000, type: vmess, uuid: eb885fb1-1dbf-3447-81d8-f9992cd58817, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29, server: cn-guangzhou.applebench.tech, port: 18353, type: vmess, uuid: 08cc54d6-7283-4f27-872c-d9d5e221dd40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: AF_20, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: Relay_-🇱🇺LU_33, server: cn-guangzhou.applebench.tech, port: 18353, type: vmess, uuid: 08cc54d6-7283-4f27-872c-d9d5e221dd40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 荷兰【付费推荐：https://tt.vg/vip】50, server: 188.114.96.67, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer00, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: 新加坡【付费推荐：https://tt.vg/vip】77, server: aujs.stablize.top, port: 443, type: trojan, password: 4565bf4a-951a-4981-9b60-4b1a496c9cbc, sni: aujs.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2, server: cn-guangzhou.applebench.tech, port: 18353, type: vmess, uuid: 08cc54d6-7283-4f27-872c-d9d5e221dd40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🏁ZZ-🏁ZZ_388, server: vn1.yihaobao.xyz, port: 10022, type: trojan, password: aa42d8be-477a-40ae-be3c-649fb0e0cdd1, sni: vn1.yihaobao.xyz, skip-cert-verify: true, udp: true}
+  - {name: 16|🇨🇳 台湾_0714021, server: twpaopao3.dskjahf.xyz, port: 230, type: vmess, uuid: eb885fb1-1dbf-3447-81d8-f9992cd58817, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "1,2,3,4,8|_US_美国->🇳🇱_NL_荷兰 3", server: mci.saintink.eu.org, port: 443, type: vmess, uuid: c226d9fa-b5a7-4f6e-9532-50137c89311d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: nl1.v2rayserv.com/vmess, ws-headers: {Host: 4.saintink.eu.org}, udp: true}
+  - {name: 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 3, server: cn-guangzhou.applebench.tech, port: 18353, type: vmess, uuid: 08cc54d6-7283-4f27-872c-d9d5e221dd40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🏁ZZ-🏁ZZ_386, server: vn1.yihaobao.xyz, port: 10022, type: trojan, password: de8b90d8-c401-46d3-a01f-87cd3e50a65d, sni: vn1.yihaobao.xyz, skip-cert-verify: true, udp: true}
+  - {name: "16|日本|TG@kxswa #1", server: 0kxedm1x8q8lksmj10.xingbayun.buzz, port: 443, type: vmess, uuid: 1320997d-6838-4da9-8faf-bd10cec68fb6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: www.microsoft.com}, udp: true}
+  - {name: 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2 2, server: cn-guangzhou.applebench.tech, port: 18353, type: vmess, uuid: 08cc54d6-7283-4f27-872c-d9d5e221dd40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_28 |10.70Mb, server: dearma.76898102.xyz, port: 2052, type: vmess, uuid: 1f70e81d-6d32-3470-a7c4-2d53bf4761da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /abuciwyg, ws-headers: {Host: dearma.76898102.xyz}, udp: true}
+  - {name: "16|美国|TG@kxswa #3", server: 0kxedm1x8q8lksmj13.xingbayun.buzz, port: 443, type: vmess, uuid: 1320997d-6838-4da9-8faf-bd10cec68fb6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: www.microsoft.com}, udp: true}
+  - {name: VN_384, server: 103.81.85.238, port: 443, type: trojan, password: d1064296-51fa-4604-ad83-5a0dd67642ab, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_42 |15.58Mb, server: dearma.76898102.xyz, port: 2052, type: vmess, uuid: 1262dace-d355-3868-915f-b7418c2e7390, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /abuciwyg, ws-headers: {Host: dearma.76898102.xyz}, udp: true}
+  - {name: Relay_-🇱🇺LU_33 2, server: cn-guangzhou.applebench.tech, port: 18353, type: vmess, uuid: 08cc54d6-7283-4f27-872c-d9d5e221dd40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 18|纽约测试|@ripaojiedian, server: 216.52.183.245, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: http, host: ""}, udp: true}
+  - {name: LV_189, server: 185.135.86.86, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: PhilEhgKJQ540MNK7mNoim, udp: true}
   - {name: 「SCP」NNC-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca.ilovescp.com}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】247, server: 172.67.61.231, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer00, ws-headers: {Host: txx.vtcss.top}, udp: true}
-  - {name: 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-hytron.ilovescp.com}, udp: true}
+  - {name: SG_221, server: meetzoom.disnet.gq, port: 443, type: vmess, uuid: a869c557-5c7d-426f-9039-0279c16352bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmessws, ws-headers: {Host: meetzoom.disnet.gq}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「SCP」US-DP4-HTTP
-      - Relay_🏁ZZ-🏁ZZ_526
-      - 17|🇺🇸_US_美国_分享师_176
-      - 美国【付费推荐：https://tt.vg/vip】306
-      - Relay_🇯🇵JP-🇯🇵JP_231
-      - riyadh 3
-      - 哥斯达黎加【付费推荐：https://tt.vg/vip】334
-      - 美国【付费推荐：https://tt.vg/vip】206
-      - 「节点冠名招商中」UK-CF-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】180
-      - CN_151
-      - 美国【付费推荐：https://tt.vg/vip】277
-      - Relay_🇯🇵JP-🇭🇰HK_26 |25.73Mb
-      - 美国【付费推荐：https://tt.vg/vip】258
-      - 美国【付费推荐：https://tt.vg/vip】300
-      - 美国【付费推荐：https://tt.vg/vip】305
-      - 「SCP」US-DP1-HTTP
-      - 17|🇮🇳_IN_印度_09
-      - 17|🇳🇱_NL_荷兰_yui科技_185
-      - Relay_🇦🇺AU-🇯🇵JP_05 | 6.80Mb
-      - Relay_🇹🇼TW-🇸🇬SG_303
-      - 美国【付费推荐：https://tt.vg/vip】48
-      - "15|github.com/freefq - 美国CloudFla... #2"
-      - 「SCP」SG-DO-HTTP
-      - Relay_🇩🇪DE-🇺🇸US_48 | 8.02Mb
-      - JP_221
-      - 美国【付费推荐：https://tt.vg/vip】268
-      - US_318
-      - CN_151 2
-      - IT_386
-      - 25|🇺🇸_US_美国_由快嘴科技提供;kkzui.com6_25
-      - 美国【付费推荐：https://tt.vg/vip】284
-      - Relay_-🇯🇵JP_40
-      - 17|🇨🇷_CR_哥斯达黎加_yui科技_313
-      - AU_41 | 3.03Mb
-      - 18|🇺🇸 美国 23
-      - DK_155
-      - 美国【付费推荐：https://tt.vg/vip】204
-      - 美国【付费推荐：https://tt.vg/vip】134
-      - Relay_🇨🇳CN-🇦🇺AU_134
-      - 美国【付费推荐：https://tt.vg/vip】237
-      - 美国【付费推荐：https://tt.vg/vip】275
-      - CN_151 3
-      - riyadh 3 2
-      - 恒展---菲律宾视频 3
-      - Relay_🇨🇳CN-🇯🇵JP_143
-      - 美国【付费推荐：https://tt.vg/vip】182
-      - 美国【付费推荐：https://tt.vg/vip】296
-      - 美国【付费推荐：https://tt.vg/vip】313
-      - Relay_🇨🇳CN-🇹🇼TW_66
-      - _36
-      - 「SCP」US-BuyVM4-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】312
-      - Relay_🇨🇳CN-🇺🇸US_67
-      - Relay_🇺🇸US-🇺🇸US_449
-      - Relay_-🇺🇸US_34
-      - Relay_🇺🇸US-🇺🇸US_63
-      - Pool_🇫🇷FR_163
-      - 「SCP」US-DP3-HTTP
-      - SG_274
-      - US_58 | 2.44Mb
-      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29
-      - Relay_🇨🇳CN-🇯🇵JP_74
-      - 17|🇳🇱_NL_荷兰_由零開始_08
-      - Relay_🇨🇦CA-🇺🇸US_53
-      - US_125 |25.30Mb
-      - Relay_🇫🇷FR-🇫🇷FR_114
-      - "10,17|🇺🇸_US_美国 #8"
-      - 18,25|🇺🇸 美国 22
-      - US_358
-      - CN_82
-      - SG_206
-      - JP_160
-      - 13,15|美国CloudFlare节点 5
-      - SG_269
-      - Relay_🇸🇬SG-🇸🇬SG_231
-      - 17|🇺🇸_US_美国_yui科技_324
-      - "17|🇳🇱_NL_荷兰_由零開始_08 #2"
-      - Relay_🇯🇵JP-🇺🇸US_235
-      - "10|🇺🇸_US_美国 #9"
-      - KR_179
-      - RU_258
-      - Relay_🇫🇷FR-🇫🇷FR_113
-      - US_308
-      - "10,17|🇺🇸_US_美国 #7"
-      - 「SCP」US-BuyVM3-HTTP
-      - Relay_🇨🇳CN-🇷🇺RU_122
-      - Relay_🇨🇦CA-🇺🇸US_50
-      - "10|🇺🇸_US_美国 #4"
-      - IM_153
-      - Relay_🇺🇸US-🇮🇪IE_441
-      - "17|🇺🇸_US_美国_09 #2"
-      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2
-      - KR_244
-      - Relay_🇨🇳CN-🇨🇳CN_61
-      - IE_151
-      - Relay_🇭🇰HK-🇺🇸US_205
-      - US_239
-      - Relay_🇺🇸US-🇹🇼TW_351
-      - EE_156
-      - KR_246
-      - NO_406
-      - "10,17|🇺🇸_US_美国 #2"
-      - KE_239
-      - Pool_🇫🇷FR_164
-      - US_98
-      - AF_20
-      - 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
-      - Relay_🇯🇵JP-🇯🇵JP_227
-      - Relay_🇺🇸US-🇩🇪DE_302
-      - 美国01
-      - "10|🇺🇸_US_美国 #10"
-      - 17|🇺🇸_US_美国_yui科技_280
-      - "0,10|🇺🇸 _US_美国 #3"
-      - Relay_🇸🇬SG-🇸🇬SG_222
-      - NL_248
-      - Pool_🇫🇷FR_161
-      - JP_161
-      - SG_275
-      - 25|🇺🇸_US_美国_23_35
-      - "0,10,17|🇺🇸 _US_美国 #15"
+      - SG_215
+      - SG_222
       - 18|🇹🇼 台湾独家|@ripaojiedian
-      - 美国【付费推荐：https://tt.vg/vip】320
-      - _04
-      - SG_268
-      - Relay_🇯🇵JP-🇯🇵JP_167
-      - 恒展---菲律宾视频 3 2
-      - SG_199
-      - KR_243
-      - US_311
-      - US_244
+      - 16|🇨🇳 台湾_0714016
+      - Relay_🇹🇼TW |36.13Mb
+      - US_238
+      - Relay_🇨🇦CA-🇺🇸US_50
+      - Relay_🇨🇦CA-🇺🇸US_53
+      - 下单地址：254254.xyz
+      - "16|美国|TG@kxswa #2"
+      - Relay_🇹🇼TW |34.07Mb
+      - 1,1,2,2,3,3,4,4|_CN_中国->🇱🇺_LU_卢森堡
+      - 16|🇨🇳 台湾_0714018
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29
+      - AF_20
       - Relay_-🇱🇺LU_33
-      - 荷兰【付费推荐：https://tt.vg/vip】50
-      - 新加坡【付费推荐：https://tt.vg/vip】77
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2
+      - Relay_🏁ZZ-🏁ZZ_388
+      - 16|🇨🇳 台湾_0714021
+      - 1,2,3,4,8|_US_美国->🇳🇱_NL_荷兰 3
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 3
+      - Relay_🏁ZZ-🏁ZZ_386
+      - "16|日本|TG@kxswa #1"
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2 2
+      - Relay_🇺🇸US-🇺🇸US_28 |10.70Mb
+      - "16|美国|TG@kxswa #3"
+      - VN_384
+      - Relay_🇺🇸US-🇺🇸US_42 |15.58Mb
+      - Relay_-🇱🇺LU_33 2
+      - 18|纽约测试|@ripaojiedian
+      - LV_189
       - 「SCP」NNC-CF-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】247
-      - 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
+      - SG_221
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 「SCP」US-DP4-HTTP
-      - Relay_🏁ZZ-🏁ZZ_526
-      - 17|🇺🇸_US_美国_分享师_176
-      - 美国【付费推荐：https://tt.vg/vip】306
-      - Relay_🇯🇵JP-🇯🇵JP_231
-      - riyadh 3
-      - 哥斯达黎加【付费推荐：https://tt.vg/vip】334
-      - 美国【付费推荐：https://tt.vg/vip】206
-      - 「节点冠名招商中」UK-CF-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】180
-      - CN_151
-      - 美国【付费推荐：https://tt.vg/vip】277
-      - Relay_🇯🇵JP-🇭🇰HK_26 |25.73Mb
-      - 美国【付费推荐：https://tt.vg/vip】258
-      - 美国【付费推荐：https://tt.vg/vip】300
-      - 美国【付费推荐：https://tt.vg/vip】305
-      - 「SCP」US-DP1-HTTP
-      - 17|🇮🇳_IN_印度_09
-      - 17|🇳🇱_NL_荷兰_yui科技_185
-      - Relay_🇦🇺AU-🇯🇵JP_05 | 6.80Mb
-      - Relay_🇹🇼TW-🇸🇬SG_303
-      - 美国【付费推荐：https://tt.vg/vip】48
-      - "15|github.com/freefq - 美国CloudFla... #2"
-      - 「SCP」SG-DO-HTTP
-      - Relay_🇩🇪DE-🇺🇸US_48 | 8.02Mb
-      - JP_221
-      - 美国【付费推荐：https://tt.vg/vip】268
-      - US_318
-      - CN_151 2
-      - IT_386
-      - 25|🇺🇸_US_美国_由快嘴科技提供;kkzui.com6_25
-      - 美国【付费推荐：https://tt.vg/vip】284
-      - Relay_-🇯🇵JP_40
-      - 17|🇨🇷_CR_哥斯达黎加_yui科技_313
-      - AU_41 | 3.03Mb
-      - 18|🇺🇸 美国 23
-      - DK_155
-      - 美国【付费推荐：https://tt.vg/vip】204
-      - 美国【付费推荐：https://tt.vg/vip】134
-      - Relay_🇨🇳CN-🇦🇺AU_134
-      - 美国【付费推荐：https://tt.vg/vip】237
-      - 美国【付费推荐：https://tt.vg/vip】275
-      - CN_151 3
-      - riyadh 3 2
-      - 恒展---菲律宾视频 3
-      - Relay_🇨🇳CN-🇯🇵JP_143
-      - 美国【付费推荐：https://tt.vg/vip】182
-      - 美国【付费推荐：https://tt.vg/vip】296
-      - 美国【付费推荐：https://tt.vg/vip】313
-      - Relay_🇨🇳CN-🇹🇼TW_66
-      - _36
-      - 「SCP」US-BuyVM4-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】312
-      - Relay_🇨🇳CN-🇺🇸US_67
-      - Relay_🇺🇸US-🇺🇸US_449
-      - Relay_-🇺🇸US_34
-      - Relay_🇺🇸US-🇺🇸US_63
-      - Pool_🇫🇷FR_163
-      - 「SCP」US-DP3-HTTP
-      - SG_274
-      - US_58 | 2.44Mb
-      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29
-      - Relay_🇨🇳CN-🇯🇵JP_74
-      - 17|🇳🇱_NL_荷兰_由零開始_08
-      - Relay_🇨🇦CA-🇺🇸US_53
-      - US_125 |25.30Mb
-      - Relay_🇫🇷FR-🇫🇷FR_114
-      - "10,17|🇺🇸_US_美国 #8"
-      - 18,25|🇺🇸 美国 22
-      - US_358
-      - CN_82
-      - SG_206
-      - JP_160
-      - 13,15|美国CloudFlare节点 5
-      - SG_269
-      - Relay_🇸🇬SG-🇸🇬SG_231
-      - 17|🇺🇸_US_美国_yui科技_324
-      - "17|🇳🇱_NL_荷兰_由零開始_08 #2"
-      - Relay_🇯🇵JP-🇺🇸US_235
-      - "10|🇺🇸_US_美国 #9"
-      - KR_179
-      - RU_258
-      - Relay_🇫🇷FR-🇫🇷FR_113
-      - US_308
-      - "10,17|🇺🇸_US_美国 #7"
-      - 「SCP」US-BuyVM3-HTTP
-      - Relay_🇨🇳CN-🇷🇺RU_122
-      - Relay_🇨🇦CA-🇺🇸US_50
-      - "10|🇺🇸_US_美国 #4"
-      - IM_153
-      - Relay_🇺🇸US-🇮🇪IE_441
-      - "17|🇺🇸_US_美国_09 #2"
-      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2
-      - KR_244
-      - Relay_🇨🇳CN-🇨🇳CN_61
-      - IE_151
-      - Relay_🇭🇰HK-🇺🇸US_205
-      - US_239
-      - Relay_🇺🇸US-🇹🇼TW_351
-      - EE_156
-      - KR_246
-      - NO_406
-      - "10,17|🇺🇸_US_美国 #2"
-      - KE_239
-      - Pool_🇫🇷FR_164
-      - US_98
-      - AF_20
-      - 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
-      - Relay_🇯🇵JP-🇯🇵JP_227
-      - Relay_🇺🇸US-🇩🇪DE_302
-      - 美国01
-      - "10|🇺🇸_US_美国 #10"
-      - 17|🇺🇸_US_美国_yui科技_280
-      - "0,10|🇺🇸 _US_美国 #3"
-      - Relay_🇸🇬SG-🇸🇬SG_222
-      - NL_248
-      - Pool_🇫🇷FR_161
-      - JP_161
-      - SG_275
-      - 25|🇺🇸_US_美国_23_35
-      - "0,10,17|🇺🇸 _US_美国 #15"
+      - SG_215
+      - SG_222
       - 18|🇹🇼 台湾独家|@ripaojiedian
-      - 美国【付费推荐：https://tt.vg/vip】320
-      - _04
-      - SG_268
-      - Relay_🇯🇵JP-🇯🇵JP_167
-      - 恒展---菲律宾视频 3 2
-      - SG_199
-      - KR_243
-      - US_311
-      - US_244
+      - 16|🇨🇳 台湾_0714016
+      - Relay_🇹🇼TW |36.13Mb
+      - US_238
+      - Relay_🇨🇦CA-🇺🇸US_50
+      - Relay_🇨🇦CA-🇺🇸US_53
+      - 下单地址：254254.xyz
+      - "16|美国|TG@kxswa #2"
+      - Relay_🇹🇼TW |34.07Mb
+      - 1,1,2,2,3,3,4,4|_CN_中国->🇱🇺_LU_卢森堡
+      - 16|🇨🇳 台湾_0714018
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29
+      - AF_20
       - Relay_-🇱🇺LU_33
-      - 荷兰【付费推荐：https://tt.vg/vip】50
-      - 新加坡【付费推荐：https://tt.vg/vip】77
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2
+      - Relay_🏁ZZ-🏁ZZ_388
+      - 16|🇨🇳 台湾_0714021
+      - 1,2,3,4,8|_US_美国->🇳🇱_NL_荷兰 3
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 3
+      - Relay_🏁ZZ-🏁ZZ_386
+      - "16|日本|TG@kxswa #1"
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2 2
+      - Relay_🇺🇸US-🇺🇸US_28 |10.70Mb
+      - "16|美国|TG@kxswa #3"
+      - VN_384
+      - Relay_🇺🇸US-🇺🇸US_42 |15.58Mb
+      - Relay_-🇱🇺LU_33 2
+      - 18|纽约测试|@ripaojiedian
+      - LV_189
       - 「SCP」NNC-CF-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】247
-      - 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
+      - SG_221
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「SCP」US-DP4-HTTP
-      - Relay_🏁ZZ-🏁ZZ_526
-      - 17|🇺🇸_US_美国_分享师_176
-      - 美国【付费推荐：https://tt.vg/vip】306
-      - Relay_🇯🇵JP-🇯🇵JP_231
-      - riyadh 3
-      - 哥斯达黎加【付费推荐：https://tt.vg/vip】334
-      - 美国【付费推荐：https://tt.vg/vip】206
-      - 「节点冠名招商中」UK-CF-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】180
-      - CN_151
-      - 美国【付费推荐：https://tt.vg/vip】277
-      - Relay_🇯🇵JP-🇭🇰HK_26 |25.73Mb
-      - 美国【付费推荐：https://tt.vg/vip】258
-      - 美国【付费推荐：https://tt.vg/vip】300
-      - 美国【付费推荐：https://tt.vg/vip】305
-      - 「SCP」US-DP1-HTTP
-      - 17|🇮🇳_IN_印度_09
-      - 17|🇳🇱_NL_荷兰_yui科技_185
-      - Relay_🇦🇺AU-🇯🇵JP_05 | 6.80Mb
-      - Relay_🇹🇼TW-🇸🇬SG_303
-      - 美国【付费推荐：https://tt.vg/vip】48
-      - "15|github.com/freefq - 美国CloudFla... #2"
-      - 「SCP」SG-DO-HTTP
-      - Relay_🇩🇪DE-🇺🇸US_48 | 8.02Mb
-      - JP_221
-      - 美国【付费推荐：https://tt.vg/vip】268
-      - US_318
-      - CN_151 2
-      - IT_386
-      - 25|🇺🇸_US_美国_由快嘴科技提供;kkzui.com6_25
-      - 美国【付费推荐：https://tt.vg/vip】284
-      - Relay_-🇯🇵JP_40
-      - 17|🇨🇷_CR_哥斯达黎加_yui科技_313
-      - AU_41 | 3.03Mb
-      - 18|🇺🇸 美国 23
-      - DK_155
-      - 美国【付费推荐：https://tt.vg/vip】204
-      - 美国【付费推荐：https://tt.vg/vip】134
-      - Relay_🇨🇳CN-🇦🇺AU_134
-      - 美国【付费推荐：https://tt.vg/vip】237
-      - 美国【付费推荐：https://tt.vg/vip】275
-      - CN_151 3
-      - riyadh 3 2
-      - 恒展---菲律宾视频 3
-      - Relay_🇨🇳CN-🇯🇵JP_143
-      - 美国【付费推荐：https://tt.vg/vip】182
-      - 美国【付费推荐：https://tt.vg/vip】296
-      - 美国【付费推荐：https://tt.vg/vip】313
-      - Relay_🇨🇳CN-🇹🇼TW_66
-      - _36
-      - 「SCP」US-BuyVM4-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】312
-      - Relay_🇨🇳CN-🇺🇸US_67
-      - Relay_🇺🇸US-🇺🇸US_449
-      - Relay_-🇺🇸US_34
-      - Relay_🇺🇸US-🇺🇸US_63
-      - Pool_🇫🇷FR_163
-      - 「SCP」US-DP3-HTTP
-      - SG_274
-      - US_58 | 2.44Mb
-      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29
-      - Relay_🇨🇳CN-🇯🇵JP_74
-      - 17|🇳🇱_NL_荷兰_由零開始_08
-      - Relay_🇨🇦CA-🇺🇸US_53
-      - US_125 |25.30Mb
-      - Relay_🇫🇷FR-🇫🇷FR_114
-      - "10,17|🇺🇸_US_美国 #8"
-      - 18,25|🇺🇸 美国 22
-      - US_358
-      - CN_82
-      - SG_206
-      - JP_160
-      - 13,15|美国CloudFlare节点 5
-      - SG_269
-      - Relay_🇸🇬SG-🇸🇬SG_231
-      - 17|🇺🇸_US_美国_yui科技_324
-      - "17|🇳🇱_NL_荷兰_由零開始_08 #2"
-      - Relay_🇯🇵JP-🇺🇸US_235
-      - "10|🇺🇸_US_美国 #9"
-      - KR_179
-      - RU_258
-      - Relay_🇫🇷FR-🇫🇷FR_113
-      - US_308
-      - "10,17|🇺🇸_US_美国 #7"
-      - 「SCP」US-BuyVM3-HTTP
-      - Relay_🇨🇳CN-🇷🇺RU_122
-      - Relay_🇨🇦CA-🇺🇸US_50
-      - "10|🇺🇸_US_美国 #4"
-      - IM_153
-      - Relay_🇺🇸US-🇮🇪IE_441
-      - "17|🇺🇸_US_美国_09 #2"
-      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2
-      - KR_244
-      - Relay_🇨🇳CN-🇨🇳CN_61
-      - IE_151
-      - Relay_🇭🇰HK-🇺🇸US_205
-      - US_239
-      - Relay_🇺🇸US-🇹🇼TW_351
-      - EE_156
-      - KR_246
-      - NO_406
-      - "10,17|🇺🇸_US_美国 #2"
-      - KE_239
-      - Pool_🇫🇷FR_164
-      - US_98
-      - AF_20
-      - 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
-      - Relay_🇯🇵JP-🇯🇵JP_227
-      - Relay_🇺🇸US-🇩🇪DE_302
-      - 美国01
-      - "10|🇺🇸_US_美国 #10"
-      - 17|🇺🇸_US_美国_yui科技_280
-      - "0,10|🇺🇸 _US_美国 #3"
-      - Relay_🇸🇬SG-🇸🇬SG_222
-      - NL_248
-      - Pool_🇫🇷FR_161
-      - JP_161
-      - SG_275
-      - 25|🇺🇸_US_美国_23_35
-      - "0,10,17|🇺🇸 _US_美国 #15"
+      - SG_215
+      - SG_222
       - 18|🇹🇼 台湾独家|@ripaojiedian
-      - 美国【付费推荐：https://tt.vg/vip】320
-      - _04
-      - SG_268
-      - Relay_🇯🇵JP-🇯🇵JP_167
-      - 恒展---菲律宾视频 3 2
-      - SG_199
-      - KR_243
-      - US_311
-      - US_244
+      - 16|🇨🇳 台湾_0714016
+      - Relay_🇹🇼TW |36.13Mb
+      - US_238
+      - Relay_🇨🇦CA-🇺🇸US_50
+      - Relay_🇨🇦CA-🇺🇸US_53
+      - 下单地址：254254.xyz
+      - "16|美国|TG@kxswa #2"
+      - Relay_🇹🇼TW |34.07Mb
+      - 1,1,2,2,3,3,4,4|_CN_中国->🇱🇺_LU_卢森堡
+      - 16|🇨🇳 台湾_0714018
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29
+      - AF_20
       - Relay_-🇱🇺LU_33
-      - 荷兰【付费推荐：https://tt.vg/vip】50
-      - 新加坡【付费推荐：https://tt.vg/vip】77
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2
+      - Relay_🏁ZZ-🏁ZZ_388
+      - 16|🇨🇳 台湾_0714021
+      - 1,2,3,4,8|_US_美国->🇳🇱_NL_荷兰 3
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 3
+      - Relay_🏁ZZ-🏁ZZ_386
+      - "16|日本|TG@kxswa #1"
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2 2
+      - Relay_🇺🇸US-🇺🇸US_28 |10.70Mb
+      - "16|美国|TG@kxswa #3"
+      - VN_384
+      - Relay_🇺🇸US-🇺🇸US_42 |15.58Mb
+      - Relay_-🇱🇺LU_33 2
+      - 18|纽约测试|@ripaojiedian
+      - LV_189
       - 「SCP」NNC-CF-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】247
-      - 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
+      - SG_221
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -588,576 +172,163 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「SCP」US-DP4-HTTP
-      - Relay_🏁ZZ-🏁ZZ_526
-      - 17|🇺🇸_US_美国_分享师_176
-      - 美国【付费推荐：https://tt.vg/vip】306
-      - Relay_🇯🇵JP-🇯🇵JP_231
-      - riyadh 3
-      - 哥斯达黎加【付费推荐：https://tt.vg/vip】334
-      - 美国【付费推荐：https://tt.vg/vip】206
-      - 「节点冠名招商中」UK-CF-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】180
-      - CN_151
-      - 美国【付费推荐：https://tt.vg/vip】277
-      - Relay_🇯🇵JP-🇭🇰HK_26 |25.73Mb
-      - 美国【付费推荐：https://tt.vg/vip】258
-      - 美国【付费推荐：https://tt.vg/vip】300
-      - 美国【付费推荐：https://tt.vg/vip】305
-      - 「SCP」US-DP1-HTTP
-      - 17|🇮🇳_IN_印度_09
-      - 17|🇳🇱_NL_荷兰_yui科技_185
-      - Relay_🇦🇺AU-🇯🇵JP_05 | 6.80Mb
-      - Relay_🇹🇼TW-🇸🇬SG_303
-      - 美国【付费推荐：https://tt.vg/vip】48
-      - "15|github.com/freefq - 美国CloudFla... #2"
-      - 「SCP」SG-DO-HTTP
-      - Relay_🇩🇪DE-🇺🇸US_48 | 8.02Mb
-      - JP_221
-      - 美国【付费推荐：https://tt.vg/vip】268
-      - US_318
-      - CN_151 2
-      - IT_386
-      - 25|🇺🇸_US_美国_由快嘴科技提供;kkzui.com6_25
-      - 美国【付费推荐：https://tt.vg/vip】284
-      - Relay_-🇯🇵JP_40
-      - 17|🇨🇷_CR_哥斯达黎加_yui科技_313
-      - AU_41 | 3.03Mb
-      - 18|🇺🇸 美国 23
-      - DK_155
-      - 美国【付费推荐：https://tt.vg/vip】204
-      - 美国【付费推荐：https://tt.vg/vip】134
-      - Relay_🇨🇳CN-🇦🇺AU_134
-      - 美国【付费推荐：https://tt.vg/vip】237
-      - 美国【付费推荐：https://tt.vg/vip】275
-      - CN_151 3
-      - riyadh 3 2
-      - 恒展---菲律宾视频 3
-      - Relay_🇨🇳CN-🇯🇵JP_143
-      - 美国【付费推荐：https://tt.vg/vip】182
-      - 美国【付费推荐：https://tt.vg/vip】296
-      - 美国【付费推荐：https://tt.vg/vip】313
-      - Relay_🇨🇳CN-🇹🇼TW_66
-      - _36
-      - 「SCP」US-BuyVM4-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】312
-      - Relay_🇨🇳CN-🇺🇸US_67
-      - Relay_🇺🇸US-🇺🇸US_449
-      - Relay_-🇺🇸US_34
-      - Relay_🇺🇸US-🇺🇸US_63
-      - Pool_🇫🇷FR_163
-      - 「SCP」US-DP3-HTTP
-      - SG_274
-      - US_58 | 2.44Mb
-      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29
-      - Relay_🇨🇳CN-🇯🇵JP_74
-      - 17|🇳🇱_NL_荷兰_由零開始_08
-      - Relay_🇨🇦CA-🇺🇸US_53
-      - US_125 |25.30Mb
-      - Relay_🇫🇷FR-🇫🇷FR_114
-      - "10,17|🇺🇸_US_美国 #8"
-      - 18,25|🇺🇸 美国 22
-      - US_358
-      - CN_82
-      - SG_206
-      - JP_160
-      - 13,15|美国CloudFlare节点 5
-      - SG_269
-      - Relay_🇸🇬SG-🇸🇬SG_231
-      - 17|🇺🇸_US_美国_yui科技_324
-      - "17|🇳🇱_NL_荷兰_由零開始_08 #2"
-      - Relay_🇯🇵JP-🇺🇸US_235
-      - "10|🇺🇸_US_美国 #9"
-      - KR_179
-      - RU_258
-      - Relay_🇫🇷FR-🇫🇷FR_113
-      - US_308
-      - "10,17|🇺🇸_US_美国 #7"
-      - 「SCP」US-BuyVM3-HTTP
-      - Relay_🇨🇳CN-🇷🇺RU_122
-      - Relay_🇨🇦CA-🇺🇸US_50
-      - "10|🇺🇸_US_美国 #4"
-      - IM_153
-      - Relay_🇺🇸US-🇮🇪IE_441
-      - "17|🇺🇸_US_美国_09 #2"
-      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2
-      - KR_244
-      - Relay_🇨🇳CN-🇨🇳CN_61
-      - IE_151
-      - Relay_🇭🇰HK-🇺🇸US_205
-      - US_239
-      - Relay_🇺🇸US-🇹🇼TW_351
-      - EE_156
-      - KR_246
-      - NO_406
-      - "10,17|🇺🇸_US_美国 #2"
-      - KE_239
-      - Pool_🇫🇷FR_164
-      - US_98
-      - AF_20
-      - 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
-      - Relay_🇯🇵JP-🇯🇵JP_227
-      - Relay_🇺🇸US-🇩🇪DE_302
-      - 美国01
-      - "10|🇺🇸_US_美国 #10"
-      - 17|🇺🇸_US_美国_yui科技_280
-      - "0,10|🇺🇸 _US_美国 #3"
-      - Relay_🇸🇬SG-🇸🇬SG_222
-      - NL_248
-      - Pool_🇫🇷FR_161
-      - JP_161
-      - SG_275
-      - 25|🇺🇸_US_美国_23_35
-      - "0,10,17|🇺🇸 _US_美国 #15"
+      - SG_215
+      - SG_222
       - 18|🇹🇼 台湾独家|@ripaojiedian
-      - 美国【付费推荐：https://tt.vg/vip】320
-      - _04
-      - SG_268
-      - Relay_🇯🇵JP-🇯🇵JP_167
-      - 恒展---菲律宾视频 3 2
-      - SG_199
-      - KR_243
-      - US_311
-      - US_244
+      - 16|🇨🇳 台湾_0714016
+      - Relay_🇹🇼TW |36.13Mb
+      - US_238
+      - Relay_🇨🇦CA-🇺🇸US_50
+      - Relay_🇨🇦CA-🇺🇸US_53
+      - 下单地址：254254.xyz
+      - "16|美国|TG@kxswa #2"
+      - Relay_🇹🇼TW |34.07Mb
+      - 1,1,2,2,3,3,4,4|_CN_中国->🇱🇺_LU_卢森堡
+      - 16|🇨🇳 台湾_0714018
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29
+      - AF_20
       - Relay_-🇱🇺LU_33
-      - 荷兰【付费推荐：https://tt.vg/vip】50
-      - 新加坡【付费推荐：https://tt.vg/vip】77
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2
+      - Relay_🏁ZZ-🏁ZZ_388
+      - 16|🇨🇳 台湾_0714021
+      - 1,2,3,4,8|_US_美国->🇳🇱_NL_荷兰 3
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 3
+      - Relay_🏁ZZ-🏁ZZ_386
+      - "16|日本|TG@kxswa #1"
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2 2
+      - Relay_🇺🇸US-🇺🇸US_28 |10.70Mb
+      - "16|美国|TG@kxswa #3"
+      - VN_384
+      - Relay_🇺🇸US-🇺🇸US_42 |15.58Mb
+      - Relay_-🇱🇺LU_33 2
+      - 18|纽约测试|@ripaojiedian
+      - LV_189
       - 「SCP」NNC-CF-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】247
-      - 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
+      - SG_221
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 18|🇹🇼 台湾独家|@ripaojiedian
+      - 16|🇨🇳 台湾_0714016
+      - 16|🇨🇳 台湾_0714018
+      - 16|🇨🇳 台湾_0714021
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 「SCP」US-DP4-HTTP
-      - Relay_🏁ZZ-🏁ZZ_526
-      - 17|🇺🇸_US_美国_分享师_176
-      - 美国【付费推荐：https://tt.vg/vip】306
-      - Relay_🇯🇵JP-🇯🇵JP_231
-      - riyadh 3
-      - 哥斯达黎加【付费推荐：https://tt.vg/vip】334
-      - 美国【付费推荐：https://tt.vg/vip】206
-      - 「节点冠名招商中」UK-CF-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】180
-      - CN_151
-      - 美国【付费推荐：https://tt.vg/vip】277
-      - Relay_🇯🇵JP-🇭🇰HK_26 |25.73Mb
-      - 美国【付费推荐：https://tt.vg/vip】258
-      - 美国【付费推荐：https://tt.vg/vip】300
-      - 美国【付费推荐：https://tt.vg/vip】305
-      - 「SCP」US-DP1-HTTP
-      - 17|🇮🇳_IN_印度_09
-      - 17|🇳🇱_NL_荷兰_yui科技_185
-      - Relay_🇦🇺AU-🇯🇵JP_05 | 6.80Mb
-      - Relay_🇹🇼TW-🇸🇬SG_303
-      - 美国【付费推荐：https://tt.vg/vip】48
-      - "15|github.com/freefq - 美国CloudFla... #2"
-      - 「SCP」SG-DO-HTTP
-      - Relay_🇩🇪DE-🇺🇸US_48 | 8.02Mb
-      - JP_221
-      - 美国【付费推荐：https://tt.vg/vip】268
-      - US_318
-      - CN_151 2
-      - IT_386
-      - 25|🇺🇸_US_美国_由快嘴科技提供;kkzui.com6_25
-      - 美国【付费推荐：https://tt.vg/vip】284
-      - Relay_-🇯🇵JP_40
-      - 17|🇨🇷_CR_哥斯达黎加_yui科技_313
-      - AU_41 | 3.03Mb
-      - 18|🇺🇸 美国 23
-      - DK_155
-      - 美国【付费推荐：https://tt.vg/vip】204
-      - 美国【付费推荐：https://tt.vg/vip】134
-      - Relay_🇨🇳CN-🇦🇺AU_134
-      - 美国【付费推荐：https://tt.vg/vip】237
-      - 美国【付费推荐：https://tt.vg/vip】275
-      - CN_151 3
-      - riyadh 3 2
-      - 恒展---菲律宾视频 3
-      - Relay_🇨🇳CN-🇯🇵JP_143
-      - 美国【付费推荐：https://tt.vg/vip】182
-      - 美国【付费推荐：https://tt.vg/vip】296
-      - 美国【付费推荐：https://tt.vg/vip】313
-      - Relay_🇨🇳CN-🇹🇼TW_66
-      - _36
-      - 「SCP」US-BuyVM4-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】312
-      - Relay_🇨🇳CN-🇺🇸US_67
-      - Relay_🇺🇸US-🇺🇸US_449
-      - Relay_-🇺🇸US_34
-      - Relay_🇺🇸US-🇺🇸US_63
-      - Pool_🇫🇷FR_163
-      - 「SCP」US-DP3-HTTP
-      - SG_274
-      - US_58 | 2.44Mb
-      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29
-      - Relay_🇨🇳CN-🇯🇵JP_74
-      - 17|🇳🇱_NL_荷兰_由零開始_08
-      - Relay_🇨🇦CA-🇺🇸US_53
-      - US_125 |25.30Mb
-      - Relay_🇫🇷FR-🇫🇷FR_114
-      - "10,17|🇺🇸_US_美国 #8"
-      - 18,25|🇺🇸 美国 22
-      - US_358
-      - CN_82
-      - SG_206
-      - JP_160
-      - 13,15|美国CloudFlare节点 5
-      - SG_269
-      - Relay_🇸🇬SG-🇸🇬SG_231
-      - 17|🇺🇸_US_美国_yui科技_324
-      - "17|🇳🇱_NL_荷兰_由零開始_08 #2"
-      - Relay_🇯🇵JP-🇺🇸US_235
-      - "10|🇺🇸_US_美国 #9"
-      - KR_179
-      - RU_258
-      - Relay_🇫🇷FR-🇫🇷FR_113
-      - US_308
-      - "10,17|🇺🇸_US_美国 #7"
-      - 「SCP」US-BuyVM3-HTTP
-      - Relay_🇨🇳CN-🇷🇺RU_122
-      - Relay_🇨🇦CA-🇺🇸US_50
-      - "10|🇺🇸_US_美国 #4"
-      - IM_153
-      - Relay_🇺🇸US-🇮🇪IE_441
-      - "17|🇺🇸_US_美国_09 #2"
-      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2
-      - KR_244
-      - Relay_🇨🇳CN-🇨🇳CN_61
-      - IE_151
-      - Relay_🇭🇰HK-🇺🇸US_205
-      - US_239
-      - Relay_🇺🇸US-🇹🇼TW_351
-      - EE_156
-      - KR_246
-      - NO_406
-      - "10,17|🇺🇸_US_美国 #2"
-      - KE_239
-      - Pool_🇫🇷FR_164
-      - US_98
-      - AF_20
-      - 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
-      - Relay_🇯🇵JP-🇯🇵JP_227
-      - Relay_🇺🇸US-🇩🇪DE_302
-      - 美国01
-      - "10|🇺🇸_US_美国 #10"
-      - 17|🇺🇸_US_美国_yui科技_280
-      - "0,10|🇺🇸 _US_美国 #3"
-      - Relay_🇸🇬SG-🇸🇬SG_222
-      - NL_248
-      - Pool_🇫🇷FR_161
-      - JP_161
-      - SG_275
-      - 25|🇺🇸_US_美国_23_35
-      - "0,10,17|🇺🇸 _US_美国 #15"
+      - SG_215
+      - SG_222
       - 18|🇹🇼 台湾独家|@ripaojiedian
-      - 美国【付费推荐：https://tt.vg/vip】320
-      - _04
-      - SG_268
-      - Relay_🇯🇵JP-🇯🇵JP_167
-      - 恒展---菲律宾视频 3 2
-      - SG_199
-      - KR_243
-      - US_311
-      - US_244
+      - 16|🇨🇳 台湾_0714016
+      - Relay_🇹🇼TW |36.13Mb
+      - US_238
+      - Relay_🇨🇦CA-🇺🇸US_50
+      - Relay_🇨🇦CA-🇺🇸US_53
+      - 下单地址：254254.xyz
+      - "16|美国|TG@kxswa #2"
+      - Relay_🇹🇼TW |34.07Mb
+      - 1,1,2,2,3,3,4,4|_CN_中国->🇱🇺_LU_卢森堡
+      - 16|🇨🇳 台湾_0714018
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29
+      - AF_20
       - Relay_-🇱🇺LU_33
-      - 荷兰【付费推荐：https://tt.vg/vip】50
-      - 新加坡【付费推荐：https://tt.vg/vip】77
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2
+      - Relay_🏁ZZ-🏁ZZ_388
+      - 16|🇨🇳 台湾_0714021
+      - 1,2,3,4,8|_US_美国->🇳🇱_NL_荷兰 3
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 3
+      - Relay_🏁ZZ-🏁ZZ_386
+      - "16|日本|TG@kxswa #1"
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2 2
+      - Relay_🇺🇸US-🇺🇸US_28 |10.70Mb
+      - "16|美国|TG@kxswa #3"
+      - VN_384
+      - Relay_🇺🇸US-🇺🇸US_42 |15.58Mb
+      - Relay_-🇱🇺LU_33 2
+      - 18|纽约测试|@ripaojiedian
+      - LV_189
       - 「SCP」NNC-CF-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】247
-      - 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
+      - SG_221
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 「SCP」US-DP4-HTTP
-      - Relay_🏁ZZ-🏁ZZ_526
-      - 17|🇺🇸_US_美国_分享师_176
-      - 美国【付费推荐：https://tt.vg/vip】306
-      - Relay_🇯🇵JP-🇯🇵JP_231
-      - riyadh 3
-      - 哥斯达黎加【付费推荐：https://tt.vg/vip】334
-      - 美国【付费推荐：https://tt.vg/vip】206
-      - 「节点冠名招商中」UK-CF-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】180
-      - CN_151
-      - 美国【付费推荐：https://tt.vg/vip】277
-      - Relay_🇯🇵JP-🇭🇰HK_26 |25.73Mb
-      - 美国【付费推荐：https://tt.vg/vip】258
-      - 美国【付费推荐：https://tt.vg/vip】300
-      - 美国【付费推荐：https://tt.vg/vip】305
-      - 「SCP」US-DP1-HTTP
-      - 17|🇮🇳_IN_印度_09
-      - 17|🇳🇱_NL_荷兰_yui科技_185
-      - Relay_🇦🇺AU-🇯🇵JP_05 | 6.80Mb
-      - Relay_🇹🇼TW-🇸🇬SG_303
-      - 美国【付费推荐：https://tt.vg/vip】48
-      - "15|github.com/freefq - 美国CloudFla... #2"
-      - 「SCP」SG-DO-HTTP
-      - Relay_🇩🇪DE-🇺🇸US_48 | 8.02Mb
-      - JP_221
-      - 美国【付费推荐：https://tt.vg/vip】268
-      - US_318
-      - CN_151 2
-      - IT_386
-      - 25|🇺🇸_US_美国_由快嘴科技提供;kkzui.com6_25
-      - 美国【付费推荐：https://tt.vg/vip】284
-      - Relay_-🇯🇵JP_40
-      - 17|🇨🇷_CR_哥斯达黎加_yui科技_313
-      - AU_41 | 3.03Mb
-      - 18|🇺🇸 美国 23
-      - DK_155
-      - 美国【付费推荐：https://tt.vg/vip】204
-      - 美国【付费推荐：https://tt.vg/vip】134
-      - Relay_🇨🇳CN-🇦🇺AU_134
-      - 美国【付费推荐：https://tt.vg/vip】237
-      - 美国【付费推荐：https://tt.vg/vip】275
-      - CN_151 3
-      - riyadh 3 2
-      - 恒展---菲律宾视频 3
-      - Relay_🇨🇳CN-🇯🇵JP_143
-      - 美国【付费推荐：https://tt.vg/vip】182
-      - 美国【付费推荐：https://tt.vg/vip】296
-      - 美国【付费推荐：https://tt.vg/vip】313
-      - Relay_🇨🇳CN-🇹🇼TW_66
-      - _36
-      - 「SCP」US-BuyVM4-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】312
-      - Relay_🇨🇳CN-🇺🇸US_67
-      - Relay_🇺🇸US-🇺🇸US_449
-      - Relay_-🇺🇸US_34
-      - Relay_🇺🇸US-🇺🇸US_63
-      - Pool_🇫🇷FR_163
-      - 「SCP」US-DP3-HTTP
-      - SG_274
-      - US_58 | 2.44Mb
-      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29
-      - Relay_🇨🇳CN-🇯🇵JP_74
-      - 17|🇳🇱_NL_荷兰_由零開始_08
-      - Relay_🇨🇦CA-🇺🇸US_53
-      - US_125 |25.30Mb
-      - Relay_🇫🇷FR-🇫🇷FR_114
-      - "10,17|🇺🇸_US_美国 #8"
-      - 18,25|🇺🇸 美国 22
-      - US_358
-      - CN_82
-      - SG_206
-      - JP_160
-      - 13,15|美国CloudFlare节点 5
-      - SG_269
-      - Relay_🇸🇬SG-🇸🇬SG_231
-      - 17|🇺🇸_US_美国_yui科技_324
-      - "17|🇳🇱_NL_荷兰_由零開始_08 #2"
-      - Relay_🇯🇵JP-🇺🇸US_235
-      - "10|🇺🇸_US_美国 #9"
-      - KR_179
-      - RU_258
-      - Relay_🇫🇷FR-🇫🇷FR_113
-      - US_308
-      - "10,17|🇺🇸_US_美国 #7"
-      - 「SCP」US-BuyVM3-HTTP
-      - Relay_🇨🇳CN-🇷🇺RU_122
-      - Relay_🇨🇦CA-🇺🇸US_50
-      - "10|🇺🇸_US_美国 #4"
-      - IM_153
-      - Relay_🇺🇸US-🇮🇪IE_441
-      - "17|🇺🇸_US_美国_09 #2"
-      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2
-      - KR_244
-      - Relay_🇨🇳CN-🇨🇳CN_61
-      - IE_151
-      - Relay_🇭🇰HK-🇺🇸US_205
-      - US_239
-      - Relay_🇺🇸US-🇹🇼TW_351
-      - EE_156
-      - KR_246
-      - NO_406
-      - "10,17|🇺🇸_US_美国 #2"
-      - KE_239
-      - Pool_🇫🇷FR_164
-      - US_98
-      - AF_20
-      - 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
-      - Relay_🇯🇵JP-🇯🇵JP_227
-      - Relay_🇺🇸US-🇩🇪DE_302
-      - 美国01
-      - "10|🇺🇸_US_美国 #10"
-      - 17|🇺🇸_US_美国_yui科技_280
-      - "0,10|🇺🇸 _US_美国 #3"
-      - Relay_🇸🇬SG-🇸🇬SG_222
-      - NL_248
-      - Pool_🇫🇷FR_161
-      - JP_161
-      - SG_275
-      - 25|🇺🇸_US_美国_23_35
-      - "0,10,17|🇺🇸 _US_美国 #15"
+      - SG_215
+      - SG_222
       - 18|🇹🇼 台湾独家|@ripaojiedian
-      - 美国【付费推荐：https://tt.vg/vip】320
-      - _04
-      - SG_268
-      - Relay_🇯🇵JP-🇯🇵JP_167
-      - 恒展---菲律宾视频 3 2
-      - SG_199
-      - KR_243
-      - US_311
-      - US_244
+      - 16|🇨🇳 台湾_0714016
+      - Relay_🇹🇼TW |36.13Mb
+      - US_238
+      - Relay_🇨🇦CA-🇺🇸US_50
+      - Relay_🇨🇦CA-🇺🇸US_53
+      - 下单地址：254254.xyz
+      - "16|美国|TG@kxswa #2"
+      - Relay_🇹🇼TW |34.07Mb
+      - 1,1,2,2,3,3,4,4|_CN_中国->🇱🇺_LU_卢森堡
+      - 16|🇨🇳 台湾_0714018
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29
+      - AF_20
       - Relay_-🇱🇺LU_33
-      - 荷兰【付费推荐：https://tt.vg/vip】50
-      - 新加坡【付费推荐：https://tt.vg/vip】77
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2
+      - Relay_🏁ZZ-🏁ZZ_388
+      - 16|🇨🇳 台湾_0714021
+      - 1,2,3,4,8|_US_美国->🇳🇱_NL_荷兰 3
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 3
+      - Relay_🏁ZZ-🏁ZZ_386
+      - "16|日本|TG@kxswa #1"
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2 2
+      - Relay_🇺🇸US-🇺🇸US_28 |10.70Mb
+      - "16|美国|TG@kxswa #3"
+      - VN_384
+      - Relay_🇺🇸US-🇺🇸US_42 |15.58Mb
+      - Relay_-🇱🇺LU_33 2
+      - 18|纽约测试|@ripaojiedian
+      - LV_189
       - 「SCP」NNC-CF-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】247
-      - 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
+      - SG_221
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「SCP」US-DP4-HTTP
-      - Relay_🏁ZZ-🏁ZZ_526
-      - 17|🇺🇸_US_美国_分享师_176
-      - 美国【付费推荐：https://tt.vg/vip】306
-      - Relay_🇯🇵JP-🇯🇵JP_231
-      - riyadh 3
-      - 哥斯达黎加【付费推荐：https://tt.vg/vip】334
-      - 美国【付费推荐：https://tt.vg/vip】206
-      - 「节点冠名招商中」UK-CF-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】180
-      - CN_151
-      - 美国【付费推荐：https://tt.vg/vip】277
-      - Relay_🇯🇵JP-🇭🇰HK_26 |25.73Mb
-      - 美国【付费推荐：https://tt.vg/vip】258
-      - 美国【付费推荐：https://tt.vg/vip】300
-      - 美国【付费推荐：https://tt.vg/vip】305
-      - 「SCP」US-DP1-HTTP
-      - 17|🇮🇳_IN_印度_09
-      - 17|🇳🇱_NL_荷兰_yui科技_185
-      - Relay_🇦🇺AU-🇯🇵JP_05 | 6.80Mb
-      - Relay_🇹🇼TW-🇸🇬SG_303
-      - 美国【付费推荐：https://tt.vg/vip】48
-      - "15|github.com/freefq - 美国CloudFla... #2"
-      - 「SCP」SG-DO-HTTP
-      - Relay_🇩🇪DE-🇺🇸US_48 | 8.02Mb
-      - JP_221
-      - 美国【付费推荐：https://tt.vg/vip】268
-      - US_318
-      - CN_151 2
-      - IT_386
-      - 25|🇺🇸_US_美国_由快嘴科技提供;kkzui.com6_25
-      - 美国【付费推荐：https://tt.vg/vip】284
-      - Relay_-🇯🇵JP_40
-      - 17|🇨🇷_CR_哥斯达黎加_yui科技_313
-      - AU_41 | 3.03Mb
-      - 18|🇺🇸 美国 23
-      - DK_155
-      - 美国【付费推荐：https://tt.vg/vip】204
-      - 美国【付费推荐：https://tt.vg/vip】134
-      - Relay_🇨🇳CN-🇦🇺AU_134
-      - 美国【付费推荐：https://tt.vg/vip】237
-      - 美国【付费推荐：https://tt.vg/vip】275
-      - CN_151 3
-      - riyadh 3 2
-      - 恒展---菲律宾视频 3
-      - Relay_🇨🇳CN-🇯🇵JP_143
-      - 美国【付费推荐：https://tt.vg/vip】182
-      - 美国【付费推荐：https://tt.vg/vip】296
-      - 美国【付费推荐：https://tt.vg/vip】313
-      - Relay_🇨🇳CN-🇹🇼TW_66
-      - _36
-      - 「SCP」US-BuyVM4-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】312
-      - Relay_🇨🇳CN-🇺🇸US_67
-      - Relay_🇺🇸US-🇺🇸US_449
-      - Relay_-🇺🇸US_34
-      - Relay_🇺🇸US-🇺🇸US_63
-      - Pool_🇫🇷FR_163
-      - 「SCP」US-DP3-HTTP
-      - SG_274
-      - US_58 | 2.44Mb
-      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29
-      - Relay_🇨🇳CN-🇯🇵JP_74
-      - 17|🇳🇱_NL_荷兰_由零開始_08
-      - Relay_🇨🇦CA-🇺🇸US_53
-      - US_125 |25.30Mb
-      - Relay_🇫🇷FR-🇫🇷FR_114
-      - "10,17|🇺🇸_US_美国 #8"
-      - 18,25|🇺🇸 美国 22
-      - US_358
-      - CN_82
-      - SG_206
-      - JP_160
-      - 13,15|美国CloudFlare节点 5
-      - SG_269
-      - Relay_🇸🇬SG-🇸🇬SG_231
-      - 17|🇺🇸_US_美国_yui科技_324
-      - "17|🇳🇱_NL_荷兰_由零開始_08 #2"
-      - Relay_🇯🇵JP-🇺🇸US_235
-      - "10|🇺🇸_US_美国 #9"
-      - KR_179
-      - RU_258
-      - Relay_🇫🇷FR-🇫🇷FR_113
-      - US_308
-      - "10,17|🇺🇸_US_美国 #7"
-      - 「SCP」US-BuyVM3-HTTP
-      - Relay_🇨🇳CN-🇷🇺RU_122
-      - Relay_🇨🇦CA-🇺🇸US_50
-      - "10|🇺🇸_US_美国 #4"
-      - IM_153
-      - Relay_🇺🇸US-🇮🇪IE_441
-      - "17|🇺🇸_US_美国_09 #2"
-      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2
-      - KR_244
-      - Relay_🇨🇳CN-🇨🇳CN_61
-      - IE_151
-      - Relay_🇭🇰HK-🇺🇸US_205
-      - US_239
-      - Relay_🇺🇸US-🇹🇼TW_351
-      - EE_156
-      - KR_246
-      - NO_406
-      - "10,17|🇺🇸_US_美国 #2"
-      - KE_239
-      - Pool_🇫🇷FR_164
-      - US_98
-      - AF_20
-      - 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
-      - Relay_🇯🇵JP-🇯🇵JP_227
-      - Relay_🇺🇸US-🇩🇪DE_302
-      - 美国01
-      - "10|🇺🇸_US_美国 #10"
-      - 17|🇺🇸_US_美国_yui科技_280
-      - "0,10|🇺🇸 _US_美国 #3"
-      - Relay_🇸🇬SG-🇸🇬SG_222
-      - NL_248
-      - Pool_🇫🇷FR_161
-      - JP_161
-      - SG_275
-      - 25|🇺🇸_US_美国_23_35
-      - "0,10,17|🇺🇸 _US_美国 #15"
+      - SG_215
+      - SG_222
       - 18|🇹🇼 台湾独家|@ripaojiedian
-      - 美国【付费推荐：https://tt.vg/vip】320
-      - _04
-      - SG_268
-      - Relay_🇯🇵JP-🇯🇵JP_167
-      - 恒展---菲律宾视频 3 2
-      - SG_199
-      - KR_243
-      - US_311
-      - US_244
+      - 16|🇨🇳 台湾_0714016
+      - Relay_🇹🇼TW |36.13Mb
+      - US_238
+      - Relay_🇨🇦CA-🇺🇸US_50
+      - Relay_🇨🇦CA-🇺🇸US_53
+      - 下单地址：254254.xyz
+      - "16|美国|TG@kxswa #2"
+      - Relay_🇹🇼TW |34.07Mb
+      - 1,1,2,2,3,3,4,4|_CN_中国->🇱🇺_LU_卢森堡
+      - 16|🇨🇳 台湾_0714018
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29
+      - AF_20
       - Relay_-🇱🇺LU_33
-      - 荷兰【付费推荐：https://tt.vg/vip】50
-      - 新加坡【付费推荐：https://tt.vg/vip】77
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2
+      - Relay_🏁ZZ-🏁ZZ_388
+      - 16|🇨🇳 台湾_0714021
+      - 1,2,3,4,8|_US_美国->🇳🇱_NL_荷兰 3
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 3
+      - Relay_🏁ZZ-🏁ZZ_386
+      - "16|日本|TG@kxswa #1"
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2 2
+      - Relay_🇺🇸US-🇺🇸US_28 |10.70Mb
+      - "16|美国|TG@kxswa #3"
+      - VN_384
+      - Relay_🇺🇸US-🇺🇸US_42 |15.58Mb
+      - Relay_-🇱🇺LU_33 2
+      - 18|纽约测试|@ripaojiedian
+      - LV_189
       - 「SCP」NNC-CF-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】247
-      - 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
+      - SG_221
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1173,143 +344,39 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「SCP」US-DP4-HTTP
-      - Relay_🏁ZZ-🏁ZZ_526
-      - 17|🇺🇸_US_美国_分享师_176
-      - 美国【付费推荐：https://tt.vg/vip】306
-      - Relay_🇯🇵JP-🇯🇵JP_231
-      - riyadh 3
-      - 哥斯达黎加【付费推荐：https://tt.vg/vip】334
-      - 美国【付费推荐：https://tt.vg/vip】206
-      - 「节点冠名招商中」UK-CF-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】180
-      - CN_151
-      - 美国【付费推荐：https://tt.vg/vip】277
-      - Relay_🇯🇵JP-🇭🇰HK_26 |25.73Mb
-      - 美国【付费推荐：https://tt.vg/vip】258
-      - 美国【付费推荐：https://tt.vg/vip】300
-      - 美国【付费推荐：https://tt.vg/vip】305
-      - 「SCP」US-DP1-HTTP
-      - 17|🇮🇳_IN_印度_09
-      - 17|🇳🇱_NL_荷兰_yui科技_185
-      - Relay_🇦🇺AU-🇯🇵JP_05 | 6.80Mb
-      - Relay_🇹🇼TW-🇸🇬SG_303
-      - 美国【付费推荐：https://tt.vg/vip】48
-      - "15|github.com/freefq - 美国CloudFla... #2"
-      - 「SCP」SG-DO-HTTP
-      - Relay_🇩🇪DE-🇺🇸US_48 | 8.02Mb
-      - JP_221
-      - 美国【付费推荐：https://tt.vg/vip】268
-      - US_318
-      - CN_151 2
-      - IT_386
-      - 25|🇺🇸_US_美国_由快嘴科技提供;kkzui.com6_25
-      - 美国【付费推荐：https://tt.vg/vip】284
-      - Relay_-🇯🇵JP_40
-      - 17|🇨🇷_CR_哥斯达黎加_yui科技_313
-      - AU_41 | 3.03Mb
-      - 18|🇺🇸 美国 23
-      - DK_155
-      - 美国【付费推荐：https://tt.vg/vip】204
-      - 美国【付费推荐：https://tt.vg/vip】134
-      - Relay_🇨🇳CN-🇦🇺AU_134
-      - 美国【付费推荐：https://tt.vg/vip】237
-      - 美国【付费推荐：https://tt.vg/vip】275
-      - CN_151 3
-      - riyadh 3 2
-      - 恒展---菲律宾视频 3
-      - Relay_🇨🇳CN-🇯🇵JP_143
-      - 美国【付费推荐：https://tt.vg/vip】182
-      - 美国【付费推荐：https://tt.vg/vip】296
-      - 美国【付费推荐：https://tt.vg/vip】313
-      - Relay_🇨🇳CN-🇹🇼TW_66
-      - _36
-      - 「SCP」US-BuyVM4-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】312
-      - Relay_🇨🇳CN-🇺🇸US_67
-      - Relay_🇺🇸US-🇺🇸US_449
-      - Relay_-🇺🇸US_34
-      - Relay_🇺🇸US-🇺🇸US_63
-      - Pool_🇫🇷FR_163
-      - 「SCP」US-DP3-HTTP
-      - SG_274
-      - US_58 | 2.44Mb
-      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29
-      - Relay_🇨🇳CN-🇯🇵JP_74
-      - 17|🇳🇱_NL_荷兰_由零開始_08
-      - Relay_🇨🇦CA-🇺🇸US_53
-      - US_125 |25.30Mb
-      - Relay_🇫🇷FR-🇫🇷FR_114
-      - "10,17|🇺🇸_US_美国 #8"
-      - 18,25|🇺🇸 美国 22
-      - US_358
-      - CN_82
-      - SG_206
-      - JP_160
-      - 13,15|美国CloudFlare节点 5
-      - SG_269
-      - Relay_🇸🇬SG-🇸🇬SG_231
-      - 17|🇺🇸_US_美国_yui科技_324
-      - "17|🇳🇱_NL_荷兰_由零開始_08 #2"
-      - Relay_🇯🇵JP-🇺🇸US_235
-      - "10|🇺🇸_US_美国 #9"
-      - KR_179
-      - RU_258
-      - Relay_🇫🇷FR-🇫🇷FR_113
-      - US_308
-      - "10,17|🇺🇸_US_美国 #7"
-      - 「SCP」US-BuyVM3-HTTP
-      - Relay_🇨🇳CN-🇷🇺RU_122
-      - Relay_🇨🇦CA-🇺🇸US_50
-      - "10|🇺🇸_US_美国 #4"
-      - IM_153
-      - Relay_🇺🇸US-🇮🇪IE_441
-      - "17|🇺🇸_US_美国_09 #2"
-      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2
-      - KR_244
-      - Relay_🇨🇳CN-🇨🇳CN_61
-      - IE_151
-      - Relay_🇭🇰HK-🇺🇸US_205
-      - US_239
-      - Relay_🇺🇸US-🇹🇼TW_351
-      - EE_156
-      - KR_246
-      - NO_406
-      - "10,17|🇺🇸_US_美国 #2"
-      - KE_239
-      - Pool_🇫🇷FR_164
-      - US_98
-      - AF_20
-      - 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
-      - Relay_🇯🇵JP-🇯🇵JP_227
-      - Relay_🇺🇸US-🇩🇪DE_302
-      - 美国01
-      - "10|🇺🇸_US_美国 #10"
-      - 17|🇺🇸_US_美国_yui科技_280
-      - "0,10|🇺🇸 _US_美国 #3"
-      - Relay_🇸🇬SG-🇸🇬SG_222
-      - NL_248
-      - Pool_🇫🇷FR_161
-      - JP_161
-      - SG_275
-      - 25|🇺🇸_US_美国_23_35
-      - "0,10,17|🇺🇸 _US_美国 #15"
+      - SG_215
+      - SG_222
       - 18|🇹🇼 台湾独家|@ripaojiedian
-      - 美国【付费推荐：https://tt.vg/vip】320
-      - _04
-      - SG_268
-      - Relay_🇯🇵JP-🇯🇵JP_167
-      - 恒展---菲律宾视频 3 2
-      - SG_199
-      - KR_243
-      - US_311
-      - US_244
+      - 16|🇨🇳 台湾_0714016
+      - Relay_🇹🇼TW |36.13Mb
+      - US_238
+      - Relay_🇨🇦CA-🇺🇸US_50
+      - Relay_🇨🇦CA-🇺🇸US_53
+      - 下单地址：254254.xyz
+      - "16|美国|TG@kxswa #2"
+      - Relay_🇹🇼TW |34.07Mb
+      - 1,1,2,2,3,3,4,4|_CN_中国->🇱🇺_LU_卢森堡
+      - 16|🇨🇳 台湾_0714018
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29
+      - AF_20
       - Relay_-🇱🇺LU_33
-      - 荷兰【付费推荐：https://tt.vg/vip】50
-      - 新加坡【付费推荐：https://tt.vg/vip】77
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2
+      - Relay_🏁ZZ-🏁ZZ_388
+      - 16|🇨🇳 台湾_0714021
+      - 1,2,3,4,8|_US_美国->🇳🇱_NL_荷兰 3
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 3
+      - Relay_🏁ZZ-🏁ZZ_386
+      - "16|日本|TG@kxswa #1"
+      - 25|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_29 2 2
+      - Relay_🇺🇸US-🇺🇸US_28 |10.70Mb
+      - "16|美国|TG@kxswa #3"
+      - VN_384
+      - Relay_🇺🇸US-🇺🇸US_42 |15.58Mb
+      - Relay_-🇱🇺LU_33 2
+      - 18|纽约测试|@ripaojiedian
+      - LV_189
       - 「SCP」NNC-CF-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】247
-      - 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
+      - SG_221
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

@@ -115,49 +115,73 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN 11 → tg@nicevpn123
+      - 日本_0909126
+      - CN 318 → tg@nicevpn123
+      - CN 481 → tg@nicevpn123
+      - CN 310 → tg@nicevpn123
+      - CN 315 → tg@nicevpn123
+      - JP_50
+      - CN 317 → tg@nicevpn123
+      - CN 479 → tg@nicevpn123
+      - CN 320 → tg@nicevpn123
+      - CN 312 → tg@nicevpn123
+      - CN 403 → tg@nicevpn123
+      - CN 482 → tg@nicevpn123
+      - CN 323 → tg@nicevpn123
+      - CN 313 → tg@nicevpn123
+      - CN 401 → tg@nicevpn123
+      - CN 402 → tg@nicevpn123
+      - CN 36 → tg@nicevpn123
+      - HK_37
+      - CN 407 → tg@nicevpn123
+      - CN_07
+      - CN 406 → tg@nicevpn123
+      - TW 35 → tg@nicevpn123
+      - CN 483 → tg@nicevpn123
+      - TW 29 → tg@nicevpn123
+      - TW 27 → tg@nicevpn123
+      - CN 484 → tg@nicevpn123
+      - TW 34 → tg@nicevpn123
+      - TW 38 → tg@nicevpn123
+      - TW 31 → tg@nicevpn123
+      - TW 17 → tg@nicevpn123
+      - CN 480 → tg@nicevpn123
+      - CN 404 → tg@nicevpn123
+      - TW 26 → tg@nicevpn123
+      - TW 2 → tg@nicevpn123
+      - TW 37 → tg@nicevpn123
+      - "6|🇺🇸_US_美国->🇩🇪_DE_德国 #1"
+      - CN 308 → tg@nicevpn123
+      - CN 481 → tg@nicevpn123 2
+      - CN 310 → tg@nicevpn123 2
+      - CN 315 → tg@nicevpn123 2
+      - CN 317 → tg@nicevpn123 2
+      - CN 479 → tg@nicevpn123 2
+      - CN 312 → tg@nicevpn123 2
+      - CN 482 → tg@nicevpn123 2
+      - CN 402 → tg@nicevpn123 2
+      - CN 36 → tg@nicevpn123 2
+      - CN 407 → tg@nicevpn123 2
+      - CN_07 2
+      - CN 406 → tg@nicevpn123 2
+      - CN 484 → tg@nicevpn123 2
+      - CN 404 → tg@nicevpn123 2
+      - CN 308 → tg@nicevpn123 2
       - SG 5 → tg@nicevpn123
       - US 136 → tg@nicevpn123
-      - 2,3,4,17|_CN_中国->🇹🇼_TW_台湾
-      - 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5
-      - 17|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-      - 2,3,4|_CN_中国->🇯🇵_JP_日本
-      - CN 121 → tg@nicevpn123
-      - CN 17 → tg@nicevpn123
       - CN 157 → tg@nicevpn123
-      - CN 193 → tg@nicevpn123
-      - CN 283 → tg@nicevpn123
-      - CZ 5 → tg@nicevpn123
-      - CN 144 → tg@nicevpn123
-      - "11|github.com/freefq - 美国CloudFla... #1"
-      - 14|🇯🇵 日本2|@ripaojiedian
-      - "0|🇸🇬 _CN_中国->🇸🇬_SG_新加坡 #1"
-      - "0|🇺🇸 _US_美国 #21"
       - 12|🇺🇸_US_美国_kxswa
-      - 1,14|_CN_中国->🇻🇳_VN_越南
-      - 12|中转 🇷🇺 Russia 01 @nodpai
-      - 18|🇨🇳_CN_中国->🇹🇼_TW_台湾_由快嘴科技提供：kkz...
-      - 14|🇸🇬 新加坡特殊|@ripaojiedian
-      - "0|🇭🇰 _HK_香港 #1"
-      - 15|日本B|@ripaojiedian
-      - 1,2,3,4,6|_US_美国 2
       - US_117
       - HK_41
-      - 2,3,4|_CN_中国->🇸🇬_SG_新加坡
-      - 10,12|日本东京Amazon数据中心 16
       - 12|中转 🇯🇵 Japan 01 @nodpai
       - 12|中转 🇺🇸 United States 02 @nodpai
       - JP_52
-      - 12|中转 🇭🇰 Hong Kong 01 @nodpai
       - US_112
-      - CZ 9 → tg@nicevpn123
       - Relay_ | 3.49Mb
-      - CN 15 → tg@nicevpn123
       - CN 129 → tg@nicevpn123
       - 14|纽约测试|@ripaojiedian
       - US_118
       - HK_40
-      - 0,2,3,4|🇻🇳 _CN_中国->🇻🇳_VN_越南
       - SG_59
       - US_108
       - SG_60
@@ -176,116 +200,97 @@ proxy-groups:
       - US_113
       - US_122
       - CN_13
-      - 2,3,4|_CN_中国->🇯🇵_JP_日本 2
       - US_120
-      - "6|🇺🇸_US_美国->🇩🇪_DE_德国 #1"
-      - "12|🇭🇰 _CN_中国->🇭🇰_HK_香港 #1"
-      - CN_05
-      - 0|🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - HK_37
-      - CN 105 → tg@nicevpn123
-      - JP_50
-      - CN_07
-      - CZ 5 → tg@nicevpn123 2
-      - 1,2,3,4|_US_美国 20
-      - 美国【付费推荐：https://tt.vg/vip】170
       - HK_32
       - US_110
-      - CN 347 → tg@nicevpn123
-      - CN 313 → tg@nicevpn123
-      - CZ 3 → tg@nicevpn123
-      - CN 216 → tg@nicevpn123
       - US_119
-      - CN 389 → tg@nicevpn123
       - HK_39
       - HK_35
-      - HK_28
-      - CN 358 → tg@nicevpn123
       - 6|🇦🇺_AU_澳大利亚
       - HK_33
-      - 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-      - CN 287 → tg@nicevpn123
       - CN_04
       - CN 330 → tg@nicevpn123
       - 12|RlJfc3BlZWRub2RlXzAwMTE%3D
-      - 美国【付费推荐：https://tt.vg/vip】59
-      - CZ 9 → tg@nicevpn123 2
-      - CN 279 → tg@nicevpn123
       - HK_31
-      - CN 234 → tg@nicevpn123
-      - "0,18|🇺🇸 _US_美国 #9"
-      - CN 314 → tg@nicevpn123
-      - 12|中转 🇯🇵 Japan 22 @nodpai
       - FR_25
-      - CN 140 → tg@nicevpn123
-      - CN 30 → tg@nicevpn123
       - HK_34
       - HK_30
       - HK_36
-      - CN 161 → tg@nicevpn123
-      - "0,18|🇭🇰 _HK_香港->🇨🇦_CA_加拿大 #1"
-      - CN 173 → tg@nicevpn123
-      - CN 19 → tg@nicevpn123
-      - CN 14 → tg@nicevpn123
-      - CN 63 → tg@nicevpn123
-      - CN 109 → tg@nicevpn123
-      - CN 199 → tg@nicevpn123
-      - Relay_ | 3.81Mb
       - ZA 6 → tg@nicevpn123
-      - Relay_ | 3.31Mb
       - Relay_🇨🇳CN-🇺🇸US_12
       - Relay_🇨🇳CN-🇯🇵JP_03
-      - 「SCP」US-BuyVM4-HTTP
-      - AL 1 → tg@nicevpn123
-      - 14|🇸🇬 狮城特殊|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN 11 → tg@nicevpn123
+      - 日本_0909126
+      - CN 318 → tg@nicevpn123
+      - CN 481 → tg@nicevpn123
+      - CN 310 → tg@nicevpn123
+      - CN 315 → tg@nicevpn123
+      - JP_50
+      - CN 317 → tg@nicevpn123
+      - CN 479 → tg@nicevpn123
+      - CN 320 → tg@nicevpn123
+      - CN 312 → tg@nicevpn123
+      - CN 403 → tg@nicevpn123
+      - CN 482 → tg@nicevpn123
+      - CN 323 → tg@nicevpn123
+      - CN 313 → tg@nicevpn123
+      - CN 401 → tg@nicevpn123
+      - CN 402 → tg@nicevpn123
+      - CN 36 → tg@nicevpn123
+      - HK_37
+      - CN 407 → tg@nicevpn123
+      - CN_07
+      - CN 406 → tg@nicevpn123
+      - TW 35 → tg@nicevpn123
+      - CN 483 → tg@nicevpn123
+      - TW 29 → tg@nicevpn123
+      - TW 27 → tg@nicevpn123
+      - CN 484 → tg@nicevpn123
+      - TW 34 → tg@nicevpn123
+      - TW 38 → tg@nicevpn123
+      - TW 31 → tg@nicevpn123
+      - TW 17 → tg@nicevpn123
+      - CN 480 → tg@nicevpn123
+      - CN 404 → tg@nicevpn123
+      - TW 26 → tg@nicevpn123
+      - TW 2 → tg@nicevpn123
+      - TW 37 → tg@nicevpn123
+      - "6|🇺🇸_US_美国->🇩🇪_DE_德国 #1"
+      - CN 308 → tg@nicevpn123
+      - CN 481 → tg@nicevpn123 2
+      - CN 310 → tg@nicevpn123 2
+      - CN 315 → tg@nicevpn123 2
+      - CN 317 → tg@nicevpn123 2
+      - CN 479 → tg@nicevpn123 2
+      - CN 312 → tg@nicevpn123 2
+      - CN 482 → tg@nicevpn123 2
+      - CN 402 → tg@nicevpn123 2
+      - CN 36 → tg@nicevpn123 2
+      - CN 407 → tg@nicevpn123 2
+      - CN_07 2
+      - CN 406 → tg@nicevpn123 2
+      - CN 484 → tg@nicevpn123 2
+      - CN 404 → tg@nicevpn123 2
+      - CN 308 → tg@nicevpn123 2
       - SG 5 → tg@nicevpn123
       - US 136 → tg@nicevpn123
-      - 2,3,4,17|_CN_中国->🇹🇼_TW_台湾
-      - 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5
-      - 17|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-      - 2,3,4|_CN_中国->🇯🇵_JP_日本
-      - CN 121 → tg@nicevpn123
-      - CN 17 → tg@nicevpn123
       - CN 157 → tg@nicevpn123
-      - CN 193 → tg@nicevpn123
-      - CN 283 → tg@nicevpn123
-      - CZ 5 → tg@nicevpn123
-      - CN 144 → tg@nicevpn123
-      - "11|github.com/freefq - 美国CloudFla... #1"
-      - 14|🇯🇵 日本2|@ripaojiedian
-      - "0|🇸🇬 _CN_中国->🇸🇬_SG_新加坡 #1"
-      - "0|🇺🇸 _US_美国 #21"
       - 12|🇺🇸_US_美国_kxswa
-      - 1,14|_CN_中国->🇻🇳_VN_越南
-      - 12|中转 🇷🇺 Russia 01 @nodpai
-      - 18|🇨🇳_CN_中国->🇹🇼_TW_台湾_由快嘴科技提供：kkz...
-      - 14|🇸🇬 新加坡特殊|@ripaojiedian
-      - "0|🇭🇰 _HK_香港 #1"
-      - 15|日本B|@ripaojiedian
-      - 1,2,3,4,6|_US_美国 2
       - US_117
       - HK_41
-      - 2,3,4|_CN_中国->🇸🇬_SG_新加坡
-      - 10,12|日本东京Amazon数据中心 16
       - 12|中转 🇯🇵 Japan 01 @nodpai
       - 12|中转 🇺🇸 United States 02 @nodpai
       - JP_52
-      - 12|中转 🇭🇰 Hong Kong 01 @nodpai
       - US_112
-      - CZ 9 → tg@nicevpn123
       - Relay_ | 3.49Mb
-      - CN 15 → tg@nicevpn123
       - CN 129 → tg@nicevpn123
       - 14|纽约测试|@ripaojiedian
       - US_118
       - HK_40
-      - 0,2,3,4|🇻🇳 _CN_中国->🇻🇳_VN_越南
       - SG_59
       - US_108
       - SG_60
@@ -304,117 +309,98 @@ proxy-groups:
       - US_113
       - US_122
       - CN_13
-      - 2,3,4|_CN_中国->🇯🇵_JP_日本 2
       - US_120
-      - "6|🇺🇸_US_美国->🇩🇪_DE_德国 #1"
-      - "12|🇭🇰 _CN_中国->🇭🇰_HK_香港 #1"
-      - CN_05
-      - 0|🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - HK_37
-      - CN 105 → tg@nicevpn123
-      - JP_50
-      - CN_07
-      - CZ 5 → tg@nicevpn123 2
-      - 1,2,3,4|_US_美国 20
-      - 美国【付费推荐：https://tt.vg/vip】170
       - HK_32
       - US_110
-      - CN 347 → tg@nicevpn123
-      - CN 313 → tg@nicevpn123
-      - CZ 3 → tg@nicevpn123
-      - CN 216 → tg@nicevpn123
       - US_119
-      - CN 389 → tg@nicevpn123
       - HK_39
       - HK_35
-      - HK_28
-      - CN 358 → tg@nicevpn123
       - 6|🇦🇺_AU_澳大利亚
       - HK_33
-      - 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-      - CN 287 → tg@nicevpn123
       - CN_04
       - CN 330 → tg@nicevpn123
       - 12|RlJfc3BlZWRub2RlXzAwMTE%3D
-      - 美国【付费推荐：https://tt.vg/vip】59
-      - CZ 9 → tg@nicevpn123 2
-      - CN 279 → tg@nicevpn123
       - HK_31
-      - CN 234 → tg@nicevpn123
-      - "0,18|🇺🇸 _US_美国 #9"
-      - CN 314 → tg@nicevpn123
-      - 12|中转 🇯🇵 Japan 22 @nodpai
       - FR_25
-      - CN 140 → tg@nicevpn123
-      - CN 30 → tg@nicevpn123
       - HK_34
       - HK_30
       - HK_36
-      - CN 161 → tg@nicevpn123
-      - "0,18|🇭🇰 _HK_香港->🇨🇦_CA_加拿大 #1"
-      - CN 173 → tg@nicevpn123
-      - CN 19 → tg@nicevpn123
-      - CN 14 → tg@nicevpn123
-      - CN 63 → tg@nicevpn123
-      - CN 109 → tg@nicevpn123
-      - CN 199 → tg@nicevpn123
-      - Relay_ | 3.81Mb
       - ZA 6 → tg@nicevpn123
-      - Relay_ | 3.31Mb
       - Relay_🇨🇳CN-🇺🇸US_12
       - Relay_🇨🇳CN-🇯🇵JP_03
-      - 「SCP」US-BuyVM4-HTTP
-      - AL 1 → tg@nicevpn123
-      - 14|🇸🇬 狮城特殊|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN 11 → tg@nicevpn123
+      - 日本_0909126
+      - CN 318 → tg@nicevpn123
+      - CN 481 → tg@nicevpn123
+      - CN 310 → tg@nicevpn123
+      - CN 315 → tg@nicevpn123
+      - JP_50
+      - CN 317 → tg@nicevpn123
+      - CN 479 → tg@nicevpn123
+      - CN 320 → tg@nicevpn123
+      - CN 312 → tg@nicevpn123
+      - CN 403 → tg@nicevpn123
+      - CN 482 → tg@nicevpn123
+      - CN 323 → tg@nicevpn123
+      - CN 313 → tg@nicevpn123
+      - CN 401 → tg@nicevpn123
+      - CN 402 → tg@nicevpn123
+      - CN 36 → tg@nicevpn123
+      - HK_37
+      - CN 407 → tg@nicevpn123
+      - CN_07
+      - CN 406 → tg@nicevpn123
+      - TW 35 → tg@nicevpn123
+      - CN 483 → tg@nicevpn123
+      - TW 29 → tg@nicevpn123
+      - TW 27 → tg@nicevpn123
+      - CN 484 → tg@nicevpn123
+      - TW 34 → tg@nicevpn123
+      - TW 38 → tg@nicevpn123
+      - TW 31 → tg@nicevpn123
+      - TW 17 → tg@nicevpn123
+      - CN 480 → tg@nicevpn123
+      - CN 404 → tg@nicevpn123
+      - TW 26 → tg@nicevpn123
+      - TW 2 → tg@nicevpn123
+      - TW 37 → tg@nicevpn123
+      - "6|🇺🇸_US_美国->🇩🇪_DE_德国 #1"
+      - CN 308 → tg@nicevpn123
+      - CN 481 → tg@nicevpn123 2
+      - CN 310 → tg@nicevpn123 2
+      - CN 315 → tg@nicevpn123 2
+      - CN 317 → tg@nicevpn123 2
+      - CN 479 → tg@nicevpn123 2
+      - CN 312 → tg@nicevpn123 2
+      - CN 482 → tg@nicevpn123 2
+      - CN 402 → tg@nicevpn123 2
+      - CN 36 → tg@nicevpn123 2
+      - CN 407 → tg@nicevpn123 2
+      - CN_07 2
+      - CN 406 → tg@nicevpn123 2
+      - CN 484 → tg@nicevpn123 2
+      - CN 404 → tg@nicevpn123 2
+      - CN 308 → tg@nicevpn123 2
       - SG 5 → tg@nicevpn123
       - US 136 → tg@nicevpn123
-      - 2,3,4,17|_CN_中国->🇹🇼_TW_台湾
-      - 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5
-      - 17|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-      - 2,3,4|_CN_中国->🇯🇵_JP_日本
-      - CN 121 → tg@nicevpn123
-      - CN 17 → tg@nicevpn123
       - CN 157 → tg@nicevpn123
-      - CN 193 → tg@nicevpn123
-      - CN 283 → tg@nicevpn123
-      - CZ 5 → tg@nicevpn123
-      - CN 144 → tg@nicevpn123
-      - "11|github.com/freefq - 美国CloudFla... #1"
-      - 14|🇯🇵 日本2|@ripaojiedian
-      - "0|🇸🇬 _CN_中国->🇸🇬_SG_新加坡 #1"
-      - "0|🇺🇸 _US_美国 #21"
       - 12|🇺🇸_US_美国_kxswa
-      - 1,14|_CN_中国->🇻🇳_VN_越南
-      - 12|中转 🇷🇺 Russia 01 @nodpai
-      - 18|🇨🇳_CN_中国->🇹🇼_TW_台湾_由快嘴科技提供：kkz...
-      - 14|🇸🇬 新加坡特殊|@ripaojiedian
-      - "0|🇭🇰 _HK_香港 #1"
-      - 15|日本B|@ripaojiedian
-      - 1,2,3,4,6|_US_美国 2
       - US_117
       - HK_41
-      - 2,3,4|_CN_中国->🇸🇬_SG_新加坡
-      - 10,12|日本东京Amazon数据中心 16
       - 12|中转 🇯🇵 Japan 01 @nodpai
       - 12|中转 🇺🇸 United States 02 @nodpai
       - JP_52
-      - 12|中转 🇭🇰 Hong Kong 01 @nodpai
       - US_112
-      - CZ 9 → tg@nicevpn123
       - Relay_ | 3.49Mb
-      - CN 15 → tg@nicevpn123
       - CN 129 → tg@nicevpn123
       - 14|纽约测试|@ripaojiedian
       - US_118
       - HK_40
-      - 0,2,3,4|🇻🇳 _CN_中国->🇻🇳_VN_越南
       - SG_59
       - US_108
       - SG_60
@@ -433,68 +419,25 @@ proxy-groups:
       - US_113
       - US_122
       - CN_13
-      - 2,3,4|_CN_中国->🇯🇵_JP_日本 2
       - US_120
-      - "6|🇺🇸_US_美国->🇩🇪_DE_德国 #1"
-      - "12|🇭🇰 _CN_中国->🇭🇰_HK_香港 #1"
-      - CN_05
-      - 0|🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - HK_37
-      - CN 105 → tg@nicevpn123
-      - JP_50
-      - CN_07
-      - CZ 5 → tg@nicevpn123 2
-      - 1,2,3,4|_US_美国 20
-      - 美国【付费推荐：https://tt.vg/vip】170
       - HK_32
       - US_110
-      - CN 347 → tg@nicevpn123
-      - CN 313 → tg@nicevpn123
-      - CZ 3 → tg@nicevpn123
-      - CN 216 → tg@nicevpn123
       - US_119
-      - CN 389 → tg@nicevpn123
       - HK_39
       - HK_35
-      - HK_28
-      - CN 358 → tg@nicevpn123
       - 6|🇦🇺_AU_澳大利亚
       - HK_33
-      - 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-      - CN 287 → tg@nicevpn123
       - CN_04
       - CN 330 → tg@nicevpn123
       - 12|RlJfc3BlZWRub2RlXzAwMTE%3D
-      - 美国【付费推荐：https://tt.vg/vip】59
-      - CZ 9 → tg@nicevpn123 2
-      - CN 279 → tg@nicevpn123
       - HK_31
-      - CN 234 → tg@nicevpn123
-      - "0,18|🇺🇸 _US_美国 #9"
-      - CN 314 → tg@nicevpn123
-      - 12|中转 🇯🇵 Japan 22 @nodpai
       - FR_25
-      - CN 140 → tg@nicevpn123
-      - CN 30 → tg@nicevpn123
       - HK_34
       - HK_30
       - HK_36
-      - CN 161 → tg@nicevpn123
-      - "0,18|🇭🇰 _HK_香港->🇨🇦_CA_加拿大 #1"
-      - CN 173 → tg@nicevpn123
-      - CN 19 → tg@nicevpn123
-      - CN 14 → tg@nicevpn123
-      - CN 63 → tg@nicevpn123
-      - CN 109 → tg@nicevpn123
-      - CN 199 → tg@nicevpn123
-      - Relay_ | 3.81Mb
       - ZA 6 → tg@nicevpn123
-      - Relay_ | 3.31Mb
       - Relay_🇨🇳CN-🇺🇸US_12
       - Relay_🇨🇳CN-🇯🇵JP_03
-      - 「SCP」US-BuyVM4-HTTP
-      - AL 1 → tg@nicevpn123
-      - 14|🇸🇬 狮城特殊|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -513,49 +456,73 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN 11 → tg@nicevpn123
+      - 日本_0909126
+      - CN 318 → tg@nicevpn123
+      - CN 481 → tg@nicevpn123
+      - CN 310 → tg@nicevpn123
+      - CN 315 → tg@nicevpn123
+      - JP_50
+      - CN 317 → tg@nicevpn123
+      - CN 479 → tg@nicevpn123
+      - CN 320 → tg@nicevpn123
+      - CN 312 → tg@nicevpn123
+      - CN 403 → tg@nicevpn123
+      - CN 482 → tg@nicevpn123
+      - CN 323 → tg@nicevpn123
+      - CN 313 → tg@nicevpn123
+      - CN 401 → tg@nicevpn123
+      - CN 402 → tg@nicevpn123
+      - CN 36 → tg@nicevpn123
+      - HK_37
+      - CN 407 → tg@nicevpn123
+      - CN_07
+      - CN 406 → tg@nicevpn123
+      - TW 35 → tg@nicevpn123
+      - CN 483 → tg@nicevpn123
+      - TW 29 → tg@nicevpn123
+      - TW 27 → tg@nicevpn123
+      - CN 484 → tg@nicevpn123
+      - TW 34 → tg@nicevpn123
+      - TW 38 → tg@nicevpn123
+      - TW 31 → tg@nicevpn123
+      - TW 17 → tg@nicevpn123
+      - CN 480 → tg@nicevpn123
+      - CN 404 → tg@nicevpn123
+      - TW 26 → tg@nicevpn123
+      - TW 2 → tg@nicevpn123
+      - TW 37 → tg@nicevpn123
+      - "6|🇺🇸_US_美国->🇩🇪_DE_德国 #1"
+      - CN 308 → tg@nicevpn123
+      - CN 481 → tg@nicevpn123 2
+      - CN 310 → tg@nicevpn123 2
+      - CN 315 → tg@nicevpn123 2
+      - CN 317 → tg@nicevpn123 2
+      - CN 479 → tg@nicevpn123 2
+      - CN 312 → tg@nicevpn123 2
+      - CN 482 → tg@nicevpn123 2
+      - CN 402 → tg@nicevpn123 2
+      - CN 36 → tg@nicevpn123 2
+      - CN 407 → tg@nicevpn123 2
+      - CN_07 2
+      - CN 406 → tg@nicevpn123 2
+      - CN 484 → tg@nicevpn123 2
+      - CN 404 → tg@nicevpn123 2
+      - CN 308 → tg@nicevpn123 2
       - SG 5 → tg@nicevpn123
       - US 136 → tg@nicevpn123
-      - 2,3,4,17|_CN_中国->🇹🇼_TW_台湾
-      - 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5
-      - 17|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-      - 2,3,4|_CN_中国->🇯🇵_JP_日本
-      - CN 121 → tg@nicevpn123
-      - CN 17 → tg@nicevpn123
       - CN 157 → tg@nicevpn123
-      - CN 193 → tg@nicevpn123
-      - CN 283 → tg@nicevpn123
-      - CZ 5 → tg@nicevpn123
-      - CN 144 → tg@nicevpn123
-      - "11|github.com/freefq - 美国CloudFla... #1"
-      - 14|🇯🇵 日本2|@ripaojiedian
-      - "0|🇸🇬 _CN_中国->🇸🇬_SG_新加坡 #1"
-      - "0|🇺🇸 _US_美国 #21"
       - 12|🇺🇸_US_美国_kxswa
-      - 1,14|_CN_中国->🇻🇳_VN_越南
-      - 12|中转 🇷🇺 Russia 01 @nodpai
-      - 18|🇨🇳_CN_中国->🇹🇼_TW_台湾_由快嘴科技提供：kkz...
-      - 14|🇸🇬 新加坡特殊|@ripaojiedian
-      - "0|🇭🇰 _HK_香港 #1"
-      - 15|日本B|@ripaojiedian
-      - 1,2,3,4,6|_US_美国 2
       - US_117
       - HK_41
-      - 2,3,4|_CN_中国->🇸🇬_SG_新加坡
-      - 10,12|日本东京Amazon数据中心 16
       - 12|中转 🇯🇵 Japan 01 @nodpai
       - 12|中转 🇺🇸 United States 02 @nodpai
       - JP_52
-      - 12|中转 🇭🇰 Hong Kong 01 @nodpai
       - US_112
-      - CZ 9 → tg@nicevpn123
       - Relay_ | 3.49Mb
-      - CN 15 → tg@nicevpn123
       - CN 129 → tg@nicevpn123
       - 14|纽约测试|@ripaojiedian
       - US_118
       - HK_40
-      - 0,2,3,4|🇻🇳 _CN_中国->🇻🇳_VN_越南
       - SG_59
       - US_108
       - SG_60
@@ -574,127 +541,103 @@ proxy-groups:
       - US_113
       - US_122
       - CN_13
-      - 2,3,4|_CN_中国->🇯🇵_JP_日本 2
       - US_120
-      - "6|🇺🇸_US_美国->🇩🇪_DE_德国 #1"
-      - "12|🇭🇰 _CN_中国->🇭🇰_HK_香港 #1"
-      - CN_05
-      - 0|🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - HK_37
-      - CN 105 → tg@nicevpn123
-      - JP_50
-      - CN_07
-      - CZ 5 → tg@nicevpn123 2
-      - 1,2,3,4|_US_美国 20
-      - 美国【付费推荐：https://tt.vg/vip】170
       - HK_32
       - US_110
-      - CN 347 → tg@nicevpn123
-      - CN 313 → tg@nicevpn123
-      - CZ 3 → tg@nicevpn123
-      - CN 216 → tg@nicevpn123
       - US_119
-      - CN 389 → tg@nicevpn123
       - HK_39
       - HK_35
-      - HK_28
-      - CN 358 → tg@nicevpn123
       - 6|🇦🇺_AU_澳大利亚
       - HK_33
-      - 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-      - CN 287 → tg@nicevpn123
       - CN_04
       - CN 330 → tg@nicevpn123
       - 12|RlJfc3BlZWRub2RlXzAwMTE%3D
-      - 美国【付费推荐：https://tt.vg/vip】59
-      - CZ 9 → tg@nicevpn123 2
-      - CN 279 → tg@nicevpn123
       - HK_31
-      - CN 234 → tg@nicevpn123
-      - "0,18|🇺🇸 _US_美国 #9"
-      - CN 314 → tg@nicevpn123
-      - 12|中转 🇯🇵 Japan 22 @nodpai
       - FR_25
-      - CN 140 → tg@nicevpn123
-      - CN 30 → tg@nicevpn123
       - HK_34
       - HK_30
       - HK_36
-      - CN 161 → tg@nicevpn123
-      - "0,18|🇭🇰 _HK_香港->🇨🇦_CA_加拿大 #1"
-      - CN 173 → tg@nicevpn123
-      - CN 19 → tg@nicevpn123
-      - CN 14 → tg@nicevpn123
-      - CN 63 → tg@nicevpn123
-      - CN 109 → tg@nicevpn123
-      - CN 199 → tg@nicevpn123
-      - Relay_ | 3.81Mb
       - ZA 6 → tg@nicevpn123
-      - Relay_ | 3.31Mb
       - Relay_🇨🇳CN-🇺🇸US_12
       - Relay_🇨🇳CN-🇯🇵JP_03
-      - 「SCP」US-BuyVM4-HTTP
-      - AL 1 → tg@nicevpn123
-      - 14|🇸🇬 狮城特殊|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 2,3,4,17|_CN_中国->🇹🇼_TW_台湾
-      - 18|🇨🇳_CN_中国->🇹🇼_TW_台湾_由快嘴科技提供：kkz...
-      - "0|🇭🇰 _HK_香港 #1"
       - 14|🇭🇰 香港KT|@ripaojiedian
-      - "12|🇭🇰 _CN_中国->🇭🇰_HK_香港 #1"
-      - "0,18|🇭🇰 _HK_香港->🇨🇦_CA_加拿大 #1"
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN 11 → tg@nicevpn123
+      - 日本_0909126
+      - CN 318 → tg@nicevpn123
+      - CN 481 → tg@nicevpn123
+      - CN 310 → tg@nicevpn123
+      - CN 315 → tg@nicevpn123
+      - JP_50
+      - CN 317 → tg@nicevpn123
+      - CN 479 → tg@nicevpn123
+      - CN 320 → tg@nicevpn123
+      - CN 312 → tg@nicevpn123
+      - CN 403 → tg@nicevpn123
+      - CN 482 → tg@nicevpn123
+      - CN 323 → tg@nicevpn123
+      - CN 313 → tg@nicevpn123
+      - CN 401 → tg@nicevpn123
+      - CN 402 → tg@nicevpn123
+      - CN 36 → tg@nicevpn123
+      - HK_37
+      - CN 407 → tg@nicevpn123
+      - CN_07
+      - CN 406 → tg@nicevpn123
+      - TW 35 → tg@nicevpn123
+      - CN 483 → tg@nicevpn123
+      - TW 29 → tg@nicevpn123
+      - TW 27 → tg@nicevpn123
+      - CN 484 → tg@nicevpn123
+      - TW 34 → tg@nicevpn123
+      - TW 38 → tg@nicevpn123
+      - TW 31 → tg@nicevpn123
+      - TW 17 → tg@nicevpn123
+      - CN 480 → tg@nicevpn123
+      - CN 404 → tg@nicevpn123
+      - TW 26 → tg@nicevpn123
+      - TW 2 → tg@nicevpn123
+      - TW 37 → tg@nicevpn123
+      - "6|🇺🇸_US_美国->🇩🇪_DE_德国 #1"
+      - CN 308 → tg@nicevpn123
+      - CN 481 → tg@nicevpn123 2
+      - CN 310 → tg@nicevpn123 2
+      - CN 315 → tg@nicevpn123 2
+      - CN 317 → tg@nicevpn123 2
+      - CN 479 → tg@nicevpn123 2
+      - CN 312 → tg@nicevpn123 2
+      - CN 482 → tg@nicevpn123 2
+      - CN 402 → tg@nicevpn123 2
+      - CN 36 → tg@nicevpn123 2
+      - CN 407 → tg@nicevpn123 2
+      - CN_07 2
+      - CN 406 → tg@nicevpn123 2
+      - CN 484 → tg@nicevpn123 2
+      - CN 404 → tg@nicevpn123 2
+      - CN 308 → tg@nicevpn123 2
       - SG 5 → tg@nicevpn123
       - US 136 → tg@nicevpn123
-      - 2,3,4,17|_CN_中国->🇹🇼_TW_台湾
-      - 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5
-      - 17|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-      - 2,3,4|_CN_中国->🇯🇵_JP_日本
-      - CN 121 → tg@nicevpn123
-      - CN 17 → tg@nicevpn123
       - CN 157 → tg@nicevpn123
-      - CN 193 → tg@nicevpn123
-      - CN 283 → tg@nicevpn123
-      - CZ 5 → tg@nicevpn123
-      - CN 144 → tg@nicevpn123
-      - "11|github.com/freefq - 美国CloudFla... #1"
-      - 14|🇯🇵 日本2|@ripaojiedian
-      - "0|🇸🇬 _CN_中国->🇸🇬_SG_新加坡 #1"
-      - "0|🇺🇸 _US_美国 #21"
       - 12|🇺🇸_US_美国_kxswa
-      - 1,14|_CN_中国->🇻🇳_VN_越南
-      - 12|中转 🇷🇺 Russia 01 @nodpai
-      - 18|🇨🇳_CN_中国->🇹🇼_TW_台湾_由快嘴科技提供：kkz...
-      - 14|🇸🇬 新加坡特殊|@ripaojiedian
-      - "0|🇭🇰 _HK_香港 #1"
-      - 15|日本B|@ripaojiedian
-      - 1,2,3,4,6|_US_美国 2
       - US_117
       - HK_41
-      - 2,3,4|_CN_中国->🇸🇬_SG_新加坡
-      - 10,12|日本东京Amazon数据中心 16
       - 12|中转 🇯🇵 Japan 01 @nodpai
       - 12|中转 🇺🇸 United States 02 @nodpai
       - JP_52
-      - 12|中转 🇭🇰 Hong Kong 01 @nodpai
       - US_112
-      - CZ 9 → tg@nicevpn123
       - Relay_ | 3.49Mb
-      - CN 15 → tg@nicevpn123
       - CN 129 → tg@nicevpn123
       - 14|纽约测试|@ripaojiedian
       - US_118
       - HK_40
-      - 0,2,3,4|🇻🇳 _CN_中国->🇻🇳_VN_越南
       - SG_59
       - US_108
       - SG_60
@@ -713,116 +656,97 @@ proxy-groups:
       - US_113
       - US_122
       - CN_13
-      - 2,3,4|_CN_中国->🇯🇵_JP_日本 2
       - US_120
-      - "6|🇺🇸_US_美国->🇩🇪_DE_德国 #1"
-      - "12|🇭🇰 _CN_中国->🇭🇰_HK_香港 #1"
-      - CN_05
-      - 0|🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - HK_37
-      - CN 105 → tg@nicevpn123
-      - JP_50
-      - CN_07
-      - CZ 5 → tg@nicevpn123 2
-      - 1,2,3,4|_US_美国 20
-      - 美国【付费推荐：https://tt.vg/vip】170
       - HK_32
       - US_110
-      - CN 347 → tg@nicevpn123
-      - CN 313 → tg@nicevpn123
-      - CZ 3 → tg@nicevpn123
-      - CN 216 → tg@nicevpn123
       - US_119
-      - CN 389 → tg@nicevpn123
       - HK_39
       - HK_35
-      - HK_28
-      - CN 358 → tg@nicevpn123
       - 6|🇦🇺_AU_澳大利亚
       - HK_33
-      - 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-      - CN 287 → tg@nicevpn123
       - CN_04
       - CN 330 → tg@nicevpn123
       - 12|RlJfc3BlZWRub2RlXzAwMTE%3D
-      - 美国【付费推荐：https://tt.vg/vip】59
-      - CZ 9 → tg@nicevpn123 2
-      - CN 279 → tg@nicevpn123
       - HK_31
-      - CN 234 → tg@nicevpn123
-      - "0,18|🇺🇸 _US_美国 #9"
-      - CN 314 → tg@nicevpn123
-      - 12|中转 🇯🇵 Japan 22 @nodpai
       - FR_25
-      - CN 140 → tg@nicevpn123
-      - CN 30 → tg@nicevpn123
       - HK_34
       - HK_30
       - HK_36
-      - CN 161 → tg@nicevpn123
-      - "0,18|🇭🇰 _HK_香港->🇨🇦_CA_加拿大 #1"
-      - CN 173 → tg@nicevpn123
-      - CN 19 → tg@nicevpn123
-      - CN 14 → tg@nicevpn123
-      - CN 63 → tg@nicevpn123
-      - CN 109 → tg@nicevpn123
-      - CN 199 → tg@nicevpn123
-      - Relay_ | 3.81Mb
       - ZA 6 → tg@nicevpn123
-      - Relay_ | 3.31Mb
       - Relay_🇨🇳CN-🇺🇸US_12
       - Relay_🇨🇳CN-🇯🇵JP_03
-      - 「SCP」US-BuyVM4-HTTP
-      - AL 1 → tg@nicevpn123
-      - 14|🇸🇬 狮城特殊|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN 11 → tg@nicevpn123
+      - 日本_0909126
+      - CN 318 → tg@nicevpn123
+      - CN 481 → tg@nicevpn123
+      - CN 310 → tg@nicevpn123
+      - CN 315 → tg@nicevpn123
+      - JP_50
+      - CN 317 → tg@nicevpn123
+      - CN 479 → tg@nicevpn123
+      - CN 320 → tg@nicevpn123
+      - CN 312 → tg@nicevpn123
+      - CN 403 → tg@nicevpn123
+      - CN 482 → tg@nicevpn123
+      - CN 323 → tg@nicevpn123
+      - CN 313 → tg@nicevpn123
+      - CN 401 → tg@nicevpn123
+      - CN 402 → tg@nicevpn123
+      - CN 36 → tg@nicevpn123
+      - HK_37
+      - CN 407 → tg@nicevpn123
+      - CN_07
+      - CN 406 → tg@nicevpn123
+      - TW 35 → tg@nicevpn123
+      - CN 483 → tg@nicevpn123
+      - TW 29 → tg@nicevpn123
+      - TW 27 → tg@nicevpn123
+      - CN 484 → tg@nicevpn123
+      - TW 34 → tg@nicevpn123
+      - TW 38 → tg@nicevpn123
+      - TW 31 → tg@nicevpn123
+      - TW 17 → tg@nicevpn123
+      - CN 480 → tg@nicevpn123
+      - CN 404 → tg@nicevpn123
+      - TW 26 → tg@nicevpn123
+      - TW 2 → tg@nicevpn123
+      - TW 37 → tg@nicevpn123
+      - "6|🇺🇸_US_美国->🇩🇪_DE_德国 #1"
+      - CN 308 → tg@nicevpn123
+      - CN 481 → tg@nicevpn123 2
+      - CN 310 → tg@nicevpn123 2
+      - CN 315 → tg@nicevpn123 2
+      - CN 317 → tg@nicevpn123 2
+      - CN 479 → tg@nicevpn123 2
+      - CN 312 → tg@nicevpn123 2
+      - CN 482 → tg@nicevpn123 2
+      - CN 402 → tg@nicevpn123 2
+      - CN 36 → tg@nicevpn123 2
+      - CN 407 → tg@nicevpn123 2
+      - CN_07 2
+      - CN 406 → tg@nicevpn123 2
+      - CN 484 → tg@nicevpn123 2
+      - CN 404 → tg@nicevpn123 2
+      - CN 308 → tg@nicevpn123 2
       - SG 5 → tg@nicevpn123
       - US 136 → tg@nicevpn123
-      - 2,3,4,17|_CN_中国->🇹🇼_TW_台湾
-      - 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5
-      - 17|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-      - 2,3,4|_CN_中国->🇯🇵_JP_日本
-      - CN 121 → tg@nicevpn123
-      - CN 17 → tg@nicevpn123
       - CN 157 → tg@nicevpn123
-      - CN 193 → tg@nicevpn123
-      - CN 283 → tg@nicevpn123
-      - CZ 5 → tg@nicevpn123
-      - CN 144 → tg@nicevpn123
-      - "11|github.com/freefq - 美国CloudFla... #1"
-      - 14|🇯🇵 日本2|@ripaojiedian
-      - "0|🇸🇬 _CN_中国->🇸🇬_SG_新加坡 #1"
-      - "0|🇺🇸 _US_美国 #21"
       - 12|🇺🇸_US_美国_kxswa
-      - 1,14|_CN_中国->🇻🇳_VN_越南
-      - 12|中转 🇷🇺 Russia 01 @nodpai
-      - 18|🇨🇳_CN_中国->🇹🇼_TW_台湾_由快嘴科技提供：kkz...
-      - 14|🇸🇬 新加坡特殊|@ripaojiedian
-      - "0|🇭🇰 _HK_香港 #1"
-      - 15|日本B|@ripaojiedian
-      - 1,2,3,4,6|_US_美国 2
       - US_117
       - HK_41
-      - 2,3,4|_CN_中国->🇸🇬_SG_新加坡
-      - 10,12|日本东京Amazon数据中心 16
       - 12|中转 🇯🇵 Japan 01 @nodpai
       - 12|中转 🇺🇸 United States 02 @nodpai
       - JP_52
-      - 12|中转 🇭🇰 Hong Kong 01 @nodpai
       - US_112
-      - CZ 9 → tg@nicevpn123
       - Relay_ | 3.49Mb
-      - CN 15 → tg@nicevpn123
       - CN 129 → tg@nicevpn123
       - 14|纽约测试|@ripaojiedian
       - US_118
       - HK_40
-      - 0,2,3,4|🇻🇳 _CN_中国->🇻🇳_VN_越南
       - SG_59
       - US_108
       - SG_60
@@ -841,117 +765,98 @@ proxy-groups:
       - US_113
       - US_122
       - CN_13
-      - 2,3,4|_CN_中国->🇯🇵_JP_日本 2
       - US_120
-      - "6|🇺🇸_US_美国->🇩🇪_DE_德国 #1"
-      - "12|🇭🇰 _CN_中国->🇭🇰_HK_香港 #1"
-      - CN_05
-      - 0|🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - HK_37
-      - CN 105 → tg@nicevpn123
-      - JP_50
-      - CN_07
-      - CZ 5 → tg@nicevpn123 2
-      - 1,2,3,4|_US_美国 20
-      - 美国【付费推荐：https://tt.vg/vip】170
       - HK_32
       - US_110
-      - CN 347 → tg@nicevpn123
-      - CN 313 → tg@nicevpn123
-      - CZ 3 → tg@nicevpn123
-      - CN 216 → tg@nicevpn123
       - US_119
-      - CN 389 → tg@nicevpn123
       - HK_39
       - HK_35
-      - HK_28
-      - CN 358 → tg@nicevpn123
       - 6|🇦🇺_AU_澳大利亚
       - HK_33
-      - 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-      - CN 287 → tg@nicevpn123
       - CN_04
       - CN 330 → tg@nicevpn123
       - 12|RlJfc3BlZWRub2RlXzAwMTE%3D
-      - 美国【付费推荐：https://tt.vg/vip】59
-      - CZ 9 → tg@nicevpn123 2
-      - CN 279 → tg@nicevpn123
       - HK_31
-      - CN 234 → tg@nicevpn123
-      - "0,18|🇺🇸 _US_美国 #9"
-      - CN 314 → tg@nicevpn123
-      - 12|中转 🇯🇵 Japan 22 @nodpai
       - FR_25
-      - CN 140 → tg@nicevpn123
-      - CN 30 → tg@nicevpn123
       - HK_34
       - HK_30
       - HK_36
-      - CN 161 → tg@nicevpn123
-      - "0,18|🇭🇰 _HK_香港->🇨🇦_CA_加拿大 #1"
-      - CN 173 → tg@nicevpn123
-      - CN 19 → tg@nicevpn123
-      - CN 14 → tg@nicevpn123
-      - CN 63 → tg@nicevpn123
-      - CN 109 → tg@nicevpn123
-      - CN 199 → tg@nicevpn123
-      - Relay_ | 3.81Mb
       - ZA 6 → tg@nicevpn123
-      - Relay_ | 3.31Mb
       - Relay_🇨🇳CN-🇺🇸US_12
       - Relay_🇨🇳CN-🇯🇵JP_03
-      - 「SCP」US-BuyVM4-HTTP
-      - AL 1 → tg@nicevpn123
-      - 14|🇸🇬 狮城特殊|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN 11 → tg@nicevpn123
+      - 日本_0909126
+      - CN 318 → tg@nicevpn123
+      - CN 481 → tg@nicevpn123
+      - CN 310 → tg@nicevpn123
+      - CN 315 → tg@nicevpn123
+      - JP_50
+      - CN 317 → tg@nicevpn123
+      - CN 479 → tg@nicevpn123
+      - CN 320 → tg@nicevpn123
+      - CN 312 → tg@nicevpn123
+      - CN 403 → tg@nicevpn123
+      - CN 482 → tg@nicevpn123
+      - CN 323 → tg@nicevpn123
+      - CN 313 → tg@nicevpn123
+      - CN 401 → tg@nicevpn123
+      - CN 402 → tg@nicevpn123
+      - CN 36 → tg@nicevpn123
+      - HK_37
+      - CN 407 → tg@nicevpn123
+      - CN_07
+      - CN 406 → tg@nicevpn123
+      - TW 35 → tg@nicevpn123
+      - CN 483 → tg@nicevpn123
+      - TW 29 → tg@nicevpn123
+      - TW 27 → tg@nicevpn123
+      - CN 484 → tg@nicevpn123
+      - TW 34 → tg@nicevpn123
+      - TW 38 → tg@nicevpn123
+      - TW 31 → tg@nicevpn123
+      - TW 17 → tg@nicevpn123
+      - CN 480 → tg@nicevpn123
+      - CN 404 → tg@nicevpn123
+      - TW 26 → tg@nicevpn123
+      - TW 2 → tg@nicevpn123
+      - TW 37 → tg@nicevpn123
+      - "6|🇺🇸_US_美国->🇩🇪_DE_德国 #1"
+      - CN 308 → tg@nicevpn123
+      - CN 481 → tg@nicevpn123 2
+      - CN 310 → tg@nicevpn123 2
+      - CN 315 → tg@nicevpn123 2
+      - CN 317 → tg@nicevpn123 2
+      - CN 479 → tg@nicevpn123 2
+      - CN 312 → tg@nicevpn123 2
+      - CN 482 → tg@nicevpn123 2
+      - CN 402 → tg@nicevpn123 2
+      - CN 36 → tg@nicevpn123 2
+      - CN 407 → tg@nicevpn123 2
+      - CN_07 2
+      - CN 406 → tg@nicevpn123 2
+      - CN 484 → tg@nicevpn123 2
+      - CN 404 → tg@nicevpn123 2
+      - CN 308 → tg@nicevpn123 2
       - SG 5 → tg@nicevpn123
       - US 136 → tg@nicevpn123
-      - 2,3,4,17|_CN_中国->🇹🇼_TW_台湾
-      - 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5
-      - 17|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-      - 2,3,4|_CN_中国->🇯🇵_JP_日本
-      - CN 121 → tg@nicevpn123
-      - CN 17 → tg@nicevpn123
       - CN 157 → tg@nicevpn123
-      - CN 193 → tg@nicevpn123
-      - CN 283 → tg@nicevpn123
-      - CZ 5 → tg@nicevpn123
-      - CN 144 → tg@nicevpn123
-      - "11|github.com/freefq - 美国CloudFla... #1"
-      - 14|🇯🇵 日本2|@ripaojiedian
-      - "0|🇸🇬 _CN_中国->🇸🇬_SG_新加坡 #1"
-      - "0|🇺🇸 _US_美国 #21"
       - 12|🇺🇸_US_美国_kxswa
-      - 1,14|_CN_中国->🇻🇳_VN_越南
-      - 12|中转 🇷🇺 Russia 01 @nodpai
-      - 18|🇨🇳_CN_中国->🇹🇼_TW_台湾_由快嘴科技提供：kkz...
-      - 14|🇸🇬 新加坡特殊|@ripaojiedian
-      - "0|🇭🇰 _HK_香港 #1"
-      - 15|日本B|@ripaojiedian
-      - 1,2,3,4,6|_US_美国 2
       - US_117
       - HK_41
-      - 2,3,4|_CN_中国->🇸🇬_SG_新加坡
-      - 10,12|日本东京Amazon数据中心 16
       - 12|中转 🇯🇵 Japan 01 @nodpai
       - 12|中转 🇺🇸 United States 02 @nodpai
       - JP_52
-      - 12|中转 🇭🇰 Hong Kong 01 @nodpai
       - US_112
-      - CZ 9 → tg@nicevpn123
       - Relay_ | 3.49Mb
-      - CN 15 → tg@nicevpn123
       - CN 129 → tg@nicevpn123
       - 14|纽约测试|@ripaojiedian
       - US_118
       - HK_40
-      - 0,2,3,4|🇻🇳 _CN_中国->🇻🇳_VN_越南
       - SG_59
       - US_108
       - SG_60
@@ -970,68 +875,25 @@ proxy-groups:
       - US_113
       - US_122
       - CN_13
-      - 2,3,4|_CN_中国->🇯🇵_JP_日本 2
       - US_120
-      - "6|🇺🇸_US_美国->🇩🇪_DE_德国 #1"
-      - "12|🇭🇰 _CN_中国->🇭🇰_HK_香港 #1"
-      - CN_05
-      - 0|🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - HK_37
-      - CN 105 → tg@nicevpn123
-      - JP_50
-      - CN_07
-      - CZ 5 → tg@nicevpn123 2
-      - 1,2,3,4|_US_美国 20
-      - 美国【付费推荐：https://tt.vg/vip】170
       - HK_32
       - US_110
-      - CN 347 → tg@nicevpn123
-      - CN 313 → tg@nicevpn123
-      - CZ 3 → tg@nicevpn123
-      - CN 216 → tg@nicevpn123
       - US_119
-      - CN 389 → tg@nicevpn123
       - HK_39
       - HK_35
-      - HK_28
-      - CN 358 → tg@nicevpn123
       - 6|🇦🇺_AU_澳大利亚
       - HK_33
-      - 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-      - CN 287 → tg@nicevpn123
       - CN_04
       - CN 330 → tg@nicevpn123
       - 12|RlJfc3BlZWRub2RlXzAwMTE%3D
-      - 美国【付费推荐：https://tt.vg/vip】59
-      - CZ 9 → tg@nicevpn123 2
-      - CN 279 → tg@nicevpn123
       - HK_31
-      - CN 234 → tg@nicevpn123
-      - "0,18|🇺🇸 _US_美国 #9"
-      - CN 314 → tg@nicevpn123
-      - 12|中转 🇯🇵 Japan 22 @nodpai
       - FR_25
-      - CN 140 → tg@nicevpn123
-      - CN 30 → tg@nicevpn123
       - HK_34
       - HK_30
       - HK_36
-      - CN 161 → tg@nicevpn123
-      - "0,18|🇭🇰 _HK_香港->🇨🇦_CA_加拿大 #1"
-      - CN 173 → tg@nicevpn123
-      - CN 19 → tg@nicevpn123
-      - CN 14 → tg@nicevpn123
-      - CN 63 → tg@nicevpn123
-      - CN 109 → tg@nicevpn123
-      - CN 199 → tg@nicevpn123
-      - Relay_ | 3.81Mb
       - ZA 6 → tg@nicevpn123
-      - Relay_ | 3.31Mb
       - Relay_🇨🇳CN-🇺🇸US_12
       - Relay_🇨🇳CN-🇯🇵JP_03
-      - 「SCP」US-BuyVM4-HTTP
-      - AL 1 → tg@nicevpn123
-      - 14|🇸🇬 狮城特殊|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1047,49 +909,73 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN 11 → tg@nicevpn123
+      - 日本_0909126
+      - CN 318 → tg@nicevpn123
+      - CN 481 → tg@nicevpn123
+      - CN 310 → tg@nicevpn123
+      - CN 315 → tg@nicevpn123
+      - JP_50
+      - CN 317 → tg@nicevpn123
+      - CN 479 → tg@nicevpn123
+      - CN 320 → tg@nicevpn123
+      - CN 312 → tg@nicevpn123
+      - CN 403 → tg@nicevpn123
+      - CN 482 → tg@nicevpn123
+      - CN 323 → tg@nicevpn123
+      - CN 313 → tg@nicevpn123
+      - CN 401 → tg@nicevpn123
+      - CN 402 → tg@nicevpn123
+      - CN 36 → tg@nicevpn123
+      - HK_37
+      - CN 407 → tg@nicevpn123
+      - CN_07
+      - CN 406 → tg@nicevpn123
+      - TW 35 → tg@nicevpn123
+      - CN 483 → tg@nicevpn123
+      - TW 29 → tg@nicevpn123
+      - TW 27 → tg@nicevpn123
+      - CN 484 → tg@nicevpn123
+      - TW 34 → tg@nicevpn123
+      - TW 38 → tg@nicevpn123
+      - TW 31 → tg@nicevpn123
+      - TW 17 → tg@nicevpn123
+      - CN 480 → tg@nicevpn123
+      - CN 404 → tg@nicevpn123
+      - TW 26 → tg@nicevpn123
+      - TW 2 → tg@nicevpn123
+      - TW 37 → tg@nicevpn123
+      - "6|🇺🇸_US_美国->🇩🇪_DE_德国 #1"
+      - CN 308 → tg@nicevpn123
+      - CN 481 → tg@nicevpn123 2
+      - CN 310 → tg@nicevpn123 2
+      - CN 315 → tg@nicevpn123 2
+      - CN 317 → tg@nicevpn123 2
+      - CN 479 → tg@nicevpn123 2
+      - CN 312 → tg@nicevpn123 2
+      - CN 482 → tg@nicevpn123 2
+      - CN 402 → tg@nicevpn123 2
+      - CN 36 → tg@nicevpn123 2
+      - CN 407 → tg@nicevpn123 2
+      - CN_07 2
+      - CN 406 → tg@nicevpn123 2
+      - CN 484 → tg@nicevpn123 2
+      - CN 404 → tg@nicevpn123 2
+      - CN 308 → tg@nicevpn123 2
       - SG 5 → tg@nicevpn123
       - US 136 → tg@nicevpn123
-      - 2,3,4,17|_CN_中国->🇹🇼_TW_台湾
-      - 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5
-      - 17|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-      - 2,3,4|_CN_中国->🇯🇵_JP_日本
-      - CN 121 → tg@nicevpn123
-      - CN 17 → tg@nicevpn123
       - CN 157 → tg@nicevpn123
-      - CN 193 → tg@nicevpn123
-      - CN 283 → tg@nicevpn123
-      - CZ 5 → tg@nicevpn123
-      - CN 144 → tg@nicevpn123
-      - "11|github.com/freefq - 美国CloudFla... #1"
-      - 14|🇯🇵 日本2|@ripaojiedian
-      - "0|🇸🇬 _CN_中国->🇸🇬_SG_新加坡 #1"
-      - "0|🇺🇸 _US_美国 #21"
       - 12|🇺🇸_US_美国_kxswa
-      - 1,14|_CN_中国->🇻🇳_VN_越南
-      - 12|中转 🇷🇺 Russia 01 @nodpai
-      - 18|🇨🇳_CN_中国->🇹🇼_TW_台湾_由快嘴科技提供：kkz...
-      - 14|🇸🇬 新加坡特殊|@ripaojiedian
-      - "0|🇭🇰 _HK_香港 #1"
-      - 15|日本B|@ripaojiedian
-      - 1,2,3,4,6|_US_美国 2
       - US_117
       - HK_41
-      - 2,3,4|_CN_中国->🇸🇬_SG_新加坡
-      - 10,12|日本东京Amazon数据中心 16
       - 12|中转 🇯🇵 Japan 01 @nodpai
       - 12|中转 🇺🇸 United States 02 @nodpai
       - JP_52
-      - 12|中转 🇭🇰 Hong Kong 01 @nodpai
       - US_112
-      - CZ 9 → tg@nicevpn123
       - Relay_ | 3.49Mb
-      - CN 15 → tg@nicevpn123
       - CN 129 → tg@nicevpn123
       - 14|纽约测试|@ripaojiedian
       - US_118
       - HK_40
-      - 0,2,3,4|🇻🇳 _CN_中国->🇻🇳_VN_越南
       - SG_59
       - US_108
       - SG_60
@@ -1108,68 +994,25 @@ proxy-groups:
       - US_113
       - US_122
       - CN_13
-      - 2,3,4|_CN_中国->🇯🇵_JP_日本 2
       - US_120
-      - "6|🇺🇸_US_美国->🇩🇪_DE_德国 #1"
-      - "12|🇭🇰 _CN_中国->🇭🇰_HK_香港 #1"
-      - CN_05
-      - 0|🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - HK_37
-      - CN 105 → tg@nicevpn123
-      - JP_50
-      - CN_07
-      - CZ 5 → tg@nicevpn123 2
-      - 1,2,3,4|_US_美国 20
-      - 美国【付费推荐：https://tt.vg/vip】170
       - HK_32
       - US_110
-      - CN 347 → tg@nicevpn123
-      - CN 313 → tg@nicevpn123
-      - CZ 3 → tg@nicevpn123
-      - CN 216 → tg@nicevpn123
       - US_119
-      - CN 389 → tg@nicevpn123
       - HK_39
       - HK_35
-      - HK_28
-      - CN 358 → tg@nicevpn123
       - 6|🇦🇺_AU_澳大利亚
       - HK_33
-      - 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-      - CN 287 → tg@nicevpn123
       - CN_04
       - CN 330 → tg@nicevpn123
       - 12|RlJfc3BlZWRub2RlXzAwMTE%3D
-      - 美国【付费推荐：https://tt.vg/vip】59
-      - CZ 9 → tg@nicevpn123 2
-      - CN 279 → tg@nicevpn123
       - HK_31
-      - CN 234 → tg@nicevpn123
-      - "0,18|🇺🇸 _US_美国 #9"
-      - CN 314 → tg@nicevpn123
-      - 12|中转 🇯🇵 Japan 22 @nodpai
       - FR_25
-      - CN 140 → tg@nicevpn123
-      - CN 30 → tg@nicevpn123
       - HK_34
       - HK_30
       - HK_36
-      - CN 161 → tg@nicevpn123
-      - "0,18|🇭🇰 _HK_香港->🇨🇦_CA_加拿大 #1"
-      - CN 173 → tg@nicevpn123
-      - CN 19 → tg@nicevpn123
-      - CN 14 → tg@nicevpn123
-      - CN 63 → tg@nicevpn123
-      - CN 109 → tg@nicevpn123
-      - CN 199 → tg@nicevpn123
-      - Relay_ | 3.81Mb
       - ZA 6 → tg@nicevpn123
-      - Relay_ | 3.31Mb
       - Relay_🇨🇳CN-🇺🇸US_12
       - Relay_🇨🇳CN-🇯🇵JP_03
-      - 「SCP」US-BuyVM4-HTTP
-      - AL 1 → tg@nicevpn123
-      - 14|🇸🇬 狮城特殊|@ripaojiedian
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

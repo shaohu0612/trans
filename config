@@ -27,17 +27,13 @@ proxies:
   - {name: CN_07, server: 39.kccic2pa.xyz, port: 50039, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: CN 406 → tg@nicevpn123, server: 16.kccic2pa.xyz, port: 50016, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: TW 35 → tg@nicevpn123, server: 211.72.35.157, port: 3306, type: trojan, password: 70face6dd320ea29, skip-cert-verify: true, udp: true}
-  - {name: CN 321 → tg@nicevpn123, server: 07.kccic2pa.xyz, port: 50007, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN 325 → tg@nicevpn123, server: 07.kccic2pa.xyz, port: 50007, type: vmess, uuid: 5d4da405-51e6-4fc9-906f-e5fdd66ef72b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: CN 483 → tg@nicevpn123, server: 16.kccic2pa.xyz, port: 50016, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: TW 29 → tg@nicevpn123, server: 211.72.35.157, port: 3306, type: trojan, password: faf42aa0a9ad4c1e, skip-cert-verify: true, udp: true}
   - {name: TW 27 → tg@nicevpn123, server: 211.75.220.15, port: 3306, type: trojan, password: 8b475d9e868e43e0, skip-cert-verify: true, udp: true}
   - {name: CN 484 → tg@nicevpn123, server: 17.kccic2pa.xyz, port: 50017, type: vmess, uuid: 5d4da405-51e6-4fc9-906f-e5fdd66ef72b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: TW 34 → tg@nicevpn123, server: 60.248.114.182, port: 3306, type: trojan, password: 6c8b18adb11737af, skip-cert-verify: true, udp: true}
-  - {name: CN_05, server: 07.kccic2pa.xyz, port: 50007, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: TW 38 → tg@nicevpn123, server: 211.75.220.17, port: 3306, type: trojan, password: 26a663656e575c0b, skip-cert-verify: true, udp: true}
   - {name: TW 31 → tg@nicevpn123, server: 211.75.220.17, port: 3306, type: trojan, password: 36fe28a331638747, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 12, server: dongtaiwang2.com, port: 443, type: vmess, uuid: 87a95522-985c-4a17-afea-9b7d7208bce5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: 3.freek1.xyz}, udp: true}
   - {name: TW 17 → tg@nicevpn123, server: 118.167.17.182, port: 443, type: trojan, password: 47258c2d-6b4c-444c-9085-5131bf0aff64, skip-cert-verify: true, udp: true}
   - {name: CN 480 → tg@nicevpn123, server: 01.kccic2pa.xyz, port: 50001, type: vmess, uuid: 5d4da405-51e6-4fc9-906f-e5fdd66ef72b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: CN 404 → tg@nicevpn123, server: 17.kccic2pa.xyz, port: 50017, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -46,49 +42,36 @@ proxies:
   - {name: TW 37 → tg@nicevpn123, server: 211.75.220.17, port: 3306, type: trojan, password: 6c8b18adb11737af, skip-cert-verify: true, udp: true}
   - {name: "6|🇺🇸_US_美国->🇩🇪_DE_德国 #1", server: 172.67.8.239, port: 443, type: vmess, uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ikun, ws-headers: {Host: vceu3e.twittei.me}, udp: true}
   - {name: CN 308 → tg@nicevpn123, server: 101.91.201.59, port: 50042, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN 11 → tg@nicevpn123, server: zjxc.pmxu.link, port: 25153, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN 481 → tg@nicevpn123 2, server: 16.kccic2pa.xyz, port: 50016, type: vmess, uuid: 5d4da405-51e6-4fc9-906f-e5fdd66ef72b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN 310 → tg@nicevpn123 2, server: 01.kccic2pa.xyz, port: 50001, type: vmess, uuid: 5d4da405-51e6-4fc9-906f-e5fdd66ef72b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN 315 → tg@nicevpn123 2, server: 16.kccic2pa.xyz, port: 50016, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN 317 → tg@nicevpn123 2, server: 17.kccic2pa.xyz, port: 50017, type: vmess, uuid: 5d4da405-51e6-4fc9-906f-e5fdd66ef72b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN 479 → tg@nicevpn123 2, server: 10.kccic2pa.xyz, port: 50010, type: vmess, uuid: 5d4da405-51e6-4fc9-906f-e5fdd66ef72b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN 312 → tg@nicevpn123 2, server: 16.kccic2pa.xyz, port: 50016, type: vmess, uuid: 5d4da405-51e6-4fc9-906f-e5fdd66ef72b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN 482 → tg@nicevpn123 2, server: 17.kccic2pa.xyz, port: 50017, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN 402 → tg@nicevpn123 2, server: 01.kccic2pa.xyz, port: 50001, type: vmess, uuid: 5d4da405-51e6-4fc9-906f-e5fdd66ef72b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN 36 → tg@nicevpn123 2, server: 20.kccic2pa.xyz, port: 50020, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN 407 → tg@nicevpn123 2, server: 17.kccic2pa.xyz, port: 50017, type: vmess, uuid: 5d4da405-51e6-4fc9-906f-e5fdd66ef72b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_07 2, server: 39.kccic2pa.xyz, port: 50039, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN 406 → tg@nicevpn123 2, server: 16.kccic2pa.xyz, port: 50016, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN 484 → tg@nicevpn123 2, server: 17.kccic2pa.xyz, port: 50017, type: vmess, uuid: 5d4da405-51e6-4fc9-906f-e5fdd66ef72b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN 404 → tg@nicevpn123 2, server: 17.kccic2pa.xyz, port: 50017, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN 308 → tg@nicevpn123 2, server: 101.91.201.59, port: 50042, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: SG 5 → tg@nicevpn123, server: 18.140.53.142, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: US 136 → tg@nicevpn123, server: kbawsjp2.aiopen.cfd, port: 443, type: trojan, password: 3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d, sni: kbawsjp2.aiopen.cfd, skip-cert-verify: true, udp: true}
-  - {name: "2,3,4,17|_CN_中国->🇹🇼_TW_台湾", server: zjxc.pmxu.link, port: 44207, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5, server: zjxc.pmxu.link, port: 30839, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 17|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz..., server: zjxc.pmxu.link, port: 36988, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "2,3,4|_CN_中国->🇯🇵_JP_日本", server: zjxc.pmxu.link, port: 25153, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN 121 → tg@nicevpn123, server: campus.mlinuu.top, port: 10103, type: vmess, uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN 17 → tg@nicevpn123, server: zjxc.pmxu.link, port: 25153, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: CN 157 → tg@nicevpn123, server: 20.kccic2pa.xyz, port: 50020, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN 193 → tg@nicevpn123, server: zjxc.pmxu.link, port: 12318, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN 283 → tg@nicevpn123, server: zjxc.pmxu.link, port: 44207, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CZ 5 → tg@nicevpn123, server: fusion.mlinuu.top, port: 3504, type: vmess, uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN 144 → tg@nicevpn123, server: 20.kccic2pa.xyz, port: 50020, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "11|github.com/freefq - 美国CloudFla... #1", server: 103.outline-vpn.cloud, port: 2083, type: vmess, uuid: 2575cf05-58f0-48be-9605-30a4451af06b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /@hopev2ray, ws-headers: {Host: de3vm.cdn-03.live}, udp: true}
-  - {name: 14|🇯🇵 日本2|@ripaojiedian, server: gd.leiyingchuanmei.com, port: 29234, type: ss, cipher: aes-256-gcm, password: b6561dc0-8376-4a71-b182-8cac64cf99c8, udp: true}
-  - {name: "0|🇸🇬 _CN_中国->🇸🇬_SG_新加坡 #1", server: zjxc.pmxu.link, port: 39037, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "0|🇺🇸 _US_美国 #21", server: 172.64.133.137, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv2.scproxy.top}, udp: true}
   - {name: 12|🇺🇸_US_美国_kxswa, server: cdn.twitter.now.cc, port: 443, type: vmess, uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ikun, ws-headers: {Host: eu4.twittei.me}, udp: true}
-  - {name: "1,14|_CN_中国->🇻🇳_VN_越南", server: zjxc.pmxu.link, port: 40270, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12|中转 🇷🇺 Russia 01 @nodpai, server: fusion.mlinuu.top, port: 10010, type: vmess, uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 18|🇨🇳_CN_中国->🇹🇼_TW_台湾_由快嘴科技提供：kkz..., server: zjxc.pmxu.link, port: 44207, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 14|🇸🇬 新加坡特殊|@ripaojiedian, server: 13.215.184.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "0|🇭🇰 _HK_香港 #1", server: 103.160.204.234, port: 80, type: vmess, uuid: 7ca21098-691c-4c12-8aac-934b21635423, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TG:@hkaa0, ws-headers: {Host: 16.wyhkaa0.gq}, udp: true}
-  - {name: 15|日本B|@ripaojiedian, server: zjxc.pmxu.link, port: 15052, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "1,2,3,4,6|_US_美国 2", server: 172.64.103.88, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv2.scproxy.top}, udp: true}
   - {name: US_117, server: lu.stablize.top, port: 443, type: trojan, password: 7f5e1438-0c8f-46d2-baf4-7025c264532e, sni: lu.stablize.top, skip-cert-verify: true, udp: true}
   - {name: HK_41, server: hk01.trojanyyds.xyz, port: 443, type: trojan, password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8, sni: hk01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
-  - {name: "2,3,4|_CN_中国->🇸🇬_SG_新加坡", server: zjxc.pmxu.link, port: 12318, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "10,12|日本东京Amazon数据中心 16", server: jp6.lianpi.xyz, port: 23234, type: vmess, uuid: 1f3d67b4-6929-4598-90ca-84a841bf02e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12|中转 🇯🇵 Japan 01 @nodpai, server: 19.kccic2pa.xyz, port: 50019, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12|中转 🇺🇸 United States 02 @nodpai, server: 39.kccic2pa.xyz, port: 50039, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: JP_52, server: uk.stablize.top, port: 443, type: trojan, password: 4565bf4a-951a-4981-9b60-4b1a496c9cbc, sni: uk.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: 12|中转 🇭🇰 Hong Kong 01 @nodpai, server: fusion.mlinuu.top, port: 3504, type: vmess, uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US_112, server: sg.stablize.top, port: 443, type: trojan, password: 7f5e1438-0c8f-46d2-baf4-7025c264532e, sni: sg.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: CZ 9 → tg@nicevpn123, server: fusion.mlinuu.top, port: 3503, type: vmess, uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Relay_ | 3.49Mb, server: fell.gougouvpn.xyz, port: 45879, type: ss, cipher: chacha20-ietf-poly1305, password: 5ae3363e-252a-4466-8eba-3e2efb90c434, udp: true}
-  - {name: CN 15 → tg@nicevpn123, server: zjxc.pmxu.link, port: 12318, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: CN 129 → tg@nicevpn123, server: 20.kccic2pa.xyz, port: 50020, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 14|纽约测试|@ripaojiedian, server: 216.52.183.244, port: 443, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
   - {name: US_118, server: in.stablize.top, port: 443, type: trojan, password: 7f5e1438-0c8f-46d2-baf4-7025c264532e, sni: in.stablize.top, skip-cert-verify: true, udp: true}
   - {name: HK_40, server: usa.stablize.top, port: 443, type: trojan, password: 7f5e1438-0c8f-46d2-baf4-7025c264532e, sni: usa.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: "0,2,3,4|🇻🇳 _CN_中国->🇻🇳_VN_越南", server: zjxc.pmxu.link, port: 40270, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: SG_59, server: de.stablize.top, port: 443, type: trojan, password: 8008b06e-2d1d-421c-9cdc-20af1f59093a, sni: de.stablize.top, skip-cert-verify: true, udp: true}
   - {name: US_108, server: esjs.stablize.top, port: 443, type: trojan, password: 4565bf4a-951a-4981-9b60-4b1a496c9cbc, sni: esjs.stablize.top, skip-cert-verify: true, udp: true}
   - {name: SG_60, server: aujs.stablize.top, port: 443, type: trojan, password: 8008b06e-2d1d-421c-9cdc-20af1f59093a, sni: aujs.stablize.top, skip-cert-verify: true, udp: true}
@@ -107,68 +90,25 @@ proxies:
   - {name: US_113, server: jp.stablize.top, port: 443, type: trojan, password: 7f5e1438-0c8f-46d2-baf4-7025c264532e, sni: jp.stablize.top, skip-cert-verify: true, udp: true}
   - {name: US_122, server: uaejs.stablize.top, port: 443, type: trojan, password: 7f5e1438-0c8f-46d2-baf4-7025c264532e, sni: uaejs.stablize.top, skip-cert-verify: true, udp: true}
   - {name: CN_13, server: webdav.flareai.site, port: 13543, type: trojan, password: 8bc09fe4-1d47-4500-b9e8-ad58183d31b7, sni: webdav.flareai.site, skip-cert-verify: true, udp: true}
-  - {name: "2,3,4|_CN_中国->🇯🇵_JP_日本 2", server: zjxc.pmxu.link, port: 25153, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US_120, server: uk.stablize.top, port: 443, type: trojan, password: 7f5e1438-0c8f-46d2-baf4-7025c264532e, sni: uk.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: "6|🇺🇸_US_美国->🇩🇪_DE_德国 #1", server: 172.67.8.239, port: 443, type: vmess, uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ikun, ws-headers: {Host: vceu3e.twittei.me}, udp: true}
-  - {name: "12|🇭🇰 _CN_中国->🇭🇰_HK_香港 #1", server: fusion.mlinuu.top, port: 3503, type: vmess, uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_05, server: 07.kccic2pa.xyz, port: 50007, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 0|🇯🇵 _CN_中国->🇯🇵_JP_日本, server: zjxc.pmxu.link, port: 32049, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK_37, server: hk02.trojanyyds.xyz, port: 443, type: trojan, password: ae4da236-bfec-4673-9e1e-bbbd942162a8, sni: hk02.trojanyyds.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN 105 → tg@nicevpn123, server: zjxc.pmxu.link, port: 36988, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_50, server: vpnpool.stablize.top, port: 443, type: trojan, password: bc23b0ef-ddae-4bd3-8892-9d4797823e9c, sni: vpnpool.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: CN_07, server: 39.kccic2pa.xyz, port: 50039, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CZ 5 → tg@nicevpn123 2, server: fusion.mlinuu.top, port: 10010, type: vmess, uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "1,2,3,4|_US_美国 20", server: 172.64.169.211, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv2.scproxy.top}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】170, server: 172.67.129.158, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp3.scproxy.top}, udp: true}
   - {name: HK_32, server: hk02.trojanyyds.xyz, port: 443, type: trojan, password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8, sni: hk02.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: US_110, server: nljs.stablize.top, port: 443, type: trojan, password: 7f5e1438-0c8f-46d2-baf4-7025c264532e, sni: nljs.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: CN 347 → tg@nicevpn123, server: campus.mlinuu.top, port: 10103, type: vmess, uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN 313 → tg@nicevpn123, server: zjxc.pmxu.link, port: 44207, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CZ 3 → tg@nicevpn123, server: fusion.mlinuu.top, port: 3503, type: vmess, uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN 216 → tg@nicevpn123, server: campus.mlinuu.top, port: 10103, type: vmess, uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US_119, server: ukjs.stablize.top, port: 443, type: trojan, password: 7f5e1438-0c8f-46d2-baf4-7025c264532e, sni: ukjs.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: CN 389 → tg@nicevpn123, server: zjxc.pmxu.link, port: 25153, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: HK_39, server: sk01.trojanyyds.xyz, port: 443, type: trojan, password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8, sni: sk01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: HK_35, server: hk04.trojanyyds.xyz, port: 443, type: trojan, password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8, sni: hk04.trojanyyds.xyz, skip-cert-verify: true, udp: true}
-  - {name: HK_28, server: fusion.mlinuu.top, port: 3504, type: vmess, uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN 358 → tg@nicevpn123, server: zjxc.pmxu.link, port: 25153, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 6|🇦🇺_AU_澳大利亚, server: 51.161.197.96, port: 12345, type: vmess, uuid: c6b76106-35a4-40d1-8955-6760f71b400e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: HK_33, server: my01.trojanyyds.xyz, port: 443, type: trojan, password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8, sni: my01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
-  - {name: 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz..., server: zjxc.pmxu.link, port: 36988, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN 287 → tg@nicevpn123, server: campus.mlinuu.top, port: 10103, type: vmess, uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: CN_04, server: 19.kccic2pa.xyz, port: 50019, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: CN 330 → tg@nicevpn123, server: 20.kccic2pa.xyz, port: 50020, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12|RlJfc3BlZWRub2RlXzAwMTE%3D, server: 94.23.116.190, port: 443, type: ssr, cipher: aes-256-ctr, password: HowdyBypasser2022, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: Tm9uZQ%3D%3D, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】59, server: 172.64.198.36, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv2.scproxy.top}, udp: true}
-  - {name: CZ 9 → tg@nicevpn123 2, server: fusion.mlinuu.top, port: 3504, type: vmess, uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN 279 → tg@nicevpn123, server: zjxc.pmxu.link, port: 12318, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: HK_31, server: aujs.stablize.top, port: 443, type: trojan, password: 4565bf4a-951a-4981-9b60-4b1a496c9cbc, sni: aujs.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: CN 234 → tg@nicevpn123, server: 20.kccic2pa.xyz, port: 50020, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "0,18|🇺🇸 _US_美国 #9", server: 141.101.115.65, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp3.scproxy.top}, udp: true}
-  - {name: CN 314 → tg@nicevpn123, server: zjxc.pmxu.link, port: 12318, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12|中转 🇯🇵 Japan 22 @nodpai, server: fusion.mlinuu.top, port: 3501, type: vmess, uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: FR_25, server: ukt-2.opensvr.net, port: 443, type: trojan, password: opentunnel.net-imohammad93, sni: ukt-2.opensvr.net, skip-cert-verify: true, udp: true}
-  - {name: CN 140 → tg@nicevpn123, server: zjxc.pmxu.link, port: 44207, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN 30 → tg@nicevpn123, server: campus.mlinuu.top, port: 10103, type: vmess, uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: HK_34, server: frjs.stablize.top, port: 443, type: trojan, password: 7f5e1438-0c8f-46d2-baf4-7025c264532e, sni: frjs.stablize.top, skip-cert-verify: true, udp: true}
   - {name: HK_30, server: hk03.trojanyyds.xyz, port: 443, type: trojan, password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8, sni: hk03.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: HK_36, server: my02.trojanyyds.xyz, port: 443, type: trojan, password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8, sni: my02.trojanyyds.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN 161 → tg@nicevpn123, server: zjxc.pmxu.link, port: 44207, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "0,18|🇭🇰 _HK_香港->🇨🇦_CA_加拿大 #1", server: 103.160.204.72, port: 80, type: vmess, uuid: 7ca21098-691c-4c12-8aac-934b21635423, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TG:@hkaa0, ws-headers: {Host: 16.wyhkaa0.gq}, udp: true}
-  - {name: CN 173 → tg@nicevpn123, server: zjxc.pmxu.link, port: 12318, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN 19 → tg@nicevpn123, server: zjxc.pmxu.link, port: 25153, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN 14 → tg@nicevpn123, server: zjxc.pmxu.link, port: 44207, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN 63 → tg@nicevpn123, server: zjxc.pmxu.link, port: 12318, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN 109 → tg@nicevpn123, server: zjxc.pmxu.link, port: 25153, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN 199 → tg@nicevpn123, server: 20.kccic2pa.xyz, port: 50020, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_ | 3.81Mb, server: fusion.mlinuu.top, port: 3504, type: vmess, uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: ZA 6 → tg@nicevpn123, server: xyz.ywcloud.cf, port: 443, type: trojan, password: bcae8acb-6362-4663-92d3-26246ef88fed, sni: xyz.ywcloud.cf, skip-cert-verify: true, udp: true}
-  - {name: Relay_ | 3.31Mb, server: 07.kccic2pa.xyz, port: 50007, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳CN-🇺🇸US_12, server: 39.kccic2pa.xyz, port: 50039, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳CN-🇯🇵JP_03, server: 19.kccic2pa.xyz, port: 50019, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「SCP」US-BuyVM4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv3.sharecentrepro.org}, udp: true}
-  - {name: AL 1 → tg@nicevpn123, server: 109.104.155.144, port: 443, type: trojan, password: f10d5c0ce1, skip-cert-verify: true, udp: true}
-  - {name: 14|🇸🇬 狮城特殊|@ripaojiedian, server: 54.169.127.65, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
